@@ -31,20 +31,47 @@ code {
   font-family: Arial, Helvetica, sans-serif;
 }
 .wallpaper-format {
-  height: 110vh;
-  width: 100%;
+  max-width: 102%;
 }
 .wallpaper-text {
-  
-  justify-content: center;
-  
+  justify-content: center; 
 }
 .about-me {
-  max-width: 100%;
-  margin: 0px;
+  position: relative;
+  max-width: 102%;
+  margin-top: 810px;
   padding: 0px;
   left: 0px;
   height: 100vh;
   background-color: #e6f3ff;
   
 }
+.profile-pic-format {
+
+  margin-top: 170px;
+  margin-left: 90px;
+}
+.parallax {
+  /* The image used */
+  background-image: url(./images/home-page-wallpaper.png);
+
+  /* Set a specific height */
+  height: 500px;
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.about-me-text {
+  margin-left: 90px;
+  margin-top: 170px;
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: left;
+  font-weight: 800px;
+  font-size: large;
+}
+
+
+

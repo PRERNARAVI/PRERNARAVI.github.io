@@ -1,16 +1,25 @@
 import React from 'react';
-import {Navbar, Image, Nav, Container} from 'react-bootstrap';
+import {Navbar, Image, Nav, Container, Row} from 'react-bootstrap';
 import wallpaper from "../../images/home-page-wallpaper.png";
 import NavbarCollapse from 'react-bootstrap/NavbarCollapse';
 import NavbarToggle from 'react-bootstrap/NavbarToggle';
 import {TextTypeWriter} from 'react-text-effects';
 import Typewriter from 'typewriter-effect';
 import AboutMe from './AboutMe';
+import { ParallaxProvider } from 'react-scroll-parallax';
+ 
 
 class HomePage extends React.Component {
 
   render() {
-    var background = {backgroundSize : 'cover'};
+    var background = {
+    marginRight: 0,
+    backgroundSize: 'cover',
+    position: 'fixed',
+    backgroundPosition: 'center',
+    backgroundRepeat: 'no-repeat',
+    
+  };
     var textStyle = {
       position: 'absolute', 
       top: '40%', 
@@ -29,7 +38,8 @@ class HomePage extends React.Component {
         
       };
     return(
-        <div>
+      
+        <div responsive="true" >
         <Navbar className="nav-bar" expand="lg" bg="dark" variant="dark" fixed = "top">
           <Navbar.Brand className="brand" href="#home">PRERNA RAVI:  Aspire to Inspire
           </Navbar.Brand>
@@ -44,24 +54,30 @@ class HomePage extends React.Component {
             <Nav.Link href="#contact">Contact</Nav.Link>
           </Nav>
         </Navbar>
-            <Image style={background} responsive className="wallpaper-format" src={wallpaper} fluid="true"/>
+        <Row>
+          <Image style={background} responsive="true" className="wallpaper-format" src={wallpaper} fluid="true"/>
+        
             <div className = "wallpaper-text">
-            <h1 style={textStyle}>Hi! My name is Prerna, I am a </h1>
-            <h1 style={writeStyle} > 
-            <Typewriter
-                options={{
-                    strings: ['Programmer.', 'Researcher.','Teaching Assistant.','Student.'],
-                    autoStart: true,
-                    loop: true,
-                    delay: 60,
-                    deleteSpeed: 30
-                }}
-            />
-            </h1>
+              <h1 style={textStyle}>Hi! My name is Prerna, I am a </h1>
+                <h1 style={writeStyle} > 
+              
+                <Typewriter
+                    options={{
+                        strings: ['Programmer.', 'Researcher.','Teaching Assistant.','Student.'],
+                        autoStart: true,
+                        loop: true,
+                        delay: 60,
+                        deleteSpeed: 30
+                    }}
+                />
+              </h1>
             </div>
-            
-        <AboutMe/>  
+          <AboutMe/>  
+        </Row>
+        
+        
         </div>
+        
     );
   }
 }
