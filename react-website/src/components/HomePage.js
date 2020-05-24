@@ -1,12 +1,32 @@
 import React from 'react';
 import {Navbar, Image, Nav, Container} from 'react-bootstrap';
-import wallpaper from "../images/home-page-wallpaper.jpg";
+import wallpaper from "../images/home-page-wallpaper.png";
 import NavbarCollapse from 'react-bootstrap/NavbarCollapse';
 import NavbarToggle from 'react-bootstrap/NavbarToggle';
+import {TextTypeWriter} from 'react-text-effects';
+import Typewriter from 'typewriter-effect';
 
 class HomePage extends React.Component {
 
   render() {
+    var background = {backgroundSize : 'cover'};
+    var textStyle = {
+      position: 'absolute', 
+      top: '40%', 
+      left: '25%',
+      color: 'white',
+      fontSize: 60,
+      
+    };
+    var writeStyle = {
+        position: 'absolute', 
+        top: '50%',
+        left: '30%',
+        color: 'white',
+        fontFamily: 'monospace',
+        fontSize: 60,
+        
+      };
     return(
         <div>
         <Navbar className="nav-bar" expand="lg" bg="dark" variant="dark" fixed = "top">
@@ -22,7 +42,23 @@ class HomePage extends React.Component {
             <Nav.Link href="#contact">Contact</Nav.Link>
           </Nav>
         </Navbar>
-            <Image className="wallpaper-format" src={wallpaper} fluid="true"/>
+            <Image style={background} responsive className="wallpaper-format" src={wallpaper} fluid="true"/>
+            <div className = "wallpaper-text">
+            <h1 style={textStyle}>Hi! My name is Prerna, I am a </h1>
+            <h1 style={writeStyle} > 
+            <Typewriter
+                options={{
+                    strings: ['Programmer.', 'Researcher.','Teaching Assistant.','Student.'],
+                    autoStart: true,
+                    loop: true,
+                    delay: 60,
+                    deleteSpeed: 30
+                }}
+            />
+            </h1>
+            </div>
+            
+           
         </div>
     );
   }
