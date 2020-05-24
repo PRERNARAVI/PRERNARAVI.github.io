@@ -1,10 +1,11 @@
 import React from 'react';
 import {Navbar, Image, Nav, Container} from 'react-bootstrap';
-import wallpaper from "../images/home-page-wallpaper.png";
+import wallpaper from "../../images/home-page-wallpaper.png";
 import NavbarCollapse from 'react-bootstrap/NavbarCollapse';
 import NavbarToggle from 'react-bootstrap/NavbarToggle';
 import {TextTypeWriter} from 'react-text-effects';
 import Typewriter from 'typewriter-effect';
+import AboutMe from './AboutMe';
 
 class HomePage extends React.Component {
 
@@ -30,7 +31,8 @@ class HomePage extends React.Component {
     return(
         <div>
         <Navbar className="nav-bar" expand="lg" bg="dark" variant="dark" fixed = "top">
-          <Navbar.Brand className="brand" href="#home">PRERNA RAVI</Navbar.Brand>
+          <Navbar.Brand className="brand" href="#home">PRERNA RAVI:  Aspire to Inspire
+          </Navbar.Brand>
           <NavbarToggle/>
           <NavbarCollapse/>
           <Nav className="navbar-options-format">
@@ -58,7 +60,7 @@ class HomePage extends React.Component {
             </h1>
             </div>
             
-           
+        <AboutMe/>  
         </div>
     );
   }

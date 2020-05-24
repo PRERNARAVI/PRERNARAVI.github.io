@@ -39,3 +39,12 @@ code {
   justify-content: center;
   
 }
+.about-me {
+  width: 100%;
+  margin: 0px;
+  padding: 0px;
+  left: 0px;
+  height: 100vh;
+  background-color: #e6f3ff;
+  
+}
