@@ -11,3 +11,26 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.nav-bar{
+  height: 9vh;
+  font-weight: 600;
+  font-size: xx-large;
+  align-content: flex-end;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.brand{
+  font-size: x-large;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.navbar-options-format {
+  color: white;
+  font-weight: 500;
+  font-size: large;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.wallpaper-format {
+  height: 110vh;
+  width: 100%;
+}
