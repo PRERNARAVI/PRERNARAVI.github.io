@@ -14,6 +14,9 @@ class AboutMe extends React.Component{
                 </Col>
                 <Col xs={6}>
                 <Container className="about-me-text">
+                        <h1 style={{fontWeight:"500"}}>
+                            <b>PRERNA RAVI</b>
+                        </h1>
                     <div>
                         Hi! My name is Prerna Ravi and I am an undergraduate student at 
                         Georgia Institute of Technology majoring in Computer Science with 

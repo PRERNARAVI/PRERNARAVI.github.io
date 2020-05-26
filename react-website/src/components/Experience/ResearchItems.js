@@ -2,6 +2,7 @@ import React from 'react';
 import {Col, Image, Row, Container} from 'react-bootstrap';
 import SignLanguage from "../../images/sign-language-hands.png";
 import Callibration from "../../images/Callibration.png";
+import CopyCatScreen from "../../images/copy-cat-screen.png";
 
 class ResearchItems extends React.Component{
     render () {
@@ -14,20 +15,19 @@ class ResearchItems extends React.Component{
                 <Col xs={4}>
                 
                         
-                <Image responsive="true" className="asl-pic-format" src={SignLanguage} fluid="true"/>
-               
-                
+                <Image responsive="true" className="asl-pic-format" src={SignLanguage} fluid="true"/>         
                 <Image responsive="true" className="callibration-pic-format" src={Callibration} fluid="true"/>
+                <Image responsive="true" className="copy-cat-pic-format" src={CopyCatScreen} fluid="true"/>
                 </Col>
                 <Col xs={6}>
                 <Container className="sign-language-text">
                     <div style={fontFormat}>
-                        <h1>
-                            American Sign Language Recognition 
+                        <h1 style={{fontWeight:"500"}}>
+                            American Sign Language Recognition
                         </h1>
-                        <h2>
+                        <h3>
                             Georgia Tech Ubiquitous Computing Lab
-                        </h2>
+                        </h3>
                         <h4>
                             <i>January 2019 - Present</i>
                         </h4>
