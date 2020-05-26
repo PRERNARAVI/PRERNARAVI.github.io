@@ -79,7 +79,7 @@ code {
   padding: 0px;
   left: 0px;
   height: 100vh;
-  background-color:black;
+  background-color:#FFF8DC;
 }
 .sign-language-text {
   margin-left: 130px;
@@ -88,7 +88,7 @@ code {
   text-align: left;
   font-weight: 800px;
   font-size: large;
-  color: wheat;
+  color: black;
 }
 .asl-pic-format {
   width: 1000px;

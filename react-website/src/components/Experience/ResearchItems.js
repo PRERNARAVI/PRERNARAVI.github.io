@@ -10,7 +10,7 @@ class ResearchItems extends React.Component{
             fontColor: "white"
         }
         return (
-            <Container className="sign-langauge-container">
+            <Container className="sign-langauge-container" responsive="true">
                 <Row>
                 <Col xs={4}>
                 
@@ -20,19 +20,19 @@ class ResearchItems extends React.Component{
                 <Image responsive="true" className="copy-cat-pic-format" src={CopyCatScreen} fluid="true"/>
                 </Col>
                 <Col xs={6}>
-                <Container className="sign-language-text">
-                    <div style={fontFormat}>
-                        <h1 style={{fontWeight:"500"}}>
+                <Container className="sign-language-text" responsive="true">
+                    <div style={fontFormat} responsive="true">
+                        <h1 style={{fontWeight:"500"}} responsive="true">
                             American Sign Language Recognition
                         </h1>
-                        <h3>
+                        <h3 responsive="true">
                             Georgia Tech Ubiquitous Computing Lab
                         </h3>
-                        <h4>
+                        <h4 responsive="true">
                             <i>January 2019 - Present</i>
                         </h4>
                         <br></br>
-                        <p>
+                        <p responsive="true">
                         I am an undergraduate researcher at the GT UBICOMP Lab
                         advised by <a href="https://www.cc.gatech.edu/home/thad/">Dr.Thad Starner</a>. Through the Center for 
                         Accessible Technology in Sign, we are developing an 
@@ -45,7 +45,7 @@ class ResearchItems extends React.Component{
                         hearing parents, through the medium of ASL, which we consider 
                         their “native” language.
                         </p>
-                        <p>
+                        <p responsive="true">
                         CopyCat is a game devloped in Unity, a cross-platform game engine 
                         using C# as its programming language. I have developed a user friendly
                         callibration tool as part of its tutorial modules using an RGB Depth camera.
@@ -57,7 +57,7 @@ class ResearchItems extends React.Component{
                         at a tender age, thereby improving the quality of their lives by facilitating 
                         good communication with their hearing parents.
                         </p>
-                        <p>
+                        <p responsive="true">
                             Presentations:  <a href="http://www.undergradresearch.gatech.edu/spring-symposium">
                              Undergraduate Research Symposium at Georgia Tech.</a>
                         </p>
