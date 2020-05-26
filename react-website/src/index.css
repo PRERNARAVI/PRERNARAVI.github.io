@@ -72,6 +72,34 @@ code {
   font-weight: 800px;
   font-size: large;
 }
+.sign-langauge-container {
+  position: relative;
+  max-width: 102%;
+  margin-top: 810px;
+  padding: 0px;
+  left: 0px;
+  height: 100vh;
+  background-color:black;
+}
+.sign-language-text {
+  margin-left: 90px;
+  margin-top: 100px;
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: left;
+  font-weight: 800px;
+  font-size: large;
+  color: wheat;
+}
+.asl-pic-format {
+  width: 1000px;
+  margin-top: 100px;
+  margin-left: 110px;
+}
+.callibration-pic-format {
+  width: 800px;
+  margin-top: 60px;
+  margin-left: 90px;
+}
 
 
 

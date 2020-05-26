@@ -41,17 +41,17 @@ class HomePage extends React.Component {
       
         <div responsive="true" >
         <Navbar className="nav-bar" expand="lg" bg="dark" variant="dark" fixed = "top">
-          <Navbar.Brand className="brand" href="#home">PRERNA RAVI:  Aspire to Inspire
+          <Navbar.Brand className="brand" href="/">PRERNA RAVI:  Aspire to Inspire
           </Navbar.Brand>
           <NavbarToggle/>
           <NavbarCollapse/>
           <Nav className="navbar-options-format">
-            <Nav.Link href="#home">About</Nav.Link>
-            <Nav.Link href="#experience">Experience</Nav.Link>
-            <Nav.Link href="#research">Research & Projects</Nav.Link>
-            <Nav.Link href="#skills">Skills</Nav.Link>
-            <Nav.Link href="#interests">Interests</Nav.Link>
-            <Nav.Link href="#contact">Contact</Nav.Link>
+            <Nav.Link href="/">About</Nav.Link>
+            <Nav.Link href="/experience">Experience</Nav.Link>
+            <Nav.Link href="/research">Research & Projects</Nav.Link>
+            <Nav.Link href="/skills">Skills</Nav.Link>
+            <Nav.Link href="/interests">Interests</Nav.Link>
+            <Nav.Link href="/contact">Contact</Nav.Link>
           </Nav>
         </Navbar>
         <Row>
