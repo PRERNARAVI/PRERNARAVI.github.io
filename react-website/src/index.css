@@ -76,19 +76,20 @@ code {
 .sign-langauge-container {
   position: relative;
   max-width: 92%;
-  margin-top: 810px;
+  margin-top: 750px;
   padding: 0px;
   left: 0px;
   height: 90vh;
-  background-color:#E9C46A;
+  background-color:#48130A;
 }
 .tandem-container {
   position: relative;
   max-width: 92%;
   padding: 0px;
   left: 0px;
-  height: 100vh;
-  background-color:#2A9D8F;
+  height: 90vh;
+  background-color:#752A09;
+  
 }
 .research-container {
   max-width: 102%;
@@ -98,12 +99,12 @@ code {
 }
 .sign-language-text {
   margin-left: 130px;
-  margin-top: 80px;
+  margin-top: 50px;
   font-family: Tahoma, Geneva, sans-serif;
   text-align: left;
   font-weight: 800px;
   font-size: large;
-  color: black;
+  color: #f2ebdd;
 }
 .asl-pic-format {
   width: 1000px;
@@ -121,8 +122,13 @@ code {
   margin-left: 130px;
 }
 .research-wallpaper-text {
-  justify-content: right;
-  margin-left: 500px;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  margin: auto;
+  padding: auto;
+  align-self: center;
+  color:#f2ebdd; 
 }
 
 

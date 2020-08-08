@@ -1,6 +1,6 @@
 import React from 'react';
-import { Image, Container, Row} from 'react-bootstrap';
-import ResearchWallpaper from "../../images/research-wallpaper.jpg";
+import { Image, Container, Row, Card, Col} from 'react-bootstrap';
+import ResearchWallpaper from "../../images/research_wallpaper.jpg";
 import ResearchItems from './ResearchItems';
 
 class Research extends React.Component {
@@ -19,29 +19,35 @@ class Research extends React.Component {
         };
         var textStyle = {
             position: 'absolute', 
-            marginTop: "250px",
-            marginLeft: "200px",
-            color: 'white',
-            fontSize: 25,
-            width: "45%",
+            justifyContent: "center",
+            alignItems: "center",
+            textAlign: "center",
+            color: "#F2EBDD",
+            fontSize: 30,
+            maxWidth: "85%",
             fontFamily: "Tahoma, Geneva, sans-serif",
-            
+            marginTop: "200px",
+            marginLeft: "135px",
+            marginRight: "30px",    
         };
 
 
         return (
         <div responsive="true">    
-            <Row>       
+            <Row className="justify-content-md-center"> 
+            <Col xs={0} style={{alignContent: "center"}}>      
                 <Image style={background} responsive="true" className="wallpaper-format" src={ResearchWallpaper} fluid="true"/>
                 <div className = "research-wallpaper-text">
                     <p style={textStyle}>I believe academic knowledge offers a strong theoretical framework for developing practical 
                     solutions for meeting challenges faced by the community and society. With this in mind, I have undertaken to 
-                    pursue research projects under the guidance of some very experienced luminaries. These Research projects have 
+                    pursue research projects under the guidance of some very experienced luminaries. These research projects have 
                     offered me stimulating challenges often emboldening me to push the boundaries and go beyond convention and 
                     lateral thinking.  </p>
                 </div>
+            </Col>
                 <ResearchItems/>
-            </Row>    
+            </Row>
+
         </div>
         );
     }

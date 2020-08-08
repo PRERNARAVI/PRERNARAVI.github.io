@@ -12,18 +12,18 @@ class App extends Component {
   render() {
   return (
     <div responsive="true" >
-      <Navbar className="nav-bar" expand="lg" bg="dark" variant="dark" fixed = "top">
+      <Navbar style={{backgroundColor: "black"}} className="nav-bar" expand="lg" bg="black" variant="dark" fixed = "top">
       <Navbar.Brand className="brand" href="/">PRERNA RAVI
       </Navbar.Brand>
       <NavbarToggle/>
       <NavbarCollapse/>
       <Nav className="navbar-options-format">
-        <Nav.Link href="/">About</Nav.Link>
-        <Nav.Link href="/experience">Experience</Nav.Link>
-        <Nav.Link href="/research">Research</Nav.Link>
-        <Nav.Link href="/research">Projects</Nav.Link>
-        <Nav.Link href="/skills">Skills</Nav.Link>
-        <Nav.Link href="/interests">Interests</Nav.Link>
+        <Nav.Link style={{color: "white"}} href="/">About</Nav.Link>
+        <Nav.Link style={{color: "white"}} href="/experience">Experience</Nav.Link>
+        <Nav.Link style={{color: "white"}} href="/research">Research</Nav.Link>
+        <Nav.Link style={{color: "white"}} href="/research">Projects</Nav.Link>
+        <Nav.Link style={{color: "white"}} href="/skills">Skills</Nav.Link>
+        <Nav.Link style={{color: "white"}} href="/interests">Interests</Nav.Link>
       </Nav>
     </Navbar>
     <Router>

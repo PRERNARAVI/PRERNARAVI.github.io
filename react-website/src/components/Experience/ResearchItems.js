@@ -3,6 +3,7 @@ import {Col, Image, Row, Container} from 'react-bootstrap';
 import SignLanguage from "../../images/sign-language-hands.png";
 import Callibration from "../../images/Callibration.png";
 import CopyCatScreen from "../../images/copy-cat-screen.png";
+import UBICOMP from "../../images/ubicomp.png";
 
 class ResearchItems extends React.Component{
     render () {
@@ -13,10 +14,9 @@ class ResearchItems extends React.Component{
             <Container className="research-container" responsive="true">
             <Container className="sign-langauge-container" responsive="true">
                 <Row>
-                <Col xs={3}>
-                
-                {/*     
-                <Image responsive="true" className="asl-pic-format" src={SignLanguage} fluid="true"/>         
+                <Col xs={3}>    
+                <Image responsive="true" className="asl-pic-format" src={UBICOMP} fluid="true"/>         
+                {/* 
                 <Image responsive="true" className="callibration-pic-format" src={Callibration} fluid="true"/>
                 <Image responsive="true" className="copy-cat-pic-format" src={CopyCatScreen} fluid="true"/>
                 */}
@@ -24,22 +24,22 @@ class ResearchItems extends React.Component{
                 <Col xs={7}>
                 <Container className="sign-language-text" responsive="true">
                     <div style={fontFormat} responsive="true">
-                        <h2 style={{fontWeight:600, fontFamily: "Tahoma, Geneva, sans-serif", marginTop: "0px"}} responsive="true">
-                            American Sign Langauge Recognition
+                        <h2 style={{fontWeight:"medium", fontFamily: "Tahoma, Geneva, sans-serif", marginTop: "0px"}} responsive="true">
+                            AMERICAN SIGN LANGUAGE RECOGNITION
                         </h2>
                         <h4 style={{fontWeight:"500", fontFamily: "Tahoma, Geneva, sans-serif"}} responsive="true">
                             Georgia Tech Ubiquitous Computing Lab
                         </h4>
-                        <h5 responsive="true">
+                        {/* <h5 responsive="true">
                             <i>January 2019 - Present</i>
-                        </h5>
+                        </h5> */}
                         <br></br>
                         <div responsive="true">
                         I am an undergraduate researcher at the GT UBICOMP Lab
-                        advised by <a style={{color: "#00008B"}} href="https://www.cc.gatech.edu/home/thad/"><u>Dr. Thad Starner</u></a>. Through the Center for 
+                        advised by <a style={{color: "#E9C46A"}} href="https://www.cc.gatech.edu/home/thad/"><u>Dr. Thad Starner</u></a>. Through the Center for 
                         Accessible Technology in Sign, we are developing an 
                         American Sign Language Recognition System and using 
-                        it to create a game, namely <a style={{color: "#00008B"}} href="https://www.cc.gatech.edu/home/thad/031_research.htm">
+                        it to create a game, namely <a style={{color: "#E9C46A"}} href="https://www.cc.gatech.edu/home/thad/031_research.htm">
                         <u>CopyCat</u></a>. Copycat is designed 
                         as a framework to collect gesture data for Sign Language 
                         Recognition, using a real time motion capture system and 
@@ -62,7 +62,7 @@ class ResearchItems extends React.Component{
                         </div>
                         <br></br>
                         <div responsive="true">
-                            Presentations:  <a style={{color: "#00008B"}} href="http://www.undergradresearch.gatech.edu/spring-symposium">
+                            Presentations:  <a style={{color: "#E9C46A"}} href="http://www.undergradresearch.gatech.edu/spring-symposium">
                              <u>Undergraduate Research Symposium at Georgia Tech.</u></a>
                         </div>
                         
@@ -71,16 +71,10 @@ class ResearchItems extends React.Component{
                 </Col>
                 </Row>
             </Container>
+            <br></br>
+            <br></br>
             <Container className="tandem-container" responsive="true">
                 <Row>
-                <Col xs={3}>
-                
-                {/*     
-                <Image responsive="true" className="asl-pic-format" src={SignLanguage} fluid="true"/>         
-                <Image responsive="true" className="callibration-pic-format" src={Callibration} fluid="true"/>
-                <Image responsive="true" className="copy-cat-pic-format" src={CopyCatScreen} fluid="true"/>
-                */}
-                </Col>
                 <Col xs={7}>
                 <Container className="sign-language-text" responsive="true">
                     <div style={fontFormat} responsive="true">
@@ -90,16 +84,16 @@ class ResearchItems extends React.Component{
                         <h4 style={{fontWeight:"500", fontFamily: "Tahoma, Geneva, sans-serif"}} responsive="true">
                             Georgia Tech Ubiquitous Computing Lab
                         </h4>
-                        <h5 responsive="true">
+                        {/* <h5 responsive="true">
                             <i>January 2019 - Present</i>
-                        </h5>
+                        </h5> */}
                         <br></br>
                         <div responsive="true">
                         I am an undergraduate researcher at the GT UBICOMP Lab
-                        advised by <a style={{color: "#00008B"}} href="https://www.cc.gatech.edu/home/thad/"><u>Dr. Thad Starner</u></a>. Through the Center for 
+                        advised by <a style={{color: "#E9C46A"}} href="https://www.cc.gatech.edu/home/thad/"><u>Dr. Thad Starner</u></a>. Through the Center for 
                         Accessible Technology in Sign, we are developing an 
                         American Sign Language Recognition System and using 
-                        it to create a game, namely <a style={{color: "#00008B"}} href="https://www.cc.gatech.edu/home/thad/031_research.htm">
+                        it to create a game, namely <a style={{color: "#E9C46A"}} href="https://www.cc.gatech.edu/home/thad/031_research.htm">
                         <u>CopyCat</u></a>. Copycat is designed 
                         as a framework to collect gesture data for Sign Language 
                         Recognition, using a real time motion capture system and 
@@ -122,12 +116,20 @@ class ResearchItems extends React.Component{
                         </div>
                         <br></br>
                         <div responsive="true">
-                            Presentations:  <a style={{color: "#00008B"}} href="http://www.undergradresearch.gatech.edu/spring-symposium">
+                            Presentations:  <a style={{color: "#E9C46A"}} href="http://www.undergradresearch.gatech.edu/spring-symposium">
                              <u>Undergraduate Research Symposium at Georgia Tech.</u></a>
                         </div>
                         
                     </div>
                 </Container>
+                </Col>
+                <Col xs={3}>
+                
+                {/*     
+                <Image responsive="true" className="asl-pic-format" src={SignLanguage} fluid="true"/>         
+                <Image responsive="true" className="callibration-pic-format" src={Callibration} fluid="true"/>
+                <Image responsive="true" className="copy-cat-pic-format" src={CopyCatScreen} fluid="true"/>
+                */}
                 </Col>
                 </Row>
             </Container>
