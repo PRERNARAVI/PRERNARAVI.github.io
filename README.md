@@ -1,2 +1,2 @@
 # PersonalWebsite
-Building personal website/ portfolio
+Building personal website/ portfolio using React :) 
