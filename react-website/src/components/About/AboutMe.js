@@ -30,7 +30,7 @@ class AboutMe extends React.Component{
                         </h1>
                         <br></br>
                     <div style={{fontWeight:"500"}}>
-                        Hi! My name is Prerna Ravi and I am an undergraduate student 
+                        Hi! My name is Prerna Ravi and I am a rising third year undergraduate student 
                         at <a style={{color: "#E9C46A"}}href="https://www.gatech.edu/" ><u>Georgia Institute of Technology</u></a> majoring in Computer Science with 
                         concentrations in Human Computer Interaction and Artificial Intelligence. 
                         I believe technology is an enabler and this program has not only enrich my academic knowledge, but has also provided opportunities to 

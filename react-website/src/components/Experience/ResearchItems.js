@@ -7,66 +7,132 @@ import CopyCatScreen from "../../images/copy-cat-screen.png";
 class ResearchItems extends React.Component{
     render () {
         var fontFormat = {
-            fontColor: "white"
+            fontFamily: "Tahoma, Geneva, sans-serif",
         }
         return (
+            <Container className="research-container" responsive="true">
             <Container className="sign-langauge-container" responsive="true">
                 <Row>
-                <Col xs={4}>
+                <Col xs={3}>
                 
-                        
+                {/*     
                 <Image responsive="true" className="asl-pic-format" src={SignLanguage} fluid="true"/>         
                 <Image responsive="true" className="callibration-pic-format" src={Callibration} fluid="true"/>
                 <Image responsive="true" className="copy-cat-pic-format" src={CopyCatScreen} fluid="true"/>
+                */}
                 </Col>
-                <Col xs={6}>
+                <Col xs={7}>
                 <Container className="sign-language-text" responsive="true">
                     <div style={fontFormat} responsive="true">
-                        <h1 style={{fontWeight:"500"}} responsive="true">
-                            American Sign Language Recognition
-                        </h1>
-                        <h3 responsive="true">
+                        <h2 style={{fontWeight:600, fontFamily: "Tahoma, Geneva, sans-serif", marginTop: "0px"}} responsive="true">
+                            American Sign Langauge Recognition
+                        </h2>
+                        <h4 style={{fontWeight:"500", fontFamily: "Tahoma, Geneva, sans-serif"}} responsive="true">
                             Georgia Tech Ubiquitous Computing Lab
-                        </h3>
-                        <h4 responsive="true">
-                            <i>January 2019 - Present</i>
                         </h4>
+                        <h5 responsive="true">
+                            <i>January 2019 - Present</i>
+                        </h5>
                         <br></br>
-                        <p responsive="true">
+                        <div responsive="true">
                         I am an undergraduate researcher at the GT UBICOMP Lab
-                        advised by <a href="https://www.cc.gatech.edu/home/thad/">Dr.Thad Starner</a>. Through the Center for 
+                        advised by <a style={{color: "#00008B"}} href="https://www.cc.gatech.edu/home/thad/"><u>Dr. Thad Starner</u></a>. Through the Center for 
                         Accessible Technology in Sign, we are developing an 
                         American Sign Language Recognition System and using 
-                        it to create a game, namely <a href="https://www.cc.gatech.edu/home/thad/031_research.htm">
-                        CopyCat</a>. Copycat is designed 
+                        it to create a game, namely <a style={{color: "#00008B"}} href="https://www.cc.gatech.edu/home/thad/031_research.htm">
+                        <u>CopyCat</u></a>. Copycat is designed 
                         as a framework to collect gesture data for Sign Language 
                         Recognition, using a real time motion capture system and 
                         as a means for deaf children to communicate with their 
                         hearing parents, through the medium of ASL, which we consider 
                         their “native” language.
-                        </p>
-                        <p responsive="true">
+                        </div>
+                        <br></br>
+                        <div responsive="true">
                         CopyCat is a game developed in Unity, a cross-platform game engine 
                         using C# as its programming language. I have developed a user-friendly calibration 
                         tool as part of its tutorial modules using an RGB Depth camera.
-                        Using this tool and Microsoft Kinect, we have developed a real-time
+                        Using this and Computer Vision tools like Microsoft Kinect and Google MediaPipe, we have developed a real-time
                         motion capture system (body, hands & face) for ASL signers. This framework, 
                         iteratively trained using the HTK pipeline and Hidden Markov Models (HMMs) 
                         takes us one step closer to achieving Optimal Sign Language Recognition and has the 
                         immense potential to teach young children ASL 
                         at a tender age, thereby improving the quality of their lives by facilitating 
                         good communication with their hearing parents.
-                        </p>
-                        <p responsive="true">
-                            Presentations:  <a href="http://www.undergradresearch.gatech.edu/spring-symposium">
-                             Undergraduate Research Symposium at Georgia Tech.</a>
-                        </p>
+                        </div>
+                        <br></br>
+                        <div responsive="true">
+                            Presentations:  <a style={{color: "#00008B"}} href="http://www.undergradresearch.gatech.edu/spring-symposium">
+                             <u>Undergraduate Research Symposium at Georgia Tech.</u></a>
+                        </div>
                         
                     </div>
                 </Container>
                 </Col>
                 </Row>
             </Container>
+            <Container className="tandem-container" responsive="true">
+                <Row>
+                <Col xs={3}>
+                
+                {/*     
+                <Image responsive="true" className="asl-pic-format" src={SignLanguage} fluid="true"/>         
+                <Image responsive="true" className="callibration-pic-format" src={Callibration} fluid="true"/>
+                <Image responsive="true" className="copy-cat-pic-format" src={CopyCatScreen} fluid="true"/>
+                */}
+                </Col>
+                <Col xs={7}>
+                <Container className="sign-language-text" responsive="true">
+                    <div style={fontFormat} responsive="true">
+                        <h2 style={{fontWeight:"medium", fontFamily: "Tahoma, Geneva, sans-serif"}} responsive="true">
+                            AMERICAN SIGN LANGUAGE RECOGNITION
+                        </h2>
+                        <h4 style={{fontWeight:"500", fontFamily: "Tahoma, Geneva, sans-serif"}} responsive="true">
+                            Georgia Tech Ubiquitous Computing Lab
+                        </h4>
+                        <h5 responsive="true">
+                            <i>January 2019 - Present</i>
+                        </h5>
+                        <br></br>
+                        <div responsive="true">
+                        I am an undergraduate researcher at the GT UBICOMP Lab
+                        advised by <a style={{color: "#00008B"}} href="https://www.cc.gatech.edu/home/thad/"><u>Dr. Thad Starner</u></a>. Through the Center for 
+                        Accessible Technology in Sign, we are developing an 
+                        American Sign Language Recognition System and using 
+                        it to create a game, namely <a style={{color: "#00008B"}} href="https://www.cc.gatech.edu/home/thad/031_research.htm">
+                        <u>CopyCat</u></a>. Copycat is designed 
+                        as a framework to collect gesture data for Sign Language 
+                        Recognition, using a real time motion capture system and 
+                        as a means for deaf children to communicate with their 
+                        hearing parents, through the medium of ASL, which we consider 
+                        their “native” language.
+                        </div>
+                        <br></br>
+                        <div responsive="true">
+                        CopyCat is a game developed in Unity, a cross-platform game engine 
+                        using C# as its programming language. I have developed a user-friendly calibration 
+                        tool as part of its tutorial modules using an RGB Depth camera.
+                        Using this and Computer Vision tools like Microsoft Kinect and Google MediaPipe, we have developed a real-time
+                        motion capture system (body, hands & face) for ASL signers. This framework, 
+                        iteratively trained using the HTK pipeline and Hidden Markov Models (HMMs) 
+                        takes us one step closer to achieving Optimal Sign Language Recognition and has the 
+                        immense potential to teach young children ASL 
+                        at a tender age, thereby improving the quality of their lives by facilitating 
+                        good communication with their hearing parents.
+                        </div>
+                        <br></br>
+                        <div responsive="true">
+                            Presentations:  <a style={{color: "#00008B"}} href="http://www.undergradresearch.gatech.edu/spring-symposium">
+                             <u>Undergraduate Research Symposium at Georgia Tech.</u></a>
+                        </div>
+                        
+                    </div>
+                </Container>
+                </Col>
+                </Row>
+            </Container>
+            </Container>
+            
         );
     }
 }

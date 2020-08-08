@@ -19,10 +19,12 @@ class Research extends React.Component {
         };
         var textStyle = {
             position: 'absolute', 
-            top: '40%', 
-            left: '25%',
+            marginTop: "250px",
+            marginLeft: "200px",
             color: 'white',
-            fontSize: 60,
+            fontSize: 25,
+            width: "45%",
+            fontFamily: "Tahoma, Geneva, sans-serif",
             
         };
 
@@ -32,7 +34,11 @@ class Research extends React.Component {
             <Row>       
                 <Image style={background} responsive="true" className="wallpaper-format" src={ResearchWallpaper} fluid="true"/>
                 <div className = "research-wallpaper-text">
-                    <p style={textStyle}>Hi! My name is Prerna, I am a </p>
+                    <p style={textStyle}>I believe academic knowledge offers a strong theoretical framework for developing practical 
+                    solutions for meeting challenges faced by the community and society. With this in mind, I have undertaken to 
+                    pursue research projects under the guidance of some very experienced luminaries. These Research projects have 
+                    offered me stimulating challenges often emboldening me to push the boundaries and go beyond convention and 
+                    lateral thinking.  </p>
                 </div>
                 <ResearchItems/>
             </Row>    
