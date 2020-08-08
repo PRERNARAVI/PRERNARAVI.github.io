@@ -16,7 +16,7 @@ class AboutMe extends React.Component{
                     <div style={{textAlign: "center", justifyContent: "center", alignItems: "center", marginLeft: "100px", width: "100%"}}>
                     <h4 style={{fontFamily: "Tahoma, Geneva, sans-serif", color: "white", marginTop: "20px", textAlign: "center"}}>Contact</h4>
                     <Row>
-                    <a href="https://github.com/PRERNARAVI"><GitHubIcon style={{color: "white", fontSize: 60, marginTop: "15px", marginLeft: "70px"}}/></a>
+                    <a href="https://github.com/PRERNARAVI"><GitHubIcon style={{color: "white", fontSize: 60, marginTop: "15px", marginLeft: "40px"}}/></a>
                     <a href="https://www.linkedin.com/in/prerna-ravi/"><LinkedInIcon style={{color: "white", fontSize: 65, marginTop: "15px", marginLeft: "30px"}}/></a>
                     <a href="mailto: prernaravi@gatech.edu"><EmailIcon style={{color: "white", fontSize: 65, marginTop: "15px", marginLeft: "30px"}}/></a>
                     <a href="https://www.instagram.com/prerna_2k/"><InstagramIcon style={{color: "white", fontSize: 65, marginTop: "15px", marginLeft: "30px"}}/></a>

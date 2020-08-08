@@ -39,8 +39,8 @@ code {
 }
 .about-me {
   position: relative;
-  max-width: 102%;
-  margin-top: 810px;
+  max-width: 90%;
+  margin-top: 780px;
   padding-left: 40px;
   padding-right: 40px;
   height: 100vh;
@@ -49,7 +49,7 @@ code {
 }
 .profile-pic-format {
   margin-top: 160px;
-  margin-left: 150px;
+  margin-left: 130px;
 }
 .parallax {
   /* The image used */
@@ -66,7 +66,7 @@ code {
 }
 .about-me-text {
   margin-left: 90px;
-  margin-top: 120px;
+  margin-top: 70px;
   font-family: Tahoma, Geneva, sans-serif;
   text-align: left;
   font-weight: 800px;
@@ -75,19 +75,19 @@ code {
 }
 .sign-langauge-container {
   position: relative;
-  max-width: 92%;
+  max-width: 90%;
   margin-top: 750px;
   padding: 0px;
   left: 0px;
-  height: 90vh;
+  height: 87vh;
   background-color:#48130A;
 }
 .tandem-container {
   position: relative;
-  max-width: 92%;
+  max-width: 90%;
   padding: 0px;
   left: 0px;
-  height: 90vh;
+  height: 87vh;
   background-color:#752A09;
   
 }
@@ -105,11 +105,6 @@ code {
   font-weight: 800px;
   font-size: large;
   color: #f2ebdd;
-}
-.asl-pic-format {
-  width: 1000px;
-  margin-top: 90px;
-  margin-left: 130px;
 }
 .callibration-pic-format {
   width: 800px;

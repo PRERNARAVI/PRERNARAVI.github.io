@@ -4,6 +4,8 @@ import SignLanguage from "../../images/sign-language-hands.png";
 import Callibration from "../../images/Callibration.png";
 import CopyCatScreen from "../../images/copy-cat-screen.png";
 import UBICOMP from "../../images/ubicomp.png";
+import ASL from "../../images/ASL.png";
+import Hands from "../../images/hands.png";
 
 class ResearchItems extends React.Component{
     render () {
@@ -15,18 +17,19 @@ class ResearchItems extends React.Component{
             <Container className="sign-langauge-container" responsive="true">
                 <Row>
                 <Col xs={3}>    
-                <Image responsive="true" className="asl-pic-format" src={UBICOMP} fluid="true"/>         
-                {/* 
-                <Image responsive="true" className="callibration-pic-format" src={Callibration} fluid="true"/>
-                <Image responsive="true" className="copy-cat-pic-format" src={CopyCatScreen} fluid="true"/>
-                */}
+                <Image width="80%"responsive="true" style={{marginTop: "70px", marginLeft: "140px"}} src={UBICOMP} fluid="true"/>         
+                <Image responsive="true" style={{marginTop: "30px", marginLeft: "120px"}} src={Hands} fluid="true"/>
+                <Image width="80%" style={{marginTop: "30px", marginLeft: "140px"}} responsive="true"  src={ASL} fluid="true"/>
+                
+                
+                
                 </Col>
                 <Col xs={7}>
                 <Container className="sign-language-text" responsive="true">
                     <div style={fontFormat} responsive="true">
-                        <h2 style={{fontWeight:"medium", fontFamily: "Tahoma, Geneva, sans-serif", marginTop: "0px"}} responsive="true">
+                        <h3 style={{fontWeight:"medium", fontFamily: "Tahoma, Geneva, sans-serif", marginTop: "0px"}} responsive="true">
                             AMERICAN SIGN LANGUAGE RECOGNITION
-                        </h2>
+                        </h3>
                         <h4 style={{fontWeight:"500", fontFamily: "Tahoma, Geneva, sans-serif"}} responsive="true">
                             Georgia Tech Ubiquitous Computing Lab
                         </h4>
@@ -78,9 +81,9 @@ class ResearchItems extends React.Component{
                 <Col xs={7}>
                 <Container className="sign-language-text" responsive="true">
                     <div style={fontFormat} responsive="true">
-                        <h2 style={{fontWeight:"medium", fontFamily: "Tahoma, Geneva, sans-serif"}} responsive="true">
+                        <h3 style={{fontWeight:"medium", fontFamily: "Tahoma, Geneva, sans-serif"}} responsive="true">
                             AMERICAN SIGN LANGUAGE RECOGNITION
-                        </h2>
+                        </h3>
                         <h4 style={{fontWeight:"500", fontFamily: "Tahoma, Geneva, sans-serif"}} responsive="true">
                             Georgia Tech Ubiquitous Computing Lab
                         </h4>
