@@ -22,6 +22,7 @@ code {
 .brand{
   font-size: x-large;
   font-family: Arial, Helvetica, sans-serif;
+  margin-left: 15px;
 }
 
 .navbar-options-format {
@@ -40,16 +41,15 @@ code {
   position: relative;
   max-width: 102%;
   margin-top: 810px;
-  padding: 0px;
-  left: 0px;
+  padding-left: 40px;
+  padding-right: 40px;
   height: 100vh;
-  background-color: #e6f3ff;
+  background-color: #264653;
   
 }
 .profile-pic-format {
-
-  margin-top: 170px;
-  margin-left: 90px;
+  margin-top: 160px;
+  margin-left: 150px;
 }
 .parallax {
   /* The image used */
@@ -66,11 +66,12 @@ code {
 }
 .about-me-text {
   margin-left: 90px;
-  margin-top: 170px;
-  font-family: Arial, Helvetica, sans-serif;
+  margin-top: 120px;
+  font-family: Tahoma, Geneva, sans-serif;
   text-align: left;
   font-weight: 800px;
   font-size: large;
+  color: white;
 }
 .sign-langauge-container {
   position: relative;
@@ -104,6 +105,10 @@ code {
   width: 400px;
   margin-top: 30px;
   margin-left: 130px;
+}
+.research-wallpaper-text {
+  justify-content: right;
+  margin-left: 90px;
 }
 
 

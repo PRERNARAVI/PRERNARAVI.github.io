@@ -46,13 +46,13 @@ class ResearchItems extends React.Component{
                         their “native” language.
                         </p>
                         <p responsive="true">
-                        CopyCat is a game devloped in Unity, a cross-platform game engine 
-                        using C# as its programming language. I have developed a user friendly
-                        callibration tool as part of its tutorial modules using an RGB Depth camera.
+                        CopyCat is a game developed in Unity, a cross-platform game engine 
+                        using C# as its programming language. I have developed a user-friendly calibration 
+                        tool as part of its tutorial modules using an RGB Depth camera.
                         Using this tool and Microsoft Kinect, we have developed a real-time
                         motion capture system (body, hands & face) for ASL signers. This framework, 
                         iteratively trained using the HTK pipeline and Hidden Markov Models (HMMs) 
-                        takes us one step closer to achieving Optimal Sign Langauge Recognition and has the 
+                        takes us one step closer to achieving Optimal Sign Language Recognition and has the 
                         immense potential to teach young children ASL 
                         at a tender age, thereby improving the quality of their lives by facilitating 
                         good communication with their hearing parents.

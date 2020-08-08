@@ -1,9 +1,6 @@
 import React from 'react';
-import {Navbar, Image, Nav, Container, Row} from 'react-bootstrap';
+import { Image, Container, Row} from 'react-bootstrap';
 import wallpaper from "../../images/home-page-wallpaper.png";
-import NavbarCollapse from 'react-bootstrap/NavbarCollapse';
-import NavbarToggle from 'react-bootstrap/NavbarToggle';
-import {TextTypeWriter} from 'react-text-effects';
 import Typewriter from 'typewriter-effect';
 import AboutMe from './AboutMe';
 import { ParallaxProvider } from 'react-scroll-parallax';
@@ -40,20 +37,6 @@ class HomePage extends React.Component {
     return(
       
         <div responsive="true" >
-        <Navbar className="nav-bar" expand="lg" bg="dark" variant="dark" fixed = "top">
-          <Navbar.Brand className="brand" href="/">PRERNA RAVI:  Aspire to Inspire
-          </Navbar.Brand>
-          <NavbarToggle/>
-          <NavbarCollapse/>
-          <Nav className="navbar-options-format">
-            <Nav.Link href="/">About</Nav.Link>
-            <Nav.Link href="/experience">Experience</Nav.Link>
-            <Nav.Link href="/research">Research & Projects</Nav.Link>
-            <Nav.Link href="/skills">Skills</Nav.Link>
-            <Nav.Link href="/interests">Interests</Nav.Link>
-            <Nav.Link href="/contact">Contact</Nav.Link>
-          </Nav>
-        </Navbar>
         <Row>
           <Image style={background} responsive="true" className="wallpaper-format" src={wallpaper} fluid="true"/>
         

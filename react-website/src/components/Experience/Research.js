@@ -1,7 +1,5 @@
 import React from 'react';
-import {Navbar, Image, Nav, Container, Row} from 'react-bootstrap';
-import NavbarCollapse from 'react-bootstrap/NavbarCollapse';
-import NavbarToggle from 'react-bootstrap/NavbarToggle';
+import { Image, Container, Row} from 'react-bootstrap';
 import ResearchWallpaper from "../../images/research-wallpaper.jpg";
 import ResearchItems from './ResearchItems';
 
@@ -19,35 +17,25 @@ class Research extends React.Component {
             width: '102%',
             
         };
+        var textStyle = {
+            position: 'absolute', 
+            top: '40%', 
+            left: '25%',
+            color: 'white',
+            fontSize: 60,
+            
+        };
 
 
         return (
-        <div responsive="true">
-           
-                <Navbar className="nav-bar" expand="lg" bg="dark" variant="dark" fixed = "top">
-                    <Navbar.Brand className="brand" href="/">PRERNA RAVI:  Aspire to Inspire
-                    </Navbar.Brand>
-                    <NavbarToggle/>
-                    <NavbarCollapse/>
-                    <Nav className="navbar-options-format">
-                        <Nav.Link href="/">About</Nav.Link>
-                        <Nav.Link href="/experience">Experience</Nav.Link>
-                        <Nav.Link href="/research">Research & Projects</Nav.Link>
-                        <Nav.Link href="/skills">Skills</Nav.Link>
-                        <Nav.Link href="/interests">Interests</Nav.Link>
-                        <Nav.Link href="/contact">Contact</Nav.Link>
-                    </Nav>
-                </Navbar>
-            
-            <Row>
-                
+        <div responsive="true">    
+            <Row>       
                 <Image style={background} responsive="true" className="wallpaper-format" src={ResearchWallpaper} fluid="true"/>
-
+                <div className = "research-wallpaper-text">
+                    <p style={textStyle}>Hi! My name is Prerna, I am a </p>
+                </div>
                 <ResearchItems/>
-            </Row>
-
-
-            
+            </Row>    
         </div>
         );
     }
