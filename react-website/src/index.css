@@ -51,19 +51,6 @@ code {
   margin-top: 160px;
   margin-left: 140px;
 }
-.parallax {
-  /* The image used */
-  background-image: url(./images/home-page-wallpaper.png);
-
-  /* Set a specific height */
-  height: 500px;
-
-  /* Create the parallax scrolling effect */
-  background-attachment: fixed;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-}
 .about-me-text {
   margin-left: 90px;
   margin-top: 70px;
@@ -105,16 +92,6 @@ code {
   font-weight: 800px;
   font-size: large;
   color: #f2ebdd;
-}
-.callibration-pic-format {
-  width: 800px;
-  margin-top: 40px;
-  margin-left: 100px;
-}
-.copy-cat-pic-format {
-  width: 400px;
-  margin-top: 30px;
-  margin-left: 130px;
 }
 .research-wallpaper-text {
   justify-content: center;
