@@ -3,28 +3,28 @@ import logo from './logo.svg';
 import './App.css';
 import HomePage from './components/About/HomePage';
 import Research from './components/Experience/Research';
-import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
+//import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 import {Navbar, Image, Nav, Container, Row} from 'react-bootstrap';
-import NavbarCollapse from 'react-bootstrap/NavbarCollapse';
-import NavbarToggle from 'react-bootstrap/NavbarToggle';
+import { HashRouter as Router, Switch, Route, NavLink } from "react-router-dom";
 
 class App extends Component {
   render() {
   return (
     <div responsive="true" >
       <Navbar style={{backgroundColor: "black"}} className="nav-bar" expand="lg" bg="black" variant="dark" fixed = "top">
-      <Navbar.Brand className="brand" href="/">PRERNA RAVI
+      <Navbar.Brand className="brand" > <NavLink style={{color: "white", textDecoration: 'none' }} exact to="/"> PRERNA RAVI </NavLink>
       </Navbar.Brand>
-      <NavbarToggle/>
-      <NavbarCollapse/>
+      <Navbar.Toggle aria-controls="basic-navbar-nav" />
+      <Navbar.Collapse className="justify-content-end">
       <Nav className="navbar-options-format">
-        <Nav.Link style={{color: "white"}} href="/">About</Nav.Link>
-        <Nav.Link style={{color: "white"}} href="/experience">Experience</Nav.Link>
-        <Nav.Link style={{color: "white"}} href="/research">Research</Nav.Link>
-        <Nav.Link style={{color: "white"}} href="/research">Projects</Nav.Link>
-        <Nav.Link style={{color: "white"}} href="/skills">Skills</Nav.Link>
-        <Nav.Link style={{color: "white"}} href="/interests">Interests</Nav.Link>
+        <Nav.Link><NavLink style={{color: "#C0C0C0", textDecoration: 'none' }} activeStyle={{fontWeight: "bold", color: "white", textDecoration: 'none' }} exact to="/">About</NavLink></Nav.Link>
+        <Nav.Link><NavLink style={{color: "#C0C0C0", textDecoration: 'none' }} activeStyle={{fontWeight: "bold", color: "white", textDecoration: 'none' }} exact to="/experience">Experience</NavLink></Nav.Link>
+        <Nav.Link><NavLink style={{color: "#C0C0C0", textDecoration: 'none' }} activeStyle={{fontWeight: "bold", color: "white", textDecoration: 'none' }} exact to="/research">Research</NavLink></Nav.Link>
+        <Nav.Link><NavLink style={{color: "#C0C0C0", textDecoration: 'none' }} activeStyle={{fontWeight: "bold", color: "white", textDecoration: 'none' }} exact to="/projects">Projects</NavLink></Nav.Link>
+        <Nav.Link><NavLink style={{color: "#C0C0C0", textDecoration: 'none' }} activeStyle={{fontWeight: "bold", color: "white", textDecoration: 'none' }} exact to="/skills">Skills</NavLink></Nav.Link>
+        <Nav.Link><NavLink style={{color: "#C0C0C0", textDecoration: 'none' }} activeStyle={{fontWeight: "bold", color: "white", textDecoration: 'none' }} exact to="/interests">Interests</NavLink></Nav.Link>
       </Nav>
+      </Navbar.Collapse>
     </Navbar>
     <Router>
       <div className="App">
@@ -32,7 +32,7 @@ class App extends Component {
             <Route exact path='/' component={HomePage} />
             <Route path="/research" component={Research} />
             {/*<Route path="/sign-up" component={SignUp} />*/}
-        </Switch>
+      </Switch>
       </div>
     </Router>
     </div>
