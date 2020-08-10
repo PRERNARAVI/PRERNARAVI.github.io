@@ -23,7 +23,7 @@ class ExperienceItems extends React.Component{
                 </div>  
                 <Row >    
                 <Col >
-                <Image width="100%" responsive="true" style={{marginTop: "30px", marginLeft: "90px"}} src={AzureInsights} fluid="true"/>
+                <Image width="90%" responsive="true" style={{marginTop: "30px", marginLeft: "95px"}} src={AzureInsights} fluid="true"/>
                 </Col>
                 <Col >
                 <Image width="100%" style={{marginTop: "50px", marginLeft: "70px"}} responsive="true"  src={PowerBI} fluid="true"/> 
