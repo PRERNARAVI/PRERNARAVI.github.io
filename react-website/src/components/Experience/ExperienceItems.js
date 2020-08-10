@@ -3,6 +3,8 @@ import {Col, Image, Row, Container} from 'react-bootstrap';
 import TANDEM from "../../images/TANDEM.jpg";
 import Book from "../../images/Book.png";
 import Microsoft from "../../images/Microsoft.png";
+import AzureInsights from "../../images/AzureInsights.png";
+import PowerBI from "../../images/PowerBI.jpg";
 
 class ExperienceItems extends React.Component{
     render () {
@@ -14,11 +16,18 @@ class ExperienceItems extends React.Component{
             <Container className="microsoft-container" responsive="true">
                 <Row>
                 <Col xs={2}>    
-                <Image responsive="true" style={{marginTop: "90px", marginLeft: "100px"}} src={Microsoft} fluid="true"/>         
-                {/* 
-                <Image responsive="true" style={{marginTop: "30px", marginLeft: "120px"}} src={Hands} fluid="true"/>
-                <Image width="80%" style={{marginTop: "30px", marginLeft: "140px"}} responsive="true"  src={ASL} fluid="true"/> */}
-                
+                <Image responsive="true" style={{marginTop: "90px", marginLeft: "100px"}} src={Microsoft} fluid="true"/>  
+                <div style={{color: "#f2ebdd", fontFamily: "Tahoma, Geneva, sans-serif", marginLeft: "100px", marginTop: "20px", width: "100%", fontSize: 18}}>
+                    Redmond, Washington, United States
+                </div>  
+                <Row >    
+                <Col >
+                <Image width="100%" responsive="true" style={{marginTop: "30px", marginLeft: "90px"}} src={AzureInsights} fluid="true"/>
+                </Col>
+                <Col >
+                <Image width="100%" style={{marginTop: "50px", marginLeft: "70px"}} responsive="true"  src={PowerBI} fluid="true"/> 
+                </Col>
+                </Row> 
                 
                 
                 </Col>
@@ -33,17 +42,8 @@ class ExperienceItems extends React.Component{
                         </h4>
                         <br></br>
                         <div responsive="true">
-                        I am an undergraduate researcher at the GT UBICOMP Lab
-                        advised by <a style={{color: "#E9C46A"}} href="https://www.cc.gatech.edu/home/thad/"><u>Dr. Thad Starner</u></a>. Through the Center for 
-                        Accessible Technology in Sign, I am developing an 
-                        American Sign Language Recognition System and using 
-                        it to create a game, namely <a style={{color: "#E9C46A"}} href="https://www.cc.gatech.edu/home/thad/031_research.htm">
-                        <u>CopyCat</u></a>. Copycat is designed 
-                        as a framework to collect gesture data for Sign Language 
-                        Recognition, using a real time motion capture system and 
-                        as a means for deaf children to communicate with their 
-                        hearing parents, through the medium of ASL, which we consider 
-                        their “native” language.
+                        I consider myself extremely fortunate to have gotten the splendid opportunity to intern as a Sofware Engineer at a 
+                        prestiguous company like <a style={{color: "#E9C46A"}} href="https://www.microsoft.com/en-us/"><u>Microsoft</u></a>.
                         </div>
                         <br></br>
                         <div responsive="true">
