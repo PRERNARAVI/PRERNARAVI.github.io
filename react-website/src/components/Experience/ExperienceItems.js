@@ -5,6 +5,7 @@ import Book from "../../images/Book.png";
 import Microsoft from "../../images/Microsoft.png";
 import AzureInsights from "../../images/AzureInsights.png";
 import PowerBI from "../../images/PowerBI.jpg";
+import { HashRouter as Router, Switch, Route, NavLink } from "react-router-dom";
 
 class ExperienceItems extends React.Component{
     render () {
@@ -16,8 +17,8 @@ class ExperienceItems extends React.Component{
             <Container className="microsoft-container" responsive="true">
                 <Row>
                 <Col xs={2}>    
-                <Image responsive="true" style={{marginTop: "60px", marginLeft: "100px"}} src={Microsoft} fluid="true"/>  
-                <div style={{color: "#f2ebdd", fontFamily: "Tahoma, Geneva, sans-serif", marginLeft: "100px", marginTop: "20px", width: "100%", fontSize: 18}}>
+                <Image responsive="true" style={{marginTop: "60px", marginLeft: "120px"}} src={Microsoft} fluid="true"/>  
+                <div style={{color: "#f2ebdd", fontFamily: "Tahoma, Geneva, sans-serif", marginLeft: "120px", marginTop: "20px", width: "100%", fontSize: 18}}>
                     Redmond, Washington, United States
                 </div>  
                 <Row >    
@@ -44,16 +45,18 @@ class ExperienceItems extends React.Component{
                         <div responsive="true">
                         I consider myself extremely fortunate to have gotten the splendid opportunity to intern as a Software Engineer at a 
                         prestigious company like <a style={{color: "#E9C46A"}} href="https://www.microsoft.com/en-us/"><u>Microsoft</u></a> under
-                        its Core Services Engineering and Operations (CSEO) Organization. This internship introduced me to the nuances of 
+                        its <a style={{color: "#E9C46A"}} href="https://www.microsoft.com/en-us/itshowcase/working-in-cseo-the-heartbeat-of-microsoft"><u>Core Services Engineering and Operations (CSEO)</u></a> Organization. This internship introduced me to the nuances of 
                         Agile Software Development in the corporate world. Not only did this give me an incredible opportunity to hone by technical skills,
-                        building meaningful interactions with full time employees, interns as well as leaders like Satya Nadella, Kurt Delbene and Phil Spencer helped me polish my communication,
+                        building meaningful interactions with full time employees, interns as well as leaders like <a style={{color: "#E9C46A"}} href="https://en.wikipedia.org/wiki/Satya_Nadella"><u>Satya Nadella</u></a>, <a style={{color: "#E9C46A"}} 
+                        href="https://en.wikipedia.org/wiki/Kurt_DelBene"><u> Kurt DelBene</u></a> and <a style={{color: "#E9C46A"}} href="https://en.wikipedia.org/wiki/Phil_Spencer_(business_executive)"><u>Phil Spencer</u></a> helped me polish my communication,
                         presentation and leadership abilities and ingrained values of empathy, diligence and responsibility.                      
                         </div>
                         <br></br>
                         <div responsive="true">
                         As an intern within the Professional Services team, I designed and implemented a centralized telemetry service to monitor an all-inclusive web platform used by 
-                        internal consultants to track their projects and finances. I developed a new telemetry system using Angular and TypeScript that logs all UI events, page views, 
-                        API requests and errors to Azure Application Insights. Using the real time user data that this 
+                        internal consultants to track their projects and finances. I developed a new telemetry system using <a style={{color: "#E9C46A"}} href="https://en.wikipedia.org/wiki/Angular_(web_framework)"><u>Angular</u></a> and <a style={{color: "#E9C46A"}}
+                         href="https://en.wikipedia.org/wiki/TypeScript"><u>TypeScript</u></a> that logs all UI events, page views, 
+                        API requests and errors to <a style={{color: "#E9C46A"}} href="https://docs.microsoft.com/en-us/azure/azure-monitor/app/app-insights-overview"><u>Azure Application Insights</u></a>. Using the real time user data that this 
                         </div>
                         {/* <div responsive="true">
                             Presentations:  <a style={{color: "#E9C46A"}} href="http://www.undergradresearch.gatech.edu/spring-symposium">
@@ -66,16 +69,16 @@ class ExperienceItems extends React.Component{
                 <Container style={{marginLeft: "100px", marginTop: "2px", fontFamily: "Tahoma, Geneva, sans-serif",
                 textAlign: "left", fontWeight: "800px", fontSize: "large", color: "#f2ebdd", width: "100%"}} responsive="true">
                 <div responsive="true">
-                system produced, I built dashboards using Kusto Query Language, Azure 
-                        Data Explorer and Microsoft Power BI to analyze user behavior and track key trends, feature usage and pain points across multiple pages and environments of the 
+                system produced, I built dashboards using <a style={{color: "#E9C46A"}} href="https://docs.microsoft.com/en-us/azure/data-explorer/kusto/concepts/"><u>Kusto Query Language, Azure 
+                        Data Explorer</u></a> and <a style={{color: "#E9C46A"}} href="https://powerbi.microsoft.com/en-us/"><u>Microsoft Power BI</u></a> to analyze user behavior and track key trends, feature usage and pain points across multiple pages and environments of the 
                         application.
                         This system thus helps assist debugging and product improvement, directly impacting the experience of over 5000 users of the application. It also drives every future business 
-                        and engineering decision around feature investment, devlopment and enhancement.
+                        and engineering decision around feature investment, development and enhancement.
                 </div>
                 <br></br>
                         <div responsive="true">
                         My experience at Microsoft was embellished further with three additional projects across two hackathons as well as a Co-Creation project that lives very close to my heart.
-                        Explore my Projects page to learn more about them!
+                        Explore my <NavLink style={{color: "#E9C46A", textDecoration: 'none' }} exact to="/projects"><u>Projects</u></NavLink> page to learn more about them!
                         </div>
                 </Container>
                 </Row>
