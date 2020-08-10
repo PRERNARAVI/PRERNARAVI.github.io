@@ -16,7 +16,7 @@ class ExperienceItems extends React.Component{
             <Container className="microsoft-container" responsive="true">
                 <Row>
                 <Col xs={2}>    
-                <Image responsive="true" style={{marginTop: "90px", marginLeft: "100px"}} src={Microsoft} fluid="true"/>  
+                <Image responsive="true" style={{marginTop: "60px", marginLeft: "100px"}} src={Microsoft} fluid="true"/>  
                 <div style={{color: "#f2ebdd", fontFamily: "Tahoma, Geneva, sans-serif", marginLeft: "100px", marginTop: "20px", width: "100%", fontSize: 18}}>
                     Redmond, Washington, United States
                 </div>  
@@ -42,32 +42,42 @@ class ExperienceItems extends React.Component{
                         </h4>
                         <br></br>
                         <div responsive="true">
-                        I consider myself extremely fortunate to have gotten the splendid opportunity to intern as a Sofware Engineer at a 
-                        prestiguous company like <a style={{color: "#E9C46A"}} href="https://www.microsoft.com/en-us/"><u>Microsoft</u></a> under
-                         its Core Services Engineering and Operations Organization.
+                        I consider myself extremely fortunate to have gotten the splendid opportunity to intern as a Software Engineer at a 
+                        prestigious company like <a style={{color: "#E9C46A"}} href="https://www.microsoft.com/en-us/"><u>Microsoft</u></a> under
+                        its Core Services Engineering and Operations (CSEO) Organization. This internship introduced me to the nuances of 
+                        Agile Software Development in the corporate world. Not only did this give me an incredible opportunity to hone by technical skills,
+                        building meaningful interactions with full time employees, interns as well as leaders like Satya Nadella, Kurt Delbene and Phil Spencer helped me polish my communication,
+                        presentation and leadership abilities and ingrained values of empathy, diligence and responsibility.                      
                         </div>
                         <br></br>
                         <div responsive="true">
-                        CopyCat is a game developed in Unity, a cross-platform game engine 
-                        using C# as its programming language. I have developed a user-friendly calibration 
-                        tool as part of its tutorial modules using an RGB Depth camera.
-                        Using this and Computer Vision tools like Microsoft Kinect and Google MediaPipe, I have developed a real-time
-                        motion capture system (body, hands & face) for ASL signers. This framework, 
-                        iteratively trained using the HTK pipeline and Hidden Markov Models (HMMs) 
-                        takes us one step closer to achieving Optimal Sign Language Recognition and has the 
-                        immense potential to teach young children ASL 
-                        at a tender age, thereby improving the quality of their lives by facilitating 
-                        good communication with their hearing parents.
+                        As an intern within the Professional Services team, I designed and implemented a centralized telemetry service to monitor an all-inclusive web platform used by 
+                        internal consultants to track their projects and finances. I developed a new telemetry system using Angular and TypeScript that logs all UI events, page views, 
+                        API requests and errors to Azure Application Insights. Using the real time user data that this 
                         </div>
-                        <br></br>
-                        <div responsive="true">
+                        {/* <div responsive="true">
                             Presentations:  <a style={{color: "#E9C46A"}} href="http://www.undergradresearch.gatech.edu/spring-symposium">
                              <u>Undergraduate Research Symposium at Georgia Tech (2019)</u></a>
-                        </div>
+                        </div> */}
                         
                     </div>
                 </Container>
                 </Col>
+                <Container style={{marginLeft: "100px", marginTop: "2px", fontFamily: "Tahoma, Geneva, sans-serif",
+                textAlign: "left", fontWeight: "800px", fontSize: "large", color: "#f2ebdd", width: "100%"}} responsive="true">
+                <div responsive="true">
+                system produced, I built dashboards using Kusto Query Language, Azure 
+                        Data Explorer and Microsoft Power BI to analyze user behavior and track key trends, feature usage and pain points across multiple pages and environments of the 
+                        application.
+                        This system thus helps assist debugging and product improvement, directly impacting the experience of over 5000 users of the application. It also drives every future business 
+                        and engineering decision around feature investment, devlopment and enhancement.
+                </div>
+                <br></br>
+                        <div responsive="true">
+                        My experience at Microsoft was embellished further with three additional projects across two hackathons as well as a Co-Creation project that lives very close to my heart.
+                        Explore my Projects page to learn more about them!
+                        </div>
+                </Container>
                 </Row>
             </Container>
             <br></br>
