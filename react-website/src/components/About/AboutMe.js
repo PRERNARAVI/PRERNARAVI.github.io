@@ -47,7 +47,7 @@ class AboutMe extends React.Component{
                     </div>
                     <br></br>
                     <div>
-                    With my upbringing rooted in deep Indian tradition, roots, I have also been fortunate to have been trained in classical Carnatic music and 
+                    With my upbringing rooted in deep Indian traditions, I have also been fortunate to have been trained in classical Carnatic music and 
                     Bharatanatyam. I also have a keen artistic sense and a preview of my repertoire is available here. 
                     </div>
                 </Container>

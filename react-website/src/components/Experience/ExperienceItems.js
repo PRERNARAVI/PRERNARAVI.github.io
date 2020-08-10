@@ -39,7 +39,7 @@ class ExperienceItems extends React.Component{
                             MICROSOFT
                         </h3>
                         <h4 style={{fontWeight:"500", fontFamily: "Tahoma, Geneva, sans-serif"}} responsive="true">
-                            Sofware Engineer Intern, <i> May 2020 - July 2020 </i>
+                            Software Engineer Intern, <i> May 2020 - July 2020 </i>
                         </h4>
                         <br></br>
                         <div responsive="true">
