@@ -2,6 +2,7 @@ import React from 'react';
 import {Col, Image, Row, Container} from 'react-bootstrap';
 import TANDEM from "../../images/TANDEM.jpg";
 import Book from "../../images/Book.png";
+import Microsoft from "../../images/Microsoft.png";
 
 class ExperienceItems extends React.Component{
     render () {
@@ -12,26 +13,24 @@ class ExperienceItems extends React.Component{
             <Container className="research-container" responsive="true">
             <Container className="microsoft-container" responsive="true">
                 <Row>
-                <Col xs={3}>    
-                {/* <Image width="80%"responsive="true" style={{marginTop: "70px", marginLeft: "140px"}} src={UBICOMP} fluid="true"/>         
+                <Col xs={2}>    
+                <Image responsive="true" style={{marginTop: "90px", marginLeft: "100px"}} src={Microsoft} fluid="true"/>         
+                {/* 
                 <Image responsive="true" style={{marginTop: "30px", marginLeft: "120px"}} src={Hands} fluid="true"/>
                 <Image width="80%" style={{marginTop: "30px", marginLeft: "140px"}} responsive="true"  src={ASL} fluid="true"/> */}
                 
                 
                 
                 </Col>
-                <Col xs={7}>
+                <Col xs={8}>
                 <Container className="sign-language-text" responsive="true">
                     <div style={fontFormat} responsive="true">
                         <h3 style={{fontWeight:"medium", fontFamily: "Tahoma, Geneva, sans-serif", marginTop: "0px"}} responsive="true">
-                            AMERICAN SIGN LANGUAGE RECOGNITION
+                            MICROSOFT
                         </h3>
                         <h4 style={{fontWeight:"500", fontFamily: "Tahoma, Geneva, sans-serif"}} responsive="true">
-                            Georgia Tech Ubiquitous Computing (UBICOMP) Lab
+                            Sofware Engineer Intern, <i> May 2020 - July 2020 </i>
                         </h4>
-                        {/* <h5 responsive="true">
-                            <i>January 2019 - Present</i>
-                        </h5> */}
                         <br></br>
                         <div responsive="true">
                         I am an undergraduate researcher at the GT UBICOMP Lab
