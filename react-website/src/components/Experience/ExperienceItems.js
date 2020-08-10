@@ -43,7 +43,8 @@ class ExperienceItems extends React.Component{
                         <br></br>
                         <div responsive="true">
                         I consider myself extremely fortunate to have gotten the splendid opportunity to intern as a Sofware Engineer at a 
-                        prestiguous company like <a style={{color: "#E9C46A"}} href="https://www.microsoft.com/en-us/"><u>Microsoft</u></a>.
+                        prestiguous company like <a style={{color: "#E9C46A"}} href="https://www.microsoft.com/en-us/"><u>Microsoft</u></a> under
+                         its Core Services Engineering and Operations Organization.
                         </div>
                         <br></br>
                         <div responsive="true">
