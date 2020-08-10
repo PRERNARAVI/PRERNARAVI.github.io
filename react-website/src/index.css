@@ -78,6 +78,23 @@ code {
   background-color:#752A09;
   
 }
+.microsoft-container {
+  position: relative;
+  max-width: 90%;
+  margin-top: 100px;
+  padding: 0px;
+  left: 0px;
+  height: 87vh;
+  background-color:#11403B;
+}
+.ta-container {
+  position: relative;
+  max-width: 90%;
+  padding: 0px;
+  left: 0px;
+  height: 87vh;
+  background-color:#279186;
+}
 .research-container {
   max-width: 102%;
   padding: 0px;
