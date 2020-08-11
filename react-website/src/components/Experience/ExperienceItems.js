@@ -5,6 +5,8 @@ import Book from "../../images/Book.png";
 import Microsoft from "../../images/Microsoft.png";
 import AzureInsights from "../../images/AzureInsights.png";
 import PowerBI from "../../images/PowerBI.jpg";
+import CoC from "../../images/CoC.jpg";
+import Java from "../../images/Java.png";
 import { HashRouter as Router, Switch, Route, NavLink } from "react-router-dom";
 
 class ExperienceItems extends React.Component{
@@ -108,26 +110,28 @@ class ExperienceItems extends React.Component{
                         </div>
                         <br></br>
                         <div responsive="true">
-                        As part of this project, I have undertaken a qualitative study involving remote interviews (including group calls or focus groups) and an online survey with parents, 
-                        students, teachers, and administrators from or working with underserved contexts where limited, intermittent, and/or shared access to mobile 
-                        or computing devices and the internet has been the norm. 
-                        Using these, I am examining which online platforms and sociotechnical infrastructures 
-                        are supporting this transition. These results will help me co-design technology interventions to support the sustainable, long-term adoption of online 
-                        learning in a post-COVID world, alongside a return to traditional classroom teaching.
+                        <i>"The Best Way to Learn is to Teach."</i> Guiding students and empowering them to grow
+                        into good programmers is irrefutably one of the most rewarding experiences I have had till date. Not only do I believe that
+                        teaching is the best way to give back to the community, it has also strengthened my knowledge in the area of 
+                        fundamental <a style={{color: "#E9C46A"}} href="https://en.wikipedia.org/wiki/Object-oriented_programming"><u>Object Oriented Programming</u></a> and the  
+                        core <a style={{color: "#E9C46A"}} href="https://en.wikipedia.org/wiki/Object-oriented_programming"><u>Java</u></a> language. As a member of the team of teaching assistants 
+                        for one of the largest Computer Science courses on campus, consisting of over 800 students every semester, I assist 
+                        the professors by preparing course materials for lectures and online tutorials to supplement the material being taught.
+                        Additionally, I conduct recitations and office hours to help students develop strong coding and debugging skills. I also
+                        build grading frameworks for programming assignments and exams that assess the students' understanding of the concepts covered 
+                        in the course. These daily responsibilities have ingrained in me the values of empathy, diginity, leadership, effective listening 
+                        and communication essential for an all rounded development.
+
                         </div>
-                        <br></br>
-                        <div responsive="true">
-                            Awards:  <a style={{color: "#E9C46A"}} href="http://www.undergradresearch.gatech.edu/content/presidents-undergraduate-research-awards">
-                             <u>President's Undergraduate Research Award (PURA) (2020)</u></a>
-                        </div>
+                        
                         
                     </div>
                 </Container>
                 </Col>
                 <Col xs={2}>     
-                <Image width="70%" roundedCircle responsive="true" style={{marginLeft: "150px", marginTop: "80px"}} src={TANDEM} fluid="true"/>         
+                <Image width="100%" responsive="true" style={{marginLeft: "130px", marginTop: "80px"}} src={CoC} fluid="true"/>         
                 
-                <Image responsive="true" className="callibration-pic-format" style={{marginLeft: "100px", marginTop: "20px"}} src={Book} fluid="true"/>
+                <Image width="100%" responsive="true" style={{marginLeft: "130px", marginTop: "40px"}} src={Java} fluid="true"/>
                 {/*
                 <Image responsive="true" className="copy-cat-pic-format" src={CopyCatScreen} fluid="true"/>
                 */}
