@@ -87,25 +87,24 @@ class ExperienceItems extends React.Component{
             <br></br>
             <Container className="ta-container" responsive="true">
                 <Row>
-                <Col xs={7}>
+                <Col xs={8}>
                 <Container className="sign-language-text" responsive="true">
                     <div style={fontFormat} responsive="true">
                     <h3 style={{fontWeight:"medium", fontFamily: "Tahoma, Geneva, sans-serif", marginTop: "0px"}} responsive="true">
-                            ONLINE LEARNING IN UNDERSERVED CONTEXTS
+                            COLLEGE OF COMPUTING AT GEORGIA TECH
                         </h3>
                         <h4 style={{fontWeight:"500", fontFamily: "Tahoma, Geneva, sans-serif"}} responsive="true">
-                            Technology and Design for Empowerment on the Margins (TanDEM) Lab
+                            Teaching Assistant for Object Oriented Programming, <i>January 2019 - Present</i>
                         </h4>
                         {/* <h5 responsive="true">
                             <i>January 2019 - Present</i>
                         </h5> */}
                         <br></br>
                         <div responsive="true">
-                        I am an undergraduate researcher at the Georgia Tech TanDEM Lab
-                        advised by <a style={{color: "#E9C46A"}} href="https://www.nehakumar.org/"><u>Dr. Neha Kumar</u></a>. 
-                        I am contributing towards a rich and evolving body of research on the design and development of education technology for 
-                        underserved settings in the Global South. With the changing digital landscape, particularly during COVID-19, I am currently investigating 
-                        how educational institutions working with underprivileged populations in India are coping with the transition to online learning.
+                        I am an Undergraduate Teaching Assistant for Object Oriented Programming in Java - an introductory  
+                        course that every Computer Science major and minor is required to take at Georgia Tech. As part of this role, 
+                        I have had the priviledge of working with professors like <a style={{color: "#E9C46A"}} href="https://en.wikipedia.org/wiki/John_Stasko"><u>John Stasko</u></a> and 
+                        Susan Watson-Phillips. 
                         </div>
                         <br></br>
                         <div responsive="true">
@@ -125,7 +124,7 @@ class ExperienceItems extends React.Component{
                     </div>
                 </Container>
                 </Col>
-                <Col xs={3}>     
+                <Col xs={2}>     
                 <Image width="70%" roundedCircle responsive="true" style={{marginLeft: "150px", marginTop: "80px"}} src={TANDEM} fluid="true"/>         
                 
                 <Image responsive="true" className="callibration-pic-format" style={{marginLeft: "100px", marginTop: "20px"}} src={Book} fluid="true"/>
