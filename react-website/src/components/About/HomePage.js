@@ -46,7 +46,7 @@ class HomePage extends React.Component {
               
                 <Typewriter
                     options={{
-                        strings: ['Programmer.', 'Researcher.','Teaching Assistant.','Student.'],
+                        strings: ['Software Engineer.', 'Researcher.','Teaching Assistant.','Student.'],
                         autoStart: true,
                         loop: true,
                         delay: 60,

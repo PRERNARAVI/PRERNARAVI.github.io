@@ -1,6 +1,7 @@
 import React from 'react';
 import { Image, Container, Row, Card, Col} from 'react-bootstrap';
 import ResearchWallpaper from "../../images/research_wallpaper.jpg";
+import wallpaper from "../../images/home-page-wallpaper.png";
 import ResearchItems from './ResearchItems';
 
 class Research extends React.Component {
@@ -37,13 +38,13 @@ class Research extends React.Component {
             <Row className="justify-content-md-center"> 
             <Col xs={0} style={{alignContent: "center"}}>      
                 <Image style={background} responsive="true" className="wallpaper-format" src={ResearchWallpaper} fluid="true"/>
-                <div className = "research-wallpaper-text">
+                {/* <div className = "research-wallpaper-text">
                     <p style={textStyle}>I believe academic knowledge offers a strong theoretical framework for developing practical 
                     solutions for meeting challenges faced by the community and society. With this in mind, I have undertaken to 
                     pursue research projects under the guidance of some very experienced luminaries. These research projects have 
                     offered me stimulating challenges often emboldening me to push the boundaries and go beyond convention and 
                     lateral thinking.  </p>
-                </div>
+                </div> */}
             </Col>
                 <ResearchItems/>
             </Row>

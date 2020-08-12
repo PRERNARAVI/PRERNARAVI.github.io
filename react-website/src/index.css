@@ -41,19 +41,20 @@ code {
   position: relative;
   max-width: 90%;
   margin-top: 780px;
+  margin-bottom: 40px;
   padding-left: 40px;
   padding-right: 40px;
-  height: 100vh;
-  background-color: #264653;
-  
+  height: 87vh;
+  background-color: #003554;
+  border-radius: 20px;
 }
 .profile-pic-format {
-  margin-top: 160px;
-  margin-left: 140px;
+  margin-top: 120px;
+  margin-left: 70px;
 }
 .about-me-text {
   margin-left: 90px;
-  margin-top: 70px;
+  margin-top: 60px;
   font-family: Tahoma, Geneva, sans-serif;
   text-align: left;
   font-weight: 800px;
@@ -63,20 +64,21 @@ code {
 .sign-langauge-container {
   position: relative;
   max-width: 90%;
-  margin-top: 750px;
+  margin-top: 100px;
   padding: 0px;
   left: 0px;
   height: 87vh;
-  background-color:#48130A;
+  background-color:#14213d;
+  border-radius: 20px;
 }
 .tandem-container {
   position: relative;
   max-width: 90%;
   padding: 0px;
   left: 0px;
-  height: 87vh;
-  background-color:#752A09;
-  
+  height: 84vh;
+  background-color:#003554;
+  border-radius: 20px;  
 }
 .microsoft-container {
   position: relative;
@@ -86,6 +88,7 @@ code {
   left: 0px;
   height: 89vh;
   background-color:#14213d;
+  border-radius: 20px;
 }
 .ta-container {
   position: relative;
@@ -93,7 +96,8 @@ code {
   padding: 0px;
   left: 0px;
   height: 74vh;
-  background-color:#233A6C;
+  background-color:#003554;
+  border-radius: 20px;
 }
 .research-container {
   max-width: 102%;
@@ -134,7 +138,7 @@ code {
     font-family: Tahoma, Geneva, sans-serif;
     text-align: left;
     font-weight: 800px;
-    font-size: 12;
+    font-size: small;
     color: #f2ebdd;
     max-width: 100%;
   }

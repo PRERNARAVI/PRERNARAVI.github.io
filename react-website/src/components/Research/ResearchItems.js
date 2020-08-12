@@ -20,7 +20,7 @@ class ResearchItems extends React.Component{
                 <Row>
                 <Col xs={3}>    
                 <Image width="80%"responsive="true" style={{marginTop: "70px", marginLeft: "140px"}} src={UBICOMP} fluid="true"/>         
-                <Image responsive="true" style={{marginTop: "30px", marginLeft: "120px"}} src={Hands} fluid="true"/>
+                <Image width="90%" responsive="true" style={{marginTop: "30px", marginLeft: "130px"}} src={Hands} fluid="true"/>
                 <Image width="80%" style={{marginTop: "30px", marginLeft: "140px"}} responsive="true"  src={ASL} fluid="true"/>
                 
                 

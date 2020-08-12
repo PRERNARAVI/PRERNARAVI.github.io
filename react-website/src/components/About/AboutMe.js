@@ -11,19 +11,19 @@ class AboutMe extends React.Component{
         return (
             <Container className="about-me">
                 <Row>
-                <Col xs={4} >     
-                    <Image width="80%" roundedCircle responsive="true" className="profile-pic-format" src={profile} fluid="true"/>
-                    <div style={{textAlign: "center", justifyContent: "center", alignItems: "center", marginLeft: "100px", width: "100%"}}>
+                <Col xs={3} >     
+                    <Image width="100%" roundedCircle responsive="true" className="profile-pic-format" src={profile} fluid="true"/>
+                    <div style={{textAlign: "center", justifyContent: "center", alignItems: "center", marginLeft: "70px", width: "100%"}}>
                     <h4 style={{fontFamily: "Tahoma, Geneva, sans-serif", color: "white", marginTop: "20px", textAlign: "center"}}>Contact</h4>
                     <Row>
-                    <a href="https://github.com/PRERNARAVI"><GitHubIcon style={{color: "white", fontSize: 60, marginTop: "15px", marginLeft: "40px"}}/></a>
+                    <a href="https://github.com/PRERNARAVI"><GitHubIcon style={{color: "white", fontSize: 60, marginTop: "15px", marginLeft: "30px"}}/></a>
                     <a href="https://www.linkedin.com/in/prerna-ravi/"><LinkedInIcon style={{color: "white", fontSize: 65, marginTop: "15px", marginLeft: "30px"}}/></a>
                     <a href="mailto: prernaravi@gatech.edu"><EmailIcon style={{color: "white", fontSize: 65, marginTop: "15px", marginLeft: "30px"}}/></a>
-                    <a href="https://www.instagram.com/prerna_2k/"><InstagramIcon style={{color: "white", fontSize: 65, marginTop: "15px", marginLeft: "30px"}}/></a>
+                    {/* <a href="https://www.instagram.com/prerna_2k/"><InstagramIcon style={{color: "white", fontSize: 65, marginTop: "15px", marginLeft: "30px"}}/></a> */}
                     </Row>
                     </div>
                 </Col>
-                <Col xs={6}>
+                <Col xs={7}>
                 <Container className="about-me-text">
                         <h1 style={{fontWeight:"500"}}>
                             PRERNA RAVI
