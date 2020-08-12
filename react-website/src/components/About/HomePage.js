@@ -3,17 +3,23 @@ import { Image, Container, Row} from 'react-bootstrap';
 import wallpaper from "../../images/home-page-wallpaper.png";
 import Typewriter from 'typewriter-effect';
 import AboutMe from './AboutMe';
+import BlackOne from "../../images/BlackOne.jpg"
  
 
 class HomePage extends React.Component {
 
   render() {
     var background = {
-    marginRight: 0,
-    backgroundSize: 'cover',
-    position: 'fixed',
-    backgroundPosition: 'center',
-    backgroundRepeat: 'no-repeat',
+      marginTop: 60,
+      marginRight: 0,
+      marginLeft: 0,
+      backgroundSize: 'cover',
+      position: 'fixed',
+      backgroundPosition: 'center',
+      backgroundRepeat: 'repeat-y',
+      width: '102%',
+      height: "100%"
+
     
   };
     var textStyle = {
@@ -37,7 +43,7 @@ class HomePage extends React.Component {
       
         <div responsive="true" >
         <Row>
-          <Image style={background} responsive="true" className="wallpaper-format" src={wallpaper} fluid="true"/>
+          <Image style={background} responsive="true" className="wallpaper-format" src={BlackOne} fluid="true"/>
         
             <div className = "wallpaper-text">
               <h1 style={textStyle}>Hi! My name is Prerna, I am a </h1>
@@ -45,7 +51,7 @@ class HomePage extends React.Component {
               
                 <Typewriter
                     options={{
-                        strings: ['Software Engineer.', 'Researcher.','Teaching Assistant.','Student.'],
+                        strings: ['Software Developer.', 'Researcher.','Teaching Assistant.','Student.'],
                         autoStart: true,
                         loop: true,
                         delay: 60,

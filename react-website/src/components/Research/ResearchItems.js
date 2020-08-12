@@ -125,6 +125,8 @@ class ResearchItems extends React.Component{
                 </Col>
                 </Row>
             </Container>
+            <br></br>
+            <br></br>
             </Container>
             
         );

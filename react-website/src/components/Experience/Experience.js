@@ -2,6 +2,8 @@ import React from 'react';
 import { Image, Container, Row, Card, Col} from 'react-bootstrap';
 import ExperienceWallpaper from "../../images/ExperienceWallpaper.jpg";
 import ExperienceItems from './ExperienceItems';
+import Black from "../../images/black.jpg";
+import BlackOne from "../../images/BlackOne.jpg";
 
 class Experience extends React.Component {
 
@@ -15,6 +17,7 @@ class Experience extends React.Component {
             backgroundPosition: 'center',
             backgroundRepeat: 'no-repeat',
             width: '102%',
+            height: "100%"
             
         };
         var textStyle = {
@@ -36,7 +39,7 @@ class Experience extends React.Component {
         <div responsive="true">    
             <Row className="justify-content-md-center"> 
             <Col xs={0} style={{alignContent: "center"}}>      
-                <Image style={background} responsive="true" className="wallpaper-format" src={ExperienceWallpaper} fluid="true"/>
+                <Image style={background} responsive="true" className="wallpaper-format" src={BlackOne} fluid="true"/>
                 <div className = "research-wallpaper-text">
                     {/* <p style={textStyle}>I believe academic knowledge offers a strong theoretical framework for developing practical 
                     solutions for meeting challenges faced by the community and society. With this in mind, I have undertaken to 

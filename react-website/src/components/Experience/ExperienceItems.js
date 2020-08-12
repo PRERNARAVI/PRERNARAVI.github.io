@@ -90,7 +90,7 @@ class ExperienceItems extends React.Component{
             <Container className="ta-container" responsive="true">
                 <Row>
                 <Col xs={8}>
-                <Container className="sign-language-text" responsive="true">
+                <Container style={{marginLeft: "110px"}} className="sign-language-text" responsive="true">
                     <div style={fontFormat} responsive="true">
                     <h3 style={{fontWeight:"medium", fontFamily: "Tahoma, Geneva, sans-serif", marginTop: "0px"}} responsive="true">
                             COLLEGE OF COMPUTING AT GEORGIA TECH
@@ -129,15 +129,17 @@ class ExperienceItems extends React.Component{
                 </Container>
                 </Col>
                 <Col xs={2}>     
-                <Image width="100%" responsive="true" style={{marginLeft: "130px", marginTop: "80px"}} src={CoC} fluid="true"/>         
+                <Image width="100%" responsive="true" style={{marginLeft: "110px", marginTop: "80px"}} src={CoC} fluid="true"/>         
                 
-                <Image width="100%" responsive="true" style={{marginLeft: "130px", marginTop: "40px"}} src={Java} fluid="true"/>
+                <Image width="100%" responsive="true" style={{marginLeft: "110px", marginTop: "40px"}} src={Java} fluid="true"/>
                 {/*
                 <Image responsive="true" className="copy-cat-pic-format" src={CopyCatScreen} fluid="true"/>
                 */}
                 </Col>
                 </Row>
             </Container>
+            <br></br>
+            <br></br>
             </Container>
             
         );

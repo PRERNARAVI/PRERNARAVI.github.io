@@ -44,8 +44,8 @@ code {
   padding-left: 40px;
   padding-right: 40px;
   height: 87vh;
-  background-color: #003554;
-  border-radius: 20px;
+  background-color: #0e172a; 
+  border-radius: 15px;
 }
 .profile-pic-format {
   margin-top: 120px;
@@ -68,7 +68,7 @@ code {
   left: 0px;
   height: 88vh;
   background-color:#14213d;
-  border-radius: 20px;
+  
 }
 .tandem-container {
   position: relative;
@@ -77,7 +77,7 @@ code {
   left: 0px;
   height: 84vh;
   background-color:#003554;
-  border-radius: 20px;  
+   
 }
 .microsoft-container {
   position: relative;
@@ -86,8 +86,8 @@ code {
   padding: 0px;
   left: 0px;
   height: 89vh;
-  background-color:#14213d;
-  border-radius: 20px;
+  background-color:#0e172a;
+  border-radius: 15px;
 }
 .ta-container {
   position: relative;
@@ -95,8 +95,8 @@ code {
   padding: 0px;
   left: 0px;
   height: 74vh;
-  background-color:#003554;
-  border-radius: 20px;
+  background-color:#14213d;
+  border-radius: 15px;
 }
 .research-container {
   max-width: 102%;
@@ -150,6 +150,16 @@ code {
   padding: auto;
   align-self: center;
   color:#f2ebdd; 
+}
+.card-image {
+  opacity: 0.5;
+  border-radius: "10px";
+  height: "90%";
+}
+.card-image:hover {
+  opacity: 1;
+  transition:  opacity 3s ease;
+  display: block;
 }
 
 
