@@ -4,6 +4,7 @@ import './App.css';
 import HomePage from './components/About/HomePage';
 import Research from './components/Research/Research';
 import Experience from './components/Experience/Experience';
+import Projects from './components/Projects/Projects';
 //import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 import {Navbar, Image, Nav, Container, Row} from 'react-bootstrap';
 import { HashRouter as Router, Switch, Route, NavLink } from "react-router-dom";
@@ -32,7 +33,8 @@ class App extends Component {
       <Switch>
             <Route exact path='/' component={HomePage} />
             <Route path="/research" component={Research} />
-            /*<Route path="/experience" component={Experience} />
+            <Route path="/experience" component={Experience} />
+            <Route path="/projects" component={Projects} />
       </Switch>
       </div>
     </Router>

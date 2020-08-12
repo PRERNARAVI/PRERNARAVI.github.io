@@ -49,7 +49,7 @@ class HomePage extends React.Component {
                         autoStart: true,
                         loop: true,
                         delay: 60,
-                        deleteSpeed: 30
+                        deleteSpeed: 30,
                     }}
                 />
               </h1>
