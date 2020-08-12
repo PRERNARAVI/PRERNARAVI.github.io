@@ -13,17 +13,17 @@ class App extends Component {
   return (
     <div responsive="true" >
       <Navbar style={{backgroundColor: "black"}} className="nav-bar" expand="lg" bg="black" variant="dark" fixed = "top">
-      <Navbar.Brand className="brand" > <NavLink style={{color: "white", textDecoration: 'none' }} exact to="/"> PRERNA RAVI </NavLink>
+      <Navbar.Brand className="brand" > <NavLink style={{color: "#f2ebdd", textDecoration: 'none' }} exact to="/"> PRERNA RAVI </NavLink>
       </Navbar.Brand>
       <Navbar.Toggle aria-controls="basic-navbar-nav" />
       <Navbar.Collapse className="justify-content-end">
       <Nav className="navbar-options-format">
-        <Nav.Link><NavLink style={{color: "#C0C0C0", textDecoration: 'none' }} activeStyle={{fontWeight: "bold", color: "white", textDecoration: 'none' }} exact to="/">About</NavLink></Nav.Link>
-        <Nav.Link><NavLink style={{color: "#C0C0C0", textDecoration: 'none' }} activeStyle={{fontWeight: "bold", color: "white", textDecoration: 'none' }} exact to="/experience">Experience</NavLink></Nav.Link>
-        <Nav.Link><NavLink style={{color: "#C0C0C0", textDecoration: 'none' }} activeStyle={{fontWeight: "bold", color: "white", textDecoration: 'none' }} exact to="/research">Research</NavLink></Nav.Link>
-        <Nav.Link><NavLink style={{color: "#C0C0C0", textDecoration: 'none' }} activeStyle={{fontWeight: "bold", color: "white", textDecoration: 'none' }} exact to="/projects">Projects</NavLink></Nav.Link>
-        <Nav.Link><NavLink style={{color: "#C0C0C0", textDecoration: 'none' }} activeStyle={{fontWeight: "bold", color: "white", textDecoration: 'none' }} exact to="/skills">Skills</NavLink></Nav.Link>
-        <Nav.Link><NavLink style={{color: "#C0C0C0", textDecoration: 'none' }} activeStyle={{fontWeight: "bold", color: "white", textDecoration: 'none' }} exact to="/interests">Interests</NavLink></Nav.Link>
+        <Nav.Link><NavLink style={{color: "#b3b3b3", textDecoration: 'none' }} activeStyle={{fontWeight: "bold", color: "#f2ebdd", textDecoration: 'none' }} exact to="/">About</NavLink></Nav.Link>
+        <Nav.Link><NavLink style={{color: "#b3b3b3", textDecoration: 'none' }} activeStyle={{fontWeight: "bold", color: "#f2ebdd", textDecoration: 'none' }} exact to="/experience">Experience</NavLink></Nav.Link>
+        <Nav.Link><NavLink style={{color: "#b3b3b3", textDecoration: 'none' }} activeStyle={{fontWeight: "bold", color: "#f2ebdd", textDecoration: 'none' }} exact to="/research">Research</NavLink></Nav.Link>
+        <Nav.Link><NavLink style={{color: "#b3b3b3", textDecoration: 'none' }} activeStyle={{fontWeight: "bold", color: "#f2ebdd", textDecoration: 'none' }} exact to="/projects">Projects</NavLink></Nav.Link>
+        <Nav.Link><NavLink style={{color: "#b3b3b3", textDecoration: 'none' }} activeStyle={{fontWeight: "bold", color: "#f2ebdd", textDecoration: 'none' }} exact to="/skills">Skills</NavLink></Nav.Link>
+        <Nav.Link><NavLink style={{color: "#b3b3b3", textDecoration: 'none' }} activeStyle={{fontWeight: "bold", color: "#f2ebdd", textDecoration: 'none' }} exact to="/interests">Interests</NavLink></Nav.Link>
       </Nav>
       </Navbar.Collapse>
     </Navbar>
