@@ -3,7 +3,6 @@ import { Image, Container, Row} from 'react-bootstrap';
 import wallpaper from "../../images/home-page-wallpaper.png";
 import Typewriter from 'typewriter-effect';
 import AboutMe from './AboutMe';
-import { ParallaxProvider } from 'react-scroll-parallax';
  
 
 class HomePage extends React.Component {

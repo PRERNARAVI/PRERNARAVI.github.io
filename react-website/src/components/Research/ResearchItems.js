@@ -1,8 +1,5 @@
 import React from 'react';
 import {Col, Image, Row, Container} from 'react-bootstrap';
-import SignLanguage from "../../images/sign-language-hands.png";
-import Callibration from "../../images/Callibration.png";
-import CopyCatScreen from "../../images/copy-cat-screen.png";
 import UBICOMP from "../../images/ubicomp.png";
 import ASL from "../../images/ASL.png";
 import Hands from "../../images/hands.png";

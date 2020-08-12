@@ -4,7 +4,7 @@ import profile from "../../images/profile-pic.JPG";
 import GitHubIcon from '@material-ui/icons/GitHub';
 import LinkedInIcon from '@material-ui/icons/LinkedIn';
 import EmailIcon from '@material-ui/icons/Email';
-import InstagramIcon from '@material-ui/icons/Instagram';
+//import InstagramIcon from '@material-ui/icons/Instagram';
 
 class AboutMe extends React.Component{
     render () {

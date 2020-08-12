@@ -1,7 +1,6 @@
 import React from 'react';
-import { Image, Container, Row, Card, Col} from 'react-bootstrap';
+import { Image, Container, Row, Col} from 'react-bootstrap';
 import ResearchWallpaper from "../../images/research_wallpaper.jpg";
-import wallpaper from "../../images/home-page-wallpaper.png";
 import ResearchItems from './ResearchItems';
 
 class Research extends React.Component {
