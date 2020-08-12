@@ -14,11 +14,11 @@ class AboutMe extends React.Component{
                 <Col xs={3} >     
                     <Image width="100%" roundedCircle responsive="true" className="profile-pic-format" src={profile} fluid="true"/>
                     <div style={{textAlign: "center", justifyContent: "center", alignItems: "center", marginLeft: "70px", width: "100%"}}>
-                    <h4 style={{fontFamily: "Tahoma, Geneva, sans-serif", color: "white", marginTop: "20px", textAlign: "center"}}>Contact</h4>
+                    <h4 style={{fontFamily: "Tahoma, Geneva, sans-serif", color: "#f2ebdd", marginTop: "20px", textAlign: "center"}}>Contact</h4>
                     <Row>
-                    <a href="https://github.com/PRERNARAVI"><GitHubIcon style={{color: "white", fontSize: 60, marginTop: "15px", marginLeft: "30px"}}/></a>
-                    <a href="https://www.linkedin.com/in/prerna-ravi/"><LinkedInIcon style={{color: "white", fontSize: 65, marginTop: "15px", marginLeft: "30px"}}/></a>
-                    <a href="mailto: prernaravi@gatech.edu"><EmailIcon style={{color: "white", fontSize: 65, marginTop: "15px", marginLeft: "30px"}}/></a>
+                    <a href="https://github.com/PRERNARAVI"><GitHubIcon style={{color: "#f2ebdd", fontSize: 60, marginTop: "10px", marginLeft: "30px"}}/></a>
+                    <a href="https://www.linkedin.com/in/prerna-ravi/"><LinkedInIcon style={{color: "#f2ebdd", fontSize: 65, marginTop: "10px", marginLeft: "30px"}}/></a>
+                    <a href="mailto: prernaravi@gatech.edu"><EmailIcon style={{color: "#f2ebdd", fontSize: 65, marginTop: "10px", marginLeft: "30px"}}/></a>
                     {/* <a href="https://www.instagram.com/prerna_2k/"><InstagramIcon style={{color: "white", fontSize: 65, marginTop: "15px", marginLeft: "30px"}}/></a> */}
                     </Row>
                     </div>
