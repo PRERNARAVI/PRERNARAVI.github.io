@@ -159,6 +159,7 @@ code {
   border-radius: "10px";
   height: "90%"; 
   opacity: 0.7;
+  background-color: #0e172a; 
 }
 .card-image:after {
   content:'\A';
