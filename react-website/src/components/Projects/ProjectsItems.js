@@ -23,7 +23,7 @@ class ProjectsItems extends React.Component{
                             style={{marginTop: "120px", border: "none",
                             borderRadius: "10px", height: "40vh"}}>
                         <div className="card-image" >
-                            <Card.Img style={{height: "40vh", opacity: 0.5}}
+                            <Card.Img style={{height: "40vh", opacity: 0.6}}
                                  src={Library} alt="Card image" />
                             <Card.ImgOverlay >
                                 <Card.Title 
@@ -53,7 +53,7 @@ class ProjectsItems extends React.Component{
                             style={{marginTop: "120px", border: "none",
                             borderRadius: "10px", height: "40vh"}}>
                         <div className="card-image" >
-                            <Card.Img style={{height: "40vh", opacity: 0.5}}
+                            <Card.Img style={{height: "40vh", opacity: 0.6}}
                                  src={ND} alt="Card image" />
                             <Card.ImgOverlay >
                                 <Card.Title 
@@ -113,7 +113,7 @@ class ProjectsItems extends React.Component{
                             style={{marginTop: "40px", border: "none",
                             borderRadius: "10px", height: "40vh"}}>
                         <div className="card-image" >
-                            <Card.Img style={{height: "40vh", opacity: 0.7}}
+                            <Card.Img style={{height: "40vh", opacity: 0.8}}
                                  src={Journaling} alt="Card image" />
                             <Card.ImgOverlay >
                                 <Card.Title 
@@ -144,7 +144,7 @@ class ProjectsItems extends React.Component{
                             style={{marginTop: "40px",marginBottom: "40px", border: "none",
                             borderRadius: "10px", height: "40vh"}}>
                         <div className="card-image" >
-                            <Card.Img style={{height: "40vh", opacity: 0.5}}
+                            <Card.Img style={{height: "40vh", opacity: 0.6}}
                                  src={Connect} alt="Card image" />
                             <Card.ImgOverlay >
                                 <Card.Title 
