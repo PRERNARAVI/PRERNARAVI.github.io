@@ -20,7 +20,7 @@ class ProjectsItems extends React.Component{
                 <Col xs={6}>
                     <a href="#">
                         <Card className="bg-dark text-white" 
-                            style={{marginTop: "100px", border: "none",
+                            style={{marginTop: "120px", border: "none",
                             borderRadius: "10px", height: "40vh"}}>
                         <div className="card-image" >
                             <Card.Img style={{height: "40vh"}}
@@ -41,7 +41,7 @@ class ProjectsItems extends React.Component{
                 <Col xs={6}>
                     <a href="#">
                         <Card className="bg-dark text-white" 
-                            style={{marginTop: "100px", border: "none",
+                            style={{marginTop: "120px", border: "none",
                             borderRadius: "10px", height: "40vh"}}>
                         <div className="card-image" href="#">
                             <Card.Img style={{height: "40vh"}}
