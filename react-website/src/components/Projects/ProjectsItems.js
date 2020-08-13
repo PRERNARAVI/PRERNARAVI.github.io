@@ -45,7 +45,7 @@ class ProjectsItems extends React.Component{
                             borderRadius: "10px", height: "40vh"}}>
                         <div className="card-image" href="#">
                             <Card.Img style={{height: "40vh"}}
-                                src={Journaling} alt="Card image" />
+                                src={ND} alt="Card image" />
                             <Card.ImgOverlay>
                                 <Card.Title>Card title</Card.Title>
                                 <Card.Text>
@@ -67,7 +67,7 @@ class ProjectsItems extends React.Component{
                             borderRadius: "10px", height: "40vh"}}>
                         <div className="card-image" >
                             <Card.Img style={{height: "40vh"}}
-                                 src={ND} alt="Card image" />
+                                 src={Journaling} alt="Card image" />
                             <Card.ImgOverlay>
                                 <Card.Title>Card title</Card.Title>
                                 <Card.Text>

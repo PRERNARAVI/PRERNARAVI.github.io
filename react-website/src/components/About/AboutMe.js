@@ -4,11 +4,31 @@ import profile from "../../images/profile-pic.JPG";
 import GitHubIcon from '@material-ui/icons/GitHub';
 import LinkedInIcon from '@material-ui/icons/LinkedIn';
 import EmailIcon from '@material-ui/icons/Email';
+import BlackOne from "../../images/BlackOne.jpg";
 //import InstagramIcon from '@material-ui/icons/Instagram';
 
 class AboutMe extends React.Component{
     render () {
+        var background = {
+            marginTop: "810px",
+            marginRight: 0,
+            marginLeft: 0,
+            marginBottom: 0, 
+            backgroundPosition: 'center',
+            width: '102%',
+            backgroundSize: 'cover',
+            opacity: 0.85,
+            position: "relative",
+            boxShadow: "blur 40px 40px 40px 40px #0e172a"
+        };
         return (
+            // <div style={{backgroundColor: "#0e172a", maxWidth: "102%", marginTop: "780px"}}>
+        <Row>
+          {/* <Image style={background} responsive="true" className="wallpaper-format" src={BlackOne} fluid="true"/> */}
+          <Col xs={0} style={{alignContent: "center"}}>
+          {/* <Image style={backgroundMe} responsive="true" className="wallpaper-format" src={Me} fluid="true"/> */}
+          <Image style={background} responsive="true"  src={BlackOne} fluid="true"/>
+            
             <Container className="about-me">
                 <Row>
                 <Col xs={3} >     
@@ -54,6 +74,8 @@ class AboutMe extends React.Component{
                 </Col>
                 </Row>
             </Container>
+            </Col>
+            </Row>
         );
     }
 }
