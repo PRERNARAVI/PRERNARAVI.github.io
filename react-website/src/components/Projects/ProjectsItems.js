@@ -1,12 +1,12 @@
 import React from 'react';
 import {Col, Image, Row, Container, Card} from 'react-bootstrap';
 import { HashRouter as Router, Switch, Route, NavLink } from "react-router-dom";
-import { AnimationWrapper } from 'react-hover-animation';
-import wallpaper from "../../images/home-page-wallpaper.png";
 import MSFT from "../../images/MSFT-Project.png";
 import Journaling from "../../images/Journaling-Project.jpg";
 import Library from "../../images/Library.jpeg";
 import Connect from "../../images/Connect-Project.jpeg";
+import Drop from "../../images/Drop.jpg";
+import ND from "../../images/ND.jpg";
 
 class ProjectsItems extends React.Component{
     render () {
@@ -24,7 +24,7 @@ class ProjectsItems extends React.Component{
                             borderRadius: "10px", height: "40vh"}}>
                         <div className="card-image" >
                             <Card.Img style={{height: "40vh"}}
-                                 src={MSFT} alt="Card image" />
+                                 src={Library} alt="Card image" />
                             <Card.ImgOverlay>
                                 <Card.Title>Card title</Card.Title>
                                 <Card.Text>
@@ -67,7 +67,7 @@ class ProjectsItems extends React.Component{
                             borderRadius: "10px", height: "40vh"}}>
                         <div className="card-image" >
                             <Card.Img style={{height: "40vh"}}
-                                 src={Library} alt="Card image" />
+                                 src={ND} alt="Card image" />
                             <Card.ImgOverlay>
                                 <Card.Title>Card title</Card.Title>
                                 <Card.Text>
@@ -109,7 +109,7 @@ class ProjectsItems extends React.Component{
                             borderRadius: "10px", height: "40vh"}}>
                         <div className="card-image" >
                             <Card.Img style={{height: "40vh"}}
-                                 src={MSFT} alt="Card image" />
+                                 src={Drop} alt="Card image" />
                             <Card.ImgOverlay>
                                 <Card.Title>Card title</Card.Title>
                                 <Card.Text>
@@ -129,7 +129,7 @@ class ProjectsItems extends React.Component{
                             borderRadius: "10px", height: "40vh"}}>
                         <div className="card-image" >
                             <Card.Img style={{height: "40vh"}}
-                                 src={MSFT} alt="Card image" />
+                                 src={Connect} alt="Card image" />
                             <Card.ImgOverlay>
                                 <Card.Title>Card title</Card.Title>
                                 <Card.Text>
