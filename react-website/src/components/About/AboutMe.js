@@ -19,7 +19,7 @@ class AboutMe extends React.Component{
             backgroundSize: 'cover',
             opacity: 0.85,
             position: "relative",
-            boxShadow: "40px 0px 40px 20px #003554"
+            boxShadow: "40px 0px 40px 25px #003554"
         };
         return (
             // <div style={{backgroundColor: "#0e172a", maxWidth: "102%", marginTop: "780px"}}>
