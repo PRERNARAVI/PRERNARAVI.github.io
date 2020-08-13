@@ -4,6 +4,9 @@ import { HashRouter as Router, Switch, Route, NavLink } from "react-router-dom";
 import { AnimationWrapper } from 'react-hover-animation';
 import wallpaper from "../../images/home-page-wallpaper.png";
 import MSFT from "../../images/MSFT-Project.png";
+import Journaling from "../../images/Journaling-Project.jpg";
+import Library from "../../images/Library.jpeg";
+import Connect from "../../images/Connect-Project.jpeg";
 
 class ProjectsItems extends React.Component{
     render () {
@@ -14,103 +17,128 @@ class ProjectsItems extends React.Component{
             <Container  >
                 <Row>
                 <Row>
-                <Col >
-                    <a className="card-image" href="#">
+                <Col xs={6}>
+                    <a href="#">
                         <Card className="bg-dark text-white" 
                             style={{marginTop: "100px", border: "none",
-                            borderRadius: "10px"}}>
-                        <Card.Img className="card-image" src={MSFT} alt="Card image" />
-                        <Card.ImgOverlay>
-                            <Card.Title>Card title</Card.Title>
-                            <Card.Text>
-                            This is a wider card with supporting text below as a natural lead-in to
-                            additional content. This content is a little bit longer.
-                            </Card.Text>
-                            <Card.Text>Last updated 3 mins ago</Card.Text>
-                        </Card.ImgOverlay>
+                            borderRadius: "10px", height: "40vh"}}>
+                        <div className="card-image" >
+                            <Card.Img style={{height: "40vh"}}
+                                 src={MSFT} alt="Card image" />
+                            <Card.ImgOverlay>
+                                <Card.Title>Card title</Card.Title>
+                                <Card.Text>
+                                This is a wider card with supporting text below as a natural lead-in to
+                                additional content. This content is a little bit longer.
+                                </Card.Text>
+                                <Card.Text>Last updated 3 mins ago</Card.Text>
+                            </Card.ImgOverlay>
+                        </div>
                         </Card>
                     </a>
+                    
                 </Col>
-                <Col >
-                    <a className="card-image" href="#">
-                        <Card className="bg-dark text-white" style={{marginTop: "100px", border: "none"}}>
-                        <Card.Img className="card-image" src={wallpaper} alt="Card image" />
-                        <Card.ImgOverlay>
-                            <Card.Title>Card title</Card.Title>
-                            <Card.Text>
-                            This is a wider card with supporting text below as a natural lead-in to
-                            additional content. This content is a little bit longer.
-                            </Card.Text>
-                            <Card.Text>Last updated 3 mins ago</Card.Text>
-                        </Card.ImgOverlay>
+                <Col xs={6}>
+                    <a href="#">
+                        <Card className="bg-dark text-white" 
+                            style={{marginTop: "100px", border: "none",
+                            borderRadius: "10px", height: "40vh"}}>
+                        <div className="card-image" href="#">
+                            <Card.Img style={{height: "40vh"}}
+                                src={Journaling} alt="Card image" />
+                            <Card.ImgOverlay>
+                                <Card.Title>Card title</Card.Title>
+                                <Card.Text>
+                                This is a wider card with supporting text below as a natural lead-in to
+                                additional content. This content is a little bit longer.
+                                </Card.Text>
+                                <Card.Text>Last updated 3 mins ago</Card.Text>
+                            </Card.ImgOverlay>
+                        </div>
                         </Card>
                     </a>
                 </Col>
                 </Row>
                 <Row>
                 <Col >
-                    <a className="card-image" href="#">
+                    <a href="#">
                         <Card className="bg-dark text-white" 
-                            style={{marginTop: "30px", border: "none",
-                            borderRadius: "10px"}}>
-                        <Card.Img className="card-image" src={wallpaper} alt="Card image" />
-                        <Card.ImgOverlay>
-                            <Card.Title>Card title</Card.Title>
-                            <Card.Text>
-                            This is a wider card with supporting text below as a natural lead-in to
-                            additional content. This content is a little bit longer.
-                            </Card.Text>
-                            <Card.Text>Last updated 3 mins ago</Card.Text>
-                        </Card.ImgOverlay>
+                            style={{marginTop: "40px", border: "none",
+                            borderRadius: "10px", height: "40vh"}}>
+                        <div className="card-image" >
+                            <Card.Img style={{height: "40vh"}}
+                                 src={Library} alt="Card image" />
+                            <Card.ImgOverlay>
+                                <Card.Title>Card title</Card.Title>
+                                <Card.Text>
+                                This is a wider card with supporting text below as a natural lead-in to
+                                additional content. This content is a little bit longer.
+                                </Card.Text>
+                                <Card.Text>Last updated 3 mins ago</Card.Text>
+                            </Card.ImgOverlay>
+                        </div>
                         </Card>
                     </a>
                 </Col>
                 <Col >
-                    <a className="card-image" href="#">
-                        <Card className="bg-dark text-white" style={{marginTop: "30px", border: "none"}}>
-                        <Card.Img className="card-image" src={wallpaper} alt="Card image" />
-                        <Card.ImgOverlay>
-                            <Card.Title>Card title</Card.Title>
-                            <Card.Text>
-                            This is a wider card with supporting text below as a natural lead-in to
-                            additional content. This content is a little bit longer.
-                            </Card.Text>
-                            <Card.Text>Last updated 3 mins ago</Card.Text>
-                        </Card.ImgOverlay>
+                    <a href="#">
+                        <Card className="bg-dark text-white" 
+                            style={{marginTop: "40px", border: "none",
+                            borderRadius: "10px", height: "40vh"}}>
+                        <div className="card-image" >
+                            <Card.Img style={{height: "40vh"}}
+                                 src={Connect} alt="Card image" />
+                            <Card.ImgOverlay>
+                                <Card.Title>Card title</Card.Title>
+                                <Card.Text>
+                                This is a wider card with supporting text below as a natural lead-in to
+                                additional content. This content is a little bit longer.
+                                </Card.Text>
+                                <Card.Text>Last updated 3 mins ago</Card.Text>
+                            </Card.ImgOverlay>
+                        </div>
                         </Card>
                     </a>
                 </Col>
                 </Row>
                 <Row>
                 <Col >
-                    <a className="card-image" href="#">
+                    <a href="#">
                         <Card className="bg-dark text-white" 
-                            style={{marginTop: "30px", border: "none",
-                            borderRadius: "10px"}}>
-                        <Card.Img className="card-image" src={wallpaper} alt="Card image" />
-                        <Card.ImgOverlay>
-                            <Card.Title>Card title</Card.Title>
-                            <Card.Text>
-                            This is a wider card with supporting text below as a natural lead-in to
-                            additional content. This content is a little bit longer.
-                            </Card.Text>
-                            <Card.Text>Last updated 3 mins ago</Card.Text>
-                        </Card.ImgOverlay>
+                            style={{marginTop: "40px", border: "none",
+                            borderRadius: "10px", height: "40vh"}}>
+                        <div className="card-image" >
+                            <Card.Img style={{height: "40vh"}}
+                                 src={MSFT} alt="Card image" />
+                            <Card.ImgOverlay>
+                                <Card.Title>Card title</Card.Title>
+                                <Card.Text>
+                                This is a wider card with supporting text below as a natural lead-in to
+                                additional content. This content is a little bit longer.
+                                </Card.Text>
+                                <Card.Text>Last updated 3 mins ago</Card.Text>
+                            </Card.ImgOverlay>
+                        </div>
                         </Card>
                     </a>
                 </Col>
                 <Col >
-                    <a className="card-image" href="#">
-                        <Card className="bg-dark text-white" style={{marginTop: "30px", border: "none"}}>
-                        <Card.Img className="card-image" src={wallpaper} alt="Card image" />
-                        <Card.ImgOverlay>
-                            <Card.Title>Card title</Card.Title>
-                            <Card.Text>
-                            This is a wider card with supporting text below as a natural lead-in to
-                            additional content. This content is a little bit longer.
-                            </Card.Text>
-                            <Card.Text>Last updated 3 mins ago</Card.Text>
-                        </Card.ImgOverlay>
+                    <a href="#">
+                        <Card className="bg-dark text-white" 
+                            style={{marginTop: "40px", border: "none",
+                            borderRadius: "10px", height: "40vh"}}>
+                        <div className="card-image" >
+                            <Card.Img style={{height: "40vh"}}
+                                 src={MSFT} alt="Card image" />
+                            <Card.ImgOverlay>
+                                <Card.Title>Card title</Card.Title>
+                                <Card.Text>
+                                This is a wider card with supporting text below as a natural lead-in to
+                                additional content. This content is a little bit longer.
+                                </Card.Text>
+                                <Card.Text>Last updated 3 mins ago</Card.Text>
+                            </Card.ImgOverlay>
+                        </div>
                         </Card>
                     </a>
                 </Col>

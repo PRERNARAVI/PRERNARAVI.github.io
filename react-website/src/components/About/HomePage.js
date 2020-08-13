@@ -3,7 +3,8 @@ import { Image, Container, Row} from 'react-bootstrap';
 import wallpaper from "../../images/home-page-wallpaper.png";
 import Typewriter from 'typewriter-effect';
 import AboutMe from './AboutMe';
-import BlackOne from "../../images/BlackOne.jpg"
+import BlackOne from "../../images/BlackOne.jpg";
+import Laptop from "../../images/Laptop.jpg";
  
 
 class HomePage extends React.Component {
@@ -18,9 +19,7 @@ class HomePage extends React.Component {
       backgroundPosition: 'center',
       backgroundRepeat: 'repeat-y',
       width: '102%',
-      height: "100%"
-
-    
+      height: "100%",
   };
     var textStyle = {
       position: 'absolute', 
