@@ -45,8 +45,8 @@ code {
   padding-right: 40px;
   height: 87vh;
   background-color: #0e172a; 
-  border-radius: 15px;
   opacity: 0.75;
+  box-shadow: 0px 0px 10px 10px #0e172a; 
   
 }
 .profile-pic-format {
@@ -89,8 +89,8 @@ code {
   left: 0px;
   height: 89vh;
   background-color:#0e172a;
-  border-radius: 15px;
   opacity: 0.8;
+  box-shadow: 0px 0px 5px 5px #0e172a;
 }
 .ta-container {
   position: relative;
@@ -99,8 +99,8 @@ code {
   left: 0px;
   height: 74vh;
   background-color:#14213d;
-  border-radius: 15px;
   opacity: 0.8;
+  box-shadow: 0px 0px 10px 10px #14213d;
 }
 .research-container {
   max-width: 102%;

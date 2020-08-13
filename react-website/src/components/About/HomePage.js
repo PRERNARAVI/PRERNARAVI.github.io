@@ -26,10 +26,11 @@ class HomePage extends React.Component {
   var backgroundMe = {
     marginTop: 40,
     position: 'fixed',
+    backgroundSize: 'cover',
     backgroundPosition: 'center',
     opacity: 0.45,
-    width: '102%',
-    height: "100vh",
+    maxWidth: '102%',
+    height: "100%",
 };
     var textStyle = {
       position: 'absolute', 
