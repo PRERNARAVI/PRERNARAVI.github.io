@@ -10,6 +10,7 @@ import ND from "../../images/ND.jpg";
 import Popup from "reactjs-popup";
 import BlackOne from "../../images/BlackOne.jpg";
 import Black from "../../images/black.jpg";
+import PopUpBg from "../../images/PopUpBg.jpg";
 
 class ProjectsItems extends React.Component{
     render () {
@@ -26,7 +27,8 @@ class ProjectsItems extends React.Component{
                 <Row>
                 <Row>
                 <Col md={6}>
-                <Popup contentStyle={{border: "solid 1px black", height: "60vh", width: "70%", padding: 0, backgroundColor: "black"}}
+                <Popup contentStyle={{border: "solid 0px black", height: "60vh", width: "70%", padding: 0, 
+                backgroundColor: "black"}}
                 trigger={
                     <a role="button" style={{cursor: "pointer"}}>      
                         <Card className="bg-dark text-white" 
@@ -57,9 +59,10 @@ class ProjectsItems extends React.Component{
                         </Card>
                     </a>} modal closeOnDocumentClick>
                     
-                    <Container style={{height: "60vh", width: "100%", border: "solid 1px black", 
-                    backgroundColor: "black"}}>
-                    {/* backgroundImage: "url(" + Library + ")"}} */}
+                    <Container style={{height: "60vh", width: "100%", border: "solid 0px black", 
+                    backgroundColor: "black",
+                    backgroundSize: "100%",
+                    backgroundImage: "url(" + BlackOne + ")"}}>
                         <Row>
                             <Col>
                                 {/* <Image width="100%" style={background} responsive="true"  src={Library} fluid="true"/> */}

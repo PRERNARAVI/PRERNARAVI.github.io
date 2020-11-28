@@ -13,7 +13,7 @@ class ResearchItems extends React.Component{
         }
         return (
             <Container className="research-container" responsive="true">
-            <Container className="sign-langauge-container" responsive="true">
+            <Container className="microsoft-container" responsive="true">
                 <Row>
                 <Col xs={3}>    
                 <Image width="80%"responsive="true" style={{marginTop: "70px", marginLeft: "140px"}} src={UBICOMP} fluid="true"/>         
