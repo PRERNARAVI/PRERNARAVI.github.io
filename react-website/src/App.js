@@ -5,6 +5,7 @@ import HomePage from './components/About/HomePage';
 import Research from './components/Research/Research';
 import Experience from './components/Experience/Experience';
 import Projects from './components/Projects/Projects';
+import Skills from './components/Skills/Skills';
 //import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 import {Navbar, Image, Nav, Container, Row} from 'react-bootstrap';
 import { HashRouter as Router, Switch, Route, NavLink } from "react-router-dom";
@@ -23,7 +24,7 @@ class App extends Component {
         <Nav.Link><NavLink style={{color: "#b3b3b3", textDecoration: 'none' }} activeStyle={{fontWeight: "bold", color: "#f2ebdd", textDecoration: 'none' }} exact to="/experience">Experience</NavLink></Nav.Link>
         <Nav.Link><NavLink style={{color: "#b3b3b3", textDecoration: 'none' }} activeStyle={{fontWeight: "bold", color: "#f2ebdd", textDecoration: 'none' }} exact to="/research">Research</NavLink></Nav.Link>
         <Nav.Link><NavLink style={{color: "#b3b3b3", textDecoration: 'none' }} activeStyle={{fontWeight: "bold", color: "#f2ebdd", textDecoration: 'none' }} exact to="/projects">Projects</NavLink></Nav.Link>
-        <Nav.Link><NavLink style={{color: "#b3b3b3", textDecoration: 'none' }} activeStyle={{fontWeight: "bold", color: "#f2ebdd", textDecoration: 'none' }} exact to="/skills">Skills</NavLink></Nav.Link>
+        <Nav.Link><NavLink style={{color: "#b3b3b3", textDecoration: 'none' }} activeStyle={{fontWeight: "bold", color: "#f2ebdd", textDecoration: 'none' }} exact to="/skills">Skills & Awards</NavLink></Nav.Link>
         <Nav.Link><NavLink style={{color: "#b3b3b3", textDecoration: 'none' }} activeStyle={{fontWeight: "bold", color: "#f2ebdd", textDecoration: 'none' }} exact to="/interests">Interests</NavLink></Nav.Link>
       </Nav>
       </Navbar.Collapse>
@@ -35,6 +36,7 @@ class App extends Component {
             <Route path="/research" component={Research} />
             <Route path="/experience" component={Experience} />
             <Route path="/projects" component={Projects} />
+            <Route path="/skills" component={Skills} />
       </Switch>
       </div>
     </Router>
