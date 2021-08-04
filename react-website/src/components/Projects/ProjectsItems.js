@@ -150,7 +150,7 @@ class ProjectsItems extends React.Component{
                     <a role="button" style={{cursor: "pointer"}}>  
                         <Card className="bg-dark text-white" 
                             style={{marginTop: "40px", border: "none",
-                            borderRadius: "10px", height: "40vh"}}>
+                            borderRadius: "10px", height: "40vh", width: "120%"}}>
                         <div className="card-image" >
                             <Card.Img style={{height: "40vh", opacity: 0.8}}
                                  src={MSFT} alt="Card image" />
