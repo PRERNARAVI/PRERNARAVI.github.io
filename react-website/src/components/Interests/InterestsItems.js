@@ -8,7 +8,7 @@ class InterestsItems extends React.Component{
     render() {  
         const items = [
             {
-                title: <div style={{fontSize: "15px", fontFamily: "Tahoma, Geneva, sans-serif", color: "#E9C46A"}}>May 2021 - July 2021<br/>Redmond, WA</div>,
+                title: <div style={{fontSize: "15px", fontFamily: "Tahoma, Geneva, sans-serif", color: "#E9C46A"}}>May 2021 - July 2021<br/>Redmond, Washington, USA</div>,
                 cardTitle: <h4 style={{textAlign: "center"}}>Software Engineer Intern at Microsoft</h4>,
                 //cardSubtitle:<h5 style={{color: "#f2ebdd", textAlign: "center"}}>Software Engineer Intern</h5>,
                 cardDetailedText: <div style={{minHeight: "50px", fontFamily: "Tahoma, Geneva, sans-serif"}}> • Software Engineer Intern for the Employee Experience Team within Microsoft’s Cloud and Artificial Intelligence (C+AI) organization.<br/>
@@ -28,7 +28,7 @@ class InterestsItems extends React.Component{
                 }
             },
             {
-                title: <div style={{fontSize: "15px", fontFamily: "Tahoma, Geneva, sans-serif", color: "#E9C46A"}}>January 2019 - Present<br/>Atlanta, GA</div>,
+                title: <div style={{fontSize: "15px", fontFamily: "Tahoma, Geneva, sans-serif", color: "#E9C46A"}}>January 2019 - Present<br/>Atlanta, Georgia, USA</div>,
                 cardTitle: <h4 style={{textAlign: "center", color: "#E9C46A"}}>Head Teaching Assistant for the College of Computing at Georgia Tech</h4>,
                 //cardSubtitle:<h5 style={{color: "#f2ebdd", textAlign: "center"}}>Software Engineer Intern</h5>,
                 cardDetailedText: <div responsive="true">
@@ -63,7 +63,7 @@ class InterestsItems extends React.Component{
                 }
             },
             {
-                title: <div style={{fontSize: "15px", fontFamily: "Tahoma, Geneva, sans-serif", color: "#E9C46A"}}>May 2020 - July 2020<br/>Redmond, WA</div>,
+                title: <div style={{fontSize: "15px", fontFamily: "Tahoma, Geneva, sans-serif", color: "#E9C46A"}}>May 2020 - July 2020<br/>Redmond, Washington, USA</div>,
                 cardTitle: <h4 style={{textAlign: "center", color: "#E9C46A"}}>Software Engineer Intern at Microsoft</h4>,
                 //cardSubtitle:<h5 style={{color: "#f2ebdd", textAlign: "center"}}>Software Engineer Intern</h5>,
                 cardDetailedText: 
@@ -103,8 +103,8 @@ class InterestsItems extends React.Component{
                 }
             },
             {
-                title: <div style={{fontSize: "15px", fontFamily: "Tahoma, Geneva, sans-serif", color: "#E9C46A"}}>January 2019 - Present<br/>Atlanta, GA</div>,
-                cardTitle: <h4 style={{textAlign: "center", color: "#E9C46A"}}>Head Teaching Assistant for the College of Computing at Georgia Tech</h4>,
+                title: <div style={{fontSize: "15px", fontFamily: "Tahoma, Geneva, sans-serif", color: "#E9C46A"}}>June 2020 - June 2021<br/>Atlanta, Georgia, USA</div>,
+                cardTitle: <h4 style={{textAlign: "center", color: "#E9C46A"}}>Fellow and Software Developer at Rewriting the Code</h4>,
                 //cardSubtitle:<h5 style={{color: "#f2ebdd", textAlign: "center"}}>Software Engineer Intern</h5>,
                 cardDetailedText: <div responsive="true">
                 I am the Head Teaching Assistant for Object Oriented Programming in Java - an introductory  
@@ -132,7 +132,77 @@ class InterestsItems extends React.Component{
                     type: "IMAGE",
                     source: {
                     //url: <Image responsive="true" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQxbKa33kbFK2lr0RsHcx_hJ0fatx71EVwrp_Hawdsm5wnNlHc5I7pLdq88y00HbHaAw9E&usqp=CAU"/>
-                    url: "https://www.commonapp.org/static/5a6e71808ec8146b86066ba9a111c84d/georgia-institute-technology_578.jpg"
+                    url: "https://jumpstart-static.s3.amazonaws.com/backend/organizations/organization/oU2KTehvQ6ip_Gj8uoIefQ.png"
+                    },
+                    
+                }
+            },
+            {
+                title: <div style={{fontSize: "15px", fontFamily: "Tahoma, Geneva, sans-serif", color: "#E9C46A"}}>June 2021 - July 2021<br/>Stanford, California, USA</div>,
+                cardTitle: <h4 style={{textAlign: "center", color: "#E9C46A"}}>Human Centered Design Instructor at Code.X</h4>,
+                //cardSubtitle:<h5 style={{color: "#f2ebdd", textAlign: "center"}}>Software Engineer Intern</h5>,
+                cardDetailedText: <div responsive="true">
+                I am the Head Teaching Assistant for Object Oriented Programming in Java - an introductory  
+                course that every Computer Science major and minor is required to take at Georgia Tech. As part of this role, 
+                I have had the priviledge of working with professors like <a style={{color: "#E9C46A"}} href="https://en.wikipedia.org/wiki/John_Stasko"><u>John Stasko</u></a> and 
+                Susan Watson-Phillips. 
+                
+                <br/>
+    
+                <i>"The Best Way to Learn is to Teach."</i> Guiding students and empowering them to grow
+                into good programmers is irrefutably one of the most rewarding experiences I have had till date. Not only do I believe that
+                teaching is the best way to give back to the community, it has also strengthened my knowledge in the area of 
+                fundamental <a style={{color: "#E9C46A"}} href="https://en.wikipedia.org/wiki/Object-oriented_programming"><u>Object Oriented Programming</u></a> and the  
+                core <a style={{color: "#E9C46A"}} href="https://en.wikipedia.org/wiki/Object-oriented_programming"><u>Java</u></a> language. As a member of the team of teaching assistants 
+                for one of the largest Computer Science courses on campus, consisting of over 800 students every semester, I assist 
+                the professors by preparing course materials for lectures and online tutorials to supplement the material being taught.
+                Additionally, I conduct recitations and office hours to help students develop strong coding and debugging skills. I also
+                build grading frameworks for programming assignments and exams that assess the students' understanding of the concepts covered 
+                in the course. These daily responsibilities have ingrained in me the values of empathy, diginity, leadership, effective listening 
+                and communication essential for an all rounded development.
+
+                </div>,
+                media: 
+                {
+                    type: "IMAGE",
+                    source: {
+                    //url: <Image responsive="true" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQxbKa33kbFK2lr0RsHcx_hJ0fatx71EVwrp_Hawdsm5wnNlHc5I7pLdq88y00HbHaAw9E&usqp=CAU"/>
+                    url: "https://images.squarespace-cdn.com/content/v1/5a32ae139f07f50bae6c69ef/9d2bcf78-4821-4e34-91e7-5f91430fd671/Code.X_Logo-removebg-preview+%281%29.png"
+                    },
+                    
+                }
+            },
+            {
+                title: <div style={{fontSize: "15px", fontFamily: "Tahoma, Geneva, sans-serif", color: "#E9C46A"}}>January 2019 - May 2020<br/>Atlanta, Georgia, USA</div>,
+                cardTitle: <h4 style={{textAlign: "center", color: "#E9C46A"}}>Training Manager at Robogals Global</h4>,
+                //cardSubtitle:<h5 style={{color: "#f2ebdd", textAlign: "center"}}>Software Engineer Intern</h5>,
+                cardDetailedText: <div responsive="true">
+                I am the Head Teaching Assistant for Object Oriented Programming in Java - an introductory  
+                course that every Computer Science major and minor is required to take at Georgia Tech. As part of this role, 
+                I have had the priviledge of working with professors like <a style={{color: "#E9C46A"}} href="https://en.wikipedia.org/wiki/John_Stasko"><u>John Stasko</u></a> and 
+                Susan Watson-Phillips. 
+                
+                <br/>
+    
+                <i>"The Best Way to Learn is to Teach."</i> Guiding students and empowering them to grow
+                into good programmers is irrefutably one of the most rewarding experiences I have had till date. Not only do I believe that
+                teaching is the best way to give back to the community, it has also strengthened my knowledge in the area of 
+                fundamental <a style={{color: "#E9C46A"}} href="https://en.wikipedia.org/wiki/Object-oriented_programming"><u>Object Oriented Programming</u></a> and the  
+                core <a style={{color: "#E9C46A"}} href="https://en.wikipedia.org/wiki/Object-oriented_programming"><u>Java</u></a> language. As a member of the team of teaching assistants 
+                for one of the largest Computer Science courses on campus, consisting of over 800 students every semester, I assist 
+                the professors by preparing course materials for lectures and online tutorials to supplement the material being taught.
+                Additionally, I conduct recitations and office hours to help students develop strong coding and debugging skills. I also
+                build grading frameworks for programming assignments and exams that assess the students' understanding of the concepts covered 
+                in the course. These daily responsibilities have ingrained in me the values of empathy, diginity, leadership, effective listening 
+                and communication essential for an all rounded development.
+
+                </div>,
+                media: 
+                {
+                    type: "IMAGE",
+                    source: {
+                    //url: <Image responsive="true" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQxbKa33kbFK2lr0RsHcx_hJ0fatx71EVwrp_Hawdsm5wnNlHc5I7pLdq88y00HbHaAw9E&usqp=CAU"/>
+                    url: "https://upload.wikimedia.org/wikipedia/en/thumb/e/e7/Robogals_Logo.svg/1200px-Robogals_Logo.svg.png"
                     },
                     
                 }
