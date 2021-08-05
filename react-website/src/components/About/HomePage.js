@@ -28,22 +28,22 @@ class HomePage extends React.Component {
     position: 'fixed',
     backgroundSize: 'cover',
     backgroundPosition: 'center',
-    opacity: 0.55,
-    maxWidth: '102%',
+    opacity: 0.45,
+    width: '102%',
     height: "100%",
 };
     var textStyle = {
       position: 'absolute', 
-      top: '37%', 
-      left: '37%',
+      top: '40%', 
+      left: '28%',
       color: 'white',
       fontSize: 60,
       
     };
     var writeStyle = {
         position: 'absolute', 
-        top: '47%',
-        left: '37%',
+        top: '50%',
+        left: '28%',
         color: 'white',
         fontFamily: 'monospace',
         fontSize: 60,
@@ -55,7 +55,7 @@ class HomePage extends React.Component {
         <Row>
           {/* <Image style={background} responsive="true" className="wallpaper-format" src={BlackOne} fluid="true"/> */}
           <Col xs={0} style={{alignContent: "center"}}>
-          <Image style={backgroundMe} responsive="true" className="wallpaper-format" src={MeTwo} fluid="true"/>
+          <Image style={backgroundMe} responsive="true" className="wallpaper-format" src="https://undark.org/wp-content/uploads/2020/04/techtower-scaled.jpg" fluid="true"/>
             <div className = "wallpaper-text">
               <h1 style={textStyle}>Hi! My name is Prerna, I am a </h1>
                 <h1 style={writeStyle} > 
