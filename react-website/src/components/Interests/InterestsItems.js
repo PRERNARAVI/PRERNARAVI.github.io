@@ -27,6 +27,7 @@ class InterestsItems extends React.Component{
                     },
                     
                 }
+                
             },
             {
                 title: <div style={{fontSize: "15px", fontFamily: "Tahoma, Geneva, sans-serif", color: "#E9C46A"}}>January 2019 - Present<br/>Atlanta, Georgia, USA</div>,
