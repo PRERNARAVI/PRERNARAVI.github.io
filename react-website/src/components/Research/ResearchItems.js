@@ -258,18 +258,28 @@ function Research() {
       />
       <br/>
        <Col style={{marginLeft: "10px", marginTop: "100px"}}>
-            <Container style={{backgroundColor: "black", width: "240%", marginTop: "20px", height: "100vh"}}>
+            <Container style={{backgroundColor: "black", width: "240%", marginTop: "20px", height: "80vh"}}>
             <br/>
-            <div style={{fontSize: 20, color: "#E9C46A"}}>My Publications</div>
+            <div style={{fontSize: 20, color: "#E9C46A"}}>Publications</div>
             <br/>
-            <p style={{marginLeft: "10px", textAlign: "left", color: "#f2ebdd"}}><i>CopyCat: Using Sign Language Recognition to Help Deaf Children Acquire Language Skills
-publication dateMay 9, 2021  publication descriptionCHI EA '21: Extended Abstracts of the 2021 CHI Conference on Human Factors in Computing Systems, Association for Computing Machinery
+            <p style={{marginLeft: "10px", textAlign: "left", color: "#E9C46A", fontSize: 17}}>CopyCat: Using Sign Language Recognition to Help Deaf Children Acquire Language Skills</p>
+            <p style={{color: "#f2ebdd", fontSize: 15, textAlign: "left", marginLeft: "10px"}}>Dhruva Bansal, <b style={{color: "#E9C46A"}}>Prerna Ravi</b>, Matthew So, Pranay Agrawal, Ishan Chadha, Ganesh Murugappan, and Colby Duke (Advisor: Dr. Thad Starner)</p>
+            <p style={{color: "#E9C46A", fontSize: 15, textAlign: "left", marginLeft: "10px"}}>CHI 2021</p>
+            <p style={{color: "#E9C46A", fontSize: 15, textAlign: "left", marginLeft: "10px"}}><b>Winner - CHI Student Research Competition</b></p>
 
-publication description </i> </p> 
-            <p style={{marginLeft: "10px", textAlign: "left", color: "#f2ebdd", borderTop: "2px dotted #E9C46A"}}><br/><i>CopyCat: Using Sign Language Recognition to Help Deaf Children Acquire Language Skills
-publication dateMay 9, 2021  publication descriptionCHI EA '21: Extended Abstracts of the 2021 CHI Conference on Human Factors in Computing Systems, Association for Computing Machinery
+            <p style={{marginLeft: "10px", textAlign: "left", color: "#E9C46A", borderTop: "2px dotted #E9C46A", fontSize: 17}}>
+            <div style={{marginTop: "10px"}}>The Pandemic Shift to Remote Learning under Resource Constraints</div></p>
+            <p style={{color: "#f2ebdd", fontSize: 15, textAlign: "left", marginLeft: "10px"}}><b style={{color: "#E9C46A"}}>Prerna Ravi</b>, Azra Ismail, and Neha Kumar</p>
+            <p style={{color: "#E9C46A", fontSize: 15, textAlign: "left", marginLeft: "10px"}}>CSCW 2021
+            </p>
 
-publication description </i></p>
+            <p style={{marginLeft: "10px", textAlign: "left", color: "#E9C46A", borderTop: "2px dotted #E9C46A", fontSize: 17}}>
+            <div style={{marginTop: "10px"}}>Leveraging AlphaPose as a 2-D Pose Estimator for American Sign Language Recognition</div></p>
+            <p style={{color: "#f2ebdd", fontSize: 15, textAlign: "left", marginLeft: "10px"}}><b style={{color: "#E9C46A"}}>Prerna Ravi</b> (Advisor: Dr. Thad Starner)</p>
+            <p style={{color: "#E9C46A", fontSize: 15, textAlign: "left", marginLeft: "10px"}}>Bachelor's Thesis
+            </p>
+            {/* <br/>
+            <div style={{fontSize: 20, color: "#E9C46A"}}>Presentations</div> */}
             </Container>
         </Col>
 
@@ -278,7 +288,87 @@ publication description </i></p>
         onHide={() => setModalShow(false)}
       />
             </Row>
-            <Row>
+            <Row style={{marginTop: "0px"}}>
+            {/** ASL ITEM*/}
+            <Col >
+                <a role="button" style={{cursor: "pointer"}} onClick={() => setModalShow(true)}>      
+                    <Card className="bg-dark text-white" 
+                        style={{marginTop: "120px", marginLeft: "0px", border: "none",
+                        borderRadius: "10px", height: "70vh", width: "30vw"}}>
+                    <div className="research-card-image" >
+                        <Card.Header 
+                            style={{
+                                fontFamily: "Tahoma, Geneva, sans-serif", 
+                                fontWeight: "normal",
+                                fontSize: 20,
+                                paddingTop: "15px",
+                                paddingBottom: '0px'
+                            }}> 
+                            <p style={{lineHeight: "1.5", color: "#E9C46A"}}>
+                                &ensp;CopyCat: Using Sign Language Recognition to Help Deaf Children Acquire Language Skills
+                            </p>
+                        </Card.Header>
+                       
+                        <ZoomIn>
+                        <Card.Img style={{height: "40vh"}}
+                             src="https://www.verywellhealth.com/thmb/_u2YBR9a2OcAihIAcTGV8wsrmlY=/2556x1917/smart/filters:no_upscale()/gettyimages-495596293-5a2192db5b6e24001a612abe.jpg" alt="Card image" />
+                        </ZoomIn>
+                        
+                            <Card.Text style={{fontSize: 16, margin: '10px'}}>
+                            Advisor: Dr. Thad Starner <br/>
+                            GT Ubiquitous Computing (Ubicomp) Lab
+                            </Card.Text>
+                            <Card.Footer><a href="#" style={{color: "#E9C46A"}} onClick={() => setModalShow(true)}>Read More</a></Card.Footer>
+
+                    </div>               
+                    </Card>
+                </a>  
+            </Col>
+
+            <ASLModal
+        show={modalShowASL}
+        onHide={() => setModalShow(false)}
+            />
+        <Col >
+                <a role="button" style={{cursor: "pointer"}} onClick={() => setModalShow(true)}>      
+                    <Card className="bg-dark text-white" 
+                        style={{marginTop: "120px", border: "none",
+                        borderRadius: "10px", height: "70vh", width: "30vw"}}>
+                    <div className="research-card-image" >
+                        <Card.Header 
+                            style={{
+                                fontFamily: "Tahoma, Geneva, sans-serif", 
+                                fontWeight: "normal",
+                                fontSize: 20,
+                                paddingTop: "15px",
+                                paddingBottom: '0px'
+                            }}> 
+                            <p style={{lineHeight: "1.5", color: "#E9C46A"}}>
+                                &ensp;The COVID-19 Pandemic Shift to Remote Learning under Resource Constraints
+                            </p>
+                        </Card.Header>
+                       
+                        <ZoomIn>
+                        <Card.Img style={{height: "41vh", boxShadow: "60px 60px 100px 100px #000000;", border: 0}}
+                             src="https://static.reuters.com/resources/r/?m=02&d=20200320&t=2&i=1505762610&r=LYNXMPEG2J0KV&w=800" alt="Card image" />
+                        </ZoomIn>
+                        
+                            <Card.Text style={{fontSize: 16, margin: '10px'}}>
+                            Advisor: Dr. Neha Kumar<br/>
+                            GT Technology & Design for Empowerment on the Margins (TanDEm) Lab
+                            </Card.Text>
+                            <Card.Footer><a href="#" style={{color: "#E9C46A"}} onClick={() => setModalShow(true)}>Read More</a></Card.Footer>
+
+                    </div>               
+                    </Card>
+                </a>  
+            </Col>
+            <TandemModal
+        show={modalShowTandem}
+        onHide={() => setModalShow(false)}
+      />
+        <Col>
+        </Col>
             
             </Row>
         </Container>
