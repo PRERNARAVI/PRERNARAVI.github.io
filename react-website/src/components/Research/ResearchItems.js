@@ -176,9 +176,9 @@ function Research() {
 
     return (
         <Container style={{marginLeft: "70px"}}>
-            <Row >
+            <Row style={{marginRight: "0px"}}>
             {/** ASL ITEM*/}
-            <Col>
+            <Col >
                 <a role="button" style={{cursor: "pointer"}} onClick={() => setModalShow(true)}>      
                     <Card className="bg-dark text-white" 
                         style={{marginTop: "120px", marginLeft: "0px", border: "none",
@@ -257,8 +257,20 @@ function Research() {
         onHide={() => setModalShow(false)}
       />
       <br/>
-       <Col style={{borderLeft: "2px solid #E9C46A", marginLeft: "15px", marginTop: "100px"}}>
-                
+       <Col style={{marginLeft: "10px", marginTop: "100px"}}>
+            <Container style={{backgroundColor: "black", width: "240%", marginTop: "20px", height: "100vh"}}>
+            <br/>
+            <div style={{fontSize: 20, color: "#E9C46A"}}>My Publications</div>
+            <br/>
+            <p style={{marginLeft: "10px", textAlign: "left", color: "#f2ebdd"}}><i>CopyCat: Using Sign Language Recognition to Help Deaf Children Acquire Language Skills
+publication dateMay 9, 2021  publication descriptionCHI EA '21: Extended Abstracts of the 2021 CHI Conference on Human Factors in Computing Systems, Association for Computing Machinery
+
+publication description </i> </p> 
+            <p style={{marginLeft: "10px", textAlign: "left", color: "#f2ebdd", borderTop: "2px dotted #E9C46A"}}><br/><i>CopyCat: Using Sign Language Recognition to Help Deaf Children Acquire Language Skills
+publication dateMay 9, 2021  publication descriptionCHI EA '21: Extended Abstracts of the 2021 CHI Conference on Human Factors in Computing Systems, Association for Computing Machinery
+
+publication description </i></p>
+            </Container>
         </Col>
 
             <TandemModal
