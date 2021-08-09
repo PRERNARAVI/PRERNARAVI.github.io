@@ -32,7 +32,7 @@ class AboutMe extends React.Component{
             <Container className="about-me">
                 <Row>
                 <Col xs={3} >     
-                    <Image width="100%" roundedCircle responsive="true" className="profile-pic-format" src={profile} fluid="true"/>
+                    <Image width="100%" responsive="true" className="profile-pic-format" src={profile} fluid="true"/>
                     <div style={{textAlign: "center", justifyContent: "center", alignItems: "center", marginLeft: "70px", width: "100%"}}>
                     <h4 style={{fontFamily: "Tahoma, Geneva, sans-serif", color: "#f2ebdd", marginTop: "20px", textAlign: "center"}}>Contact</h4>
                     <Row>

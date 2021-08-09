@@ -23,10 +23,10 @@ class App extends Component {
       <Nav className="navbar-options-format">
         <Nav.Link><NavLink style={{color: "#b3b3b3", textDecoration: 'none' }} activeStyle={{fontWeight: "bold", color: "#f2ebdd", textDecoration: 'none' }} exact to="/">About</NavLink></Nav.Link>
         <Nav.Link><NavLink style={{color: "#b3b3b3", textDecoration: 'none' }} activeStyle={{fontWeight: "bold", color: "#f2ebdd", textDecoration: 'none' }} exact to="/experience">Experience</NavLink></Nav.Link>
-        <Nav.Link><NavLink style={{color: "#b3b3b3", textDecoration: 'none' }} activeStyle={{fontWeight: "bold", color: "#f2ebdd", textDecoration: 'none' }} exact to="/research">Research</NavLink></Nav.Link>
+        <Nav.Link><NavLink style={{color: "#b3b3b3", textDecoration: 'none' }} activeStyle={{fontWeight: "bold", color: "#f2ebdd", textDecoration: 'none' }} exact to="/research">Research & Publications</NavLink></Nav.Link>
         <Nav.Link><NavLink style={{color: "#b3b3b3", textDecoration: 'none' }} activeStyle={{fontWeight: "bold", color: "#f2ebdd", textDecoration: 'none' }} exact to="/projects">Projects</NavLink></Nav.Link>
-        <Nav.Link><NavLink style={{color: "#b3b3b3", textDecoration: 'none' }} activeStyle={{fontWeight: "bold", color: "#f2ebdd", textDecoration: 'none' }} exact to="/skills">Skills & Awards</NavLink></Nav.Link>
-        <Nav.Link><NavLink style={{color: "#b3b3b3", textDecoration: 'none' }} activeStyle={{fontWeight: "bold", color: "#f2ebdd", textDecoration: 'none' }} exact to="/interests">Interests</NavLink></Nav.Link>
+        <Nav.Link><NavLink style={{color: "#b3b3b3", textDecoration: 'none' }} activeStyle={{fontWeight: "bold", color: "#f2ebdd", textDecoration: 'none' }} exact to="/skills">Awards</NavLink></Nav.Link>
+        <Nav.Link><NavLink style={{color: "#b3b3b3", textDecoration: 'none' }} activeStyle={{fontWeight: "bold", color: "#f2ebdd", textDecoration: 'none' }} exact to="/interests">CV</NavLink></Nav.Link>
       </Nav>
       </Navbar.Collapse>
     </Navbar>

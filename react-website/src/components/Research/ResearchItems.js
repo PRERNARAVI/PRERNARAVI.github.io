@@ -175,14 +175,14 @@ function Research() {
     const [modalShowASL, setModalShow, modalShowTandem] = React.useState(false);
 
     return (
-        <Container >
-            <Row>
+        <Container style={{marginLeft: "70px"}}>
+            <Row >
             {/** ASL ITEM*/}
-            <Col md={6}>
+            <Col>
                 <a role="button" style={{cursor: "pointer"}} onClick={() => setModalShow(true)}>      
                     <Card className="bg-dark text-white" 
-                        style={{marginTop: "120px", border: "none",
-                        borderRadius: "10px", height: "80vh"}}>
+                        style={{marginTop: "120px", marginLeft: "0px", border: "none",
+                        borderRadius: "10px", height: "70vh", width: "30vw"}}>
                     <div className="research-card-image" >
                         <Card.Header 
                             style={{
@@ -198,13 +198,13 @@ function Research() {
                         </Card.Header>
                        
                         <ZoomIn>
-                        <Card.Img style={{height: "60vh"}}
+                        <Card.Img style={{height: "40vh"}}
                              src="https://www.verywellhealth.com/thmb/_u2YBR9a2OcAihIAcTGV8wsrmlY=/2556x1917/smart/filters:no_upscale()/gettyimages-495596293-5a2192db5b6e24001a612abe.jpg" alt="Card image" />
                         </ZoomIn>
                         
                             <Card.Text style={{fontSize: 16, margin: '10px'}}>
-                            GT Ubiquitous Computing (Ubicomp) Lab <br/>
-                            Advisor: Dr. Thad Starner
+                            Advisor: Dr. Thad Starner <br/>
+                            GT Ubiquitous Computing (Ubicomp) Lab
                             </Card.Text>
                             <Card.Footer><a href="#" style={{color: "#E9C46A"}} onClick={() => setModalShow(true)}>Read More</a></Card.Footer>
 
@@ -217,11 +217,11 @@ function Research() {
         show={modalShowASL}
         onHide={() => setModalShow(false)}
             />
-        <Col md={6}>
+        <Col >
                 <a role="button" style={{cursor: "pointer"}} onClick={() => setModalShow(true)}>      
                     <Card className="bg-dark text-white" 
                         style={{marginTop: "120px", border: "none",
-                        borderRadius: "10px", height: "80vh"}}>
+                        borderRadius: "10px", height: "70vh", width: "30vw"}}>
                     <div className="research-card-image" >
                         <Card.Header 
                             style={{
@@ -237,13 +237,13 @@ function Research() {
                         </Card.Header>
                        
                         <ZoomIn>
-                        <Card.Img style={{height: "60vh", boxShadow: "60px 60px 100px 100px #000000;", border: 0}}
+                        <Card.Img style={{height: "41vh", boxShadow: "60px 60px 100px 100px #000000;", border: 0}}
                              src="https://static.reuters.com/resources/r/?m=02&d=20200320&t=2&i=1505762610&r=LYNXMPEG2J0KV&w=800" alt="Card image" />
                         </ZoomIn>
                         
                             <Card.Text style={{fontSize: 16, margin: '10px'}}>
-                            GT Technology & Design for Empowerment on the Margins (TanDEm) Lab <br/>
-                            Advisor: Dr. Neha Kumar
+                            Advisor: Dr. Neha Kumar<br/>
+                            GT Technology & Design for Empowerment on the Margins (TanDEm) Lab
                             </Card.Text>
                             <Card.Footer><a href="#" style={{color: "#E9C46A"}} onClick={() => setModalShow(true)}>Read More</a></Card.Footer>
 
@@ -256,106 +256,18 @@ function Research() {
         show={modalShowTandem}
         onHide={() => setModalShow(false)}
       />
+      <br/>
+       <Col style={{borderLeft: "2px solid #E9C46A", marginLeft: "15px", marginTop: "100px"}}>
+                
+        </Col>
+
+            <TandemModal
+        show={modalShowTandem}
+        onHide={() => setModalShow(false)}
+      />
             </Row>
             <Row>
-            <Col md={4}>
-                <a role="button" style={{cursor: "pointer"}}>      
-                    <Card className="bg-dark text-white" 
-                        style={{marginTop: "120px", border: "none",
-                        borderRadius: "10px", height: "50vh"}}>
-                    <div className="award-card-image" >
-                        <Card.Header 
-                            style={{
-                                fontFamily: "Tahoma, Geneva, sans-serif", 
-                                fontWeight: "normal",
-                                fontSize: 17,
-                                paddingTop: "15px",
-                                paddingBottom: '0px'
-                            }}> 
-                            <p style={{lineHeight: "0.7"}}>
-                                <FaAward size='35px' />
-                                &ensp;President's Undergraduate Research Award 2020
-                            </p>
-                        </Card.Header>
-                        <div style={{backgroundColor: 'white', width: "90%", padding: 'center'}}>
-                        <Card.Img style={{height: "20vh", width: "60%", backgroundColor: "white"}}
-                             src={PURA} alt="Card image" />
-                        </div>
-                            <Card.Text style={{fontSize: 14, margin: '10px'}}>
-                            Awarded the President's Undergraduate Research Award at Georgia Tech for the year 2020 for 
-                            conducting research at the Technology and Design for Empowerment on the Margins Lab (TanDEm) 
-                            under Dr. Neha Kumar.
-                            </Card.Text>
-                            <Card.Footer>[ July 2020 ]</Card.Footer>
-
-                    </div>               
-                    </Card>
-                </a>   
-            </Col>
-            <Col md={4}>
-                <a role="button" style={{cursor: "pointer"}}>      
-                    <Card className="bg-dark text-white" 
-                        style={{marginTop: "120px", border: "none",
-                        borderRadius: "10px", height: "50vh"}}>
-                    <div className="award-card-image" >
-                        <Card.Header 
-                            style={{
-                                fontFamily: "Tahoma, Geneva, sans-serif", 
-                                fontWeight: "normal",
-                                fontSize: 17,
-                                paddingTop: "15px",
-                                paddingBottom: '0px'
-                            }}> 
-                            <p style={{lineHeight: "0.7"}}>
-                                <FaAward size='35px' />
-                                &ensp;COC Outstanding Sophomore Award
-                            </p>
-                        </Card.Header>
-                        <Card.Img style={{height: "20vh", width: "90%", backgroundColor: "white"}}
-                             src={COC2020} alt="Card image" />
-                            <Card.Text style={{fontSize: 14, margin: '10px'}}>
-                            Given this prestigious award from the College of Computing at Georgia Tech 
-                            for the academic year 2019-2020 based on exemplary GPA, Research, Teaching 
-                            and Demonstration of Leadership in the realm of Computer Science.
-                            </Card.Text>
-                            <Card.Footer>[ April 2020 ]</Card.Footer>
-
-                    </div>               
-                    </Card>
-                </a>  
-            </Col>
-            <Col md={4}>
-                <a role="button" style={{cursor: "pointer"}}>      
-                    <Card className="bg-dark text-white" 
-                        style={{marginTop: "120px", border: "none",
-                        borderRadius: "10px", height: "50vh"}}>
-                    <div className="award-card-image" >
-                        <Card.Header 
-                            style={{
-                                fontFamily: "Tahoma, Geneva, sans-serif", 
-                                fontWeight: "normal",
-                                fontSize: 17,
-                                paddingTop: "15px",
-                                paddingBottom: '0px'
-                            }}> 
-                            <p style={{lineHeight: "0.7"}}>
-                                <FaAward size='35px' />
-                                &ensp;Winner - CHI Student Research Competition 2021
-                            </p>
-                        </Card.Header>
-                        <Card.Img style={{height: "20vh", width: "90%", backgroundColor: "white"}}
-                             src={CHI} alt="Card image" />
-                            <Card.Text style={{fontSize: 14, margin: '10px'}}>
-                            Awarded the First Place at the ACM CHI Student Research Competition for the year 2021 for 
-                            the research paper - <i>"CopyCat: Using Sign Language Recognition to Help Deaf Children Acquire 
-                            Language Skills."</i>
-                            </Card.Text>
-                            <Card.Footer>[ May 2021 ]</Card.Footer>
-
-                    </div>               
-                    </Card>
-                </a>  
-            </Col>
+            
             </Row>
         </Container>
         
