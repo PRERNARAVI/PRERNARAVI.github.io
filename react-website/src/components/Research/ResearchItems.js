@@ -105,22 +105,22 @@ function ASLModal(props) {
     );
   }
 
-    function TandemModal(props) {
+    function TandemModal(propsTwo) {
     var fontFormat = {
         fontFamily: "Tahoma, Geneva, sans-serif",
     }
     return (
       <Modal
-        {...props}
+        {...propsTwo}
         size="xl"
         dialogClassName="modal-90w"
-        aria-labelledby="contained-modal-title-vcenter"
+        aria-labelledby="contained-modal-title-vcenter-two"
         scrollable
         style={{marginTop: "72px", height: "90vh"}}
       >
         <Modal.Header closeButton style={{backgroundColor: "black", border: 0}}>
           <Modal.Title 
-            id="contained-modal-title-vcenter" style={{color: "#E9C46A", fontFamily: "Tahoma, Geneva, sans-serif", fontSize: 22, textAlign: "center"}}>
+            id="contained-modal-title-vcenter-two" style={{color: "#E9C46A", fontFamily: "Tahoma, Geneva, sans-serif", fontSize: 22, textAlign: "center"}}>
             The COVID-19 Pandemic Shift to Remote Learning under Resource Constraints
           </Modal.Title>
         </Modal.Header>
@@ -165,14 +165,15 @@ function ASLModal(props) {
         </Container>
         </Modal.Body>
         <Modal.Footer style={{backgroundColor: "black", border: 0}}>
-          <Button style={{backgroundColor: "black", border: 0, color: "#E9C46A", fontFamily: "Tahoma, Geneva, sans-serif"}} onClick={props.onHide}>Close Project</Button>
+          <Button style={{backgroundColor: "black", border: 0, color: "#E9C46A", fontFamily: "Tahoma, Geneva, sans-serif"}} onClick={propsTwo.onHide}>Close Project</Button>
         </Modal.Footer>
       </Modal>
     );
   }
 
 function Research() {
-    const [modalShowASL, setModalShow, modalShowTandem] = React.useState(false);
+    const [modalShowASL, setModalShowASL] = React.useState(false);
+    const [modalShowTandem, setModalShowTandem] = React.useState(false);
 
     return (
         <Container style={{marginLeft: "70px"}}>
@@ -181,7 +182,7 @@ function Research() {
             <Col md={10}>
             <Row>
             <Col >
-                <a role="button" style={{cursor: "pointer"}} onClick={() => setModalShow(true)}>      
+                <a role="button" style={{cursor: "pointer"}} onClick={() => setModalShowASL(true)}>      
                     <Card className="bg-dark text-white" 
                         style={{marginTop: "120px", marginLeft: "0px", border: "none",
                         borderRadius: "10px", height: "70vh", width: "30vw"}}>
@@ -208,19 +209,19 @@ function Research() {
                             Advisor: Dr. Thad Starner <br/>
                             GT Ubiquitous Computing (Ubicomp) Lab
                             </Card.Text>
-                            <Card.Footer><a href="#" style={{color: "#E9C46A"}} onClick={() => setModalShow(true)}>Read More</a></Card.Footer>
+                            <Card.Footer><a href="#" style={{color: "#E9C46A"}} onClick={() => setModalShowASL(true)}>Read More</a></Card.Footer>
 
                     </div>               
                     </Card>
                     <ASLModal
                         show={modalShowASL}
-                        onHide={() => setModalShow(false)}
+                        onHide={() => setModalShowASL(false)}
                     />
                 </a>  
             </Col>
 
         <Col >
-                <a role="button" style={{cursor: "pointer"}} onClick={() => setModalShow(true)}>      
+                <a role="button" style={{cursor: "pointer"}} onClick={() => setModalShowTandem(true)}>      
                     <Card className="bg-dark text-white" 
                         style={{marginTop: "120px", border: "none",
                         borderRadius: "10px", height: "70vh", width: "30vw"}}>
@@ -247,13 +248,13 @@ function Research() {
                             Advisor: Dr. Neha Kumar<br/>
                             GT Technology & Design for Empowerment on the Margins (TanDEm) Lab
                             </Card.Text>
-                            <Card.Footer><a href="#" style={{color: "#E9C46A"}} onClick={() => setModalShow(true)}>Read More</a></Card.Footer>
+                            <Card.Footer><a href="#" style={{color: "#E9C46A"}} onClick={() => setModalShowTandem(true)}>Read More</a></Card.Footer>
 
                     </div>               
                     </Card>
                     <TandemModal
                         show={modalShowTandem}
-                        onHide={() => setModalShow(false)}
+                        onHide={() => setModalShowTandem(false)}
                     />
                 </a>  
             </Col>
@@ -263,7 +264,7 @@ function Research() {
 
             <Row style={{marginTop: "-60px", paddingBottom: "50px"}} >
             <Col >
-                <a role="button" style={{cursor: "pointer"}} onClick={() => setModalShow(true)}>      
+                <a role="button" style={{cursor: "pointer"}} onClick={() => setModalShowASL(true)}>      
                     <Card className="bg-dark text-white" 
                         style={{marginTop: "120px", marginLeft: "0px", border: "none",
                         borderRadius: "10px", height: "70vh", width: "30vw"}}>
@@ -290,7 +291,7 @@ function Research() {
                             Advisor: Dr. Thad Starner <br/>
                             GT Ubiquitous Computing (Ubicomp) Lab
                             </Card.Text>
-                            <Card.Footer><a href="#" style={{color: "#E9C46A"}} onClick={() => setModalShow(true)}>Read More</a></Card.Footer>
+                            <Card.Footer><a href="#" style={{color: "#E9C46A"}} onClick={() => setModalShowASL(true)}>Read More</a></Card.Footer>
 
                     </div>               
                     </Card>
@@ -299,10 +300,10 @@ function Research() {
 
             <ASLModal
         show={modalShowASL}
-        onHide={() => setModalShow(false)}
+        onHide={() => setModalShowASL(false)}
             />
         <Col >
-                <a role="button" style={{cursor: "pointer"}} onClick={() => setModalShow(true)}>      
+                <a role="button" style={{cursor: "pointer"}} onClick={() => setModalShowTandem(true)}>      
                     <Card className="bg-dark text-white" 
                         style={{marginTop: "120px", border: "none",
                         borderRadius: "10px", height: "70vh", width: "30vw"}}>
@@ -329,13 +330,13 @@ function Research() {
                             Advisor: Dr. Neha Kumar<br/>
                             GT Technology & Design for Empowerment on the Margins (TanDEm) Lab
                             </Card.Text>
-                            <Card.Footer><a href="#" style={{color: "#E9C46A"}} onClick={() => setModalShow(true)}>Read More</a></Card.Footer>
+                            <Card.Footer><a href="#" style={{color: "#E9C46A"}} onClick={() => setModalShowTandem(true)}>Read More</a></Card.Footer>
 
                     </div>               
                     </Card>
                     <TandemModal
                         show={modalShowTandem}
-                        onHide={() => setModalShow(false)}
+                        onHide={() => setModalShowTandem(false)}
                     />
                 </a>  
             </Col>
@@ -373,10 +374,6 @@ function Research() {
             </Container>
         </Col>
 
-            <TandemModal
-        show={modalShowTandem}
-        onHide={() => setModalShow(false)}
-      />
     </Row>
             
         </Container>
