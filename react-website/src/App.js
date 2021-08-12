@@ -10,6 +10,7 @@ import Interests from './components/Interests/Interests';
 //import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 import {Navbar, Image, Nav, Container, Row} from 'react-bootstrap';
 import { HashRouter as Router, Switch, Route, NavLink } from "react-router-dom";
+import PDF from './Documents/PRERNA_RAVI_CV.pdf'
 
 class App extends Component {
   render() {
@@ -21,12 +22,12 @@ class App extends Component {
       <Navbar.Toggle aria-controls="basic-navbar-nav" />
       <Navbar.Collapse className="justify-content-end">
       <Nav className="navbar-options-format">
-        <Nav.Link><NavLink style={{color: "#b3b3b3", textDecoration: 'none' }} activeStyle={{fontWeight: "bold", color: "#f2ebdd", textDecoration: 'none' }} exact to="/">About</NavLink></Nav.Link>
-        <Nav.Link><NavLink style={{color: "#b3b3b3", textDecoration: 'none' }} activeStyle={{fontWeight: "bold", color: "#f2ebdd", textDecoration: 'none' }} exact to="/experience">Experience</NavLink></Nav.Link>
-        <Nav.Link><NavLink style={{color: "#b3b3b3", textDecoration: 'none' }} activeStyle={{fontWeight: "bold", color: "#f2ebdd", textDecoration: 'none' }} exact to="/research">Research & Publications</NavLink></Nav.Link>
-        <Nav.Link><NavLink style={{color: "#b3b3b3", textDecoration: 'none' }} activeStyle={{fontWeight: "bold", color: "#f2ebdd", textDecoration: 'none' }} exact to="/projects">Projects</NavLink></Nav.Link>
-        <Nav.Link><NavLink style={{color: "#b3b3b3", textDecoration: 'none' }} activeStyle={{fontWeight: "bold", color: "#f2ebdd", textDecoration: 'none' }} exact to="/skills">Awards</NavLink></Nav.Link>
-        <Nav.Link><NavLink style={{color: "#b3b3b3", textDecoration: 'none' }} activeStyle={{fontWeight: "bold", color: "#f2ebdd", textDecoration: 'none' }} exact to="/interests">CV</NavLink></Nav.Link>
+        <Nav.Link><NavLink style={{color: "#b3b3b3", textDecoration: 'none' }} activeStyle={{fontWeight: "bold", color: "#E9C46A", textDecoration: 'none' }} exact to="/">About</NavLink></Nav.Link>
+        <Nav.Link><NavLink style={{color: "#b3b3b3", textDecoration: 'none' }} activeStyle={{fontWeight: "bold", color: "#E9C46A", textDecoration: 'none' }} exact to="/experience">Experience</NavLink></Nav.Link>
+        <Nav.Link><NavLink style={{color: "#b3b3b3", textDecoration: 'none' }} activeStyle={{fontWeight: "bold", color: "#E9C46A", textDecoration: 'none' }} exact to="/research">Research & Publications</NavLink></Nav.Link>
+        <Nav.Link><NavLink style={{color: "#b3b3b3", textDecoration: 'none' }} activeStyle={{fontWeight: "bold", color: "#E9C46A", textDecoration: 'none' }} exact to="/projects">Projects</NavLink></Nav.Link>
+        <Nav.Link><NavLink style={{color: "#b3b3b3", textDecoration: 'none' }} activeStyle={{fontWeight: "bold", color: "#E9C46A", textDecoration: 'none' }} exact to="/skills">Awards</NavLink></Nav.Link>
+        <Nav.Link style={{color: "#b3b3b3", textDecoration: 'none' }} activeStyle={{fontWeight: "bold", color: "#E9C46A", textDecoration: 'none' }} href={PDF}>CV</Nav.Link>
       </Nav>
       </Navbar.Collapse>
     </Navbar>
@@ -38,7 +39,6 @@ class App extends Component {
             <Route path="/experience" component={Experience} />
             <Route path="/projects" component={Projects} />
             <Route path="/skills" component={Skills} />
-            <Route path="/interests" component={Interests} />
       </Switch>
       </div>
     </Router>
