@@ -182,10 +182,10 @@ function Research() {
     const [modalShowTandem, setModalShowTandem] = React.useState(false);
 
     return (
-        <Container style={{marginLeft: "70px"}}>
+        <Container style={{marginLeft: "60px"}}>
             <Row style={{marginRight: "0px"}}>
             {/** *********************************ASL ITEM************** */}
-            <Col md={10}>
+            <Col md={9.5} style={{backgroundColor: "red"}}>
             <Row>
             <Col >
                 <a role="button" style={{cursor: "pointer"}} onClick={() => setModalShowASL(true)}>      
@@ -356,8 +356,8 @@ function Research() {
             </Col>
 
             
-       <Col style={{marginTop: "100px"}}>
-            <Container style={{backgroundColor: "black", marginTop: "20px", width: "240%", height: "148vh"}}>
+       <Col md='auto' style={{marginTop: "100px", marginLeft: "40px", flex: "0.5"}}>
+            <Container style={{backgroundColor: "black", marginTop: "20px", height: "149vh", width: "250%"}}>
             <br/>
             <div style={{fontSize: 22, color: "#E9C46A"}}>Publications</div>
             <br/>
