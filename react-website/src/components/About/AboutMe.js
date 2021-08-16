@@ -26,7 +26,7 @@ class AboutMe extends React.Component{
         };
 
         var backgroundTwo = {
-            marginTop: "50px",
+            marginTop: "0px",
             marginRight: 0,
             marginLeft: 0,
             marginBottom: 0, 
@@ -109,7 +109,7 @@ class AboutMe extends React.Component{
                     <Card className="bg-dark text-white" 
                         style={{marginTop: "20px", marginLeft: "0px", border: "none",
                         borderRadius: "10px", height: "70vh"}}>
-                    <div className="research-card-image" >
+                    <div className="interest-card-image" >
                         <Card.Header 
                             style={{
                                 fontFamily: "Tahoma, Geneva, sans-serif", 
@@ -142,7 +142,7 @@ class AboutMe extends React.Component{
                     <Card className="bg-dark text-white" 
                         style={{marginTop: "20px", marginLeft: "0px", border: "none",
                         borderRadius: "10px", height: "70vh"}}>
-                    <div className="research-card-image" >
+                    <div className="interest-card-image" >
                         <Card.Header 
                             style={{
                                 fontFamily: "Tahoma, Geneva, sans-serif", 
@@ -175,7 +175,7 @@ class AboutMe extends React.Component{
                     <Card className="bg-dark text-white" 
                         style={{marginTop: "20px", marginLeft: "0px", border: "none",
                         borderRadius: "10px", height: "70vh"}}>
-                    <div className="research-card-image" >
+                    <div className="interest-card-image" >
                         <Card.Header 
                             style={{
                                 fontFamily: "Tahoma, Geneva, sans-serif", 
