@@ -1,10 +1,13 @@
 import React from 'react';
-import {Col, Image, Row, Container} from 'react-bootstrap';
+import {Col, Image, Row, Container, Card, Modal, Button} from 'react-bootstrap';
 import profile from "../../images/profile-pic.JPG";
 import GitHubIcon from '@material-ui/icons/GitHub';
 import LinkedInIcon from '@material-ui/icons/LinkedIn';
 import EmailIcon from '@material-ui/icons/Email';
 import BlackOne from "../../images/BlackOne.jpg";
+import Dance from "../../images/Dance.jpg";
+import Art from "../../images/Art.jpg";
+import {ZoomIn} from 'react-animation-wrapper';
 //import InstagramIcon from '@material-ui/icons/Instagram';
 
 class AboutMe extends React.Component{
@@ -21,8 +24,22 @@ class AboutMe extends React.Component{
             position: "relative",
             boxShadow: "40px 0px 40px 25px #003554"
         };
+
+        var backgroundTwo = {
+            marginTop: "50px",
+            marginRight: 0,
+            marginLeft: 0,
+            marginBottom: 0, 
+            backgroundPosition: 'center',
+            width: '102%',
+            backgroundSize: 'cover',
+            opacity: 0.85,
+            position: "relative",
+            boxShadow: "40px 0px 40px 25px #003554"
+        };
         return (
             // <div style={{backgroundColor: "#0e172a", maxWidth: "102%", marginTop: "780px"}}>
+        <div>
         <Row>
           {/* <Image style={background} responsive="true" className="wallpaper-format" src={BlackOne} fluid="true"/> */}
           <Col xs={0} style={{alignContent: "center"}}>
@@ -68,7 +85,7 @@ class AboutMe extends React.Component{
                     <br></br>
                     <div>
                     With my upbringing rooted in deep Indian traditions, I have also been fortunate to have been trained in classical Carnatic music and 
-                    Bharatanatyam. I also have a keen artistic sense and a preview of my repertoire is available here. 
+                    Bharatanatyam. I also have a keen artistic sense and a preview of my repertoire is available below. 
                     </div>
                 </Container>
                 </Col>
@@ -76,6 +93,121 @@ class AboutMe extends React.Component{
             </Container>
             </Col>
             </Row>
+
+
+
+            <Row>
+            {/* <Image style={background} responsive="true" className="wallpaper-format" src={BlackOne} fluid="true"/> */}
+            <Col style={{alignContent: "center"}}>
+            {/* <Image style={backgroundMe} responsive="true" className="wallpaper-format" src={Me} fluid="true"/> */}
+            <Image style={backgroundTwo} responsive="true"  src={BlackOne} fluid="true"/>
+            
+            <Container className="about-me-two">
+                <Row>
+                <Col sm={4}>
+                <a role="button" style={{cursor: "pointer", textDecoration: "none"}} href="https://www.prernaravi.com/dance">      
+                    <Card className="bg-dark text-white" 
+                        style={{marginTop: "20px", marginLeft: "0px", border: "none",
+                        borderRadius: "10px", height: "70vh"}}>
+                    <div className="research-card-image" >
+                        <Card.Header 
+                            style={{
+                                fontFamily: "Tahoma, Geneva, sans-serif", 
+                                fontWeight: "normal",
+                                fontSize: 20,
+                                paddingTop: "15px",
+                                paddingBottom: '0px'
+                            }}> 
+                            <p style={{lineHeight: "1.5", color: "#E9C46A"}}>
+                                &ensp;Indian Classical Dance: Bharatanatyam
+                            </p>
+                        </Card.Header>
+                       
+                        <ZoomIn>
+                        <Card.Img style={{height: "53vh", width: "70%", opacity: 0.9}}
+                             src={Dance} alt="Card image" />
+                        </ZoomIn>
+                        
+                            <Card.Text style={{fontSize: 15, margin: '10px'}}>
+                            I have been blessed to have successfully completed the Arangetram under Guru Kalamandalam Jyothilakshmi Jayakumar at the world famous Melapathur Auditorium, Guruvayoor in Kerala.
+                            </Card.Text>
+                            {/**<Card.Footer><a href="#" style={{color: "#E9C46A"}}>Read More</a></Card.Footer>*/}
+
+                    </div>               
+                    </Card>
+                </a>  
+                </Col>
+                <Col sm={4}>
+                <a role="button" style={{cursor: "pointer", textDecoration: "none"}} href="https://www.prernaravi.com/music">    
+                    <Card className="bg-dark text-white" 
+                        style={{marginTop: "20px", marginLeft: "0px", border: "none",
+                        borderRadius: "10px", height: "70vh"}}>
+                    <div className="research-card-image" >
+                        <Card.Header 
+                            style={{
+                                fontFamily: "Tahoma, Geneva, sans-serif", 
+                                fontWeight: "normal",
+                                fontSize: 20,
+                                paddingTop: "15px",
+                                paddingBottom: '0px'
+                            }}> 
+                            <p style={{lineHeight: "1.5", color: "#E9C46A"}}>
+                                &ensp;Indian Classical Music: Carnatic
+                            </p>
+                        </Card.Header>
+                       
+                        <ZoomIn>
+                        <Card.Img style={{height: "50vh", width: "68%"}}
+                             src="https://i.pinimg.com/originals/63/24/23/632423b9658f2f53c7c2ec382edb0805.jpg" alt="Card image" />
+                        </ZoomIn>
+                        
+                            <Card.Text style={{fontSize: 15, margin: '10px'}}>
+                            I have undergone professional training in Indian classical Carnatic music since the age of 4 under the able guidance of Guru Shanti Ram Kumar for more than 10 years and participated in numerous events and competitions in India and Oman.
+                            </Card.Text>
+                            
+
+                    </div>               
+                    </Card>
+                </a>  
+                </Col>
+                <Col sm={4}>
+                <a role="button" style={{cursor: "pointer", textDecoration: "none"}} href="https://www.prernaravi.com/art">      
+                    <Card className="bg-dark text-white" 
+                        style={{marginTop: "20px", marginLeft: "0px", border: "none",
+                        borderRadius: "10px", height: "70vh"}}>
+                    <div className="research-card-image" >
+                        <Card.Header 
+                            style={{
+                                fontFamily: "Tahoma, Geneva, sans-serif", 
+                                fontWeight: "normal",
+                                fontSize: 20,
+                                paddingTop: "15px",
+                                paddingBottom: '0px'
+                            }}> 
+                            <p style={{lineHeight: "1.5", color: "#E9C46A"}}>
+                                &ensp;Visual Arts
+                            </p>
+                        </Card.Header>
+                       
+                        <ZoomIn>
+                        <Card.Img style={{height: "52vh", width: "78%", opacity: "0.8"}}
+                             src={Art} alt="Card image" />
+                        </ZoomIn>
+                        
+                            <Card.Text style={{fontSize: 15, margin: '10px'}}>
+                            I have also received rigorous training in visual arts using various mediums including water, acyrlic, and oil for canvas paintings
+                            and pencils (both black and colored) for sketching and shading.
+                            </Card.Text>
+
+                    </div>               
+                    </Card>
+                </a>  
+                </Col>
+                </Row>
+            </Container>
+            </Col>
+            </Row>
+            </div>
         );
     }
 }
