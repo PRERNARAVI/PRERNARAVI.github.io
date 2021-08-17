@@ -6,7 +6,6 @@ import CHI from "../../images/CHI_Logo.png";
 import COC2021 from "../../images/CocAward2021.jpeg";
 import COC2020 from "../../images/CocAward2020.jpeg";
 import Adobe from "../../images/Adobe.jpeg";
-import PURA from "../../images/PURA.jpeg";
 import { FaAward } from 'react-icons/fa';
 import {ZoomIn} from 'react-animation-wrapper';
 import BlackOne from "../../images/BlackOne.jpg";
