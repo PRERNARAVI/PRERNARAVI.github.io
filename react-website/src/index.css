@@ -119,10 +119,10 @@ code {
   box-shadow: 0px 0px 5px 5px #0e172a;
 }
 .project-container {
-  margin-top: 70px;
+  margin-top: 50px;
   padding-top: 20px;
   max-width: 90%;
-  height: 40vh;
+  height: 50vh;
   background-color:#0e172a;
   opacity: 0.8;
   box-shadow: 0px 0px 5px 5px #0e172a;
@@ -190,7 +190,7 @@ code {
   border-radius: "10px";
   height: "90%"; 
   opacity: 0.7;
-  background-color: #0e172a; 
+  background-color: black; 
 }
 .card-image:after {
   content:'\A';
