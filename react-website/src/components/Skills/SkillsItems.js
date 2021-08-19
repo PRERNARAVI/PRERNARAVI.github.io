@@ -66,7 +66,7 @@ class SkillsItems extends React.Component{
                                 }}> 
                                 <p style={{lineHeight: "0.7"}}>
                                     <FaAward size='35px' />
-                                    &ensp;COC Outstanding Junior (EDS Rising Senior) Award
+                                    &ensp;COC Outstanding Junior (EDS Rising Senior) Award 2021
                                 </p>
                             </Card.Header>
                             <Card.Img style={{height: "20vh", width: "90%", backgroundColor: "white"}}
@@ -162,7 +162,7 @@ class SkillsItems extends React.Component{
                                 }}> 
                                 <p style={{lineHeight: "0.7"}}>
                                     <FaAward size='35px' />
-                                    &ensp;COC Outstanding Sophomore Award
+                                    &ensp;COC Outstanding Sophomore Award 2020
                                 </p>
                             </Card.Header>
                             <Card.Img style={{height: "20vh", width: "90%", backgroundColor: "white"}}
@@ -330,7 +330,7 @@ class SkillsItems extends React.Component{
                             <Card.Img style={{height: "20vh", width: "88%", backgroundColor: "white"}}
                                  src="https://www.cnet.com/a/img/NmTo06FvEM6ZR9ld7a3_wlBKz7Y=/1200x675/2019/02/04/8311b046-6f2b-4b98-8036-e765f572efad/msft-microsoft-logo-2-3.jpg" alt="Card image" />
                                 <Card.Text style={{fontSize: 14, margin: '10px'}}>
-                                Received this honor for professional endeavors related to research, teaching, leadership, and public service activities at Georgia Tech that have earned special recognition (research publications, grant awards, etc.). 
+                                Received the Honorable Mention Award for my project "understaNDing Neurodiversity" (see projects section) from over 3,200 Microsoft interns and 180,000 full time employees at the Microsoft Global Hackathon 2020.
                                 </Card.Text>
                                 <Card.Footer>[ Sept 2020 ]</Card.Footer>
 
@@ -357,12 +357,12 @@ class SkillsItems extends React.Component{
                                     &ensp;Rewriting the Code Fellowship 2020 - 2021
                                 </p>
                             </Card.Header>
-                            <Card.Img style={{height: "19vh", width: "45%", backgroundColor: "white", transform: "scale(1.2)"}}
+                            <Card.Img style={{height: "22.5vh", width: "45%", backgroundColor: "white", transform: "scale(1.1)"}}
                                  src="https://jumpstart-static.s3.amazonaws.com/backend/organizations/organization/oU2KTehvQ6ip_Gj8uoIefQ.png" alt="Card image" />
                                 <Card.Text style={{fontSize: 14, margin: '10px'}}>
-                                Won the 2021 Nunn School of International Affairs Paper Competition for Global Development for the paper - "The Pandemic Shift to Remote Learning under Resource Constraints" by Prerna Ravi, Azra Ismail and Neha Kumar.
+                                Awarded this fellowship from Rewriting the Code for extraordinary achievements in academics and involvements in research, non-profits, empowerment initiatives, teaching, and leadership.
                                 </Card.Text>
-                                <Card.Footer>[ April 2021 ]</Card.Footer>
+                                <Card.Footer>[ June 2020 ]</Card.Footer>
 
                         </div>               
                         </Card>

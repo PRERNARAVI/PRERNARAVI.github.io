@@ -12,7 +12,7 @@ class ExperienceItems extends React.Component{
                 title: <div style={{fontSize: "15px", fontFamily: "Tahoma, Geneva, sans-serif", color: "#E9C46A"}}>May 2021 - July 2021<br/>Redmond, Washington, USA</div>,
                 cardTitle: <h4 style={{textAlign: "center"}}>Software Engineer Intern at Microsoft</h4>,
                 //cardSubtitle:<h5 style={{color: "#f2ebdd", textAlign: "center"}}>Software Engineer Intern</h5>,
-                cardDetailedText: <div style={{minHeight: "50px", fontFamily: "Tahoma, Geneva, sans-serif"}}> • Software Engineer Intern for the Employee Experience Team within Microsoft’s Cloud and Artificial Intelligence (C+AI) organization.<br/>
+                cardDetailedText: <div style={{minHeight: "50px", fontFamily: "Tahoma, Geneva, sans-serif"}}> • Software Engineer Intern for the Employee Experience Team within <a href="https://www.microsoft.com/" style={{color: "#E9C46A"}}><u>Microsoft</u></a>’s Cloud and Artificial Intelligence (C+AI) organization.<br/>
                 • Designed and built an end-to end modern, intelligent solution for the Microsoft Office 365 Enterprise Records Management System used for storing over 6 million regulatory, legal, and business-critical electronic records spanning 100 countries managed in three regions (US, EMEA and Asia) for over 160,000 employees.<br/>
                 • Constructed a pipeline to create file plans and retention policies that automatically labels, stores, retains, retrieves and disposes records stored across the entire Office 365 ecosystem (SharePoint, OneDrive, Teams, Outlook Exchange) using an in-place approach that allows users to manage their content from within existing repositories.<br/>
                 • Built a microservice for transactional systems using Azure Functions and data connectors that leverages C# (.NET Core) Rest APIs, Azure Portal and Visual Studio resources to facilitate automatic and iterative migration of records from every external Microsoft System (Azure Cosmos DB, SQL, File/Data Storage Blobs, etc.) into the Office 365 infrastructure, after which the records get stored and retained in-place.<br/>
@@ -34,24 +34,17 @@ class ExperienceItems extends React.Component{
                 cardTitle: <h4 style={{textAlign: "center", color: "#E9C46A"}}>Head Teaching Assistant for the College of Computing at Georgia Tech</h4>,
                 //cardSubtitle:<h5 style={{color: "#f2ebdd", textAlign: "center"}}>Software Engineer Intern</h5>,
                 cardDetailedText: <div responsive="true">
-                I am the Head Teaching Assistant for Object Oriented Programming in Java - an introductory  
-                course that every Computer Science major and minor is required to take at Georgia Tech. As part of this role, 
-                I have had the priviledge of working with professors like <a style={{color: "#E9C46A"}} href="https://en.wikipedia.org/wiki/John_Stasko"><u>John Stasko</u></a> and 
-                Susan Watson-Phillips. 
-                
-                <br/>
-    
-                <i>"The Best Way to Learn is to Teach."</i> Guiding students and empowering them to grow
-                into good programmers is irrefutably one of the most rewarding experiences I have had till date. Not only do I believe that
-                teaching is the best way to give back to the community, it has also strengthened my knowledge in the area of 
-                fundamental <a style={{color: "#E9C46A"}} href="https://en.wikipedia.org/wiki/Object-oriented_programming"><u>Object Oriented Programming</u></a> and the  
-                core <a style={{color: "#E9C46A"}} href="https://en.wikipedia.org/wiki/Object-oriented_programming"><u>Java</u></a> language. As a member of the team of teaching assistants 
-                for one of the largest Computer Science courses on campus, consisting of over 800 students every semester, I assist 
-                the professors by preparing course materials for lectures and online tutorials to supplement the material being taught.
-                Additionally, I conduct recitations and office hours to help students develop strong coding and debugging skills. I also
-                build grading frameworks for programming assignments and exams that assess the students' understanding of the concepts covered 
-                in the course. These daily responsibilities have ingrained in me the values of empathy, diginity, leadership, effective listening 
-                and communication essential for an all rounded development.
+                • Head Teaching Assistant for CS 1331- Object-Oriented Programming in Java for <a style={{color: "#E9C46A"}} href="https://en.wikipedia.org/wiki/John_Stasko"><u>Dr. John Stasko</u></a> at <a style={{color: "#E9C46A"}} href="https://www.cc.gatech.edu/"><u>Georgia Tech.</u></a><br/>
+                • Manage a team of 30 Teaching Assistants (8% of total undergraduate TAs employed by the College of Computing) for the course.<br/>
+                • Substitute as a lecturer for over 800 students when the professor is not available.<br/>
+                • Direct the Teaching Assistant hiring process and conduct interviews for candidate TAs every semester.<br/>
+                • Ensure quality and timely delivery of course materials.<br/>
+                • Assign responsibilities and coordinate between the internal teams for homeworks, lectures, exams, office hours and autograders.<br/>
+                • Redesign course schedule, handle individual student exceptions and grades and oversee course communication announcements and emails.<br/>
+                • Conduct recitations and office hours to instruct and train over 800 undergraduates in fundamental Object-Oriented Programming Concepts and help them develop strong coding and debugging skills.<br/>
+                • Create course materials including homeworks, exams and online tutorials.<br/>
+                • Grade programming assignments in Java.<br/>
+                • Mentor and train new incoming TA’s.<br/>
 
                 </div>,
                 media: 
@@ -70,30 +63,13 @@ class ExperienceItems extends React.Component{
                 //cardSubtitle:<h5 style={{color: "#f2ebdd", textAlign: "center"}}>Software Engineer Intern</h5>,
                 cardDetailedText: 
                 <div responsive="true">
-                        I consider myself extremely fortunate to have gotten the splendid opportunity to intern as a Software Engineer at a 
-                        prestigious company like <a style={{color: "#E9C46A"}} href="https://www.microsoft.com/en-us/"><u>Microsoft</u></a> under
-                        its <a style={{color: "#E9C46A"}} href="https://www.microsoft.com/en-us/itshowcase/working-in-cseo-the-heartbeat-of-microsoft"><u>Core Services Engineering and Operations (CSEO)</u></a> Organization. This internship introduced me to the nuances of 
-                        Agile Software Development in the corporate world and gave me an incredible opportunity to hone my technical skills.
-                        Building meaningful interactions with full time employees, interns as well as leaders like <a style={{color: "#E9C46A"}} href="https://en.wikipedia.org/wiki/Satya_Nadella"><u>Satya Nadella</u></a>, <a style={{color: "#E9C46A"}} 
-                        href="https://en.wikipedia.org/wiki/Kurt_DelBene"><u> Kurt DelBene</u></a> and <a style={{color: "#E9C46A"}} href="https://en.wikipedia.org/wiki/Phil_Spencer_(business_executive)"><u>Phil Spencer</u></a> helped me polish my communication,
-                        presentation and leadership abilities and ingrained values of empathy, diligence and responsibility.                      
+                    • Software Engineer Intern for Professional Services within <a href="https://www.microsoft.com/" style={{color: "#E9C46A"}}><u>Microsoft</u></a>’s Core Services Engineering and Operations (CSEO) organization.<br/>
+                    • Designed and implemented a centralized telemetry service to monitor an all-inclusive web platform used by internal consultants to track their projects and finances.<br/>
+                    • Developed a new telemetry system using Angular and TypeScript that logs all UI events, page views, API requests and errors to assist debugging and product improvement, thereby directly impacting 5000+ users.<br/>
+                    • Standardized telemetry and documented new rules and updated naming conventions, to make telemetry development and querying from Azure Application Insights fast, efficient and consistent.<br/>
+                    • Built dashboards from real-time user data using Kusto Query Language (KQL), Azure Data Explorer and Microsoft Power BI to analyze user behavior and track key trends, feature usage and main pain points across multiple environments, so as to make recommendations for improving application performance.<br/>
+                                
                         
-                        <br></br>
-                        
-                        As an intern within the Professional Services team, I designed and implemented a centralized telemetry service to monitor an all-inclusive web platform used by 
-                        internal consultants to track their projects and finances. I developed a new telemetry system using <a style={{color: "#E9C46A"}} href="https://en.wikipedia.org/wiki/Angular_(web_framework)"><u>Angular</u></a> and <a style={{color: "#E9C46A"}}
-                         href="https://en.wikipedia.org/wiki/TypeScript"><u>TypeScript</u></a> that logs all UI events, page views, 
-                        API requests and errors to <a style={{color: "#E9C46A"}} href="https://docs.microsoft.com/en-us/azure/azure-monitor/app/app-insights-overview"><u>Azure Application Insights</u></a>. Using the real time user data that this 
-                        system produced, I built dashboards using <a style={{color: "#E9C46A"}} href="https://docs.microsoft.com/en-us/azure/data-explorer/kusto/concepts/"><u>Kusto Query Language, Azure 
-                        Data Explorer</u></a> and <a style={{color: "#E9C46A"}} href="https://powerbi.microsoft.com/en-us/"><u>Microsoft Power BI</u></a> to analyze user behavior and track key trends, feature usage and pain points across multiple pages and environments of the 
-                        application.
-                        This system thus helps assist debugging and product improvement, directly impacting the experience of over 5000 users of the application. It also drives every future business 
-                        and engineering decision around feature investment, development and enhancement.
-                
-                        <br></br>
-                        
-                        My experience at Microsoft was embellished further with three additional projects across two hackathons as well as a Co-Creation project that lives very close to my heart.
-                        Explore my <NavLink style={{color: "#E9C46A", textDecoration: 'none' }} exact to="/projects"><u>Projects</u></NavLink> page to learn more about them!
                 </div>,
                 media: 
                 {
@@ -109,24 +85,11 @@ class ExperienceItems extends React.Component{
                 cardTitle: <h4 style={{textAlign: "center", color: "#E9C46A"}}>Fellow and Software Developer at Rewriting the Code</h4>,
                 //cardSubtitle:<h5 style={{color: "#f2ebdd", textAlign: "center"}}>Software Engineer Intern</h5>,
                 cardDetailedText: <div responsive="true">
-                I am the Head Teaching Assistant for Object Oriented Programming in Java - an introductory  
-                course that every Computer Science major and minor is required to take at Georgia Tech. As part of this role, 
-                I have had the priviledge of working with professors like <a style={{color: "#E9C46A"}} href="https://en.wikipedia.org/wiki/John_Stasko"><u>John Stasko</u></a> and 
-                Susan Watson-Phillips. 
-                
-                <br/>
-    
-                <i>"The Best Way to Learn is to Teach."</i> Guiding students and empowering them to grow
-                into good programmers is irrefutably one of the most rewarding experiences I have had till date. Not only do I believe that
-                teaching is the best way to give back to the community, it has also strengthened my knowledge in the area of 
-                fundamental <a style={{color: "#E9C46A"}} href="https://en.wikipedia.org/wiki/Object-oriented_programming"><u>Object Oriented Programming</u></a> and the  
-                core <a style={{color: "#E9C46A"}} href="https://en.wikipedia.org/wiki/Object-oriented_programming"><u>Java</u></a> language. As a member of the team of teaching assistants 
-                for one of the largest Computer Science courses on campus, consisting of over 800 students every semester, I assist 
-                the professors by preparing course materials for lectures and online tutorials to supplement the material being taught.
-                Additionally, I conduct recitations and office hours to help students develop strong coding and debugging skills. I also
-                build grading frameworks for programming assignments and exams that assess the students' understanding of the concepts covered 
-                in the course. These daily responsibilities have ingrained in me the values of empathy, diginity, leadership, effective listening 
-                and communication essential for an all rounded development.
+                • Awarded a Fellowship from <a href="https://rewritingthecode.org/" style={{color: "#E9C46A"}}><u>Rewriting the Code (RTC)</u></a> for the Academic Year 2020-2021.<br/>
+                • Designed and built a referral portal for over 10,000 RTC members worldover to facilitate the referral process between RTC members currently working/interning at various companies and members seeking jobs.<br/>
+                • Created an accessible user interface using React.js that allows for member and alumni sign-up and authentication, professional profile creation, referral assignments and management.<br/>
+                • Developed endpoints for the above functionality in the backend using Node.js and Express.js.<br/>
+                • Constructed databases using MongoDB to store member and company data, as well as referral history and information.<br/>
 
                 </div>,
                 media: 
@@ -144,24 +107,10 @@ class ExperienceItems extends React.Component{
                 cardTitle: <h4 style={{textAlign: "center", color: "#E9C46A"}}>Human Centered Design Instructor at Code.X</h4>,
                 //cardSubtitle:<h5 style={{color: "#f2ebdd", textAlign: "center"}}>Software Engineer Intern</h5>,
                 cardDetailedText: <div responsive="true">
-                I am the Head Teaching Assistant for Object Oriented Programming in Java - an introductory  
-                course that every Computer Science major and minor is required to take at Georgia Tech. As part of this role, 
-                I have had the priviledge of working with professors like <a style={{color: "#E9C46A"}} href="https://en.wikipedia.org/wiki/John_Stasko"><u>John Stasko</u></a> and 
-                Susan Watson-Phillips. 
-                
-                <br/>
-    
-                <i>"The Best Way to Learn is to Teach."</i> Guiding students and empowering them to grow
-                into good programmers is irrefutably one of the most rewarding experiences I have had till date. Not only do I believe that
-                teaching is the best way to give back to the community, it has also strengthened my knowledge in the area of 
-                fundamental <a style={{color: "#E9C46A"}} href="https://en.wikipedia.org/wiki/Object-oriented_programming"><u>Object Oriented Programming</u></a> and the  
-                core <a style={{color: "#E9C46A"}} href="https://en.wikipedia.org/wiki/Object-oriented_programming"><u>Java</u></a> language. As a member of the team of teaching assistants 
-                for one of the largest Computer Science courses on campus, consisting of over 800 students every semester, I assist 
-                the professors by preparing course materials for lectures and online tutorials to supplement the material being taught.
-                Additionally, I conduct recitations and office hours to help students develop strong coding and debugging skills. I also
-                build grading frameworks for programming assignments and exams that assess the students' understanding of the concepts covered 
-                in the course. These daily responsibilities have ingrained in me the values of empathy, diginity, leadership, effective listening 
-                and communication essential for an all rounded development.
+                • Instructor for Human Centered Design for <a href="https://www.codedotx.org/" style={{color: "#E9C46A"}}><u>Code.X</u></a> under its Code for Palestine (Gaza and West Bank) summer program which serves over 150 students.<br/>
+• Led the Human Centered Design Year 3 program which guides students through an end-to-end process of identifying a problem space, ideation, outlining user personas, conducting market research and creating minimum viable products (MVPs), visioning, low and high-fidelity prototyping, heuristic evaluations, and usability testing.<br/>
+• Created course materials and delivered lectures on principles of human centered design, qualitative user research, laws of user experience (UX), information architecture, visual design, branding and aesthetic refinement, and evaluation of prototypes.<br/>
+• Organized and supervised design sprints with every student group to execute the above mentioned processes for their capstone projects.<br/>
 
                 </div>,
                 media: 
@@ -179,25 +128,10 @@ class ExperienceItems extends React.Component{
                 cardTitle: <h4 style={{textAlign: "center", color: "#E9C46A"}}>Training Manager at Robogals Global</h4>,
                 //cardSubtitle:<h5 style={{color: "#f2ebdd", textAlign: "center"}}>Software Engineer Intern</h5>,
                 cardDetailedText: <div responsive="true">
-                I am the Head Teaching Assistant for Object Oriented Programming in Java - an introductory  
-                course that every Computer Science major and minor is required to take at Georgia Tech. As part of this role, 
-                I have had the priviledge of working with professors like <a style={{color: "#E9C46A"}} href="https://en.wikipedia.org/wiki/John_Stasko"><u>John Stasko</u></a> and 
-                Susan Watson-Phillips. 
-                
-                <br/>
-    
-                <i>"The Best Way to Learn is to Teach."</i> Guiding students and empowering them to grow
-                into good programmers is irrefutably one of the most rewarding experiences I have had till date. Not only do I believe that
-                teaching is the best way to give back to the community, it has also strengthened my knowledge in the area of 
-                fundamental <a style={{color: "#E9C46A"}} href="https://en.wikipedia.org/wiki/Object-oriented_programming"><u>Object Oriented Programming</u></a> and the  
-                core <a style={{color: "#E9C46A"}} href="https://en.wikipedia.org/wiki/Object-oriented_programming"><u>Java</u></a> language. As a member of the team of teaching assistants 
-                for one of the largest Computer Science courses on campus, consisting of over 800 students every semester, I assist 
-                the professors by preparing course materials for lectures and online tutorials to supplement the material being taught.
-                Additionally, I conduct recitations and office hours to help students develop strong coding and debugging skills. I also
-                build grading frameworks for programming assignments and exams that assess the students' understanding of the concepts covered 
-                in the course. These daily responsibilities have ingrained in me the values of empathy, diginity, leadership, effective listening 
-                and communication essential for an all rounded development.
-
+                • Nominated to the executive board of <a href="https://robogals.org/" style={{color: "#E9C46A"}}><u>Robogals</u></a> at Georgia Tech, as the Training Manager. <br/>
+• Developed and programmed robots for engineering workshops. <br/>
+• Led workshops to teach students and train volunteers on the basics of robotics workshop knowledge needed.<br/>
+• Organized STEM based events to expose primary, middle and high school girls to robotics, computing and other STEM fields.<br/>
                 </div>,
                 media: 
                 {
