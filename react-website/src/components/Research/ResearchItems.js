@@ -16,6 +16,8 @@ import TANDEM from "../../images/TANDEM.jpg";
 import Book from "../../images/Book.png";
 import Stats from "../../images/CopyCat_Stats.png";
 import CSCW from "../../images/CSCW.png";
+import Mentor from "../../images/Mentor.png";
+import Survey from "../../images/Survey.png";
 
 function ASLModal(props) {
     var fontFormat = {
@@ -219,10 +221,163 @@ function TandemModal(props) {
     );
   }
 
+  function CatModal(props) {
+    var fontFormat = {
+        fontFamily: "Tahoma, Geneva, sans-serif",
+    }
+    return (
+    <div onClick={e => e.stopPropagation()}>
+      <Modal
+        {...props}
+        size="xl"
+        keyboard
+        dialogClassName="modal-90w"
+        aria-labelledby="contained-modal-title-vcenter-two"
+        scrollable
+        style={{marginTop: "32px", height: "100vh"}}
+      >
+        <Modal.Header style={{backgroundColor: "black", border: 0}}>
+          <Modal.Title 
+            id="contained-modal-title-vcenter-two" style={{color: "#E9C46A", fontFamily: "Tahoma, Geneva, sans-serif", fontSize: 22, textAlign: "center"}}>
+            Co-Designing Parent-Education ICTs with Hispanic Immigrants and Education System
+          </Modal.Title>
+        </Modal.Header>
+        <Modal.Body scrollable style={{width: "100%", 
+        backgroundColor: "black",
+        backgroundSize: "100%",
+        color: "#f2ebdd",
+        fontSize: 15,
+        marginTop: 0,
+        backgroundImage: "url(" + BlackOne + ")"}}>
+        <Container className="research-container" responsive="true">
+        <Row>
+                <Container responsive="true">
+                    <br/>
+                    <div style={fontFormat} responsive="true">
+                    <div style={{color: "#E9C46A", fontSize: 18}}>Problem Space:</div>
+                        <Image width="35%" src="https://dl.acm.org/cms/attachment/64dea255-2f3d-4336-b568-2ffaa06be771/chi20-202-fig1.jpg" style={{float: "right", paddingLeft: "5px"}}/>
+                    <div responsive="true">
+                    Since 2017, over 165 million people have immigrated to high-income countries, like the United States, in search of a better future for themselves and their children. However, immigrant parents—especially those from a low-income background—usually struggle to ensure that their children harness educational opportunities for achieving such aspired future. Information and Communication Technologies (ICTs) could support these parents by facilitating access to learning-related information for enriching children’s academic experience. The field of Human-Computer Interaction (HCI) has a growing interest in how technology might support parents. Much of this work, however, has focused on parents from dominant groups (e.g., middle-class natives) and their interaction with social media and mobile technologies for non-educational purposes (e.g., finding support, protecting their children’s privacy, and others). 
+                        </div>
+                        <br></br>
+                        <div responsive="true">
+                        For many parents from non-dominant groups in the United States (e.g., ethnic minorities), engaging in ways that allow their children to achieve such success is still a challenge. 
+                        Despite Latinos’ prevalent presence in the U.S., they face a historically persistent low academic achievement rate. Barriers like language and cultural differences stand in the way. Digital technologies have the potential to offer the needed support by enhancing parents’ opportunities to access relevant information. However, to do so, the design of such technologies has yet to enable parents to actively participate with regards to what they find meaningful and valuable, and broaden their access to diverse voices and perspectives. 
+                        </div>
+                        <br></br>
+
+                        <div responsive="true">
+                        <div style={{color: "#E9C46A", fontSize: 18}}>Solution:</div>
+                        <Image width="35%" src="https://dl.acm.org/cms/attachment/5aede3e4-6dc2-4f91-9efe-1daf48caf11b/chi20-202-fig2.jpg" style={{float: "left", paddingRight: "10px"}}/>
+                        To tackle these pending design challenges, we focus on the case of Spanish-speaking low-income Latino parents and identify meaningful aspects of their everyday practices that can inform the design of technologies for this group. 
+                        Drawing from qualitative methods, we explore the design of ICTs for diversifying the strategies that low-income Hispanic immigrant parents use to effectively engage in their children's education, given their information needs, cultural practices and socio-economic context.
+                        </div>
+                        <br/>
+                        <div responsive="true">
+                        We conducted ethnographic studies and participatory design workshops with Latino parents as actors in a sociotechnical network, interacting with a wide range of other actors—including technology—to form and maintain information channels for better supporting their children’s education. Our goal was to illuminate ways for technology to diversify and strengthen these information channels, so that parents can access more and richer resources to shape their children’s academic life.
+                       
+                        We also examined the information work that bilingual parent-education liaisons perform to create connections towards assisting immigrant parents in the United States. As part of formal and informal educational institutions, liaisons operate between different social worlds—within and beyond the domain of education—to maximize immigrant parents’ engagement in their children’s academic lives. Drawing upon ethnographic fieldwork with low-income Latino immigrants and their liaisons, we explored how liaisons leverage technology, content, and people to align these worlds; bringing them closer to mutual understanding. This analysis provides a rich and unique perspective of the work that successfully engages immigrant parents with their children’s education, as well as the tensions that challenge that engagement. This understanding of the work that liaisons do with and across seams provides insights to inform design directions for technology that could facilitate and amplify their efforts. 
+                        </div> 
+                        
+                    </div>
+                </Container>
+                </Row>
+        <br></br>
+        </Container>
+        </Modal.Body>
+        <Modal.Footer style={{backgroundColor: "black", border: 0}}>
+          <Button style={{backgroundColor: "black", border: 0, color: "#E9C46A", fontFamily: "Tahoma, Geneva, sans-serif"}} onClick={props.onHide}>Close Project</Button>
+        </Modal.Footer>
+      </Modal>
+      </div>
+    );
+  }
+
+  function AvantiModal(props) {
+    var fontFormat = {
+        fontFamily: "Tahoma, Geneva, sans-serif",
+    }
+    return (
+    <div onClick={e => e.stopPropagation()}>
+      <Modal
+        {...props}
+        size="xl"
+        keyboard
+        dialogClassName="modal-90w"
+        aria-labelledby="contained-modal-title-vcenter-two"
+        scrollable
+        style={{marginTop: "32px", height: "100vh"}}
+      >
+        <Modal.Header style={{backgroundColor: "black", border: 0}}>
+          <Modal.Title 
+            id="contained-modal-title-vcenter-two" style={{color: "#E9C46A", fontFamily: "Tahoma, Geneva, sans-serif", fontSize: 22, textAlign: "center"}}>
+            Avanti Fellows - Ledby Girls' Leadership and Mentorship Program
+          </Modal.Title>
+        </Modal.Header>
+        <Modal.Body scrollable style={{width: "100%", 
+        backgroundColor: "black",
+        backgroundSize: "100%",
+        color: "#f2ebdd",
+        fontSize: 15,
+        marginTop: 0,
+        backgroundImage: "url(" + BlackOne + ")"}}>
+        <Container className="research-container" responsive="true">
+        <Row>
+                <Container responsive="true">
+                    <br/>
+                    <div style={fontFormat} responsive="true">
+                    <div style={{color: "#E9C46A", fontSize: 18}}>Problem Space:</div>
+                        <Image width="40%" src={Mentor} style={{float: "right", paddingLeft: "5px"}}/>
+                    <div responsive="true">
+                    The COVID-19 pandemic has brought about massive changes in workflows within the Indian education system. The rapidly changing digital landscape within school systems brings massive challenges within underserved and marginalized contexts, including but not limited to intermittent and shared access to computing devices and poor internet availability. Further, the pandemic has exposed the existing cracks within career coaching and mentorship programs that have been in place in India for the last few decades. In particular, gender inequalities have further been amplified since high school girls, especially in rural areas have almost no access to any career guidance based resources as they start thinking about applying to colleges and degree programs post high school. With final exams being cancelled repeatedly by the government and competitive entrance exams being postponed, the opportunities to apply to highly ranked colleges and pursue careers of their choice have also diminished significantly. 
+                        </div>
+                        <br></br>
+
+                        <div responsive="true">
+                        <div style={{color: "#E9C46A", fontSize: 18}}>Solution:</div>
+                        <Image width="45%" src={Survey} style={{float: "left", paddingRight: "10px"}}/>
+                        In response to these heightened problems, we (Avanti Fellows) partnered up with LedBy Foundation to initiate and organize a Girls Leadership and Mentorship program. For the first phase of this program,  36 students were selected from Jawahar Navodaya Vidyalaya Schools (JNVs), a system of central govt run schools for low-income students predominantly from rural areas in India. 
+
+                        
+                        We interviewed 5 students to understand their perspectives on leadership, mentorship, their daily challenges etc. Based on those conversations we outlined the following goals/outcomes that we hoped to achieve by the end of the mentorship duration: <br/>
+1) Students will be able to articulate their career-related goals and the steps they would need to take to achieve their goals. <br/>
+2) Students will be able to articulate at least one alternative career goal (Plan B) and the steps they will need to take to achieve that goal. <br/>
+3) Students will have higher confidence with respect communicating with peers and in public spaces.<br/>
+4) Students will be able to identify their stress and/or anger triggers and articulate at least one way in which they can manage their stress and/or anger. <br/>
+5) Students will be able to articulate at least one way in which they can protect themselves in the online world and protect themselves in physical spaces.<br/>
+
+                        </div> 
+                        <br/>
+                        <div style={{color: "#E9C46A", fontSize: 18}}>Evaluation:</div>
+                        <div>
+                        Following the framing of the above mentioned goals, I devised an internal evaluation and feedback strategy to evaluate the outcomes and effectiveness of the program and its underlying structure.. To achieve this, I divided our study into baseline and endline stages, spanning the length of the program. For the baseline portion of the program, I employed qualitative methods - interviews and surveys over the duration of a week to collect extensive data from students.
+                        During the interviews, I asked participants questions pertaining to their career aspirations, confidence in communicating with peers and professionals, public speaking, their leadership strengths and their ability to recognize and navigate anger and stress triggers. I also sent out surveys asking the same questions in a more condensed version. Following these surveys and interviews, I coded, summarized and analyzed the responses obtained from the students and defined domains that students need support and help with. 
+                        To hear firsthand from students, I also set up calls with two girls per week to receive positive and constructive feedback regarding their mentorship sessions.
+                        I will be conducting the endline evaluation of this study in the month of October to compare and contrast the participants' capacities with respect to the above mentioned paramaters and assess if the goals of the program were met.
+                        The result of this evaluation will help inform and shape the format and structure of future mentorship programs across the country. 
+                        </div>
+                        
+                    </div>
+                </Container>
+                </Row>
+        <br></br>
+        </Container>
+        </Modal.Body>
+        <Modal.Footer style={{backgroundColor: "black", border: 0}}>
+          <Button style={{backgroundColor: "black", border: 0, color: "#E9C46A", fontFamily: "Tahoma, Geneva, sans-serif"}} onClick={props.onHide}>Close Project</Button>
+        </Modal.Footer>
+      </Modal>
+      </div>
+    );
+  }
+
+
 
 function Research() {
     const [modalShowASL, setModalShowASL] = React.useState(false);
     const [modalShowTandem, setModalShowTandem] = React.useState(false);
+    const [modalShowCat, setModalShowCat] = React.useState(false);
+    const [modalShowAvanti, setModalShowAvanti] = React.useState(false);
 
     return (
         <Container style={{marginLeft: "60px"}}>
@@ -315,7 +470,7 @@ function Research() {
 
              {/** *********************************CAT ITEM************** */}   
             <Col >
-                <a role="button" style={{cursor: "pointer"}} onClick={() => setModalShowASL(true)}>      
+                <a role="button" style={{cursor: "pointer"}} onClick={() => setModalShowCat(true)}>      
                     <Card className="bg-dark text-white" 
                         style={{marginTop: "120px", marginLeft: "0px", border: "none",
                         borderRadius: "10px", height: "70vh", width: "30vw"}}>
@@ -342,19 +497,19 @@ function Research() {
                             Advisor: Dr. Betsy Disalvo <br/>
                             GT Culture and Technology (CAT) Lab
                             </Card.Text>
-                            <Card.Footer><a href="#" style={{color: "#E9C46A"}} onClick={() => setModalShowASL(true)}>Read More</a></Card.Footer>
+                            <Card.Footer><a href="#" style={{color: "#E9C46A"}} onClick={() => setModalShowCat(true)}>Read More</a></Card.Footer>
 
                     </div>               
                     </Card>
                 </a>  
             </Col>
 
-            <ASLModal
-        show={modalShowASL}
-        onHide={() => setModalShowASL(false)}
+            <CatModal
+        show={modalShowCat}
+        onHide={() => setModalShowCat(false)}
             />
         <Col >
-                <a role="button" style={{cursor: "pointer"}} onClick={() => setModalShowTandem(true)}>      
+                <a role="button" style={{cursor: "pointer"}} onClick={() => setModalShowAvanti(true)}>      
                     <Card className="bg-dark text-white" 
                         style={{marginTop: "120px", border: "none",
                         borderRadius: "10px", height: "70vh", width: "30vw"}}>
@@ -381,13 +536,13 @@ function Research() {
                             Advisor: Dr. Neha Kumar<br/>
                             GT Technology & Design for Empowerment on the Margins (TanDEm) Lab
                             </Card.Text>
-                            <Card.Footer><a href="#" style={{color: "#E9C46A"}} onClick={() => setModalShowTandem(true)}>Read More</a></Card.Footer>
+                            <Card.Footer><a href="#" style={{color: "#E9C46A"}} onClick={() => setModalShowAvanti(true)}>Read More</a></Card.Footer>
 
                     </div>               
                     </Card>
-                    <TandemModal
-                        show={modalShowTandem}
-                        onHide={() => setModalShowTandem(false)}
+                    <AvantiModal
+                        show={modalShowAvanti}
+                        onHide={() => setModalShowAvanti(false)}
                     />
                 </a>  
             </Col>
@@ -404,7 +559,7 @@ function Research() {
             <br/>
             <div style={{fontSize: 22, color: "#E9C46A"}}>Publications</div>
             <br/>
-            <p style={{marginLeft: "10px", textAlign: "left", color: "#E9C46A", fontSize: 17}}>CopyCat: Using Sign Language Recognition to Help Deaf Children Acquire Language Skills</p>
+            <p style={{marginLeft: "10px", textAlign: "left", color: "#E9C46A", fontSize: 17}}><a href="https://dl.acm.org/doi/10.1145/3411763.3451523" style={{textAlign: "left", color: "#E9C46A", fontSize: 17}}>CopyCat: Using Sign Language Recognition to Help Deaf Children Acquire Language Skills</a></p>
             <p style={{color: "#f2ebdd", fontSize: 15, textAlign: "left", marginLeft: "10px"}}>Dhruva Bansal, <b style={{color: "#E9C46A"}}>Prerna Ravi</b>, Matthew So, Pranay Agrawal, Ishan Chadha, Ganesh Murugappan, and Colby Duke (Advisor: Dr. Thad Starner)</p>
             <p style={{color: "#E9C46A", fontSize: 15, textAlign: "left", marginLeft: "10px"}}>CHI 2021</p>
             <p style={{color: "#E9C46A", fontSize: 15, textAlign: "left", marginLeft: "10px"}}><b>Winner - CHI Student Research Competition</b></p>
