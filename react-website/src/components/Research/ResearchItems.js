@@ -14,10 +14,13 @@ import ASL from "../../images/ASL.png";
 import Hands from "../../images/hands.png";
 import TANDEM from "../../images/TANDEM.jpg";
 import Book from "../../images/Book.png";
+import Stats from "../../images/CopyCat_Stats.png";
+import CSCW from "../../images/CSCW.png";
 
 function ASLModal(props) {
     var fontFormat = {
         fontFamily: "Tahoma, Geneva, sans-serif",
+        fontSize: 15
     }
     return (
     <div onClick={e => e.stopPropagation()}>
@@ -27,9 +30,9 @@ function ASLModal(props) {
         dialogClassName="modal-90w"
         aria-labelledby="contained-modal-title-vcenter"
         scrollable
-        style={{marginTop: "72px", height: "90vh"}}
+        style={{marginTop: "32px", height: "100vh"}}
       >
-        <Modal.Header closeButton style={{backgroundColor: "black", border: 0}}>
+        <Modal.Header style={{backgroundColor: "black", border: 0}}>
           <Modal.Title 
             id="contained-modal-title-vcenter" style={{color: "#E9C46A", fontFamily: "Tahoma, Geneva, sans-serif", fontSize: 22, textAlign: "center"}}>
             CopyCat: Using Sign Language Recognition to Help Deaf Children Acquire Language Skills
@@ -47,50 +50,56 @@ function ASLModal(props) {
                 <Container responsive="true">
                     <br/>
                     <div style={fontFormat} responsive="true">
+                    
+                        <div style={{color: "#E9C46A", fontSize: 18}}>Problem Space:</div>
+                        <Image width="45%" src={Stats} style={{float: "right"}}/>
+                        {/* <figcaption style={{fontSize: 14, color: "#E9C46A"}}>Statistics for LDS</figcaption> */}
                         <div responsive="true">
-                        I am an undergraduate researcher at the GT UBICOMP Lab
-                        advised by <a style={{color: "#E9C46A"}} href="https://www.cc.gatech.edu/home/thad/"><u>Dr. Thad Starner</u></a>. Through the Center for 
-                        Accessible Technology in Sign, I am developing an 
-                        American Sign Language Recognition System and using 
-                        it to create a game, namely <a style={{color: "#E9C46A"}} href="https://www.cc.gatech.edu/home/thad/031_research.htm">
-                        <u>CopyCat</u></a>. Copycat is designed 
-                        as a framework to collect gesture data for Sign Language 
-                        Recognition, using a real time motion capture system and 
-                        as a means for deaf children to communicate with their 
-                        hearing parents, through the medium of ASL, which we consider 
-                        their “native” language.
+                        Over 95% of deaf children are born to hearing parents who do not know American Sign Language (ASL) or have 
+                        very low levels of proficiency. Unlike hearing children of speaking parents or deaf children of signing parents, 
+                        these children often lack adequate access to language at home, which is necessary for developing linguistic skills. 
+                        Many of these deaf children only receive limited exposure to ASL from signing at school or existing ASL games that 
+                        focus on language comprehension rather than phrase generation. If left untreated, a lack of exposure to any language, 
+                        including sign language, can lead to significantly weaker working memory. These effects are especially consequential 
+                        during the critical period of language development, which is between the ages of two and five. As a result, many 
+                        pre-lingually deafened children can only repeat one or two signs in a row compared to four to six signs for children 
+                        with deaf parents. This deficiency of short-term memory and other language skills can lead to Language Deprivation Syndrome (LDS), 
+                        a condition with poor lifelong outcomes, including a 2-7x increase in mental health problems, 50% unemployment rate, higher rates of 
+                        physical and sexual abuse, and a 3-30x increase in suicide rates.
                         </div>
                         <br></br>
                         <div responsive="true">
-                        CopyCat is a game developed in Unity, a cross-platform game engine 
-                        using C# as its programming language. I have developed a user-friendly calibration 
-                        tool as part of its tutorial modules using an RGB Depth camera.
-                        Using this and Computer Vision tools like Microsoft Kinect and Google MediaPipe, I have developed a real-time
-                        motion capture system (body, hands & face) for ASL signers. This framework, 
-                        iteratively trained using the HTK pipeline and Hidden Markov Models (HMMs) 
-                        takes us one step closer to achieving Optimal Sign Language Recognition and has the 
-                        immense potential to teach young children ASL 
-                        at a tender age, thereby improving the quality of their lives by facilitating 
-                        good communication with their hearing parents.
+                        <div style={{color: "#E9C46A", fontSize: 18}}>Solution:</div>
+                        Children who express themselves in ASL can significantly increase their short term memory, reducing the risk of LDS. Thus, 
+                        through the Center for Accessible Technology in Sign, I am a part of the team developing CopyCat, an interactive and entertaining 
+                        game that displays potential for helping deaf children with short term language memory acquisition. The game presents the child with 
+                        a scene and prompts them to describe it to the mascot of the game using ASL. The game then uses an ASL recognizer to decide if the 
+                        description is correct and, if so, allows the child to advance to the next scene. As a result, the game's effectiveness depends heavily 
+                        on the accuracy with which it recognizes sentences as correct or incorrect. To test the effects of the game, previous studies purposefully 
+                        tested vocabulary not in CopyCat to help differentiate general memory skill acquisition versus learning the game. They found that the 
+                        game significantly increases a child's score on three crucial measures of working memory—language generation, reception, and sentence 
+                        repetition. We hope that adapting CopyCat to off-the-shelf hardware will provide a valuable tool for educators to help improve children's language skills.
+                        </div>
+                        <br/>
+                        <div style={{textAlign: "center", opacity: 1}}>
+                        <Image style={{textAlign: "center"}} width="90%" src="https://dl.acm.org/cms/attachment/02a683af-8724-4576-ac65-74dcb9bc44fb/chi21extendedabstracts-170-fig3.jpg"/>
+                        <figcaption style={{fontSize: 14, color: "#E9C46A"}}>Pose estimation with AlphaPose (left, sign ”above”), Azure Kinect (middle, sign ”in”), and MediaPipe (right, sign ”alligator”) showing difficult signs.</figcaption>
                         </div>
                         <br/>
                         <div responsive="true">
-                        CopyCat is a game developed in Unity, a cross-platform game engine 
-                        using C# as its programming language. I have developed a user-friendly calibration 
-                        tool as part of its tutorial modules using an RGB Depth camera.
-                        Using this and Computer Vision tools like Microsoft Kinect and Google MediaPipe, I have developed a real-time
-                        motion capture system (body, hands & face) for ASL signers. This framework, 
-                        iteratively trained using the HTK pipeline and Hidden Markov Models (HMMs) 
-                        takes us one step closer to achieving Optimal Sign Language Recognition and has the 
-                        immense potential to teach young children ASL 
-                        at a tender age, thereby improving the quality of their lives by facilitating 
-                        good communication with their hearing parents.
+                        Until now, CopyCat has relied on expensive and unscalable hardware such as custom gloves, accelerometers, and kiosks to achieve sign language recognition accuracy 
+                        sufficient enough to verify the children's signing. As a result of these high costs, the low resolution of previous cameras, and lack of pose estimators, CopyCat 
+                        was inaccessible to most. However, with the advent of pose estimation systems such as AlphaPose, Azure Kinect, and Google MediaPipe, along with improvements in 
+                        camera resolution through devices such as the Azure Kinect and Android tablets, the goal of deploying CopyCat on off-the-shelf systems has now become viable. 
+                        Using Hidden Markov Models (HMMs), user independent word accuracies were 90.6%, 90.5%, and 90.4% for AlphaPose, Kinect, and MediaPipe, respectively. 
+                        Transformers, a state-of-the-art model in natural language processing, performed 17.0% worse on average. Given these results, we believe our current HMM-based 
+                        recognizer can be successfully adapted to verify children's signing while playing CopyCat.
                         </div>
                         <br></br>
-                        <div responsive="true">
+                        {/* <div responsive="true">
                             Presentations:  <a style={{color: "#E9C46A"}} href="http://www.undergradresearch.gatech.edu/spring-symposium">
                              <u>Undergraduate Research Symposium at Georgia Tech (2019)</u></a>
-                        </div>
+                        </div> */}
                         
                     </div>
                 </Container>
@@ -119,9 +128,9 @@ function TandemModal(props) {
         dialogClassName="modal-90w"
         aria-labelledby="contained-modal-title-vcenter-two"
         scrollable
-        style={{marginTop: "72px", height: "90vh"}}
+        style={{marginTop: "32px", height: "100vh"}}
       >
-        <Modal.Header closeButton style={{backgroundColor: "black", border: 0}}>
+        <Modal.Header style={{backgroundColor: "black", border: 0}}>
           <Modal.Title 
             id="contained-modal-title-vcenter-two" style={{color: "#E9C46A", fontFamily: "Tahoma, Geneva, sans-serif", fontSize: 22, textAlign: "center"}}>
             The COVID-19 Pandemic Shift to Remote Learning under Resource Constraints
@@ -131,7 +140,7 @@ function TandemModal(props) {
         backgroundColor: "black",
         backgroundSize: "100%",
         color: "#f2ebdd",
-        fontSize: 17,
+        fontSize: 15,
         marginTop: 0,
         backgroundImage: "url(" + BlackOne + ")"}}>
         <Container className="research-container" responsive="true">
@@ -139,27 +148,62 @@ function TandemModal(props) {
                 <Container responsive="true">
                     <br/>
                     <div style={fontFormat} responsive="true">
+                    <div style={{color: "#E9C46A", fontSize: 18}}>Problem Space:</div>
+                        <Image width="45%" src={CSCW} style={{float: "right"}}/>
                     <div responsive="true">
-                        I am an undergraduate researcher at the Georgia Tech TanDEM Lab
-                        advised by <a style={{color: "#E9C46A"}} href="https://www.nehakumar.org/"><u>Dr. Neha Kumar</u></a>. 
-                        I am contributing towards a rich and evolving body of research on the design and development of education technology for 
-                        underserved settings in the Global South. With the changing digital landscape, particularly during COVID-19, I am currently investigating 
-                        how educational institutions working with underprivileged populations in India are coping with the transition to online learning.
+                    The field of Human-Computer Interaction for Development (HCI4D) has long been interested in the design of educational technology in underserved settings. This work is
+                    motivated by efforts to improve access to quality education, such as by delivering learning content that is designed to be locally relevant, providing after-school education, and enabling
+                    more hands-on and technical education. Despite progress in this area, schools have been
+                    slow to take up technology within and beyond the classroom due to the high initial capital and
+                    time investment. However, the COVID-19 pandemic has brought traditional learning to a
+                    standstill, and forced the adoption of technology and associated investments involved. This unprecedented change gives us an opportunity to examine the efforts taken by teachers, students, and non-governmental organizations (NGOs) to navigate the resource constraints that accompany adoption of information and communication technologies (ICTs) in marginalized contexts. The uncertainties due to the pandemic also serve as a catalyst for iterative and situational workarounds
+                    to make sense of the newly incorporated digital infrastructure.
                         </div>
                         <br></br>
                         <div responsive="true">
-                        As part of this project, I have undertaken a qualitative study involving remote interviews (including group calls or focus groups) and an online survey with parents, 
-                        students, teachers, and administrators from or working with underserved contexts where limited, intermittent, and/or shared access to mobile 
-                        or computing devices and the internet has been the norm. 
-                        Using these, I am examining which online platforms and sociotechnical infrastructures 
-                        are supporting this transition. These results will help me co-design technology interventions to support the sustainable, long-term adoption of online 
-                        learning in a post-COVID world, alongside a return to traditional classroom teaching.
+                        In an effort to control the COVID-19 pandemic and practice physical distancing, governments
+                        across the world closed down schools and other educational institutions. As the pandemic
+                        continued, schools began to move to online modes of learning to continue delivering education.
+                        Though the move to online learning was aimed at preventing loss in learning, it has also had severe consequences for those in resource-constrained contexts. Even as this transition has expanded
+                        learning opportunities for many, it has worsened inequalities across class, gender, and location
+                        (and associated intersections such as race or caste), across the globe. 
                         </div>
                         <br></br>
+
                         <div responsive="true">
+                        <div style={{color: "#E9C46A", fontSize: 18}}>Solution:</div>
+                        <Image width="40%" src="https://c.files.bbci.co.uk/1680C/production/_113527129_gettyimages-1217239853.jpg" style={{float: "left", paddingRight: "5px"}}/>
+                        In order to address these challenges, I studied the transition to online learning by educational institutions working with underserved
+                        communities in India, where these tensions have become highly visible. On 25th March, 2020, India
+                        announced a nationwide 21-day lockdown to stem the spread of the pandemic. This lockdown was
+                        extended till May, and then again till June, with conditional opening in regions that had contained
+                        the spread. Schools remained closed when I finished collecting data. I conducted twenty remote
+                        interviews with students, teachers, school administrators, and educational non-profit organizations
+                        working in underserved settings primarily across the state of Maharashtra, India. I investigated
+                        how these different stakeholders within the education system migrated to online learning platforms,
+                        the challenges they grappled with in doing so, and the creative solutions they came up with to
+                        navigate through resource constraints and reach communities on the margins.
+                        </div>
+                        <br/>
+                        <div responsive="true">
+                        My research draws on literature in three areas. First, I build on a rich body of HCI researchon the design of technology 
+                        for education in resource-constrained settings. Second, I link to prior efforts to use ICTs to respond to and make meaning 
+                        during a crisis. Finally, I build on prior research that outlines the human infrastructures that help navigate challenges 
+                        around digital accessand literacy in resource-constrained environments like the one I studied.
+                        In my research paper published at CSCW 2021, I detail my findings on the transition to online learning, the response
+                        of students, teachers, and parents to the transition, challenges encountered in the process, and
+                        workarounds or solutions that stakeholders arrived at. I also discuss three key takeaways
+                        for future efforts. First, I highlight the massive digital transformation that the pandemic has
+                        brought about across the Indian education system and a shift in attitudes towards educational
+                        technology. Second, I emphasize the critical role of human infrastructures in navigating the
+                        resource constraints that accompany the above transition. Third, I offer design considerations
+                        for educational technology in resource-constrained settings, the long-term sustainability of these
+                        efforts, and spaces for technology to strengthen the existing education ecosystem.
+                        </div>
+                        {/* <div responsive="true">
                             Awards:  <a style={{color: "#E9C46A"}} href="http://www.undergradresearch.gatech.edu/content/presidents-undergraduate-research-awards">
                              <u>President's Undergraduate Research Award (PURA) (2020)</u></a>
-                        </div>
+                        </div> */}
                         
                     </div>
                 </Container>

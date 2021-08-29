@@ -60,32 +60,25 @@ class AboutMe extends React.Component{
                     </Row>
                     </div>
                 </Col>
-                <Col xs={7}>
+                <Col xs={8}>
                 <Container className="about-me-text">
                         <h1 style={{fontWeight:"500"}}>
                             PRERNA RAVI
                         </h1>
                         <br></br>
                     <div style={{fontWeight:"500"}}>
-                        Hi! My name is Prerna Ravi and I am a rising third year undergraduate student 
-                        at <a style={{color: "#E9C46A"}}href="https://www.gatech.edu/" ><u>Georgia Institute of Technology</u></a> majoring in Computer Science with 
-                        concentrations in Human Computer Interaction and Artificial Intelligence. 
-                        I believe technology is an enabler and this program has not only enriched my academic knowledge, but has also provided opportunities to 
-                        actively participate in the confluence of technology and society and 
-                        scale it up from prototyping at a local level. 
+                        
+                        Hi! My name is Prerna Ravi and I am a rising fourth year undergraduate student at <a style={{color: "#E9C46A"}}href="https://www.gatech.edu/" ><u>Georgia Institute of Technology</u></a> majoring in Computer Science with concentrations in Human Computer Interaction and Artificial Intelligence. This program has not only enriched my academic & leadership skills, but also enabled me to push the boundaries and pursue numerous initiatives involving the confluence of technology and society-both in the United States and beyond.
+
+
                     </div>
                     <br></br>
                     <div>
-                    It is this against this overarching goal, I have also taken up Research with numerous applications 
-                    which offer tremendous potential to enhance quality of education for different cross-sections of the society ranging from the 
-                    physically challenged to under-represented communities in developing nations. <i>"Knowledge multiplies when we share it"</i> is what I 
-                    discovered after being a Teaching Assistant.  Likewise, it has been a truly fulfilling experience participating in numerous community 
-                    based activities that showed how technology could help the common man.  
+                    With 'Right to Education' as one of the United Nations Millenium goals, I have taken up the cause through Research and internships ranging from local communities to large corporations and other universities with Edu-Tech as the underlying theme to enhance the quality and delivery of education for a wide spectrum of the society ranging from the physically challenged to under-served communities in developing nations. As a Teaching Assistant for over xx students, I get to first hand demonstrate "Knowledge multiplies when we share it" .  I feel humbled and at the same time amazed to see how adoption of technology accelerates the pace and scope of problem solving across the globe.  
                     </div>
                     <br></br>
                     <div>
-                    With my upbringing rooted in deep Indian traditions, I have also been fortunate to have been trained in classical Carnatic music and 
-                    Bharatanatyam. I also have a keen artistic sense and a preview of my repertoire is available below. 
+                    As an Indian by birth with a global outlook, I have deep rooted Indian traditions and am fortunate to have been trained in classical Carnatic music and Bharatanatyam dance. I also have a keen artistic sense and a preview of my repertoire in all the fine arts is available in this website.
                     </div>
                 </Container>
                 </Col>

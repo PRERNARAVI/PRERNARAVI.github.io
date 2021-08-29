@@ -77,18 +77,22 @@ class ProjectsItems extends React.Component{
                                         fontSize: 22, color: "#E9C46A"}}>School Library Hub for Microsoft Teams</h4>
                                         <br/>
                                 <Row>
-                                <Col md={8}>
                                 
-                                <p style={{
+                                
+                                <div style={{
                                     fontSize: 16,
                                     color: "#f2ebdd", fontFamily: "Tahoma, Geneva, sans-serif", textAlign: "left"}}>
+                                        
+                                        <Image width="55%" src={SchoolLibrary} style={{float: "right", paddingLeft: "5px"}}/>
+                                        
+                                    
                                 • Designed and developed a cross platform application that empowers kids, students and teachers in underserved communities with the ability to connect, read and learn virtually both online and offline as part of the Microsoft Global Hackathon 2020.<br/>
                                 • Built an accessible and fluid user interface using React and Node.js that gives diverse users the ability to search and filter from a free book library sourced from multiple open source platforms including Gutenberg using different criteria, download and favorite books, create collections and review recommendations from instructors with multi language support.<br/>
                                 • Extracted detailed information about every book using Azure Cognitive Search, built Rest APIs using Python Flask and constructed Cosmos DB (NoSQL) databases to store user preferences, saved collections and recommendations.<br/>
                                 • Deployed the application to Microsoft Azure using CI/CD pipelines and successfully integrated it into Microsoft Teams, to be shipped and used by over 75 million daily users.
-                                </p>
-                                </Col>
-                                <Col md={4}><Image width="120%" src={SchoolLibrary}/></Col>
+                                </div>
+                                
+                                
                                 </Row>
                                 </Container>
                             </Col>
