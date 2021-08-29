@@ -383,7 +383,7 @@ function Research() {
         <Container style={{marginLeft: "60px"}}>
             <Row style={{marginRight: "0px"}}>
             {/** *********************************ASL ITEM************** */}
-            <Col md={9.5} style={{backgroundColor: "red"}}>
+            <Col md={9.5}>
             <Row>
             <Col >
                 <a role="button" style={{cursor: "pointer"}} onClick={() => setModalShowASL(true)}>      
