@@ -74,21 +74,21 @@ class ProjectsItems extends React.Component{
                                 <h4 style={{
                                         fontFamily: "Tahoma, Geneva, sans-serif", 
                                         fontWeight: "normal",
-                                        fontSize: 22, color: "#E9C46A"}}>School Library Hub for Microsoft Teams</h4>
+                                        fontSize: 20, color: "#E9C46A"}}>School Library Hub for Microsoft Teams</h4>
                                         <br/>
                                 <Row>
                                 
                                 
                                 <div style={{
-                                    fontSize: 16,
+                                    fontSize: 15,
                                     color: "#f2ebdd", fontFamily: "Tahoma, Geneva, sans-serif", textAlign: "left"}}>
                                         
-                                        <Image width="55%" src={SchoolLibrary} style={{float: "right", paddingLeft: "5px"}}/>
+                                        <Image width="45%" src={SchoolLibrary} style={{float: "right", paddingLeft: "5px", paddingTop: "10px"}}/>
                                         
                                     
-                                • Designed and developed a cross platform application that empowers kids, students and teachers in underserved communities with the ability to connect, read and learn virtually both online and offline as part of the Microsoft Global Hackathon 2020.<br/>
-                                • Built an accessible and fluid user interface using React and Node.js that gives diverse users the ability to search and filter from a free book library sourced from multiple open source platforms including Gutenberg using different criteria, download and favorite books, create collections and review recommendations from instructors with multi language support.<br/>
-                                • Extracted detailed information about every book using Azure Cognitive Search, built Rest APIs using Python Flask and constructed Cosmos DB (NoSQL) databases to store user preferences, saved collections and recommendations.<br/>
+                                • Designed and developed a cross platform application that empowers kids, students and teachers in underserved communities with the ability to connect, read and learn virtually both online and offline as part of the Microsoft Global Hackathon 2020.<br/><br/>
+                                • Built an accessible and fluid user interface using React and Node.js that gives diverse users the ability to search and filter from a free book library sourced from multiple open source platforms including Gutenberg using different criteria, download and favorite books, create collections and review recommendations from instructors with multi language support.<br/><br/>
+                                • Extracted detailed information about every book using Azure Cognitive Search, built Rest APIs using Python Flask and constructed Cosmos DB (NoSQL) databases to store user preferences, saved collections and recommendations.<br/><br/>
                                 • Deployed the application to Microsoft Azure using CI/CD pipelines and successfully integrated it into Microsoft Teams, to be shipped and used by over 75 million daily users.
                                 </div>
                                 

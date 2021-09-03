@@ -89,7 +89,7 @@ class AboutMe extends React.Component{
 
 
 
-            <Row>
+            <Row style={{marginBottom: "0px"}}>
             {/* <Image style={background} responsive="true" className="wallpaper-format" src={BlackOne} fluid="true"/> */}
             <Col style={{alignContent: "center"}}>
             {/* <Image style={backgroundMe} responsive="true" className="wallpaper-format" src={Me} fluid="true"/> */}
@@ -122,7 +122,7 @@ class AboutMe extends React.Component{
                         </ZoomIn>
                         
                             <Card.Text style={{fontSize: 15, margin: '10px'}}>
-                            I have been blessed to have successfully completed the Arangetram under Guru Kalamandalam Jyothilakshmi Jayakumar at the world famous Melapathur Auditorium, Guruvayoor in Kerala.
+                            I have been blessed to have successfully completed the Arangetram at the famous Melapathur Auditorium, Guruvayoor in Kerala, India.
                             </Card.Text>
                             {/**<Card.Footer><a href="#" style={{color: "#E9C46A"}}>Read More</a></Card.Footer>*/}
 
@@ -150,12 +150,12 @@ class AboutMe extends React.Component{
                         </Card.Header>
                        
                         <ZoomIn>
-                        <Card.Img style={{height: "50vh", width: "68%"}}
+                        <Card.Img style={{height: "53vh", width: "68%"}}
                              src="https://i.pinimg.com/originals/63/24/23/632423b9658f2f53c7c2ec382edb0805.jpg" alt="Card image" />
                         </ZoomIn>
                         
                             <Card.Text style={{fontSize: 15, margin: '10px'}}>
-                            I have undergone professional training in Indian classical Carnatic music since the age of 4 under the able guidance of Guru Shanti Ram Kumar for more than 10 years and participated in numerous events and competitions in India and Oman.
+                            I have undergone professional training in Indian classical Carnatic music for more than 10 years and participated in numerous events in India and Oman.
                             </Card.Text>
                             
 
@@ -183,13 +183,12 @@ class AboutMe extends React.Component{
                         </Card.Header>
                        
                         <ZoomIn>
-                        <Card.Img style={{height: "52vh", width: "78%", opacity: "0.8"}}
+                        <Card.Img style={{height: "53vh", width: "78%", opacity: "0.8"}}
                              src={Art} alt="Card image" />
                         </ZoomIn>
                         
                             <Card.Text style={{fontSize: 15, margin: '10px'}}>
-                            I have also received rigorous training in visual arts using various mediums including water, acyrlic, and oil for canvas paintings
-                            and pencils (both black and colored) for sketching and shading.
+                            I have also received rigorous training in visual arts using various mediums for over 10 years and have received numerous accolades. 
                             </Card.Text>
 
                     </div>               

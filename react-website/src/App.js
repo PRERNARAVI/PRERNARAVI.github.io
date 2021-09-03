@@ -10,6 +10,7 @@ import Skills from './components/Skills/Skills';
 import {Navbar, Image, Nav, Container, Row} from 'react-bootstrap';
 import { HashRouter as Router, Switch, Route, NavLink } from "react-router-dom";
 import PDF from './Documents/PRERNA_RAVI_CV.pdf'
+import ScrollToTop from './ScrollToTop';
 
 class App extends Component {
   render() {
@@ -32,13 +33,14 @@ class App extends Component {
     </Navbar>
     <Router>
       <div className="App">
-      <Switch>
-            <Route exact path='/' component={HomePage} />
-            <Route path="/research" component={Research} />
-            <Route path="/experience" component={Experience} />
-            <Route path="/projects" component={Projects} />
-            <Route path="/skills" component={Skills} />
-      </Switch>
+      <ScrollToTop/>
+        <Switch>
+          <Route exact path='/' component={HomePage} />
+          <Route path="/research" component={Research} />
+          <Route path="/experience" component={Experience} />
+          <Route path="/projects" component={Projects} />
+          <Route path="/skills" component={Skills} />
+        </Switch>
       </div>
     </Router>
     </div>
