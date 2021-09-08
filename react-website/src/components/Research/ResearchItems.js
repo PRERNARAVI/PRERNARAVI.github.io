@@ -188,10 +188,10 @@ function TandemModal(props) {
                         </div>
                         <br/>
                         <div responsive="true">
-                        My research draws on literature in three areas. First, I build on a rich body of HCI researchon the design of technology 
-                        for education in resource-constrained settings. Second, I link to prior efforts to use ICTs to respond to and make meaning 
-                        during a crisis. Finally, I build on prior research that outlines the human infrastructures that help navigate challenges 
-                        around digital accessand literacy in resource-constrained environments like the one I studied.
+                        My research draws on literature in three areas. First, I built on a rich body of HCI researchon the design of technology 
+                        for education in resource-constrained settings. Second, I linked to prior efforts to use ICTs to respond to and make meaning 
+                        during a crisis. Finally, I built on prior research that outlines the human infrastructures that help navigate challenges 
+                        around digital access and literacy in resource-constrained environments like the one I studied.
                         In my research paper published at CSCW 2021, I detail my findings on the transition to online learning, the response
                         of students, teachers, and parents to the transition, challenges encountered in the process, and
                         workarounds or solutions that stakeholders arrived at. I also discuss three key takeaways
@@ -353,7 +353,7 @@ function TandemModal(props) {
                         Following the framing of the above mentioned goals, I devised an internal evaluation and feedback strategy to evaluate the outcomes and effectiveness of the program and its underlying structure.. To achieve this, I divided our study into baseline and endline stages, spanning the length of the program. For the baseline portion of the program, I employed qualitative methods - interviews and surveys over the duration of a week to collect extensive data from students.
                         During the interviews, I asked participants questions pertaining to their career aspirations, confidence in communicating with peers and professionals, public speaking, their leadership strengths and their ability to recognize and navigate anger and stress triggers. I also sent out surveys asking the same questions in a more condensed version. Following these surveys and interviews, I coded, summarized and analyzed the responses obtained from the students and defined domains that students need support and help with. 
                         To hear firsthand from students, I also set up calls with two girls per week to receive positive and constructive feedback regarding their mentorship sessions.
-                        I will be conducting the endline evaluation of this study in the month of October to compare and contrast the participants' capacities with respect to the above mentioned paramaters and assess if the goals of the program were met.
+                        I will be conducting the endline evaluation of this study in the next few months to compare and contrast the participants' capacities with respect to the above mentioned parameters and assess if the goals of the program were met.
                         The result of this evaluation will help inform and shape the format and structure of future mentorship programs across the country. 
                         </div>
                         

@@ -42,9 +42,7 @@ class ExperienceItems extends React.Component{
                 • Assign responsibilities and coordinate between the internal teams for homeworks, lectures, exams, office hours and autograders.<br/>
                 • Redesign course schedule, handle individual student exceptions and grades and oversee course communication announcements and emails.<br/>
                 • Conduct recitations and office hours to instruct and train over 800 undergraduates in fundamental Object-Oriented Programming Concepts and help them develop strong coding and debugging skills.<br/>
-                • Create course materials including homeworks, exams and online tutorials.<br/>
-                • Grade programming assignments in Java.<br/>
-                • Mentor and train new incoming TA’s.<br/>
+                • Develop frameworks to grade weekly programming assignments.
 
                 </div>,
                 media: 
