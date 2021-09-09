@@ -15,7 +15,7 @@ class Projects extends React.Component {
             position: 'fixed',
             backgroundPosition: 'center',
             backgroundRepeat: 'repeat-y',
-            width: '102%',
+            width: '100%',
             height: "100%"
             
         };
@@ -35,7 +35,7 @@ class Projects extends React.Component {
 
 
         return (
-        <div responsive="true">    
+        <div responsive="true" style={{backgroundColor: "#0e172a", maxWidth: "100%"}}>    
             <Row className="justify-content-md-center"> 
             <Col xs={0} style={{alignContent: "center"}}>      
                 <Image style={background} responsive="true" className="wallpaper-format" src={BlackOne} fluid="true"/>

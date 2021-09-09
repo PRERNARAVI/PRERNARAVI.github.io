@@ -11,25 +11,13 @@ import MeTwo from "../../images/meTwo.jpg";
 class HomePage extends React.Component {
 
   render() {
-    var background = {
-      marginTop: 60,
-      marginRight: 0,
-      marginLeft: 0,
-      backgroundSize: 'cover',
-      position: 'fixed',
-      backgroundPosition: 'center',
-      backgroundRepeat: 'repeat-y',
-      width: '102%',
-      height: "100%",
-      opacity: 0,
-  };
   var backgroundMe = {
     marginTop: 40,
     position: 'fixed',
     backgroundSize: 'cover',
     backgroundPosition: 'center',
     opacity: 0.45,
-    width: '102%',
+    width: '100%',
     height: "100%",
 };
     var textStyle = {
@@ -51,7 +39,7 @@ class HomePage extends React.Component {
       };
     return(
       
-        <div responsive="true" style={{backgroundColor: "#0e172a"}}>
+        <div responsive="true" style={{backgroundColor: "#0e172a", maxWidth: "100%"}}>
         <Row>
           {/* <Image style={background} responsive="true" className="wallpaper-format" src={BlackOne} fluid="true"/> */}
           <Col xs={0} style={{alignContent: "center"}}>

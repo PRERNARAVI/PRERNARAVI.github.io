@@ -15,7 +15,7 @@ class Research extends React.Component {
             position: 'fixed',
             backgroundPosition: 'center',
             backgroundRepeat: 'no-repeat',
-            width: '102%',
+            width: '100%',
             
         };
         var textStyle = {
@@ -34,7 +34,7 @@ class Research extends React.Component {
 
 
         return (
-        <div responsive="true">    
+        <div rresponsive="true" style={{backgroundColor: "#0e172a", maxWidth: "100%"}}>    
             <Row className="justify-content-md-center"> 
             <Col xs={0} style={{alignContent: "center"}}>      
                 <Image style={background} responsive="true" className="wallpaper-format" src={BlackOne} fluid="true"/>

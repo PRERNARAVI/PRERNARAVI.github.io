@@ -32,7 +32,7 @@ class App extends Component {
       </Navbar.Collapse>
     </Navbar>
     <Router>
-      <div className="App">
+      <div className="App" style={{maxWidth: "100%", overflow: "hidden"}}>
       <ScrollToTop/>
         <Switch>
           <Route exact path='/' component={HomePage} />
