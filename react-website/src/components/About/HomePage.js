@@ -16,7 +16,7 @@ class HomePage extends React.Component {
     position: "fixed",
     backgroundSize: 'cover',
     backgroundPosition: 'center',
-    opacity: 0.45,
+    opacity: 0.3,
     width: '100%',
     height: "100%",
 };
