@@ -16,6 +16,7 @@ import TANDEM from "../../images/TANDEM.jpg";
 import Book from "../../images/Book.png";
 import Stats from "../../images/CopyCat_Stats.png";
 import CSCW from "../../images/CSCW.png";
+import Marisol from "../../images/Marisol.png";
 import Mentor from "../../images/Mentor.png";
 import Survey from "../../images/Survey.png";
 
@@ -490,7 +491,7 @@ function Research() {
                        
                         <ZoomIn >
                         <Card.Img style={{height: "45vh", opacity: "0.55"}}
-                             src="http://marisolvillacres.website/images/research/familia.png" alt="Card image" />
+                             src={Marisol} alt="Card image" />
                         </ZoomIn>
                         
                             <Card.Text style={{fontSize: 16, margin: '10px'}}>
