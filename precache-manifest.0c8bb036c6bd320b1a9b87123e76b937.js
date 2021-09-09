@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "7a3f976c8812eb70fcc868f0a92f2407",
+    "revision": "64c120ec3150db9e769028d98d5a4226",
     "url": "/index.html"
   },
   {
-    "revision": "32c687a2d9828b196c50",
+    "revision": "f508eb1680a136fc23d3",
     "url": "/static/css/main.395eba02.chunk.css"
   },
   {
-    "revision": "feb2c8b67799b311672b",
-    "url": "/static/js/2.f63ab0c0.chunk.js"
+    "revision": "65d21a7d63fb8ca5f003",
+    "url": "/static/js/2.e3513bfb.chunk.js"
   },
   {
     "revision": "90272e395f30388283854af7d206f76a",
-    "url": "/static/js/2.f63ab0c0.chunk.js.LICENSE.txt"
+    "url": "/static/js/2.e3513bfb.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "32c687a2d9828b196c50",
-    "url": "/static/js/main.afd0cd43.chunk.js"
+    "revision": "f508eb1680a136fc23d3",
+    "url": "/static/js/main.bebe07bd.chunk.js"
   },
   {
     "revision": "60fa70ef6557751e5513",
@@ -110,6 +110,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "90ba0fcc2afef8622aee22c700e5139e",
     "url": "/static/media/MSFT-Project.90ba0fcc.jpg"
+  },
+  {
+    "revision": "af17d8fb1bb4b75fa730cc992d04a6ec",
+    "url": "/static/media/Marisol.af17d8fb.png"
   },
   {
     "revision": "bc295d95a9b333987c819b2f6de37c28",
