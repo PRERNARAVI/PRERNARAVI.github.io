@@ -43,12 +43,12 @@ class AboutMe extends React.Component{
         return (
             // <div style={{backgroundColor: "#0e172a", maxWidth: "102%", marginTop: "780px"}}>
         <div>
-        <Col>
+       
         <Row >
           {/* <Image style={background} responsive="true" className="wallpaper-format" src={BlackOne} fluid="true"/> */}
-          <Col xs={0} style={{alignContent: "center"}}>
+          
           {/* <Image style={backgroundMe} responsive="true" className="wallpaper-format" src={Me} fluid="true"/> */}
-          <Image style={background} responsive="true"  src={BlackOne} fluid="true"/>
+          {/* <Image style={background} responsive="true"  src={BlackOne} fluid="true"/> */}
             
             <Container className="about-me">
                 <Row>
@@ -91,16 +91,15 @@ class AboutMe extends React.Component{
                 </Col>
                 </Row>
             </Container>
-            </Col>
-            </Row>
+        </Row>
 
 
 
-            <Row style={{paddingBottom: "90px"}}>
+        <Row style={{textAlign: "center"}}>
             {/* <Image style={background} responsive="true" className="wallpaper-format" src={BlackOne} fluid="true"/> */}
             <Col style={{alignContent: "center"}}>
             {/* <Image style={backgroundMe} responsive="true" className="wallpaper-format" src={Me} fluid="true"/> */}
-            <Image style={backgroundTwo} responsive="true"  src={BlackOne} fluid="true"/>
+            {/* <Image style={backgroundTwo} responsive="true"  src={BlackOne} fluid="true"/> */}
             
             <Container className="about-me-two">
                 <Row>
@@ -108,7 +107,7 @@ class AboutMe extends React.Component{
                 <a role="button" style={{cursor: "pointer", textDecoration: "none"}} href="https://www.prernaravi.com/dance">      
                     <Card className="bg-dark text-white" 
                         style={{marginTop: "20px", marginLeft: "0px", border: "none",
-                        borderRadius: "10px", height: "75vh"}}>
+                        borderRadius: "10px", height: "auto"}}>
                     <div className="interest-card-image" >
                         <Card.Header 
                             style={{
@@ -124,7 +123,7 @@ class AboutMe extends React.Component{
                         </Card.Header>
                        
                         <ZoomIn>
-                        <Card.Img style={{height: "53vh", width: "70%", opacity: 0.9}}
+                        <Card.Img style={{height: "auto", width: "70%", opacity: 0.9}}
                              src={Dance} alt="Card image" />
                         </ZoomIn>
                         
@@ -205,9 +204,8 @@ class AboutMe extends React.Component{
                 </Row>
             </Container>
             </Col>
-            </Row>
-            </Col>
-            </div>
+        </Row>
+        </div>
         );
     }
 }

@@ -34,31 +34,26 @@ code {
   max-width: 100%;
 }
 .wallpaper-text {
-  justify-content: center; 
+  text-align: center; 
 }
 .about-me {
   position: relative;
-  max-width: 90%;
-  margin-top: -855px;
-  margin-bottom: 40px;
-  padding-left: 40px;
-  padding-right: 40px;
-  height: 92vh;
+  max-width: 100%;
+  margin-top: 800px;
+  padding: 40px;
+  height: auto;
   background-color: #0e172a; 
-  opacity: 0.75;
+  opacity: 1;
   box-shadow: 0px 0px 10px 10px #0e172a; 
   
 }
 .about-me-two {
   position: relative;
-  max-width: 90%;
-  margin-top: -760px;
-  margin-bottom: -10px;
-  padding-left: 40px;
-  padding-right: 40px;
-  height: 85vh;
- 
-
+  max-width: 100%;
+  height: auto;
+  padding: 40px 40px 40px 40px;
+  opacity: 1;
+  background-color: #0e172a; 
   
 }
 .pop-up {
@@ -253,7 +248,7 @@ code {
   border-radius: "10px";
   background-color: black; 
   color: #f2ebdd;
-  height: 75vh;
+  height: auto;
 }
 .interest-card-image:after {
   content:'\A';
