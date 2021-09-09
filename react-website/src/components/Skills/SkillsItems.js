@@ -19,7 +19,7 @@ class SkillsItems extends React.Component{
             <Container >
                 <Row>
                 <Col md={4}>
-                    <a role="button" style={{cursor: "pointer"}}>      
+                    <a role="button" href="https://chi2021.acm.org/for-attendees/highlights/awards" style={{cursor: "pointer", textDecoration: "none"}}>      
                         <Card className="bg-dark text-white" 
                             style={{marginTop: "120px", border: "none",
                             borderRadius: "10px", height: "50vh"}}>
@@ -51,7 +51,7 @@ class SkillsItems extends React.Component{
                     </a>   
                 </Col>
                 <Col md={4}>
-                    <a role="button" style={{cursor: "pointer"}}>      
+                    <a role="button" href="https://gtcomputingawards2021.cc.gatech.edu/u/" style={{cursor: "pointer", textDecoration: "none"}}>      
                         <Card className="bg-dark text-white" 
                             style={{marginTop: "120px", border: "none",
                             borderRadius: "10px", height: "50vh"}}>
@@ -83,7 +83,7 @@ class SkillsItems extends React.Component{
                     </a>  
                 </Col>
                 <Col md={4}>
-                    <a role="button" style={{cursor: "pointer"}}>      
+                    <a role="button" href="https://research.adobe.com/scholarship/previous-scholarship-award-winners/" style={{cursor: "pointer", textDecoration: "none"}}>      
                         <Card className="bg-dark text-white" 
                             style={{marginTop: "120px", border: "none",
                             borderRadius: "10px", height: "50vh"}}>
@@ -117,7 +117,7 @@ class SkillsItems extends React.Component{
                 </Row>
                 <Row style={{marginTop: "-60px"}}>
                 <Col md={4}>
-                    <a role="button" style={{cursor: "pointer"}}>      
+                    <a role="button" href="http://www.undergradresearch.gatech.edu/content/presidents-undergraduate-research-awards" style={{cursor: "pointer", textDecoration: "none"}}>      
                     <Card className="bg-dark text-white" 
                             style={{marginTop: "120px", border: "none",
                             borderRadius: "10px", height: "50vh"}}>
@@ -147,7 +147,7 @@ class SkillsItems extends React.Component{
                     </a>   
                 </Col>
                 <Col md={4}>
-                    <a role="button" style={{cursor: "pointer"}}>      
+                    <a role="button" href="https://www.cc.gatech.edu/annual-awards-and-honors-past-recipients" style={{cursor: "pointer", textDecoration: "none"}}>      
                         <Card className="bg-dark text-white" 
                             style={{marginTop: "120px", border: "none",
                             borderRadius: "10px", height: "50vh"}}>
@@ -179,7 +179,7 @@ class SkillsItems extends React.Component{
                     </a>  
                 </Col>
                 <Col md={4}>
-                    <a role="button" style={{cursor: "pointer"}}>      
+                    <a role="button" href="https://careers.microsoft.com/students/us/en/usuniversityinternship" style={{cursor: "pointer", textDecoration: "none"}}>      
                         <Card className="bg-dark text-white" 
                             style={{marginTop: "120px", border: "none",
                             borderRadius: "10px", height: "50vh"}}>
@@ -215,7 +215,7 @@ class SkillsItems extends React.Component{
 
                 <Row style={{marginTop: "-60px"}}>
                 <Col md={4}>
-                    <a role="button" style={{cursor: "pointer"}}>      
+                    <a role="button" href="https://diversity.gatech.edu/facesofinclusiveexcellence" style={{cursor: "pointer", textDecoration: "none"}}>      
                         <Card className="bg-dark text-white" 
                             style={{marginTop: "120px", border: "none",
                             borderRadius: "10px", height: "50vh"}}>
@@ -245,7 +245,7 @@ class SkillsItems extends React.Component{
                     </a>   
                 </Col>
                 <Col md={4}>
-                    <a role="button" style={{cursor: "pointer"}}>      
+                    <a role="button" href="https://intaadvising.gatech.edu/uncategorized/sam-nunn-school-of-international-affairs-paper-competition-submit-by-january-31-2021/" style={{cursor: "pointer", textDecoration: "none"}}>      
                         <Card className="bg-dark text-white" 
                             style={{marginTop: "120px", border: "none",
                             borderRadius: "10px", height: "50vh"}}>
@@ -275,7 +275,7 @@ class SkillsItems extends React.Component{
                     </a>  
                 </Col>
                 <Col md={4}>
-                    <a role="button" style={{cursor: "pointer"}}>      
+                    <a role="button" href="https://ghc.anitab.org/" style={{cursor: "pointer", textDecoration: "none"}}>      
                         <Card className="bg-dark text-white" 
                             style={{marginTop: "120px", border: "none",
                             borderRadius: "10px", height: "50vh"}}>
@@ -309,7 +309,7 @@ class SkillsItems extends React.Component{
 
                 <Row style={{marginTop: "-60px", paddingBottom: "50px"}}>
                 <Col md={4}>
-                    <a role="button" style={{cursor: "pointer"}}>      
+                    <a role="button" href="https://news.microsoft.com/transform/at-the-microsoft-global-hackathon-customers-break-something-to-make-something/" style={{cursor: "pointer", textDecoration: "none"}}>      
                         <Card className="bg-dark text-white" 
                             style={{marginTop: "120px", border: "none",
                             borderRadius: "10px", height: "50vh"}}>
@@ -339,7 +339,7 @@ class SkillsItems extends React.Component{
                     </a>   
                 </Col>
                 <Col md={4}>
-                    <a role="button" style={{cursor: "pointer"}}>      
+                    <a role="button" href="https://rewritingthecode.org/" style={{cursor: "pointer", textDecoration: "none"}}>      
                         <Card className="bg-dark text-white" 
                             style={{marginTop: "120px", border: "none",
                             borderRadius: "10px", height: "50vh"}}>
@@ -369,7 +369,7 @@ class SkillsItems extends React.Component{
                     </a>  
                 </Col>
                 <Col md={4}>
-                    <a role="button" style={{cursor: "pointer"}}>      
+                    <a role="button" href="https://ghc.anitab.org/" style={{cursor: "pointer", textDecoration: "none"}}>      
                         <Card className="bg-dark text-white" 
                             style={{marginTop: "120px", border: "none",
                             borderRadius: "10px", height: "50vh"}}>

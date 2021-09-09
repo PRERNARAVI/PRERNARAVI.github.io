@@ -571,6 +571,12 @@ function Research() {
             </p>
 
             <p style={{marginLeft: "10px", textAlign: "left", color: "#E9C46A", borderTop: "2px dotted #E9C46A", fontSize: 17}}>
+            <div style={{marginTop: "10px"}}><a href="https://medium.com/avanti-fellows/avanti-fellows-ledby-girls-leadership-and-mentorship-program-the-why-what-and-how-part-1-ef39379824cd" style={{textAlign: "left", color: "#E9C46A", fontSize: 17}}>Avanti Fellows — LedBy Girls’ Leadership and Mentorship Program: The Why, What, and How</a></div></p>
+            <p style={{color: "#f2ebdd", fontSize: 15, textAlign: "left", marginLeft: "10px"}}><b style={{color: "#E9C46A"}}>Prerna Ravi</b> (Advisor: Dr. Neha Kumar)</p>
+            <p style={{color: "#E9C46A", fontSize: 15, textAlign: "left", marginLeft: "10px"}}>Avanti Fellows Blog and Baseline Report
+            </p>
+
+            <p style={{marginLeft: "10px", textAlign: "left", color: "#E9C46A", borderTop: "2px dotted #E9C46A", fontSize: 17}}>
             <div style={{marginTop: "10px"}}>Leveraging AlphaPose as a 2-D Pose Estimator for American Sign Language Recognition</div></p>
             <p style={{color: "#f2ebdd", fontSize: 15, textAlign: "left", marginLeft: "10px"}}><b style={{color: "#E9C46A"}}>Prerna Ravi</b> (Advisor: Dr. Thad Starner)</p>
             <p style={{color: "#E9C46A", fontSize: 15, textAlign: "left", marginLeft: "10px"}}>Bachelor's Thesis
@@ -582,11 +588,11 @@ function Research() {
             <p style={{color: "#f2ebdd", fontSize: 15, textAlign: "left", marginLeft: "10px"}}><b style={{color: "#E9C46A"}}>Prerna Ravi </b>and Thad Starner</p>
             <p style={{color: "#E9C46A", fontSize: 15, textAlign: "left", marginLeft: "10px"}}>Undergraduate Research Symposium at Georgia Tech 2019
             </p>
-            <p style={{marginLeft: "10px", textAlign: "left", color: "#E9C46A", fontSize: 17, borderTop: "2px dotted #E9C46A"}}>
+            {/* <p style={{marginLeft: "10px", textAlign: "left", color: "#E9C46A", fontSize: 17, borderTop: "2px dotted #E9C46A"}}>
             <div style={{marginTop: "10px"}}>CopyCat: Pose Estimation for ASL Recognition using OpenPose and Microsoft Kinect</div></p>
             <p style={{color: "#f2ebdd", fontSize: 15, textAlign: "left", marginLeft: "10px"}}><b style={{color: "#E9C46A"}}>Prerna Ravi </b>, Peter McAughan, Theo Panagiotopoulos, Dhruva Bansal, and Thad Starner</p>
             <p style={{color: "#E9C46A", fontSize: 15, textAlign: "left", marginLeft: "10px"}}>Georgia Tech GVU Center Research Showcase 2019
-            </p>
+            </p> */}
             {/* <br/>
             <div style={{fontSize: 20, color: "#E9C46A"}}>Presentations</div> */}
             </Container>
