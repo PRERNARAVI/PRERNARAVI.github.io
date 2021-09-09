@@ -23,15 +23,16 @@ class HomePage extends React.Component {
     var textStyle = {
       position: 'absolute', 
       top: '40%', 
-      left: '28%',
+      width: "100%",
       color: 'white',
       fontSize: 60,
       
     };
+    // var offset = document.getElementById("introText").offsetLeft;
     var writeStyle = {
         position: 'absolute', 
         top: '50%',
-        left: '28%',
+        width: "100%",
         color: 'white',
         fontFamily: 'monospace',
         fontSize: 60,
@@ -44,21 +45,21 @@ class HomePage extends React.Component {
           {/* <Image style={background} responsive="true" className="wallpaper-format" src={BlackOne} fluid="true"/> */}
           <Col xs={0} style={{alignContent: "center"}}>
           <Image style={backgroundMe} responsive="true" className="wallpaper-format" src="https://undark.org/wp-content/uploads/2020/04/techtower-scaled.jpg" fluid="true"/>
-            <div className = "wallpaper-text">
-              <h1 style={textStyle}>Hi! My name is Prerna, I am a </h1>
-                <h1 style={writeStyle} > 
-              
-                <Typewriter
-                    options={{
-                        strings: ['Computer Scientist.', 'Researcher.','Teaching Assistant.','Student.'],
-                        autoStart: true,
-                        loop: true,
-                        delay: 60,
-                        deleteSpeed: 30,
-                    }}
-                />
-              </h1>
-            </div>
+          <div className = "wallpaper-text">
+            <h1 style={textStyle} id="introText">Hi! My name is Prerna, I am a </h1>
+              <h1 style={writeStyle} id="typeText"> 
+            
+              <Typewriter
+                  options={{
+                      strings: ['Computer Scientist.', 'Researcher.','Teaching Assistant.','Student.'],
+                      autoStart: true,
+                      loop: true,
+                      delay: 60,
+                      deleteSpeed: 30,
+                  }}
+              />
+            </h1>
+          </div>
             </Col>
           <AboutMe/>  
         </Row>
