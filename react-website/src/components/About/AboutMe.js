@@ -43,6 +43,7 @@ class AboutMe extends React.Component{
         return (
             // <div style={{backgroundColor: "#0e172a", maxWidth: "102%", marginTop: "780px"}}>
         <div>
+        <Col>
         <Row >
           {/* <Image style={background} responsive="true" className="wallpaper-format" src={BlackOne} fluid="true"/> */}
           <Col xs={0} style={{alignContent: "center"}}>
@@ -205,6 +206,7 @@ class AboutMe extends React.Component{
             </Container>
             </Col>
             </Row>
+            </Col>
             </div>
         );
     }
