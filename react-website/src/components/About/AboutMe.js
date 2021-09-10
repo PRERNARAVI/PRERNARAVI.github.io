@@ -52,18 +52,21 @@ class AboutMe extends React.Component{
             
             <Container className="about-me">
                 <Row>
-                <Col xs={3} >     
+                <Col xs={3} style={{textAlign: "center"}}> 
+                    <div style={{textAlign: "center"}}>    
                     <Image width="100%" responsive="true" className="profile-pic-format" src={profile} fluid="true"/>
+                    </div>
+                    <br/>
                     <div style={{textAlign: "center", justifyContent: "center", alignItems: "center", marginLeft: "70px", width: "100%"}}>
-                    <h4 style={{fontFamily: "Tahoma, Geneva, sans-serif", color: "#E9C46A", marginTop: "30px", textAlign: "center"}}>Contact</h4>
-                    <Row style={{marginLeft: "-40px"}}>
-                    <Nav.Link href="https://shared-assets.adobe.com/link/9d79a538-e6d8-45c1-4727-e56d26c5f1cd"><DescriptionIcon style={{color: "#E9C46A", fontSize: 50, marginTop: "10px", marginLeft: "25px"}}/></Nav.Link>
-                    <a href="https://github.com/PRERNARAVI"><GitHubIcon style={{color: "#E9C46A", fontSize: 45, marginTop: "18px", marginLeft: "10px"}}/></a>
-                    <a href="https://www.linkedin.com/in/prerna-ravi/"><LinkedInIcon style={{color: "#E9C46A", fontSize: 50, marginTop: "18px", marginLeft: "30px"}}/></a>
-                    <a href="mailto: prernaravi@gatech.edu"><EmailIcon style={{color: "#E9C46A", fontSize: 55, marginTop: "15px", marginLeft: "30px"}}/></a>
-                    
-                    {/* <a href="https://www.instagram.com/prerna_2k/"><InstagramIcon style={{color: "white", fontSize: 65, marginTop: "15px", marginLeft: "30px"}}/></a> */}
-                    </Row>
+                        <h4 style={{fontFamily: "Tahoma, Geneva, sans-serif", color: "#E9C46A", marginTop: "30px", textAlign: "center"}}>Contact</h4>
+                        <p style={{textAlign: "center"}}>
+                        <a href="https://shared-assets.adobe.com/link/9d79a538-e6d8-45c1-4727-e56d26c5f1cd"><span><DescriptionIcon style={{color: "#E9C46A", fontSize: 50}}/></span></a>&nbsp;&nbsp;&nbsp; 
+                        <a href="https://github.com/PRERNARAVI"><GitHubIcon style={{color: "#E9C46A", fontSize: 45}}/></a>&nbsp;&nbsp;&nbsp;
+                        <a href="https://www.linkedin.com/in/prerna-ravi/"><LinkedInIcon style={{color: "#E9C46A", fontSize: 50}}/></a>&nbsp;&nbsp;&nbsp;
+                        <a href="mailto: prernaravi@gatech.edu"><EmailIcon style={{color: "#E9C46A", fontSize: 55}}/></a>
+                        </p>
+                        {/* <a href="https://www.instagram.com/prerna_2k/"><InstagramIcon style={{color: "white", fontSize: 65, marginTop: "15px", marginLeft: "30px"}}/></a> */}
+                        
                     
                     </div>
                 </Col>
@@ -123,7 +126,7 @@ class AboutMe extends React.Component{
                         </Card.Header>
                        
                         <ZoomIn>
-                        <Card.Img style={{height: "auto", width: "70%", opacity: 0.9}}
+                        <Card.Img style={{minHeight: "60vh", maxHeight: "60vh", objectFit: "contain", opacity: 0.9}}
                              src={Dance} alt="Card image" />
                         </ZoomIn>
                         
@@ -140,7 +143,7 @@ class AboutMe extends React.Component{
                 <a role="button" style={{cursor: "pointer", textDecoration: "none"}} href="https://www.prernaravi.com/music">    
                     <Card className="bg-dark text-white" 
                         style={{marginTop: "20px", marginLeft: "0px", border: "none",
-                        borderRadius: "10px", height: "75vh"}}>
+                        borderRadius: "10px", height: "auto"}}>
                     <div className="interest-card-image" >
                         <Card.Header 
                             style={{
@@ -156,7 +159,7 @@ class AboutMe extends React.Component{
                         </Card.Header>
                        
                         <ZoomIn>
-                        <Card.Img style={{height: "53vh", width: "68%"}}
+                        <Card.Img style={{minHeight: "60vh", maxHeight: "60vh", objectFit: "contain"}}
                              src="https://i.pinimg.com/originals/63/24/23/632423b9658f2f53c7c2ec382edb0805.jpg" alt="Card image" />
                         </ZoomIn>
                         
@@ -173,7 +176,7 @@ class AboutMe extends React.Component{
                 <a role="button" style={{cursor: "pointer", textDecoration: "none"}} href="https://www.prernaravi.com/art">      
                     <Card className="bg-dark text-white" 
                         style={{marginTop: "20px", marginLeft: "0px", border: "none",
-                        borderRadius: "10px", height: "75vh"}}>
+                        borderRadius: "10px", height: "auto"}}>
                     <div className="interest-card-image" >
                         <Card.Header 
                             style={{
@@ -189,7 +192,7 @@ class AboutMe extends React.Component{
                         </Card.Header>
                        
                         <ZoomIn>
-                        <Card.Img style={{height: "53vh", width: "78%", opacity: "0.8"}}
+                        <Card.Img style={{minHeight: "60vh", maxHeight: "60vh", opacity: "0.8", objectFit: "contain"}}
                              src={Art} alt="Card image" />
                         </ZoomIn>
                         
