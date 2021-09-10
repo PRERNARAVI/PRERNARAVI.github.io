@@ -16,14 +16,14 @@ class SkillsItems extends React.Component{
             fontFamily: "Tahoma, Geneva, sans-serif",
         }
         return (
-            <Container style={{textAlign: "center", paddingBottom: "60px"}}>
+            <Container style={{textAlign: "center", paddingBottom: "100px"}}>
                 <Row>
                 <Col md={4}>
                     <a role="button" href="https://chi2021.acm.org/for-attendees/highlights/awards" style={{cursor: "pointer", textDecoration: "none"}}>      
-                        <Card className="bg-dark text-white" 
+                        <Card className="bg-dark text-white award-card-image"
                             style={{marginTop: "120px", border: "none",
                             borderRadius: "10px", height: "50vh"}}>
-                        <div className="award-card-image" >
+                        <div className="award-card-image">
                             <Card.Header 
                                 style={{
                                     fontFamily: "Tahoma, Geneva, sans-serif", 
