@@ -16,7 +16,7 @@ class SkillsItems extends React.Component{
             fontFamily: "Tahoma, Geneva, sans-serif",
         }
         return (
-            <Container style={{textAlign: "center"}}>
+            <Container style={{textAlign: "center", paddingBottom: "60px"}}>
                 <Row>
                 <Col md={4}>
                     <a role="button" href="https://chi2021.acm.org/for-attendees/highlights/awards" style={{cursor: "pointer", textDecoration: "none"}}>      
