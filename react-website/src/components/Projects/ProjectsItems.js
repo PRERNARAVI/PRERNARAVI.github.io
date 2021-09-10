@@ -30,9 +30,8 @@ class ProjectsItems extends React.Component{
             height: "100%",
         };
         return (
-            <Container  >
-                <Row>
-                <Row>
+            <Container style={{textAlign: "center"}}>
+                <Row style={{marginTop: "120px"}}>
                 <Col >
                 <Popup
                 contentStyle={{border: "solid 0px black", height: "60vh", width: "70%", padding: 0, 
@@ -40,8 +39,8 @@ class ProjectsItems extends React.Component{
                 trigger={
                     <a role="button" style={{cursor: "pointer"}}>      
                         <Card className="bg-dark text-white" 
-                            style={{marginTop: "120px", border: "none",
-                            borderRadius: "10px", height: "40vh", width: "38.5vw"}}>
+                            style={{marginTop: "20px", border: "none",
+                            borderRadius: "10px", height: "40vh", width: "36vw"}}>
                         <div className="card-image" >
                             <ZoomIn>
                             <Card.Img style={{height: "40vh", opacity: 0.65}}
@@ -115,8 +114,8 @@ class ProjectsItems extends React.Component{
                 trigger={
                     <a role="button" style={{cursor: "pointer"}}> 
                         <Card className="bg-dark text-white" 
-                            style={{marginTop: "120px", border: "none",
-                            borderRadius: "10px", height: "40vh", width: "38.5vw"}}>
+                            style={{marginTop: "20px", border: "none",
+                            borderRadius: "10px", height: "40vh", width: "36vw"}}>
                         <div className="card-image" >
                             <ZoomIn>
                             <Card.Img style={{height: "40vh", opacity: 0.65}}
@@ -176,8 +175,7 @@ class ProjectsItems extends React.Component{
                 </Popup>
 
                 </Col>
-                </Row>
-                <Row>
+          
                 <Col >
                 <Popup
                 contentStyle={{border: "solid 0px black", height: "60vh", width: "70%", padding: 0, 
@@ -185,8 +183,8 @@ class ProjectsItems extends React.Component{
                 trigger={
                     <a role="button" style={{cursor: "pointer"}}> 
                         <Card className="bg-dark text-white" 
-                            style={{marginTop: "40px",marginBottom: "40px", border: "none",
-                            borderRadius: "10px", height: "40vh"}}>
+                            style={{marginTop: "20px",marginBottom: "40px", border: "none",
+                            borderRadius: "10px", height: "40vh", width: "36vw"}}>
                         <div className="card-image" >
                             <ZoomIn>
                             <Card.Img style={{height: "40vh", opacity: 0.8}}
@@ -251,8 +249,8 @@ class ProjectsItems extends React.Component{
                 trigger={
                     <a role="button" style={{cursor: "pointer"}}> 
                         <Card className="bg-dark text-white" 
-                            style={{marginTop: "40px", marginBottom: "40px", border: "none",
-                            borderRadius: "10px", height: "40vh"}}>
+                            style={{marginTop: "20px", marginBottom: "40px", border: "none",
+                            borderRadius: "10px", height: "40vh", width: "36vw"}}>
                         <div className="card-image" >
                             <ZoomIn>
                             <Card.Img style={{height: "40vh", opacity: 0.8}}
@@ -309,8 +307,6 @@ class ProjectsItems extends React.Component{
                     </Container>
                 </Popup>
                 </Col>
-                </Row>
-                <Row style={{marginTop: "-30px"}}>
                 <Col >
                 <Popup
                 contentStyle={{border: "solid 0px black", height: "60vh", width: "70%", padding: 0, 
@@ -318,8 +314,8 @@ class ProjectsItems extends React.Component{
                 trigger={
                     <a role="button" style={{cursor: "pointer"}}> 
                         <Card className="bg-dark text-white" 
-                            style={{marginTop: "40px",marginBottom: "40px", border: "none",
-                            borderRadius: "10px", height: "42vh", width: "38.5vw"}}>
+                            style={{marginTop: "20px",marginBottom: "40px", border: "none",
+                            borderRadius: "10px", height: "40vh", width: "36vw"}}>
                         <div className="card-image" >
                             <ZoomIn>
                             <Card.Img style={{height: "42vh", opacity: 0.9}}
@@ -385,8 +381,8 @@ class ProjectsItems extends React.Component{
                 trigger={
                     <a role="button" style={{cursor: "pointer"}}> 
                         <Card className="bg-dark text-white" 
-                            style={{marginTop: "40px", marginBottom: "40px", border: "none",
-                            borderRadius: "10px", height: "42vh", width: "38.5vw"}}>
+                            style={{marginTop: "20px", marginBottom: "40px", border: "none",
+                            borderRadius: "10px", height: "40vh", width: "36vw"}}>
                         <div className="card-image" >
                             <ZoomIn>
                             <Card.Img style={{height: "42vh", opacity: 0.8}}
@@ -442,7 +438,6 @@ class ProjectsItems extends React.Component{
                     </Container>
                 </Popup>
                 </Col>
-                </Row>
                 </Row>
             </Container>
             

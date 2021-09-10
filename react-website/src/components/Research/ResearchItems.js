@@ -554,10 +554,10 @@ function Research() {
 
             
        <Col style={{padding: "0px"}}>
-            <Container style={{backgroundColor: "black", height: "auto"}}>
+            <Container style={{backgroundColor: "black", height: "auto", paddingBottom: "8px"}}>
             <br/>
             <div style={{fontSize: 22, color: "#E9C46A"}}>Publications</div>
-            <br/>
+           
             <p style={{marginLeft: "10px", textAlign: "left", color: "#E9C46A", fontSize: 17}}><a href="https://dl.acm.org/doi/10.1145/3411763.3451523" style={{textAlign: "left", color: "#E9C46A", fontSize: 17}}>CopyCat: Using Sign Language Recognition to Help Deaf Children Acquire Language Skills</a></p>
             <p style={{color: "#f2ebdd", fontSize: 15, textAlign: "left", marginLeft: "10px"}}>Dhruva Bansal, <b style={{color: "#E9C46A"}}>Prerna Ravi</b>, Matthew So, Pranay Agrawal, Ishan Chadha, Ganesh Murugappan, and Colby Duke (Advisor: Dr. Thad Starner)</p>
             <p style={{color: "#E9C46A", fontSize: 15, textAlign: "left", marginLeft: "10px"}}>CHI 2021</p>
