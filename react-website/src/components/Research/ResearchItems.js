@@ -384,7 +384,7 @@ function Research() {
         <Container style={{textAlign: "center"}}>
             <Row style={{padding: "0px", width: "105%", marginTop: "120px"}}>
             {/** *********************************ASL ITEM************** */}
-            <Col md={8} >
+            <Col md={9} >
             <Row style={{padding: "0px"}}>
             <Col style={{padding: "5px", height: "75vh"}}>
                 <a role="button" style={{cursor: "pointer"}} onClick={() => setModalShowASL(true)}>      
@@ -401,7 +401,7 @@ function Research() {
                                 paddingBottom: '0px'
                             }}> 
                             <p style={{lineHeight: "1.5", color: "#E9C46A"}}>
-                                &ensp;CopyCat: Using Sign Language Recognition to Help Deaf Children Acquire Language Skills
+                                &ensp;Using Sign Language Recognition to Help Deaf Children Acquire Language Skills
                             </p>
                         </Card.Header>
                        
@@ -533,7 +533,7 @@ function Research() {
                         
                             <Card.Text style={{fontSize: 16, margin: '10px'}}>
                             Advisor: Dr. Neha Kumar<br/>
-                            GT Technology & Design for Empowerment on the Margins (TanDEm) Lab
+                            GT TanDEm Lab
                             </Card.Text>
                             <Card.Footer><a href="#" style={{color: "#E9C46A"}} onClick={() => setModalShowAvanti(true)}>Read More</a></Card.Footer>
 
@@ -556,37 +556,37 @@ function Research() {
        <Col style={{padding: "0px"}}>
             <Container style={{backgroundColor: "black", height: "auto", paddingBottom: "8px"}}>
             <br/>
-            <div style={{fontSize: 22, color: "#E9C46A"}}>Publications</div>
-           
-            <p style={{marginLeft: "10px", textAlign: "left", color: "#E9C46A", fontSize: 17}}><a href="https://dl.acm.org/doi/10.1145/3411763.3451523" style={{textAlign: "left", color: "#E9C46A", fontSize: 17}}>CopyCat: Using Sign Language Recognition to Help Deaf Children Acquire Language Skills</a></p>
-            <p style={{color: "#f2ebdd", fontSize: 15, textAlign: "left", marginLeft: "10px"}}>Dhruva Bansal, <b style={{color: "#E9C46A"}}>Prerna Ravi</b>, Matthew So, Pranay Agrawal, Ishan Chadha, Ganesh Murugappan, and Colby Duke (Advisor: Dr. Thad Starner)</p>
-            <p style={{color: "#E9C46A", fontSize: 15, textAlign: "left", marginLeft: "10px"}}>CHI 2021</p>
-            <p style={{color: "#E9C46A", fontSize: 15, textAlign: "left", marginLeft: "10px"}}><b>Winner - CHI Student Research Competition</b></p>
-
-            <p style={{marginLeft: "10px", textAlign: "left", color: "#E9C46A", borderTop: "2px dotted #E9C46A", fontSize: 17}}>
-            <div style={{marginTop: "10px"}}>The Pandemic Shift to Remote Learning under Resource Constraints</div></p>
-            <p style={{color: "#f2ebdd", fontSize: 15, textAlign: "left", marginLeft: "10px"}}><b style={{color: "#E9C46A"}}>Prerna Ravi</b>, Azra Ismail, and Neha Kumar</p>
-            <p style={{color: "#E9C46A", fontSize: 15, textAlign: "left", marginLeft: "10px"}}>CSCW 2021
-            </p>
-
-            <p style={{marginLeft: "10px", textAlign: "left", color: "#E9C46A", borderTop: "2px dotted #E9C46A", fontSize: 17}}>
-            <div style={{marginTop: "10px"}}><a href="https://medium.com/avanti-fellows/avanti-fellows-ledby-girls-leadership-and-mentorship-program-the-why-what-and-how-part-1-ef39379824cd" style={{textAlign: "left", color: "#E9C46A", fontSize: 17}}>Avanti Fellows — LedBy Girls’ Leadership and Mentorship Program: The Why, What, and How</a></div></p>
-            <p style={{color: "#f2ebdd", fontSize: 15, textAlign: "left", marginLeft: "10px"}}><b style={{color: "#E9C46A"}}>Prerna Ravi</b> (Advisor: Dr. Neha Kumar)</p>
-            <p style={{color: "#E9C46A", fontSize: 15, textAlign: "left", marginLeft: "10px"}}>Avanti Fellows Blog and Baseline Report
-            </p>
-
-            <p style={{marginLeft: "10px", textAlign: "left", color: "#E9C46A", borderTop: "2px dotted #E9C46A", fontSize: 17}}>
-            <div style={{marginTop: "10px"}}>Leveraging AlphaPose as a 2-D Pose Estimator for American Sign Language Recognition</div></p>
-            <p style={{color: "#f2ebdd", fontSize: 15, textAlign: "left", marginLeft: "10px"}}><b style={{color: "#E9C46A"}}>Prerna Ravi</b> (Advisor: Dr. Thad Starner)</p>
-            <p style={{color: "#E9C46A", fontSize: 15, textAlign: "left", marginLeft: "10px"}}>Bachelor's Thesis
-            </p>
-            <div style={{fontSize: 20, color: "#E9C46A", borderTop: "2px dotted #E9C46A"}}><br/>Presentations</div>
+            <div style={{fontSize: 20, color: "#E9C46A"}}>Publications</div>
             <br/>
-            <p style={{marginLeft: "10px", textAlign: "left", color: "#E9C46A", fontSize: 17}}>
+            <p style={{marginLeft: "10px", textAlign: "left", color: "#E9C46A", fontSize: 15}}><a href="https://dl.acm.org/doi/10.1145/3411763.3451523" style={{textAlign: "left", color: "#E9C46A", fontSize: 15}}>CopyCat: Using Sign Language Recognition to Help Deaf Children Acquire Language Skills</a></p>
+            <p style={{color: "#f2ebdd", fontSize: 13, textAlign: "left", marginLeft: "10px"}}>Dhruva Bansal, <b style={{color: "#E9C46A"}}>Prerna Ravi</b>, Matthew So, Pranay Agrawal, Ishan Chadha, Ganesh Murugappan, and Colby Duke (Advisor: Dr. Thad Starner)</p>
+            <p style={{color: "#E9C46A", fontSize: 13, textAlign: "left", marginLeft: "10px"}}>CHI 2021</p>
+            <p style={{color: "#E9C46A", fontSize: 13, textAlign: "left", marginLeft: "10px"}}><b>Winner - CHI Student Research Competition</b></p>
+
+            <p style={{marginLeft: "10px", textAlign: "left", color: "#E9C46A", borderTop: "2px dotted #E9C46A", fontSize: 15}}>
+            <div style={{marginTop: "10px"}}>The Pandemic Shift to Remote Learning under Resource Constraints</div></p>
+            <p style={{color: "#f2ebdd", fontSize: 13, textAlign: "left", marginLeft: "10px"}}><b style={{color: "#E9C46A"}}>Prerna Ravi</b>, Azra Ismail, and Neha Kumar</p>
+            <p style={{color: "#E9C46A", fontSize: 13, textAlign: "left", marginLeft: "10px"}}>CSCW 2021
+            </p>
+
+            <p style={{marginLeft: "10px", textAlign: "left", color: "#E9C46A", borderTop: "2px dotted #E9C46A", fontSize: 15}}>
+            <div style={{marginTop: "10px"}}><a href="https://medium.com/avanti-fellows/avanti-fellows-ledby-girls-leadership-and-mentorship-program-the-why-what-and-how-part-1-ef39379824cd" style={{textAlign: "left", color: "#E9C46A", fontSize: 15}}>Avanti Fellows — LedBy Girls’ Leadership and Mentorship Program: The Why, What, and How</a></div></p>
+            <p style={{color: "#f2ebdd", fontSize: 13, textAlign: "left", marginLeft: "10px"}}><b style={{color: "#E9C46A"}}>Prerna Ravi</b> (Advisor: Dr. Neha Kumar)</p>
+            <p style={{color: "#E9C46A", fontSize: 13, textAlign: "left", marginLeft: "10px"}}>Avanti Fellows Blog and Baseline Report
+            </p>
+
+            <p style={{marginLeft: "10px", textAlign: "left", color: "#E9C46A", borderTop: "2px dotted #E9C46A", fontSize: 15}}>
+            <div style={{marginTop: "10px"}}>Leveraging AlphaPose as a 2-D Pose Estimator for American Sign Language Recognition</div></p>
+            <p style={{color: "#f2ebdd", fontSize: 13, textAlign: "left", marginLeft: "10px"}}><b style={{color: "#E9C46A"}}>Prerna Ravi</b> (Advisor: Dr. Thad Starner)</p>
+            <p style={{color: "#E9C46A", fontSize: 13, textAlign: "left", marginLeft: "10px"}}>Bachelor's Thesis
+            </p>
+            {/* <div style={{fontSize: 20, color: "#E9C46A", borderTop: "2px dotted #E9C46A"}}><br/>Presentations</div>
+            <br/> */}
+            {/* <p style={{marginLeft: "10px", textAlign: "left", color: "#E9C46A", fontSize: 17}}>
             <div style={{marginTop: "10px"}}>CopyCat: Intuitive Calibration and Data Collection Procedures for ASL Recognition using Azure Kinect</div></p>
             <p style={{color: "#f2ebdd", fontSize: 15, textAlign: "left", marginLeft: "10px"}}><b style={{color: "#E9C46A"}}>Prerna Ravi </b>and Thad Starner</p>
             <p style={{color: "#E9C46A", fontSize: 15, textAlign: "left", marginLeft: "10px"}}>Undergraduate Research Symposium at Georgia Tech 2019
-            </p>
+            </p> */}
             {/* <p style={{marginLeft: "10px", textAlign: "left", color: "#E9C46A", fontSize: 17, borderTop: "2px dotted #E9C46A"}}>
             <div style={{marginTop: "10px"}}>CopyCat: Pose Estimation for ASL Recognition using OpenPose and Microsoft Kinect</div></p>
             <p style={{color: "#f2ebdd", fontSize: 15, textAlign: "left", marginLeft: "10px"}}><b style={{color: "#E9C46A"}}>Prerna Ravi </b>, Peter McAughan, Theo Panagiotopoulos, Dhruva Bansal, and Thad Starner</p>
