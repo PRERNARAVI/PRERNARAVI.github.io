@@ -483,7 +483,7 @@ function Research() {
                                 paddingBottom: '0px'
                             }}> 
                             <p style={{lineHeight: "1.5", color: "#E9C46A"}}>
-                                &ensp;Co-Designing Parent-Education ICTs with Hispanic Immigrants and Education System
+                                &ensp;Co-Designing Parent-Education ICTs with Hispanic Immigrants
                             </p>
                         </Card.Header>
                        
