@@ -31,7 +31,7 @@ class ProjectsItems extends React.Component{
         };
         return (
             <Container style={{textAlign: "center"}}>
-                <Row style={{marginTop: "120px"}}>
+                <Row style={{marginTop: "120px", paddingBottom: "60px"}}>
                 <Col >
                 <Popup
                 contentStyle={{border: "solid 0px black", height: "60vh", width: "70%", padding: 0, 
@@ -52,8 +52,7 @@ class ProjectsItems extends React.Component{
                                         fontFamily: "Tahoma, Geneva, sans-serif", 
                                         fontWeight: "normal",
                                         fontSize: 38,
-                                        margin: "auto",
-                                        paddingTop: "30px",
+                                        paddingTop: "50px"
                                     }}>SCHOOL LIBRARY HUB <br></br>
                                     FOR <br></br>MICROSOFT TEAMS
                                 </Card.Title>
@@ -127,8 +126,7 @@ class ProjectsItems extends React.Component{
                                         fontFamily: "Tahoma, Geneva, sans-serif", 
                                         fontWeight: "normal",
                                         fontSize: 38,
-                                        margin: "auto",
-                                        paddingTop: "80px",
+                                        padding: "80px",
                                     }}> understaNDing <br></br>
                                     NEURODIVERSITY
                                 </Card.Title>
@@ -183,7 +181,7 @@ class ProjectsItems extends React.Component{
                 trigger={
                     <a role="button" style={{cursor: "pointer"}}> 
                         <Card className="bg-dark text-white" 
-                            style={{marginTop: "20px",marginBottom: "40px", border: "none",
+                            style={{marginTop: "20px", border: "none",
                             borderRadius: "10px", height: "40vh", width: "36vw"}}>
                         <div className="card-image" >
                             <ZoomIn>
@@ -196,7 +194,6 @@ class ProjectsItems extends React.Component{
                                         fontFamily: "Tahoma, Geneva, sans-serif", 
                                         fontWeight: "normal",
                                         fontSize: 38,
-                                        margin: "auto",
                                         paddingTop: "80px",
                                     }}>CONNECT ME: <br></br>
                                     CHATTING PLATFORM
@@ -249,7 +246,7 @@ class ProjectsItems extends React.Component{
                 trigger={
                     <a role="button" style={{cursor: "pointer"}}> 
                         <Card className="bg-dark text-white" 
-                            style={{marginTop: "20px", marginBottom: "40px", border: "none",
+                            style={{marginTop: "20px", border: "none",
                             borderRadius: "10px", height: "40vh", width: "36vw"}}>
                         <div className="card-image" >
                             <ZoomIn>
@@ -262,8 +259,7 @@ class ProjectsItems extends React.Component{
                                         fontFamily: "Tahoma, Geneva, sans-serif", 
                                         fontWeight: "normal",
                                         fontSize: 38,
-                                        margin: "auto",
-                                        paddingTop: "40px",
+                                        paddingTop: "50px",
                                     }}>DROP: <br></br>
                                     WATER FOUNTAIN <br></br> LOCATION APP
                                 </Card.Title>
@@ -314,7 +310,7 @@ class ProjectsItems extends React.Component{
                 trigger={
                     <a role="button" style={{cursor: "pointer"}}> 
                         <Card className="bg-dark text-white" 
-                            style={{marginTop: "20px",marginBottom: "40px", border: "none",
+                            style={{marginTop: "20px", border: "none",
                             borderRadius: "10px", height: "40vh", width: "36vw"}}>
                         <div className="card-image" >
                             <ZoomIn>
@@ -327,8 +323,7 @@ class ProjectsItems extends React.Component{
                                         fontFamily: "Tahoma, Geneva, sans-serif", 
                                         fontWeight: "normal",
                                         fontSize: 38,
-                                        margin: "auto",
-                                        paddingTop: "80px",
+                                        paddingTop: "50px",
                                     }}>DAYBOOK:<br></br>
                                     MENTAL HEALTH <br></br>JOURNALING APP
                                 </Card.Title>
@@ -381,7 +376,7 @@ class ProjectsItems extends React.Component{
                 trigger={
                     <a role="button" style={{cursor: "pointer"}}> 
                         <Card className="bg-dark text-white" 
-                            style={{marginTop: "20px", marginBottom: "40px", border: "none",
+                            style={{marginTop: "20px", border: "none",
                             borderRadius: "10px", height: "40vh", width: "36vw"}}>
                         <div className="card-image" >
                             <ZoomIn>
@@ -394,8 +389,7 @@ class ProjectsItems extends React.Component{
                                         fontFamily: "Tahoma, Geneva, sans-serif", 
                                         fontWeight: "normal",
                                         fontSize: 38,
-                                        margin: "auto",
-                                        paddingTop: "40px",
+                                        paddingTop: "50px",
                                     }}>MICROSOFT DEEP DIVE<br></br>
                                     COMPUTER SCIENCE <br></br>WORKSHOP
                                 </Card.Title>
