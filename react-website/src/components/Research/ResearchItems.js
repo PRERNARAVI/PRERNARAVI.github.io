@@ -396,7 +396,7 @@ function Research() {
                             style={{
                                 fontFamily: "Tahoma, Geneva, sans-serif", 
                                 fontWeight: "normal",
-                                fontSize: 20,
+                                fontSize: 18,
                                 paddingTop: "15px",
                                 paddingBottom: '0px'
                             }}> 
@@ -406,7 +406,7 @@ function Research() {
                         </Card.Header>
                        
                         <ZoomIn>
-                        <Card.Img style={{objectFit: "contain", height: "25vh", width: "25vw"}}
+                        <Card.Img style={{objectFit: "contain", height: "30vh", width: "25vw"}}
                              src="https://www.verywellhealth.com/thmb/_u2YBR9a2OcAihIAcTGV8wsrmlY=/2556x1917/smart/filters:no_upscale()/gettyimages-495596293-5a2192db5b6e24001a612abe.jpg" alt="Card image" />
                         </ZoomIn>
                         
@@ -414,7 +414,7 @@ function Research() {
                             Advisor: Dr. Thad Starner <br/>
                             GT Ubiquitous Computing (Ubicomp) Lab
                             </Card.Text>
-                            <Card.Footer><a href="#" style={{color: "#E9C46A"}} onClick={() => setModalShowASL(true)}>Read More</a></Card.Footer>
+                            <Card.Footer><a href="#" style={{color: "#E9C46A", fontSize: 15}} onClick={() => setModalShowASL(true)}>Read More</a></Card.Footer>
 
                     </div>               
                     </Card>
@@ -435,7 +435,7 @@ function Research() {
                             style={{
                                 fontFamily: "Tahoma, Geneva, sans-serif", 
                                 fontWeight: "normal",
-                                fontSize: 20,
+                                fontSize: 18,
                                 paddingTop: "15px",
                                 paddingBottom: '0px'
                             }}> 
@@ -445,7 +445,7 @@ function Research() {
                         </Card.Header>
                        
                         <ZoomIn>
-                        <Card.Img style={{ boxShadow: "60px 60px 100px 100px #000000;", border: 0, objectFit: "contain", height: "25vh", width: "25vw"}}
+                        <Card.Img style={{ boxShadow: "60px 60px 100px 100px #000000;", border: 0, objectFit: "contain", height: "30vh", width: "25vw"}}
                              src="https://static.reuters.com/resources/r/?m=02&d=20200320&t=2&i=1505762610&r=LYNXMPEG2J0KV&w=800" alt="Card image" />
                         </ZoomIn>
                         
@@ -453,7 +453,7 @@ function Research() {
                             Advisor: Dr. Neha Kumar<br/>
                             GT TanDEm Lab
                             </Card.Text>
-                            <Card.Footer><a href="#" style={{color: "#E9C46A"}} onClick={() => setModalShowTandem(true)}>Read More</a></Card.Footer>
+                            <Card.Footer><a href="#" style={{color: "#E9C46A", fontSize: 15}} onClick={() => setModalShowTandem(true)}>Read More</a></Card.Footer>
 
                     </div>               
                     </Card>
@@ -468,7 +468,7 @@ function Research() {
             {/** ROW 2 */}
 
              {/** *********************************CAT ITEM************** */}   
-            <Col style={{padding: "0px", height: "75vh"}}>
+            <Col style={{padding: "5px", height: "75vh"}}>
                 <a role="button" style={{cursor: "pointer"}} onClick={() => setModalShowCat(true)}>      
                     <Card className="bg-dark text-white" 
                         style={{ border: "none",
@@ -478,7 +478,7 @@ function Research() {
                             style={{
                                 fontFamily: "Tahoma, Geneva, sans-serif", 
                                 fontWeight: "normal",
-                                fontSize: 20,
+                                fontSize: 18,
                                 paddingTop: "15px",
                                 paddingBottom: '0px'
                             }}> 
@@ -488,7 +488,7 @@ function Research() {
                         </Card.Header>
                        
                         <ZoomIn >
-                        <Card.Img style={{objectFit: "contain", opacity: "0.55", width: "25vw", height: "25vh"}}
+                        <Card.Img style={{objectFit: "contain", opacity: "0.55", width: "25vw", height: "30vh"}}
                              src={Marisol} alt="Card image" />
                         </ZoomIn>
                         
@@ -496,7 +496,7 @@ function Research() {
                             Advisor: Dr. Betsy Disalvo <br/>
                             GT Culture and Technology (CAT) Lab
                             </Card.Text>
-                            <Card.Footer><a href="#" style={{color: "#E9C46A"}} onClick={() => setModalShowCat(true)}>Read More</a></Card.Footer>
+                            <Card.Footer><a href="#" style={{color: "#E9C46A", fontSize: 15}} onClick={() => setModalShowCat(true)}>Read More</a></Card.Footer>
 
                     </div>               
                     </Card>
@@ -517,7 +517,7 @@ function Research() {
                             style={{
                                 fontFamily: "Tahoma, Geneva, sans-serif", 
                                 fontWeight: "normal",
-                                fontSize: 20,
+                                fontSize: 18,
                                 paddingTop: "15px",
                                 paddingBottom: '0px'
                             }}> 
@@ -527,7 +527,7 @@ function Research() {
                         </Card.Header>
                        
                         <ZoomIn>
-                        <Card.Img style={{objectFit: "contain", boxShadow: "60px 60px 100px 100px #000000;", border: 0, opacity: "0.55", height: "25vh", width: "25vw"}}
+                        <Card.Img style={{objectFit: "contain", boxShadow: "60px 60px 100px 100px #000000;", border: 0, opacity: "0.55", height: "30vh", width: "25vw"}}
                              src="https://www.brookings.edu/wp-content/uploads/2017/09/cue_reaching-for-the-sky_001.jpg" alt="Card image" />
                         </ZoomIn>
                         
@@ -535,7 +535,7 @@ function Research() {
                             Advisor: Dr. Neha Kumar<br/>
                             GT TanDEm Lab
                             </Card.Text>
-                            <Card.Footer><a href="#" style={{color: "#E9C46A"}} onClick={() => setModalShowAvanti(true)}>Read More</a></Card.Footer>
+                            <Card.Footer><a href="#" style={{color: "#E9C46A", fontSize: 15}} onClick={() => setModalShowAvanti(true)}>Read More</a></Card.Footer>
 
                     </div>               
                     </Card>
