@@ -40,7 +40,7 @@ class ProjectsItems extends React.Component{
                     <a role="button" style={{cursor: "pointer"}}>      
                         <Card className="bg-dark text-white" 
                             style={{marginTop: "20px", border: "none",
-                            borderRadius: "10px", height: "40vh", width: "36vw"}}>
+                            borderRadius: "10px", height: "40vh", width: "35vw"}}>
                         <div className="card-image" >
                             <ZoomIn>
                             <Card.Img style={{height: "40vh", opacity: 0.65}}
@@ -113,7 +113,7 @@ class ProjectsItems extends React.Component{
                     <a role="button" style={{cursor: "pointer"}}> 
                         <Card className="bg-dark text-white" 
                             style={{marginTop: "20px", border: "none",
-                            borderRadius: "10px", height: "40vh", width: "36vw"}}>
+                            borderRadius: "10px", height: "40vh", width: "35vw"}}>
                         <div className="card-image" >
                             <ZoomIn>
                             <Card.Img style={{height: "40vh", opacity: 0.65}}
@@ -180,7 +180,7 @@ class ProjectsItems extends React.Component{
                     <a role="button" style={{cursor: "pointer"}}> 
                         <Card className="bg-dark text-white" 
                             style={{marginTop: "20px", border: "none",
-                            borderRadius: "10px", height: "40vh", width: "36vw"}}>
+                            borderRadius: "10px", height: "40vh", width: "35vw"}}>
                         <div className="card-image" >
                             <ZoomIn>
                             <Card.Img style={{height: "40vh", opacity: 0.8}}
@@ -244,7 +244,7 @@ class ProjectsItems extends React.Component{
                     <a role="button" style={{cursor: "pointer"}}> 
                         <Card className="bg-dark text-white" 
                             style={{marginTop: "20px", border: "none",
-                            borderRadius: "10px", height: "40vh", width: "36vw"}}>
+                            borderRadius: "10px", height: "40vh", width: "35vw"}}>
                         <div className="card-image" >
                             <ZoomIn>
                             <Card.Img style={{height: "40vh", opacity: 0.8}}
@@ -307,7 +307,7 @@ class ProjectsItems extends React.Component{
                     <a role="button" style={{cursor: "pointer"}}> 
                         <Card className="bg-dark text-white" 
                             style={{marginTop: "20px", border: "none",
-                            borderRadius: "10px", height: "40vh", width: "36vw"}}>
+                            borderRadius: "10px", height: "40vh", width: "35vw"}}>
                         <div className="card-image" >
                             <ZoomIn>
                             <Card.Img style={{height: "42vh", opacity: 0.9}}
@@ -372,7 +372,7 @@ class ProjectsItems extends React.Component{
                     <a role="button" style={{cursor: "pointer"}}> 
                         <Card className="bg-dark text-white" 
                             style={{marginTop: "20px", border: "none",
-                            borderRadius: "10px", height: "40vh", width: "36vw"}}>
+                            borderRadius: "10px", height: "40vh", width: "35vw"}}>
                         <div className="card-image" >
                             <ZoomIn>
                             <Card.Img style={{height: "42vh", opacity: 0.8}}
