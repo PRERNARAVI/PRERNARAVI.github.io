@@ -381,16 +381,16 @@ function Research() {
     const [modalShowAvanti, setModalShowAvanti] = React.useState(false);
 
     return (
-        <Container style={{marginLeft: "60px"}}>
-            <Row style={{marginRight: "0px"}}>
+        <Container style={{textAlign: "center"}}>
+            <Row style={{padding: "0px", width: "105%", marginTop: "120px"}}>
             {/** *********************************ASL ITEM************** */}
-            <Col md={9.5}>
-            <Row>
-            <Col >
+            <Col md={8} >
+            <Row style={{padding: "0px"}}>
+            <Col lg={true} style={{padding: "5px", height: "75vh"}}>
                 <a role="button" style={{cursor: "pointer"}} onClick={() => setModalShowASL(true)}>      
                     <Card className="bg-dark text-white" 
-                        style={{marginTop: "120px", marginLeft: "0px", border: "none",
-                        borderRadius: "10px", height: "70vh", width: "30vw"}}>
+                        style={{ border: "none",
+                        borderRadius: "10px"}}>
                     <div className="research-card-image" >
                         <Card.Header 
                             style={{
@@ -406,7 +406,7 @@ function Research() {
                         </Card.Header>
                        
                         <ZoomIn>
-                        <Card.Img style={{height: "40vh"}}
+                        <Card.Img style={{objectFit: "contain", height: "25vh", width: "25vw"}}
                              src="https://www.verywellhealth.com/thmb/_u2YBR9a2OcAihIAcTGV8wsrmlY=/2556x1917/smart/filters:no_upscale()/gettyimages-495596293-5a2192db5b6e24001a612abe.jpg" alt="Card image" />
                         </ZoomIn>
                         
@@ -425,11 +425,11 @@ function Research() {
                 </a>  
             </Col>
             {/** *********************************TANDEM ITEM************** */}
-            <Col >
+            <Col lg={true} style={{padding: "5px", height: "75vh"}}>
                 <a role="button" style={{cursor: "pointer"}} onClick={() => setModalShowTandem(true)}>      
                     <Card className="bg-dark text-white" 
-                        style={{marginTop: "120px", border: "none",
-                        borderRadius: "10px", height: "70vh", width: "30vw"}}>
+                        style={{ border: "none",
+                        borderRadius: "10px"}}>
                     <div className="research-card-image" >
                         <Card.Header 
                             style={{
@@ -445,13 +445,13 @@ function Research() {
                         </Card.Header>
                        
                         <ZoomIn>
-                        <Card.Img style={{height: "41vh", boxShadow: "60px 60px 100px 100px #000000;", border: 0}}
+                        <Card.Img style={{ boxShadow: "60px 60px 100px 100px #000000;", border: 0, objectFit: "contain", height: "25vh", width: "25vw"}}
                              src="https://static.reuters.com/resources/r/?m=02&d=20200320&t=2&i=1505762610&r=LYNXMPEG2J0KV&w=800" alt="Card image" />
                         </ZoomIn>
                         
                             <Card.Text style={{fontSize: 16, margin: '10px'}}>
                             Advisor: Dr. Neha Kumar<br/>
-                            GT Technology & Design for Empowerment on the Margins (TanDEm) Lab
+                            GT TanDEm Lab
                             </Card.Text>
                             <Card.Footer><a href="#" style={{color: "#E9C46A"}} onClick={() => setModalShowTandem(true)}>Read More</a></Card.Footer>
 
@@ -463,18 +463,16 @@ function Research() {
                     />
                 </a>  
             </Col>
-            </Row>
+            
 
             {/** ROW 2 */}
 
-            <Row style={{marginTop: "-60px", paddingBottom: "50px"}} >
-
              {/** *********************************CAT ITEM************** */}   
-            <Col >
+            <Col lg={true} style={{padding: "0px", height: "75vh"}}>
                 <a role="button" style={{cursor: "pointer"}} onClick={() => setModalShowCat(true)}>      
                     <Card className="bg-dark text-white" 
-                        style={{marginTop: "120px", marginLeft: "0px", border: "none",
-                        borderRadius: "10px", height: "70vh", width: "30vw"}}>
+                        style={{ border: "none",
+                        borderRadius: "10px"}}>
                     <div className="research-card-image" >
                         <Card.Header 
                             style={{
@@ -490,7 +488,7 @@ function Research() {
                         </Card.Header>
                        
                         <ZoomIn >
-                        <Card.Img style={{height: "45vh", opacity: "0.55"}}
+                        <Card.Img style={{objectFit: "contain", opacity: "0.55", width: "25vw", height: "25vh"}}
                              src={Marisol} alt="Card image" />
                         </ZoomIn>
                         
@@ -509,11 +507,11 @@ function Research() {
         show={modalShowCat}
         onHide={() => setModalShowCat(false)}
             />
-        <Col >
+        <Col lg={true} style={{padding: "5px", height: "75vh"}}>
                 <a role="button" style={{cursor: "pointer"}} onClick={() => setModalShowAvanti(true)}>      
                     <Card className="bg-dark text-white" 
-                        style={{marginTop: "120px", border: "none",
-                        borderRadius: "10px", height: "70vh", width: "30vw"}}>
+                        style={{ border: "none",
+                        borderRadius: "10px"}}>
                     <div className="research-card-image" >
                         <Card.Header 
                             style={{
@@ -529,7 +527,7 @@ function Research() {
                         </Card.Header>
                        
                         <ZoomIn>
-                        <Card.Img style={{height: "42vh", boxShadow: "60px 60px 100px 100px #000000;", border: 0, opacity: "0.55"}}
+                        <Card.Img style={{objectFit: "contain", boxShadow: "60px 60px 100px 100px #000000;", border: 0, opacity: "0.55", height: "25vh", width: "25vw"}}
                              src="https://www.brookings.edu/wp-content/uploads/2017/09/cue_reaching-for-the-sky_001.jpg" alt="Card image" />
                         </ZoomIn>
                         
@@ -555,8 +553,8 @@ function Research() {
             </Col>
 
             
-       <Col md='auto' style={{marginTop: "100px", marginLeft: "40px", flex: "0.5"}}>
-            <Container style={{backgroundColor: "black", marginTop: "20px", height: "149vh", width: "250%"}}>
+       <Col style={{padding: "0px"}}>
+            <Container style={{backgroundColor: "black", marginTop: "20px", height: "149vh"}}>
             <br/>
             <div style={{fontSize: 22, color: "#E9C46A"}}>Publications</div>
             <br/>

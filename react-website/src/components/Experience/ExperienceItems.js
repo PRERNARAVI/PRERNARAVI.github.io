@@ -5,6 +5,13 @@ import Microsoft from "../../images/Microsoft.png";
 import { HashRouter as Router, Switch, Route, NavLink } from "react-router-dom";
 import { FadeIn, Pulse } from "react-animation-wrapper";
   
+function show() {
+    console.log("XXXXXXXXXXXXXXX");
+    for(const x of document.getElementByClassName("show-more")) {
+        console.log(x);
+        x.style.color = "white";
+    }
+} 
 class ExperienceItems extends React.Component{
     render() {  
         const items = [
@@ -142,8 +149,12 @@ class ExperienceItems extends React.Component{
                 }
             },
         ];
+
+
+        
         return (
-            <Container style={{marginTop: "100px"}}>
+            <div>
+            <Container style={{marginTop: "100px"}} >
                 <FadeIn>
                 <Chrono items={items} 
                 mode="VERTICAL_ALTERNATING"
@@ -157,9 +168,12 @@ class ExperienceItems extends React.Component{
                     titleColor: "#f2ebdd",
                 }}/>
                 </FadeIn>
-                
-                
             </Container>
+
+            <script>
+                  show();
+            </script>
+            </div>
         )
     }
 }
