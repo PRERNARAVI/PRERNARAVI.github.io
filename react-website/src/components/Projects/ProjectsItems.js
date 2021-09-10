@@ -51,7 +51,7 @@ class ProjectsItems extends React.Component{
                                     style={{
                                         fontFamily: "Tahoma, Geneva, sans-serif", 
                                         fontWeight: "normal",
-                                        fontSize: 38,
+                                        fontSize: 34,
                                     }}>SCHOOL LIBRARY HUB <br></br>
                                     FOR <br></br>MICROSOFT TEAMS
                                 </Card.Title>
@@ -124,7 +124,7 @@ class ProjectsItems extends React.Component{
                                     style={{
                                         fontFamily: "Tahoma, Geneva, sans-serif", 
                                         fontWeight: "normal",
-                                        fontSize: 38,
+                                        fontSize: 34,
                                     }}> understaNDing <br></br>
                                     NEURODIVERSITY
                                 </Card.Title>
@@ -191,7 +191,7 @@ class ProjectsItems extends React.Component{
                                     style={{
                                         fontFamily: "Tahoma, Geneva, sans-serif", 
                                         fontWeight: "normal",
-                                        fontSize: 38,
+                                        fontSize: 34,
                                     }}>CONNECT ME: <br></br>
                                     CHATTING PLATFORM
                                 </Card.Title>
@@ -255,7 +255,7 @@ class ProjectsItems extends React.Component{
                                     style={{
                                         fontFamily: "Tahoma, Geneva, sans-serif", 
                                         fontWeight: "normal",
-                                        fontSize: 38,
+                                        fontSize: 34,
                                     }}>DROP: <br></br>
                                     WATER FOUNTAIN <br></br> LOCATION APP
                                 </Card.Title>
@@ -318,7 +318,7 @@ class ProjectsItems extends React.Component{
                                     style={{
                                         fontFamily: "Tahoma, Geneva, sans-serif", 
                                         fontWeight: "normal",
-                                        fontSize: 38,
+                                        fontSize: 34,
                                     }}>DAYBOOK:<br></br>
                                     MENTAL HEALTH <br></br>JOURNALING APP
                                 </Card.Title>
@@ -383,7 +383,7 @@ class ProjectsItems extends React.Component{
                                     style={{
                                         fontFamily: "Tahoma, Geneva, sans-serif", 
                                         fontWeight: "normal",
-                                        fontSize: 38,
+                                        fontSize: 34,
                                     }}>MICROSOFT DEEP DIVE<br></br>
                                     COMPUTER SCIENCE <br></br>WORKSHOP
                                 </Card.Title>
