@@ -554,7 +554,7 @@ function Research() {
 
             
        <Col style={{padding: "0px"}}>
-            <Container style={{backgroundColor: "black", marginTop: "20px", height: "149vh"}}>
+            <Container style={{backgroundColor: "black", height: "auto"}}>
             <br/>
             <div style={{fontSize: 22, color: "#E9C46A"}}>Publications</div>
             <br/>
