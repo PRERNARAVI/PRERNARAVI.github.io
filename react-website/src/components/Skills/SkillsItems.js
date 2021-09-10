@@ -16,7 +16,7 @@ class SkillsItems extends React.Component{
             fontFamily: "Tahoma, Geneva, sans-serif",
         }
         return (
-            <Container >
+            <Container style={{textAlign: "center"}}>
                 <Row>
                 <Col md={4}>
                     <a role="button" href="https://chi2021.acm.org/for-attendees/highlights/awards" style={{cursor: "pointer", textDecoration: "none"}}>      
@@ -114,8 +114,7 @@ class SkillsItems extends React.Component{
                         </Card>
                     </a>  
                 </Col>
-                </Row>
-                <Row style={{marginTop: "-60px"}}>
+                
                 <Col md={4}>
                     <a role="button" href="http://www.undergradresearch.gatech.edu/content/presidents-undergraduate-research-awards" style={{cursor: "pointer", textDecoration: "none"}}>      
                     <Card className="bg-dark text-white" 
@@ -208,12 +207,7 @@ class SkillsItems extends React.Component{
                         </Card>
                     </a>  
                 </Col>
-                </Row>
-
-
-
-
-                <Row style={{marginTop: "-60px"}}>
+                
                 <Col md={4}>
                     <a role="button" href="https://diversity.gatech.edu/facesofinclusiveexcellence" style={{cursor: "pointer", textDecoration: "none"}}>      
                         <Card className="bg-dark text-white" 
@@ -304,10 +298,6 @@ class SkillsItems extends React.Component{
                         </Card>
                     </a>  
                 </Col>
-                </Row>
-
-
-                <Row style={{marginTop: "-60px", paddingBottom: "50px"}}>
                 <Col md={4}>
                     <a role="button" href="https://news.microsoft.com/transform/at-the-microsoft-global-hackathon-customers-break-something-to-make-something/" style={{cursor: "pointer", textDecoration: "none"}}>      
                         <Card className="bg-dark text-white" 
