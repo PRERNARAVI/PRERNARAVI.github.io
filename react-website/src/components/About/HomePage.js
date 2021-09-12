@@ -22,40 +22,51 @@ class HomePage extends React.Component {
 };
     var textStyle = {
       position: 'absolute', 
-      top: '40%', 
       width: "100%",
-      color: 'white',
-      fontSize: 60,
+      color: '#E9C46A',
+      fontSize: 50,
+      paddingTop: "250px"
+      
+    };
+    var lastStyle = {
+      position: 'absolute', 
+      width: "100%",
+      color: '#E9C46A',
+      fontSize: 50,
+      fontFamily: "Arial"
       
     };
     // var offset = document.getElementById("introText").offsetLeft;
     var writeStyle = {
         position: 'absolute', 
-        top: '50%',
         width: "100%",
         color: 'white',
         fontFamily: 'monospace',
-        fontSize: 60,
-        
+        fontSize: 50,
       };
     return(
       
         <div responsive="true" style={{backgroundColor: "#0e172a", maxWidth: "100%", minWidth: "100%"}}>
           <Image style={backgroundMe} responsive="true" src="https://undark.org/wp-content/uploads/2020/04/techtower-scaled.jpg" fluid="true"/>
             <div className = "wallpaper-text">
-              <h1 style={textStyle} id="introText">Hi! My name is Prerna, I am a </h1>
-                <h1 style={writeStyle} id="typeText"> 
-              
+              <p >
+              <h1 style={textStyle}> <div id="introText">Hi! My name is Prerna, I am a </div>
+                
+                <h1 style={writeStyle} >
                 <Typewriter
                     options={{
-                        strings: ['Computer Scientist.', 'Researcher.','Teaching Assistant.','Student.'],
+                        strings: ['Computer Scientist', 'Researcher','Teaching Assistant','Student'],
                         autoStart: true,
                         loop: true,
                         delay: 60,
                         deleteSpeed: 30,
                     }}
                 />
+                
+                <div style={lastStyle}>based in United States.</div>
+                </h1>
               </h1>
+              </p>
             </div>
           <AboutMe/>  
 

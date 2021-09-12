@@ -52,12 +52,12 @@ class AboutMe extends React.Component{
             
             <Container className="about-me">
                 <Row>
-                <Col xs={3} style={{textAlign: "center"}}> 
-                    <div style={{textAlign: "center"}}>    
-                    <Image width="100%" responsive="true" className="profile-pic-format" src={profile} fluid="true"/>
+                <Col md={4} style={{textAlign: "center", textAlign: "center", justifyContent: "center", alignItems: "center", paddingTop: "70px"}}> 
+                    <div style={{textAlign: "center", justifyContent: "center", alignItems: "center"}}>    
+                        <Image width="70%" responsive="true" src={profile} fluid="true"/>
                     </div>
                     <br/>
-                    <div style={{textAlign: "center", justifyContent: "center", alignItems: "center", marginLeft: "70px", width: "100%"}}>
+                    <div style={{textAlign: "center", justifyContent: "center", alignItems: "center", width: "100%"}}>
                         <h4 style={{fontFamily: "Tahoma, Geneva, sans-serif", color: "#E9C46A", marginTop: "30px", textAlign: "center"}}>Contact</h4>
                         <p style={{textAlign: "center"}}>
                         <a href="https://shared-assets.adobe.com/link/9d79a538-e6d8-45c1-4727-e56d26c5f1cd"><span><DescriptionIcon style={{color: "#E9C46A", fontSize: 50}}/></span></a>&nbsp;&nbsp;&nbsp; 
@@ -70,9 +70,9 @@ class AboutMe extends React.Component{
                     
                     </div>
                 </Col>
-                <Col xs={8}>
+                <Col md={7}>
                 <Container className="about-me-text">
-                        <h1 style={{fontWeight:"500"}}>
+                        <h1 style={{fontWeight:"500", color: "#E9C46A"}}>
                             PRERNA RAVI
                         </h1>
                         <br></br>
