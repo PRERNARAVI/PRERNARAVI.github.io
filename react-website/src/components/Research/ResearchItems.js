@@ -33,9 +33,9 @@ function ASLModal(props) {
         dialogClassName="modal-90w"
         aria-labelledby="contained-modal-title-vcenter"
         scrollable
-        style={{marginTop: "32px", height: "100vh"}}
+        style={{height: "auto"}}
       >
-        <Modal.Header style={{backgroundColor: "black", border: 0}}>
+        <Modal.Header style={{backgroundColor: "black", border: 0}} closeButton>
           <Modal.Title 
             id="contained-modal-title-vcenter" style={{color: "#E9C46A", fontFamily: "Tahoma, Geneva, sans-serif", fontSize: 22, textAlign: "center"}}>
             CopyCat: Using Sign Language Recognition to Help Deaf Children Acquire Language Skills
@@ -131,9 +131,9 @@ function TandemModal(props) {
         dialogClassName="modal-90w"
         aria-labelledby="contained-modal-title-vcenter-two"
         scrollable
-        style={{marginTop: "32px", height: "100vh"}}
+        style={{height: "auto"}}
       >
-        <Modal.Header style={{backgroundColor: "black", border: 0}}>
+        <Modal.Header style={{backgroundColor: "black", border: 0}} closeButton>
           <Modal.Title 
             id="contained-modal-title-vcenter-two" style={{color: "#E9C46A", fontFamily: "Tahoma, Geneva, sans-serif", fontSize: 22, textAlign: "center"}}>
             The COVID-19 Pandemic Shift to Remote Learning under Resource Constraints
@@ -235,9 +235,9 @@ function TandemModal(props) {
         dialogClassName="modal-90w"
         aria-labelledby="contained-modal-title-vcenter-two"
         scrollable
-        style={{marginTop: "32px", height: "100vh"}}
+        style={{height: "auto"}}
       >
-        <Modal.Header style={{backgroundColor: "black", border: 0}}>
+        <Modal.Header style={{backgroundColor: "black", border: 0}} closeButton>
           <Modal.Title 
             id="contained-modal-title-vcenter-two" style={{color: "#E9C46A", fontFamily: "Tahoma, Geneva, sans-serif", fontSize: 22, textAlign: "center"}}>
             Co-Designing Parent-Education ICTs with Hispanic Immigrants and Education System
@@ -307,9 +307,9 @@ function TandemModal(props) {
         dialogClassName="modal-90w"
         aria-labelledby="contained-modal-title-vcenter-two"
         scrollable
-        style={{marginTop: "32px", height: "100vh"}}
+        style={{height: "auto"}}
       >
-        <Modal.Header style={{backgroundColor: "black", border: 0}}>
+        <Modal.Header style={{backgroundColor: "black", border: 0}} closeButton>
           <Modal.Title 
             id="contained-modal-title-vcenter-two" style={{color: "#E9C46A", fontFamily: "Tahoma, Geneva, sans-serif", fontSize: 22, textAlign: "center"}}>
             Avanti Fellows - Ledby Girls' Leadership and Mentorship Program
@@ -412,7 +412,7 @@ function Research() {
                         
                             <Card.Text style={{fontSize: 16, margin: '10px'}}>
                             Advisor: Dr. Thad Starner <br/>
-                            GT Ubiquitous Computing (Ubicomp) Lab
+                            GT Ubicomp Lab
                             </Card.Text>
                             <Card.Footer><a href="#" style={{color: "#E9C46A", fontSize: 15}} onClick={() => setModalShowASL(true)}>Read More</a></Card.Footer>
 
@@ -494,7 +494,7 @@ function Research() {
                         
                             <Card.Text style={{fontSize: 16, margin: '10px'}}>
                             Advisor: Dr. Betsy Disalvo <br/>
-                            GT Culture and Technology (CAT) Lab
+                            GT CAT Lab
                             </Card.Text>
                             <Card.Footer><a href="#" style={{color: "#E9C46A", fontSize: 15}} onClick={() => setModalShowCat(true)}>Read More</a></Card.Footer>
 
