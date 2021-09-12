@@ -13,10 +13,9 @@ code {
 }
 
 .nav-bar{
-  height: 9vh;
+  height: auto;
   font-weight: 600;
   font-size: xx-large;
-  align-content: flex-end;
   font-family: Arial, Helvetica, sans-serif;
 }
 .brand{
@@ -26,7 +25,7 @@ code {
 }
 
 .navbar-options-format {
-  font-weight: 500;
+  font-weight: 400;
   font-size: large;
   font-family: Arial, Helvetica, sans-serif;
 }
