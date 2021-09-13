@@ -17,7 +17,7 @@ class ExperienceItems extends React.Component{
         const items = [
             {
                 title: <div style={{fontSize: "15px", fontFamily: "Tahoma, Geneva, sans-serif", color: "#E9C46A"}}>May 2021 - July 2021<br/>Redmond, Washington, USA</div>,
-                cardTitle: <h4 style={{textAlign: "center"}}>Software Engineer Intern at Microsoft</h4>,
+                cardTitle: <h5 style={{textAlign: "center"}}>Software Engineer Intern at Microsoft</h5>,
                 //cardSubtitle:<h5 style={{color: "#f2ebdd", textAlign: "center"}}>Software Engineer Intern</h5>,
                 cardDetailedText: <div style={{minHeight: "50px", fontFamily: "Tahoma, Geneva, sans-serif"}}> • Software Engineer Intern for the Employee Experience Team within <a href="https://www.microsoft.com/" style={{color: "#E9C46A"}}><u>Microsoft</u></a>’s Cloud and Artificial Intelligence (C+AI) organization.<br/>
                 • Designed and built an end-to end modern, intelligent solution for the Microsoft Office 365 Enterprise Records Management System used for storing over 6 million regulatory, legal, and business-critical electronic records spanning 100 countries managed in three regions (US, EMEA and Asia) for over 160,000 employees.<br/>
@@ -38,7 +38,7 @@ class ExperienceItems extends React.Component{
             },
             {
                 title: <div style={{fontSize: "15px", fontFamily: "Tahoma, Geneva, sans-serif", color: "#E9C46A"}}>January 2019 - Present<br/>Atlanta, Georgia, USA</div>,
-                cardTitle: <h4 style={{textAlign: "center", color: "#E9C46A"}}>Head Teaching Assistant for the College of Computing at Georgia Tech</h4>,
+                cardTitle: <h5 style={{textAlign: "center", color: "#E9C46A"}}>Head Teaching Assistant for the College of Computing at Georgia Tech</h5>,
                 //cardSubtitle:<h5 style={{color: "#f2ebdd", textAlign: "center"}}>Software Engineer Intern</h5>,
                 cardDetailedText: <div responsive="true">
                 • Head Teaching Assistant for CS 1331- Object-Oriented Programming in Java for <a style={{color: "#E9C46A"}} href="https://en.wikipedia.org/wiki/John_Stasko"><u>Dr. John Stasko</u></a> at <a style={{color: "#E9C46A"}} href="https://www.cc.gatech.edu/"><u>Georgia Tech.</u></a><br/>
@@ -64,7 +64,7 @@ class ExperienceItems extends React.Component{
             },
             {
                 title: <div style={{fontSize: "15px", fontFamily: "Tahoma, Geneva, sans-serif", color: "#E9C46A"}}>May 2020 - July 2020<br/>Redmond, Washington, USA</div>,
-                cardTitle: <h4 style={{textAlign: "center", color: "#E9C46A"}}>Software Engineer Intern at Microsoft</h4>,
+                cardTitle: <h5 style={{textAlign: "center", color: "#E9C46A"}}>Software Engineer Intern at Microsoft</h5>,
                 //cardSubtitle:<h5 style={{color: "#f2ebdd", textAlign: "center"}}>Software Engineer Intern</h5>,
                 cardDetailedText: 
                 <div responsive="true">
@@ -87,7 +87,7 @@ class ExperienceItems extends React.Component{
             },
             {
                 title: <div style={{fontSize: "15px", fontFamily: "Tahoma, Geneva, sans-serif", color: "#E9C46A"}}>June 2020 - June 2021<br/>Atlanta, Georgia, USA</div>,
-                cardTitle: <h4 style={{textAlign: "center", color: "#E9C46A"}}>Fellow and Software Developer at Rewriting the Code</h4>,
+                cardTitle: <h5 style={{textAlign: "center", color: "#E9C46A"}}>Fellow and Software Developer at Rewriting the Code</h5>,
                 //cardSubtitle:<h5 style={{color: "#f2ebdd", textAlign: "center"}}>Software Engineer Intern</h5>,
                 cardDetailedText: <div responsive="true">
                 • Awarded a Fellowship from <a href="https://rewritingthecode.org/" style={{color: "#E9C46A"}}><u>Rewriting the Code (RTC)</u></a> for the Academic Year 2020-2021.<br/>
@@ -109,7 +109,7 @@ class ExperienceItems extends React.Component{
             },
             {
                 title: <div style={{fontSize: "15px", fontFamily: "Tahoma, Geneva, sans-serif", color: "#E9C46A"}}>June 2021 - July 2021<br/>Stanford, California, USA</div>,
-                cardTitle: <h4 style={{textAlign: "center", color: "#E9C46A"}}>Human Centered Design Instructor at Code.X</h4>,
+                cardTitle: <h5 style={{textAlign: "center", color: "#E9C46A"}}>Human Centered Design Instructor at Code.X</h5>,
                 //cardSubtitle:<h5 style={{color: "#f2ebdd", textAlign: "center"}}>Software Engineer Intern</h5>,
                 cardDetailedText: <div responsive="true">
                 • Instructor for Human Centered Design for <a href="https://www.codedotx.org/" style={{color: "#E9C46A"}}><u>Code.X</u></a> under its Code for Palestine (Gaza and West Bank) summer program which serves over 150 students.<br/>
@@ -130,7 +130,7 @@ class ExperienceItems extends React.Component{
             },
             {
                 title: <div style={{fontSize: "15px", fontFamily: "Tahoma, Geneva, sans-serif", color: "#E9C46A"}}>January 2019 - May 2020<br/>Atlanta, Georgia, USA</div>,
-                cardTitle: <h4 style={{textAlign: "center", color: "#E9C46A"}}>Training Manager at Robogals Global</h4>,
+                cardTitle: <h5 style={{textAlign: "center", color: "#E9C46A"}}>Training Manager at Robogals Global</h5>,
                 //cardSubtitle:<h5 style={{color: "#f2ebdd", textAlign: "center"}}>Software Engineer Intern</h5>,
                 cardDetailedText: <div responsive="true">
                 • Nominated to the executive board of <a href="https://robogals.org/" style={{color: "#E9C46A"}}><u>Robogals</u></a> at Georgia Tech, as the Training Manager. <br/>
