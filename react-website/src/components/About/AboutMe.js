@@ -52,7 +52,7 @@ class AboutMe extends React.Component{
             
             <Container className="about-me">
                 <Row>
-                <Col md={4} style={{textAlign: "center", textAlign: "center", justifyContent: "center", alignItems: "center", paddingTop: "70px"}}> 
+                <Col md={4} style={{textAlign: "center", textAlign: "center", justifyContent: "center", alignItems: "center", paddingTop: "120px"}}> 
                     <div style={{textAlign: "center", justifyContent: "center", alignItems: "center"}}>    
                         <Image width="70%" responsive="true" src={profile} fluid="true"/>
                     </div>
@@ -78,18 +78,20 @@ class AboutMe extends React.Component{
                         <br></br>
                     <div style={{fontWeight:"500"}}>
                         
-                        Hi! My name is Prerna Ravi and I am a fourth year undergraduate student at <a style={{color: "#E9C46A"}}href="https://www.gatech.edu/" ><u>Georgia Institute of Technology</u></a> majoring in Computer Science with concentrations in Human Computer Interaction and Artificial Intelligence. This program has not only enriched my academic and leadership skills, but also enabled me to push the boundaries and pursue numerous initiatives involving the confluence of technology and society-both in the United States and beyond.
+                    Hi! I am a fourth year undergraduate student at <a style={{color: "#E9C46A"}}href="https://www.gatech.edu/" ><u>Georgia Institute of Technology, </u></a> majoring in Computer Science with concentrations in Human Computer Interaction and Artificial Intelligence. I am also a researcher in educational technology, advised by <a style={{color: "#E9C46A"}}href="https://en.wikipedia.org/wiki/Thad_Starner" ><u>Dr. Thad Starner</u></a>, <a style={{color: "#E9C46A"}}href="https://www.nehakumar.org/" ><u>Dr. Neha Kumar</u></a> and <a style={{color: "#E9C46A"}}href="https://en.wikipedia.org/wiki/Betsy_DiSalvo" ><u>Dr. Betsy Disalvo</u></a>.
 
 
                     </div>
                     <br></br>
                     <div>
-                    With <i>"Right to Education"</i> as one of the United Nations Millenium goals, I have taken up the cause through multiple research projects and internships ranging from local communities to large corporations and other universities with <span style={{color: "#E9C46A"}}>Educational Technology</span> as the underlying theme to enhance the quality and delivery of education for a wide spectrum of the society ranging from the differently abled to marginalized communities in developing nations. As a Head Teaching Assistant for over 800 students, I get to first hand demonstrate <i>"Knowledge multiplies when we share it"</i>.  I feel humbled and at the same time amazed to see how adoption of technology accelerates the pace and scope of problem solving across the globe.  
+                    I am passionate about the applications of technology in the field of education, particularly within underrepresented contexts and intend to pursue this across academia, research & industry. During my last three years at Georgia Tech, I have conducted ethnographic studies and developed applications to enhance the quality and delivery of education for a wide spectrum of the society ranging from the differently abled to marginalized communities in developing nations. Likewise my two software engineering internships at Microsoft have enabled me apply these skills in a real-world setting. As the Head Teaching Assistant for over 800 students at Georgia Tech, I have further demonstrated my passion for teaching and learning and honed my fundamental computer science skills.  
+                    To pursue this cause further, I have also worked with multiple non-profit organizations both in the United States and India, my home country.
                     </div>
                     <br></br>
                     <div>
-                    As an Indian by birth with a global outlook, I have deep rooted Indian traditions and am fortunate to have been trained in classical Carnatic music and Bharatanatyam dance. I also have a keen artistic sense and a preview of my repertoire in all the fine arts is available in this website.
+                    I grew up in the multicultural city of Muscat, Oman in the Middle East, a childhood punctuated with annual visits to my native place in Mumbai, India (which is also where parts of my prior research work were based). I have deep rooted Indian traditions and am fortunate to have been trained in classical Carnatic music and Bharatanatyam dance. I also have a keen artistic sense and a preview of my repertoire in all the fine arts is available in this website. As a woman of color from the Global South, I leverage my diverse cultural upbringing and outlook while pursuing all professional as well as personal endeavors at Georgia Tech. In particular, I am deeply grateful for the resistant and aspirational capital that I have had access to, without which it would have been impossible for me to study in the United States.
                     </div>
+                    <br/>
                 </Container>
                 </Col>
                 </Row>
