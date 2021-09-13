@@ -12,9 +12,9 @@ class Experience extends React.Component {
             marginTop: 60,
             marginRight: 0,
             marginLeft: 0,
+            padding: 0,
             backgroundSize: 'cover',
             position: 'fixed',
-            backgroundPosition: 'center',
             backgroundRepeat: 'repeat-y',
             width: '100%',
             height: "100%"
@@ -37,8 +37,9 @@ class Experience extends React.Component {
 
         return (
         <div responsive="true" style={{backgroundColor: "#0e172a", maxWidth: "100%"}}>    
-            <Row className="justify-content-md-center"> 
-            <Col xs={0} style={{alignContent: "center"}}>      
+            <Container >
+            <Row className="justify-content-lg-center"> 
+    
                 <Image style={background} responsive="true" className="wallpaper-format" src={BlackOne} fluid="true"/>
                 <div className = "research-wallpaper-text">
                     {/* <p style={textStyle}>I believe academic knowledge offers a strong theoretical framework for developing practical 
@@ -47,9 +48,10 @@ class Experience extends React.Component {
                     offered me stimulating challenges often emboldening me to push the boundaries and go beyond convention and 
                     lateral thinking.  </p> */}
                 </div>
-            </Col>
+
                 <ExperienceItems/>
             </Row>
+            </Container>
 
         </div>
         );
