@@ -54,7 +54,7 @@ class AboutMe extends React.Component{
                 <Row>
                 <Col md={4} style={{textAlign: "center", textAlign: "center", justifyContent: "center", alignItems: "center", paddingTop: "120px"}}> 
                     <div style={{textAlign: "center", justifyContent: "center", alignItems: "center"}}>    
-                        <Image width="70%" responsive="true" src={profile} fluid="true"/>
+                        <Image width="80%" responsive="true" src={profile} fluid="true"/>
                     </div>
                     <br/>
                     <div style={{textAlign: "center", justifyContent: "center", alignItems: "center", width: "100%"}}>
