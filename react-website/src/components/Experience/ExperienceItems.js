@@ -150,7 +150,8 @@ class ExperienceItems extends React.Component{
             },
         ];
 
-        let active = window.screen.width < 380;
+        let active = window.screen.width < 580;
+        let activeTwo = window.screen.width < 580;
 
         
         return (
@@ -159,7 +160,7 @@ class ExperienceItems extends React.Component{
                 <FadeIn>
                 <Chrono items={items} 
                 mode= {active? "VERTICAL": "VERTICAL_ALTERNATING"}
-                cardHeight="200"
+                cardHeight={activeTwo? "100": "200"}
                 hideControls
                 theme={{ 
                     primary: "#E9C46A",

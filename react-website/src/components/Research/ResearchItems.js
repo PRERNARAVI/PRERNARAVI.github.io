@@ -33,6 +33,7 @@ function ASLModal(props) {
         dialogClassName="modal-90w"
         aria-labelledby="contained-modal-title-vcenter"
         scrollable
+        fullscreen='true'
         style={{height: "auto"}}
       >
         <Modal.Header style={{backgroundColor: "black", border: 0}} closeButton>
@@ -110,7 +111,7 @@ function ASLModal(props) {
         <br></br>
         </Container>
         </Modal.Body>
-        <Modal.Footer style={{backgroundColor: "black", border: 0}}>
+        <Modal.Footer style={{backgroundColor: "black", border: 0, paddingBottom: "30px"}}>
           <Button style={{backgroundColor: "black", border: 0, color: "#E9C46A", fontFamily: "Tahoma, Geneva, sans-serif"}} onClick={props.onHide}>Close Project</Button>
         </Modal.Footer>
       </Modal>
@@ -214,7 +215,7 @@ function TandemModal(props) {
         <br></br>
         </Container>
         </Modal.Body>
-        <Modal.Footer style={{backgroundColor: "black", border: 0}}>
+        <Modal.Footer style={{backgroundColor: "black", border: 0, paddingBottom: "30px"}}>
           <Button style={{backgroundColor: "black", border: 0, color: "#E9C46A", fontFamily: "Tahoma, Geneva, sans-serif"}} onClick={props.onHide}>Close Project</Button>
         </Modal.Footer>
       </Modal>
@@ -286,7 +287,7 @@ function TandemModal(props) {
         <br></br>
         </Container>
         </Modal.Body>
-        <Modal.Footer style={{backgroundColor: "black", border: 0}}>
+        <Modal.Footer style={{backgroundColor: "black", border: 0, paddingBottom: "30px"}}>
           <Button style={{backgroundColor: "black", border: 0, color: "#E9C46A", fontFamily: "Tahoma, Geneva, sans-serif"}} onClick={props.onHide}>Close Project</Button>
         </Modal.Footer>
       </Modal>
@@ -364,7 +365,7 @@ function TandemModal(props) {
         <br></br>
         </Container>
         </Modal.Body>
-        <Modal.Footer style={{backgroundColor: "black", border: 0}}>
+        <Modal.Footer style={{backgroundColor: "black", border: 0, paddingBottom: "30px"}}>
           <Button style={{backgroundColor: "black", border: 0, color: "#E9C46A", fontFamily: "Tahoma, Geneva, sans-serif"}} onClick={props.onHide}>Close Project</Button>
         </Modal.Footer>
       </Modal>
