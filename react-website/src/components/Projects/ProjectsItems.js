@@ -31,7 +31,7 @@ class ProjectsItems extends React.Component{
         };
         return (
             <Container style={{textAlign: "center"}}>
-                <Row style={{marginTop: "120px", paddingBottom: "60px"}}>
+                <Row style={{marginTop: "100px", paddingBottom: "60px"}}>
                 <Col md={6}>
                 <Popup
                 contentStyle={{border: "solid 0px black", height: "70vh", width: "80%", padding: 0,
@@ -40,29 +40,30 @@ class ProjectsItems extends React.Component{
                 trigger={
                     <a role="button" style={{cursor: "pointer"}}>      
                         <Card className="bg-dark text-white" 
-                            style={{marginTop: "20px", border: "none",
-                            borderRadius: "10px", height: "40vh"}}>
+                            style={{ border: "none", marginTop: "40px",
+                            borderRadius: "10px", height: "auto"}}>
                         <div className="card-image" >
                             <ZoomIn>
-                            <Card.Img style={{height: "40vh", opacity: 0.65}}
+                            <Card.Img style={{height: "38vh", opacity: 0.65, objectFit: "contain"}}
                                  src={Library} alt="Card image" />
                             </ZoomIn>
                             <Card.ImgOverlay >
                                 <Card.Title 
                                     style={{
-                                        fontFamily: "Tahoma, Geneva, sans-serif", 
+                                        fontFamily: "Tahoma, Geneva, sans-serif",  
                                         fontWeight: "normal",
                                         fontSize: 34,
-                                    }}>SCHOOL LIBRARY HUB <br></br>
-                                    FOR <br></br>MICROSOFT TEAMS
+                                    }}>School Library Hub for Microsoft Teams
                                 </Card.Title>
                                 {/* <Card.Text>
                                 This is a wider card with supporting text below as a natural lead-in to
                                 additional content. This content is a little bit longer.
-                                </Card.Text>
-                                <Card.Text>Last updated 3 mins ago</Card.Text> */}
-                            </Card.ImgOverlay>                 
+                                </Card.Text>*/}
+                                
+                            </Card.ImgOverlay>    
+                            <Card.Footer style={{color: "#E9C46A"}}>A cross platform Teams application that empowers kids, students and teachers in underserved communities with the ability to connect, read and learn virtually </Card.Footer>              
                         </div>
+                        
                         </Card>
                     </a>} modal closeOnDocumentClick>
                     {close => (
@@ -129,11 +130,11 @@ class ProjectsItems extends React.Component{
                 trigger={
                     <a role="button" style={{cursor: "pointer"}}> 
                         <Card className="bg-dark text-white" 
-                            style={{marginTop: "20px", border: "none",
-                            borderRadius: "10px", height: "40vh"}}>
+                            style={{ border: "none", marginTop: "40px",
+                            borderRadius: "10px", height: "auto"}}>
                         <div className="card-image" >
                             <ZoomIn>
-                            <Card.Img style={{height: "40vh", opacity: 0.65}}
+                            <Card.Img style={{height: "38vh", opacity: 0.65, objectFit: "contain"}}
                                  src={ND} alt="Card image" />
                             </ZoomIn>
                             <Card.ImgOverlay >
@@ -142,8 +143,8 @@ class ProjectsItems extends React.Component{
                                         fontFamily: "Tahoma, Geneva, sans-serif", 
                                         fontWeight: "normal",
                                         fontSize: 34,
-                                    }}> understaNDing <br></br>
-                                    NEURODIVERSITY
+                                    }}> understaNDing 
+                                    Neurodiversity
                                 </Card.Title>
                                 {/* <Card.Text>
                                 This is a wider card with supporting text below as a natural lead-in to
@@ -151,6 +152,7 @@ class ProjectsItems extends React.Component{
                                 </Card.Text>
                                 <Card.Text>Last updated 3 mins ago</Card.Text> */}
                             </Card.ImgOverlay>
+                            <Card.Footer style={{color: "#E9C46A"}}>A cross platform application that aims to accelerate awareness of and engagement with Microsoft’s “neurodiverse” employees, customers and partners </Card.Footer>              
                         </div>
                         </Card>
                     </a>} modal closeOnDocumentClick>
@@ -211,11 +213,11 @@ class ProjectsItems extends React.Component{
                 trigger={
                     <a role="button" style={{cursor: "pointer"}}> 
                         <Card className="bg-dark text-white" 
-                            style={{marginTop: "20px", border: "none",
-                            borderRadius: "10px", height: "40vh"}}>
+                            style={{marginTop: "40px", border: "none",
+                            borderRadius: "10px", height: "auto"}}>
                         <div className="card-image" >
                             <ZoomIn>
-                            <Card.Img style={{height: "40vh", opacity: 0.8}}
+                            <Card.Img style={{height: "38vh", opacity: 0.8, objectFit: "contain"}}
                                  src={Connect} alt="Card image" />
                             </ZoomIn>
                             <Card.ImgOverlay >
@@ -224,8 +226,8 @@ class ProjectsItems extends React.Component{
                                         fontFamily: "Tahoma, Geneva, sans-serif", 
                                         fontWeight: "normal",
                                         fontSize: 34,
-                                    }}>CONNECT ME: <br></br>
-                                    CHATTING PLATFORM
+                                    }}>Connect Me: 
+                                    Chatting Platform
                                 </Card.Title>
                                 {/* <Card.Text>
                                 This is a wider card with supporting text below as a natural lead-in to
@@ -233,6 +235,7 @@ class ProjectsItems extends React.Component{
                                 </Card.Text>
                                 <Card.Text>Last updated 3 mins ago</Card.Text> */}
                             </Card.ImgOverlay>
+                            <Card.Footer style={{color: "#E9C46A"}}>A Facebook Messenger clone that allows users to create profiles, log in and send and receive messages through an interactive web application</Card.Footer> 
                         </div>
                         </Card>
                     </a>} modal closeOnDocumentClick>
@@ -295,11 +298,11 @@ class ProjectsItems extends React.Component{
                 trigger={
                     <a role="button" style={{cursor: "pointer"}}> 
                         <Card className="bg-dark text-white" 
-                            style={{marginTop: "20px", border: "none",
-                            borderRadius: "10px", height: "40vh"}}>
+                            style={{marginTop: "40px", border: "none",
+                            borderRadius: "10px", height: "auto"}}>
                         <div className="card-image" >
                             <ZoomIn>
-                            <Card.Img style={{height: "40vh", opacity: 0.8}}
+                            <Card.Img style={{height: "38vh", opacity: 0.8, objectFit: "contain"}}
                                  src={Drop} alt="Card image" />
                             </ZoomIn>
                             <Card.ImgOverlay >
@@ -308,8 +311,8 @@ class ProjectsItems extends React.Component{
                                         fontFamily: "Tahoma, Geneva, sans-serif", 
                                         fontWeight: "normal",
                                         fontSize: 34,
-                                    }}>DROP: <br></br>
-                                    WATER FOUNTAIN <br></br> LOCATION APP
+                                    }}>Drop:
+                                    Water Fountain Location App
                                 </Card.Title>
                                 {/* <Card.Text>
                                 This is a wider card with supporting text below as a natural lead-in to
@@ -317,6 +320,7 @@ class ProjectsItems extends React.Component{
                                 </Card.Text>
                                 <Card.Text>Last updated 3 mins ago</Card.Text> */}
                             </Card.ImgOverlay>
+                            <Card.Footer style={{color: "#E9C46A"}}>An app interface built after conducting user-centered design processes to improve the experience of international visitors in Barcelona, Spain</Card.Footer> 
                         </div>
                         </Card>
                     </a>} modal closeOnDocumentClick>
@@ -378,11 +382,11 @@ class ProjectsItems extends React.Component{
                 trigger={
                     <a role="button" style={{cursor: "pointer"}}> 
                         <Card className="bg-dark text-white" 
-                            style={{marginTop: "20px", border: "none",
-                            borderRadius: "10px", height: "40vh"}}>
+                            style={{marginTop: "40px", border: "none",
+                            borderRadius: "10px", height: "auto"}}>
                         <div className="card-image" >
                             <ZoomIn>
-                            <Card.Img style={{height: "42vh", opacity: 0.9}}
+                            <Card.Img style={{height: "38vh", opacity: 0.9, objectFit: "contain", width: "100%"}}
                                  src={Journaling} alt="Card image" />
                             </ZoomIn>
                             <Card.ImgOverlay >
@@ -391,8 +395,8 @@ class ProjectsItems extends React.Component{
                                         fontFamily: "Tahoma, Geneva, sans-serif", 
                                         fontWeight: "normal",
                                         fontSize: 34,
-                                    }}>DAYBOOK:<br></br>
-                                    MENTAL HEALTH <br></br>JOURNALING APP
+                                    }}>Daybook:
+                                    Mental Health Journaling App
                                 </Card.Title>
                                 {/* <Card.Text>
                                 This is a wider card with supporting text below as a natural lead-in to
@@ -400,6 +404,7 @@ class ProjectsItems extends React.Component{
                                 </Card.Text>
                                 <Card.Text>Last updated 3 mins ago</Card.Text> */}
                             </Card.ImgOverlay>
+                            <Card.Footer style={{color: "#E9C46A"}}>A cross-platform intelligent, mental health journaling application that detects the user’s mood and side effects of the user’s mental health disorders</Card.Footer> 
                         </div>
                         </Card>
                     </a>} modal closeOnDocumentClick>
@@ -462,11 +467,11 @@ class ProjectsItems extends React.Component{
                 trigger={
                     <a role="button" style={{cursor: "pointer"}}> 
                         <Card className="bg-dark text-white" 
-                            style={{marginTop: "20px", border: "none",
-                            borderRadius: "10px", height: "40vh"}}>
+                            style={{marginTop: "40px", border: "none",
+                            borderRadius: "10px", height: "auto"}}>
                         <div className="card-image" >
                             <ZoomIn>
-                            <Card.Img style={{height: "42vh", opacity: 0.8}}
+                            <Card.Img style={{height: "38vh", opacity: 0.8, objectFit: "contain"}}
                                  src={MSFT} alt="Card image" />
                             </ZoomIn>
                             <Card.ImgOverlay >
@@ -475,8 +480,8 @@ class ProjectsItems extends React.Component{
                                         fontFamily: "Tahoma, Geneva, sans-serif", 
                                         fontWeight: "normal",
                                         fontSize: 34,
-                                    }}>MICROSOFT DEEP DIVE<br></br>
-                                    COMPUTER SCIENCE <br></br>WORKSHOP
+                                    }}>Microsoft Deep Dive
+                                    Computer Science Workshop
                                 </Card.Title>
                                 {/* <Card.Text>
                                 This is a wider card with supporting text below as a natural lead-in to
@@ -484,6 +489,7 @@ class ProjectsItems extends React.Component{
                                 </Card.Text>
                                 <Card.Text>Last updated 3 mins ago</Card.Text> */}
                             </Card.ImgOverlay>
+                            <Card.Footer style={{color: "#E9C46A"}}>A ten-week workshop series to introduce underserved students to computer science foundations and skills needed for technical interviews</Card.Footer> 
                         </div>
                         </Card>
                     </a>} modal closeOnDocumentClick>
