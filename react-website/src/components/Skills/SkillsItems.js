@@ -30,10 +30,11 @@ class SkillsItems extends React.Component{
                                     fontWeight: "normal",
                                     fontSize: 17,
                                     paddingTop: "15px",
-                                    paddingBottom: '0px'
+                                    paddingBottom: '0px',
+                                    color: "#E9C46A"
                                 }}> 
                                 <p style={{lineHeight: "0.7"}}>
-                                    <FaAward size='35px' />
+                                    <FaAward size='35px' style={{color: 'white'}}/>
                                     &ensp;Winner - CHI Student Research Competition 2021
                                 </p>
                             </Card.Header>
@@ -62,10 +63,11 @@ class SkillsItems extends React.Component{
                                     fontWeight: "normal",
                                     fontSize: 17,
                                     paddingTop: "15px",
-                                    paddingBottom: '0px'
+                                    paddingBottom: '0px',
+                                    color: "#E9C46A"
                                 }}> 
                                 <p style={{lineHeight: "0.7"}}>
-                                    <FaAward size='35px' />
+                                    <FaAward size='35px' style={{color: 'white'}}/>
                                     &ensp;COC Outstanding Junior (EDS Rising Senior) Award 2021
                                 </p>
                             </Card.Header>
@@ -94,10 +96,11 @@ class SkillsItems extends React.Component{
                                     fontWeight: "normal",
                                     fontSize: 17,
                                     paddingTop: "15px",
-                                    paddingBottom: '0px'
+                                    paddingBottom: '0px',
+                                    color: "#E9C46A"
                                 }}> 
                                 <p style={{lineHeight: "0.7", textAlign: 'center'}}>
-                                    <FaAward size='35px' />
+                                    <FaAward size='35px' style={{color: 'white'}}/>
                                     &ensp;Adobe Research Women in Technology Scholarship
                                 </p>
                             </Card.Header>
@@ -127,10 +130,11 @@ class SkillsItems extends React.Component{
                                     fontWeight: "normal",
                                     fontSize: 17,
                                     paddingTop: "15px",
-                                    paddingBottom: '0px'
+                                    paddingBottom: '0px',
+                                    color: "#E9C46A"
                                 }}> 
                                 <p style={{lineHeight: "0.7", textAlign: 'center'}}>
-                                    <FaAward size='35px' />
+                                    <FaAward size='35px' style={{color: 'white'}}/>
                                     &ensp;President's Undergraduate Research Award 2020
                                 </p>
                             </Card.Header>
@@ -157,10 +161,11 @@ class SkillsItems extends React.Component{
                                     fontWeight: "normal",
                                     fontSize: 17,
                                     paddingTop: "15px",
-                                    paddingBottom: '0px'
+                                    paddingBottom: '0px',
+                                    color: "#E9C46A"
                                 }}> 
                                 <p style={{lineHeight: "0.7"}}>
-                                    <FaAward size='35px' />
+                                    <FaAward size='35px' style={{color: 'white'}}/>
                                     &ensp;COC Outstanding Sophomore Award 2020
                                 </p>
                             </Card.Header>
@@ -189,10 +194,11 @@ class SkillsItems extends React.Component{
                                     fontWeight: "normal",
                                     fontSize: 17,
                                     paddingTop: "15px",
-                                    paddingBottom: '0px'
+                                    paddingBottom: '0px',
+                                    color: "#E9C46A"
                                 }}> 
                                 <p style={{lineHeight: "0.7"}}>
-                                    <FaAward size='35px' />
+                                    <FaAward size='35px' style={{color: 'white'}}/>
                                     &ensp;Finalist - Microsoft Invent 2021
                                 </p>
                             </Card.Header>
@@ -220,10 +226,11 @@ class SkillsItems extends React.Component{
                                     fontWeight: "normal",
                                     fontSize: 17,
                                     paddingTop: "15px",
-                                    paddingBottom: '0px'
+                                    paddingBottom: '0px',
+                                    color: "#E9C46A"
                                 }}> 
                                 <p style={{lineHeight: "0.7"}}>
-                                    <FaAward size='35px' />
+                                    <FaAward size='35px' style={{color: 'white'}}/>
                                     &ensp;Georgia Tech Faces of Inclusive Excellence Honoree 2021
                                 </p>
                             </Card.Header>
@@ -250,10 +257,11 @@ class SkillsItems extends React.Component{
                                     fontWeight: "normal",
                                     fontSize: 17,
                                     paddingTop: "15px",
-                                    paddingBottom: '0px'
+                                    paddingBottom: '0px',
+                                    color: "#E9C46A"
                                 }}> 
                                 <p style={{lineHeight: "0.7"}}>
-                                    <FaAward size='35px' />
+                                    <FaAward size='35px' style={{color: 'white'}}/>
                                     &ensp;Winner - International Affairs for Global Development Contest
                                 </p>
                             </Card.Header>
@@ -280,10 +288,11 @@ class SkillsItems extends React.Component{
                                     fontWeight: "normal",
                                     fontSize: 17,
                                     paddingTop: "15px",
-                                    paddingBottom: '0px'
+                                    paddingBottom: '0px',
+                                    color: "#E9C46A"
                                 }}> 
                                 <p style={{lineHeight: "0.7", textAlign: 'center'}}>
-                                    <FaAward size='35px' />
+                                    <FaAward size='35px' style={{color: 'white'}}/>
                                     &ensp;Grace Hopper Conference 2020 Scholarship from Apple
                                 </p>
                             </Card.Header>
@@ -310,10 +319,11 @@ class SkillsItems extends React.Component{
                                     fontWeight: "normal",
                                     fontSize: 17,
                                     paddingTop: "15px",
-                                    paddingBottom: '0px'
+                                    paddingBottom: '0px',
+                                    color: "#E9C46A"
                                 }}> 
                                 <p style={{lineHeight: "0.7"}}>
-                                    <FaAward size='35px' />
+                                    <FaAward size='35px' style={{color: 'white'}}/>
                                     &ensp;Honorable Mention - Microsoft Global Hackathon 2020
                                 </p>
                             </Card.Header>
@@ -340,10 +350,11 @@ class SkillsItems extends React.Component{
                                     fontWeight: "normal",
                                     fontSize: 17,
                                     paddingTop: "15px",
-                                    paddingBottom: '0px'
+                                    paddingBottom: '0px',
+                                    color: "#E9C46A"
                                 }}> 
                                 <p style={{lineHeight: "0.7"}}>
-                                    <FaAward size='35px' />
+                                    <FaAward size='35px' style={{color: 'white'}}/>
                                     &ensp;Rewriting the Code Fellowship 2020 - 2021
                                 </p>
                             </Card.Header>
@@ -370,10 +381,11 @@ class SkillsItems extends React.Component{
                                     fontWeight: "normal",
                                     fontSize: 17,
                                     paddingTop: "15px",
-                                    paddingBottom: '0px'
+                                    paddingBottom: '0px',
+                                    color: "#E9C46A"
                                 }}> 
                                 <p style={{lineHeight: "0.7", textAlign: 'center'}}>
-                                    <FaAward size='35px' />
+                                    <FaAward size='35px' style={{color: 'white'}}/>
                                     &ensp;Grace Hopper Conference 2019 Scholarship
                                 </p>
                             </Card.Header>
