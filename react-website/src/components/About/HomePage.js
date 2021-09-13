@@ -25,14 +25,15 @@ class HomePage extends React.Component {
       width: "100%",
       color: '#E9C46A',
       fontSize: 45,
-      paddingTop: "250px"
-      
+      paddingTop: "250px",
+      lineHeight: 1.5
     };
     var lastStyle = {
       position: 'absolute', 
       width: "100%",
       color: '#E9C46A',
       fontSize: 45,
+      lineHeight: 1.5,
       fontFamily: "Arial"
       
     };
@@ -42,6 +43,7 @@ class HomePage extends React.Component {
         width: "100%",
         color: 'white',
         fontFamily: 'monospace',
+        lineHeight: 1.5,
         fontSize: 50,
       };
     return(
