@@ -61,7 +61,7 @@ class ProjectsItems extends React.Component{
                                 </Card.Text>*/}
                                 
                             </Card.ImgOverlay>    
-                            <Card.Footer style={{color: "#E9C46A"}}>A cross platform Teams application that empowers kids, students and teachers in underserved communities with the ability to connect, read and learn virtually </Card.Footer>              
+                            <Card.Footer style={{color: "#E9C46A"}}>A cross platform Teams application that empowers students and teachers in underserved communities with the ability to read and learn virtually </Card.Footer>              
                         </div>
                         
                         </Card>
