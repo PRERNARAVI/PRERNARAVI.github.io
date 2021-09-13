@@ -11,13 +11,12 @@ class Research extends React.Component {
             marginTop: 60,
             marginRight: 0,
             marginLeft: 0,
-            marginBottom: 0,
-            padding: 0,
             backgroundSize: 'cover',
             position: 'fixed',
             backgroundPosition: 'center',
-            backgroundRepeat: 'no-repeat',
+            backgroundRepeat: 'repeat-y',
             width: '100%',
+            height: "100%"
             
         };
         var textStyle = {

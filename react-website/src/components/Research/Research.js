@@ -14,8 +14,9 @@ class Research extends React.Component {
             backgroundSize: 'cover',
             position: 'fixed',
             backgroundPosition: 'center',
-            backgroundRepeat: 'no-repeat',
+            backgroundRepeat: 'repeat-y',
             width: '100%',
+            height: "100%"
             
         };
         var textStyle = {
