@@ -24,7 +24,7 @@ class HomePage extends React.Component {
       position: 'absolute', 
       width: "100%",
       color: '#E9C46A',
-      fontSize: 50,
+      fontSize: 45,
       paddingTop: "250px"
       
     };
@@ -32,7 +32,7 @@ class HomePage extends React.Component {
       position: 'absolute', 
       width: "100%",
       color: '#E9C46A',
-      fontSize: 50,
+      fontSize: 45,
       fontFamily: "Arial"
       
     };
@@ -63,7 +63,7 @@ class HomePage extends React.Component {
                     }}
                 />
                 
-                <div style={lastStyle}>based in United States.</div>
+                <div style={lastStyle}>based in the United States.</div>
                 </h1>
               </h1>
               </p>

@@ -1,5 +1,5 @@
 import React from 'react';
-import {Col, Image, Row, Container, Card} from 'react-bootstrap';
+import {Col, Image, Row, Container, Card, Button} from 'react-bootstrap';
 import { HashRouter as Router, Switch, Route, NavLink } from "react-router-dom";
 import MSFT from "../../images/MSFT-Project.jpg";
 import Journaling from "../../images/Journaling-Project.jpg";
@@ -32,15 +32,16 @@ class ProjectsItems extends React.Component{
         return (
             <Container style={{textAlign: "center"}}>
                 <Row style={{marginTop: "120px", paddingBottom: "60px"}}>
-                <Col >
+                <Col md={6}>
                 <Popup
-                contentStyle={{border: "solid 0px black", height: "60vh", width: "70%", padding: 0, 
+                contentStyle={{border: "solid 0px black", height: "70vh", width: "80%", padding: 0,
                 backgroundColor: "black"}}
+                position="top center"
                 trigger={
                     <a role="button" style={{cursor: "pointer"}}>      
                         <Card className="bg-dark text-white" 
                             style={{marginTop: "20px", border: "none",
-                            borderRadius: "10px", height: "40vh", width: "35vw"}}>
+                            borderRadius: "10px", height: "40vh"}}>
                         <div className="card-image" >
                             <ZoomIn>
                             <Card.Img style={{height: "40vh", opacity: 0.65}}
@@ -64,13 +65,21 @@ class ProjectsItems extends React.Component{
                         </div>
                         </Card>
                     </a>} modal closeOnDocumentClick>
+                    {close => (
+                    <div >
                     
-                    <Container style={{height: "70vh", width: "100%", border: "solid 0px black", 
+                    <button className="close" onClick={close}>
+                            &times;
+                        </button>
+                    <Container style={{maxHeight: "70vh", width: "100%",
+                    overflow: "scroll",
                     backgroundColor: "black",
                     backgroundSize: "100%",
+                    padding: "30px",
                     backgroundImage: "url(" + BlackOne + ")"}}>
-                        <Row>
-                            <Col>
+                        
+                        <Row >
+                            
                                 {/* <Image width="100%" style={background} responsive="true"  src={Library} fluid="true"/> */}
                                 <Container className="project-container" responsive="true">
                                 <h4 style={{
@@ -78,7 +87,7 @@ class ProjectsItems extends React.Component{
                                         fontWeight: "normal",
                                         fontSize: 20, color: "#E9C46A"}}>School Library Hub for Microsoft Teams</h4>
                                         <br/>
-                                <Row>
+                                
                                 
                                 
                                 <div style={{
@@ -93,27 +102,35 @@ class ProjectsItems extends React.Component{
                                 • Extracted detailed information about every book using Azure Cognitive Search, built Rest APIs using Python Flask and constructed Cosmos DB (NoSQL) databases to store user preferences, saved collections and recommendations.<br/><br/>
                                 • Deployed the application to Microsoft Azure using CI/CD pipelines and successfully integrated it into Microsoft Teams, to be shipped and used by over 75 million daily users.
                                 </div>
+
                                 
                                 
-                                </Row>
+                                
                                 </Container>
-                            </Col>
                         </Row>
                     </Container>
+                    <Button style={{backgroundColor: "black", border: 0, color: "#E9C46A", fontFamily: "Tahoma, Geneva, sans-serif", width: "100%", textAlign: "right", height: "auto"}} onClick={() => {
+                    console.log('modal closed ');
+                    close();}}>Close Project
+                    </Button>
+                </div>
+            
+                )}
                     
                 </Popup>
                      
                     
                 </Col>
-                <Col>
+                <Col md={6}>
                 <Popup
-                contentStyle={{border: "solid 0px black", height: "60vh", width: "70%", padding: 0, 
+                contentStyle={{border: "solid 0px black", height: "70vh", width: "80%", padding: 0,
                 backgroundColor: "black"}}
+                position="top center"
                 trigger={
                     <a role="button" style={{cursor: "pointer"}}> 
                         <Card className="bg-dark text-white" 
                             style={{marginTop: "20px", border: "none",
-                            borderRadius: "10px", height: "40vh", width: "35vw"}}>
+                            borderRadius: "10px", height: "40vh"}}>
                         <div className="card-image" >
                             <ZoomIn>
                             <Card.Img style={{height: "40vh", opacity: 0.65}}
@@ -137,12 +154,21 @@ class ProjectsItems extends React.Component{
                         </div>
                         </Card>
                     </a>} modal closeOnDocumentClick>
-                    <Container style={{height: "67vh", width: "100%", border: "solid 0px black", 
+                    {close => (
+                    <div >
+                    
+                    <button className="close" onClick={close}>
+                            &times;
+                        </button>
+                    <Container style={{maxHeight: "70vh", width: "100%",
+                    overflow: "scroll",
                     backgroundColor: "black",
                     backgroundSize: "100%",
+                    padding: "30px",
                     backgroundImage: "url(" + BlackOne + ")"}}>
-                        <Row>
-                            <Col>
+                        
+                        <Row >
+                            
                                 {/* <Image width="100%" style={background} responsive="true"  src={Library} fluid="true"/> */}
                                 <Container className="project-container" responsive="true">
                                 <h4 style={{
@@ -150,7 +176,7 @@ class ProjectsItems extends React.Component{
                                         fontWeight: "normal",
                                         fontSize: 20, color: "#E9C46A"}}>understaNDing Neurodiversity</h4>
                                         <br/>
-                                <Row>
+                               
 
                                 <div style={{
                                     fontSize: 15,
@@ -163,24 +189,30 @@ class ProjectsItems extends React.Component{
                                     • Deployed the application to Microsoft Azure using CI/CD pipelines, thereby making the platform available to 150,000+ Microsoft employees.<br/>
                                 
                                 </div>
-                                </Row>
                                 </Container>
-                            </Col>
                         </Row>
                     </Container>
+                    <Button style={{backgroundColor: "black", border: 0, color: "#E9C46A", fontFamily: "Tahoma, Geneva, sans-serif", width: "100%", textAlign: "right", height: "auto"}} onClick={() => {
+                    console.log('modal closed ');
+                    close();}}>Close Project
+                    </Button>
+                </div>
+            
+                )}
                 </Popup>
 
                 </Col>
           
-                <Col >
+                <Col md={6}>
                 <Popup
-                contentStyle={{border: "solid 0px black", height: "60vh", width: "70%", padding: 0, 
+                contentStyle={{border: "solid 0px black", height: "70vh", width: "80%", padding: 0,
                 backgroundColor: "black"}}
+                position="top center"
                 trigger={
                     <a role="button" style={{cursor: "pointer"}}> 
                         <Card className="bg-dark text-white" 
                             style={{marginTop: "20px", border: "none",
-                            borderRadius: "10px", height: "40vh", width: "35vw"}}>
+                            borderRadius: "10px", height: "40vh"}}>
                         <div className="card-image" >
                             <ZoomIn>
                             <Card.Img style={{height: "40vh", opacity: 0.8}}
@@ -204,12 +236,21 @@ class ProjectsItems extends React.Component{
                         </div>
                         </Card>
                     </a>} modal closeOnDocumentClick>
-                    <Container style={{height: "70vh", width: "100%", border: "solid 0px black", 
+                    {close => (
+                    <div >
+                    
+                    <button className="close" onClick={close}>
+                            &times;
+                        </button>
+                    <Container style={{maxHeight: "70vh", width: "100%",
+                    overflow: "scroll",
                     backgroundColor: "black",
                     backgroundSize: "100%",
+                    padding: "30px",
                     backgroundImage: "url(" + BlackOne + ")"}}>
-                        <Row>
-                            <Col>
+                        
+                        <Row >
+                            
                                 {/* <Image width="100%" style={background} responsive="true"  src={Library} fluid="true"/> */}
                                 <Container className="project-container" responsive="true">
                                 <h4 style={{
@@ -217,7 +258,7 @@ class ProjectsItems extends React.Component{
                                         fontWeight: "normal",
                                         fontSize: 20, color: "#E9C46A"}}>Connect Me: Chatting Platform</h4>
                                         <br/>
-                                <Row>
+                                
                                 <div style={{
                                     fontSize: 15,
                                     color: "#f2ebdd", fontFamily: "Tahoma, Geneva, sans-serif", textAlign: "left"}}>
@@ -229,22 +270,33 @@ class ProjectsItems extends React.Component{
                                     • Constructed databases using MongoDB to store user data, as well as encrypted chat history and contact information.<br/><br/>
                                     • Deployed the application to Heroku, thereby making it available through a publicly accessible URL.<br/>
                                 </div>
-                                </Row>
+                               
+
+                                
+                                
+                                
                                 </Container>
-                            </Col>
                         </Row>
                     </Container>
+                    <Button style={{backgroundColor: "black", border: 0, color: "#E9C46A", fontFamily: "Tahoma, Geneva, sans-serif", width: "100%", textAlign: "right", height: "auto"}} onClick={() => {
+                    console.log('modal closed ');
+                    close();}}>Close Project
+                    </Button>
+                </div>
+            
+                )}
                 </Popup>
                 </Col>
-                <Col >
+                <Col md={6}>
                 <Popup
-                contentStyle={{border: "solid 0px black", height: "60vh", width: "70%", padding: 0, 
+                contentStyle={{border: "solid 0px black", height: "70vh", width: "80%", padding: 0,
                 backgroundColor: "black"}}
+                position="top center"
                 trigger={
                     <a role="button" style={{cursor: "pointer"}}> 
                         <Card className="bg-dark text-white" 
                             style={{marginTop: "20px", border: "none",
-                            borderRadius: "10px", height: "40vh", width: "35vw"}}>
+                            borderRadius: "10px", height: "40vh"}}>
                         <div className="card-image" >
                             <ZoomIn>
                             <Card.Img style={{height: "40vh", opacity: 0.8}}
@@ -268,12 +320,21 @@ class ProjectsItems extends React.Component{
                         </div>
                         </Card>
                     </a>} modal closeOnDocumentClick>
-                    <Container style={{height: "70vh", width: "100%", border: "solid 0px black", 
+                    {close => (
+                    <div >
+                    
+                    <button className="close" onClick={close}>
+                            &times;
+                        </button>
+                    <Container style={{maxHeight: "70vh", width: "100%",
+                    overflow: "scroll",
                     backgroundColor: "black",
                     backgroundSize: "100%",
+                    padding: "30px",
                     backgroundImage: "url(" + BlackOne + ")"}}>
-                        <Row>
-                            <Col>
+                        
+                        <Row >
+                            
                                 {/* <Image width="100%" style={background} responsive="true"  src={Library} fluid="true"/> */}
                                 <Container className="project-container" responsive="true">
                                 <h4 style={{
@@ -281,7 +342,7 @@ class ProjectsItems extends React.Component{
                                         fontWeight: "normal",
                                         fontSize: 20, color: "#E9C46A"}}>Drop: Water Fountain Location App</h4>
                                         <br/>
-                                <Row>
+                               
 
                                 <div style={{
                                     fontSize: 15,
@@ -292,22 +353,33 @@ class ProjectsItems extends React.Component{
                                 • Conducted visioning and storyboarding sessions to identify key features and functions as well as heuristic evaluations and usability tests on low and high-fidelity prototypes.<br/><br/>
                                 • Incorporated several features including searching, navigating to, adding/saving, removing and rating water fountains along with provisions for crowdsourcing by users.<br/>
                                 </div>
-                                </Row>
+                           
+
+                                
+                                
+                                
                                 </Container>
-                            </Col>
                         </Row>
                     </Container>
+                    <Button style={{backgroundColor: "black", border: 0, color: "#E9C46A", fontFamily: "Tahoma, Geneva, sans-serif", width: "100%", textAlign: "right", height: "auto"}} onClick={() => {
+                    console.log('modal closed ');
+                    close();}}>Close Project
+                    </Button>
+                </div>
+            
+                )}
                 </Popup>
                 </Col>
-                <Col >
+                <Col md={6}>
                 <Popup
-                contentStyle={{border: "solid 0px black", height: "60vh", width: "70%", padding: 0, 
+                contentStyle={{border: "solid 0px black", height: "70vh", width: "80%", padding: 0,
                 backgroundColor: "black"}}
+                position="top center"
                 trigger={
                     <a role="button" style={{cursor: "pointer"}}> 
                         <Card className="bg-dark text-white" 
                             style={{marginTop: "20px", border: "none",
-                            borderRadius: "10px", height: "40vh", width: "35vw"}}>
+                            borderRadius: "10px", height: "40vh"}}>
                         <div className="card-image" >
                             <ZoomIn>
                             <Card.Img style={{height: "42vh", opacity: 0.9}}
@@ -331,12 +403,21 @@ class ProjectsItems extends React.Component{
                         </div>
                         </Card>
                     </a>} modal closeOnDocumentClick>
-                    <Container style={{height: "70vh", width: "100%", border: "solid 0px black", 
+                    {close => (
+                    <div >
+                    
+                    <button className="close" onClick={close}>
+                            &times;
+                        </button>
+                    <Container style={{maxHeight: "70vh", width: "100%",
+                    overflow: "scroll",
                     backgroundColor: "black",
                     backgroundSize: "100%",
+                    padding: "30px",
                     backgroundImage: "url(" + BlackOne + ")"}}>
-                        <Row>
-                            <Col>
+                        
+                        <Row >
+                            
                                 {/* <Image width="100%" style={background} responsive="true"  src={Library} fluid="true"/> */}
                                 <Container className="project-container" responsive="true">
                                 <h4 style={{
@@ -344,7 +425,7 @@ class ProjectsItems extends React.Component{
                                         fontWeight: "normal",
                                         fontSize: 20, color: "#E9C46A"}}>Daybook: Mental Health Journaling App</h4>
                                         <br/>
-                                <Row>
+                               
 
                                 <p style={{
                                     fontSize: 15,
@@ -357,22 +438,32 @@ class ProjectsItems extends React.Component{
                                     • Constructed Azure SQL databases to store user data and created Rest APIs using C#, ASP.NET Core and Swagger UI hosted on Microsoft Azure Cloud Services.<br/><br/>
                                     • Created additional layers of security by storing authentication keys for the above Azure services using Azure Key Vault.<br/>
                                 </p>
-                                </Row>
+
+                                
+                                
+                                
                                 </Container>
-                            </Col>
                         </Row>
                     </Container>
+                    <Button style={{backgroundColor: "black", border: 0, color: "#E9C46A", fontFamily: "Tahoma, Geneva, sans-serif", width: "100%", textAlign: "right", height: "auto"}} onClick={() => {
+                    console.log('modal closed ');
+                    close();}}>Close Project
+                    </Button>
+                </div>
+            
+                )}
                 </Popup>
                 </Col>
-                <Col >
+                <Col md={6}>
                 <Popup
-                contentStyle={{border: "solid 0px black", height: "60vh", width: "70%", padding: 0, 
+                contentStyle={{border: "solid 0px black", height: "70vh", width: "80%", padding: 0,
                 backgroundColor: "black"}}
+                position="top center"
                 trigger={
                     <a role="button" style={{cursor: "pointer"}}> 
                         <Card className="bg-dark text-white" 
                             style={{marginTop: "20px", border: "none",
-                            borderRadius: "10px", height: "40vh", width: "35vw"}}>
+                            borderRadius: "10px", height: "40vh"}}>
                         <div className="card-image" >
                             <ZoomIn>
                             <Card.Img style={{height: "42vh", opacity: 0.8}}
@@ -396,12 +487,21 @@ class ProjectsItems extends React.Component{
                         </div>
                         </Card>
                     </a>} modal closeOnDocumentClick>
-                    <Container style={{height: "70vh", width: "100%", border: "solid 0px black", 
+                    {close => (
+                    <div >
+                    
+                    <button className="close" onClick={close}>
+                            &times;
+                        </button>
+                    <Container style={{maxHeight: "70vh", width: "100%",
+                    overflow: "scroll",
                     backgroundColor: "black",
                     backgroundSize: "100%",
+                    padding: "30px",
                     backgroundImage: "url(" + BlackOne + ")"}}>
-                        <Row>
-                            <Col>
+                        
+                        <Row >
+                            
                                 {/* <Image width="100%" style={background} responsive="true"  src={Library} fluid="true"/> */}
                                 <Container className="project-container" responsive="true">
                                 <h4 style={{
@@ -409,7 +509,7 @@ class ProjectsItems extends React.Component{
                                         fontWeight: "normal",
                                         fontSize: 20, color: "#E9C46A"}}>Microsoft Deep Dive Computer Science Workshop</h4>
                                         <br/>
-                                <Row>
+
                                 <p style={{
                                     fontSize: 15,
                                     color: "#f2ebdd", fontFamily: "Tahoma, Geneva, sans-serif", textAlign: "left"}}>
@@ -419,11 +519,20 @@ class ProjectsItems extends React.Component{
                                     • Designed and built a web application using React.js showcasing resources from each week of the workshop as well as assigned coding problems covering the technical topics explored that week.<br/><br/>
                                     • Deployed the application to Microsoft Azure, thereby making it available to over 3,200 Microsoft Interns with a special focus on Explorer (Freshmen and Sophomores) interns for professional training and development.<br/><br/>
                                 </p>
-                                </Row>
+
+                                
+                                
+                                
                                 </Container>
-                            </Col>
                         </Row>
                     </Container>
+                    <Button style={{backgroundColor: "black", border: 0, color: "#E9C46A", fontFamily: "Tahoma, Geneva, sans-serif", width: "100%", textAlign: "right", height: "auto"}} onClick={() => {
+                    console.log('modal closed ');
+                    close();}}>Close Project
+                    </Button>
+                </div>
+            
+                )}
                 </Popup>
                 </Col>
                 </Row>

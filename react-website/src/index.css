@@ -118,13 +118,12 @@ code {
   box-shadow: 0px 0px 5px 5px #0e172a;
 }
 .project-container {
-  margin-top: 50px;
-  padding-top: 0px;
-  max-width: 90%;
-  height: 60vh;
+  box-shadow: 0px 0px 5px 5px #0e172a;
+  height: auto;
   background-color:#0e172a;
   opacity: 0.8;
-  box-shadow: 0px 0px 5px 5px #0e172a;
+  width: 100%;
+  
 }
 .ta-container {
   position: relative;

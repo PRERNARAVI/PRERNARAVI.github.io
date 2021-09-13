@@ -386,7 +386,7 @@ function Research() {
             {/** *********************************ASL ITEM************** */}
             <Col md={9} >
             <Row style={{padding: "0px"}}>
-            <Col style={{padding: "5px", height: "75vh"}}>
+            <Col md={6} style={{padding: "5px", height: "75vh"}}>
                 <a role="button" style={{cursor: "pointer"}} onClick={() => setModalShowASL(true)}>      
                     <Card className="bg-dark text-white" 
                         style={{ border: "none",
@@ -425,7 +425,7 @@ function Research() {
                 </a>  
             </Col>
             {/** *********************************TANDEM ITEM************** */}
-            <Col style={{padding: "5px", height: "75vh"}}>
+            <Col md={6} style={{padding: "5px", height: "75vh"}}>
                 <a role="button" style={{cursor: "pointer"}} onClick={() => setModalShowTandem(true)}>      
                     <Card className="bg-dark text-white" 
                         style={{ border: "none",
@@ -468,7 +468,7 @@ function Research() {
             {/** ROW 2 */}
 
              {/** *********************************CAT ITEM************** */}   
-            <Col style={{padding: "5px", height: "75vh"}}>
+            <Col md={6} style={{padding: "5px", height: "75vh"}}>
                 <a role="button" style={{cursor: "pointer"}} onClick={() => setModalShowCat(true)}>      
                     <Card className="bg-dark text-white" 
                         style={{ border: "none",
@@ -507,7 +507,7 @@ function Research() {
         show={modalShowCat}
         onHide={() => setModalShowCat(false)}
             />
-        <Col style={{padding: "5px", height: "75vh"}}>
+        <Col md={6} style={{padding: "5px", height: "75vh"}}>
                 <a role="button" style={{cursor: "pointer"}} onClick={() => setModalShowAvanti(true)}>      
                     <Card className="bg-dark text-white" 
                         style={{ border: "none",
