@@ -150,6 +150,7 @@ class ExperienceItems extends React.Component{
             },
         ];
 
+        let active = window.screen.width < 380;
 
         
         return (
@@ -157,7 +158,7 @@ class ExperienceItems extends React.Component{
             <Container style={{marginTop: "100px"}} >
                 <FadeIn>
                 <Chrono items={items} 
-                mode="VERTICAL_ALTERNATING"
+                mode= {active? "VERTICAL": "VERTICAL_ALTERNATING"}
                 cardHeight="200"
                 hideControls
                 theme={{ 
