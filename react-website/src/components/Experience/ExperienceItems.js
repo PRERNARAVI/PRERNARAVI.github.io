@@ -15,9 +15,26 @@ function show() {
 class ExperienceItems extends React.Component{
     render() {  
         const items = [
+
+            {
+                title: <div style={{fontSize: "15px", fontFamily: "Tahoma, Geneva, sans-serif", color: "#E9C46A"}}>October 2021 - Present<br/>Mountain View, California, USA</div>,
+                cardTitle: <h5 style={{textAlign: "center"}}>Research Intern at Google</h5>,
+                //cardSubtitle:<h5 style={{color: "#f2ebdd", textAlign: "center"}}>Software Engineer Intern</h5>,
+                cardDetailedText: <div style={{minHeight: "50px", fontFamily: "Tahoma, Geneva, sans-serif"}}> • Research Intern for Deaf Educational Technology using American Sign Language Recognition at <a href="https://research.google/" style={{color: "#E9C46A"}}><u>Google Research.</u></a><br/></div>,
+                media: 
+                {
+                    type: "IMAGE",
+                    source: {
+                    url: "https://apkxmods.com/wp-content/uploads/2021/05/google-dark-background-hero.png"
+                    },
+                    
+                }
+                
+            },
+
             {
                 title: <div style={{fontSize: "15px", fontFamily: "Tahoma, Geneva, sans-serif", color: "#E9C46A"}}>May 2021 - July 2021<br/>Redmond, Washington, USA</div>,
-                cardTitle: <h5 style={{textAlign: "center"}}>Software Engineer Intern at Microsoft</h5>,
+                cardTitle: <h5 style={{textAlign: "center", color: "#E9C46A"}}>Software Engineer Intern at Microsoft</h5>,
                 //cardSubtitle:<h5 style={{color: "#f2ebdd", textAlign: "center"}}>Software Engineer Intern</h5>,
                 cardDetailedText: <div style={{minHeight: "50px", fontFamily: "Tahoma, Geneva, sans-serif"}}> • Software Engineer Intern for the Employee Experience Team within <a href="https://www.microsoft.com/" style={{color: "#E9C46A"}}><u>Microsoft</u></a>’s Cloud and Artificial Intelligence (C+AI) organization.<br/>
                 • Designed and built an end-to end modern, intelligent solution for the Microsoft Office 365 Enterprise Records Management System used for storing over 6 million regulatory, legal, and business-critical electronic records spanning 100 countries managed in three regions (US, EMEA and Asia) for over 160,000 employees.<br/>

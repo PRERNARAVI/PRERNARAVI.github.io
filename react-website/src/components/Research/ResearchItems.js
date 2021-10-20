@@ -554,7 +554,7 @@ function Research() {
             </Col>
 
             
-       <Col style={{padding: "0px"}}>
+       <Col style={{paddingLeft: "0px", paddingRight: "0px", paddingBottom: "20px"}}>
             <Container style={{backgroundColor: "black", height: "auto", paddingBottom: "8px"}}>
             <br/>
             <div style={{fontSize: 20, color: "#E9C46A"}}>Publications</div>
@@ -565,9 +565,21 @@ function Research() {
             <p style={{color: "#E9C46A", fontSize: 13, textAlign: "left", marginLeft: "10px"}}><b>Winner - CHI Student Research Competition</b></p>
 
             <p style={{marginLeft: "10px", textAlign: "left", color: "#E9C46A", borderTop: "2px dotted #E9C46A", fontSize: 15}}>
-            <div style={{marginTop: "10px"}}>The Pandemic Shift to Remote Learning under Resource Constraints</div></p>
+            <div style={{marginTop: "10px"}}><a href="https://dl.acm.org/doi/10.1145/3476055" style={{textAlign: "left", color: "#E9C46A", fontSize: 15}}>The Pandemic Shift to Remote Learning under Resource Constraints</a></div></p>
             <p style={{color: "#f2ebdd", fontSize: 13, textAlign: "left", marginLeft: "10px"}}><b style={{color: "#E9C46A"}}>Prerna Ravi</b>, Azra Ismail, and Neha Kumar</p>
             <p style={{color: "#E9C46A", fontSize: 13, textAlign: "left", marginLeft: "10px"}}>CSCW 2021
+            </p>
+
+            <p style={{marginLeft: "10px", textAlign: "left", color: "#E9C46A", borderTop: "2px dotted #E9C46A", fontSize: 15}}>
+            <div style={{marginTop: "10px"}}>Near-term Applications of American Sign Language Recognition</div></p>
+            <p style={{color: "#f2ebdd", fontSize: 13, textAlign: "left", marginLeft: "10px"}}><b style={{color: "#E9C46A"}}>Prerna Ravi</b>, Pranay Agrawal, Matthew So, Sahir Shahryar, Dhruva Bansal, Ishan Chadha, Madeleine Goebel, Gururaj Deshpande, Colby Duke, Ganesh Murugappan, and Thad Starner</p>
+            <p style={{color: "#E9C46A", fontSize: 13, textAlign: "left", marginLeft: "10px"}}>In review (2022)
+            </p>
+
+            <p style={{marginLeft: "10px", textAlign: "left", color: "#E9C46A", borderTop: "2px dotted #E9C46A", fontSize: 15}}>
+            <div style={{marginTop: "10px"}}>Adaptive CopyCat: Using Phrase-Level Sign Language Recognition for Educational Games for Deaf Children</div></p>
+            <p style={{color: "#f2ebdd", fontSize: 13, textAlign: "left", marginLeft: "10px"}}>Pranay Agrawal, <b style={{color: "#E9C46A"}}>Prerna Ravi</b>, Matthew So, Ishan Chadha, Dhruva Bansal, Zahoor Zafrulla, Gururaj Deshpande, and Thad Starner </p>
+            <p style={{color: "#E9C46A", fontSize: 13, textAlign: "left", marginLeft: "10px"}}>In review (2022)
             </p>
 
             <p style={{marginLeft: "10px", textAlign: "left", color: "#E9C46A", borderTop: "2px dotted #E9C46A", fontSize: 15}}>
