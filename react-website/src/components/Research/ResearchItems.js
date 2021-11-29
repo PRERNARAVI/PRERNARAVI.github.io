@@ -407,35 +407,14 @@ function TandemModal(props) {
                     <br/>
                     <div style={fontFormat} responsive="true">
                     <div style={{color: "#E9C46A", fontSize: 18}}>Problem Space:</div>
-                        <Image width="40%" src={Mentor} style={{float: "right", paddingLeft: "5px"}}/>
+                        <Image width="40%" src="https://www.indiaeducation.net/imagesvr_ce/475/MOOC.jpg" style={{float: "right", paddingLeft: "5px"}}/>
                     <div responsive="true">
-                    The COVID-19 pandemic has brought about massive changes in workflows within the Indian education system. The rapidly changing digital landscape within school systems brings massive challenges within underserved and marginalized contexts, including but not limited to intermittent and shared access to computing devices and poor internet availability. Further, the pandemic has exposed the existing cracks within career coaching and mentorship programs that have been in place in India for the last few decades. In particular, gender inequalities have further been amplified since high school girls, especially in rural areas have almost no access to any career guidance based resources as they start thinking about applying to colleges and degree programs post high school. With final exams being cancelled repeatedly by the government and competitive entrance exams being postponed, the opportunities to apply to highly ranked colleges and pursue careers of their choice have also diminished significantly. 
-                        </div>
+                    Following the initial proliferation of Massive Open Online Courses (MOOCs), a more recent trend has emerged toward offering "Affordable Degrees at Scale" or "Large, InternetMediated Asynchronous Degrees". In this research, I have set out to understand this space: the range in tuition costs for these programs, the variety of admissions standards, and the types of assessments used to evaluate these non-traditional students. However, these programs may not be as new as we initially perceived: similarly-priced online programs have existed from traditional universities for years. In this research, I will be exploring these two questions: what are these new degrees at scale, and how do they actually differ from traditional programs? To explore this, I will be collecting materials for MOOC-based graduate degrees and numerous non-MOOC-based comparable degrees. I will then explore the patterns in tuition, admissions requirements, and syllabus information. I will report the trends identified in MOOC-based degrees, and attempt to answer the question: what makes these programs different from non-MOOC-based online programs of the past? 
+                    </div>
+                    <div responsive="true">
+                    I am conducting this study under the guidance of <a href="https://www.davidjoyner.net/" style={{textAlign: "left", color: "#E9C46A", fontSize: 15}}><u>Dr. David Joyner</u></a> at the Georgia Tech LucyLabs. 
+                    </div>
                         <br></br>
-
-                        <div responsive="true">
-                        <div style={{color: "#E9C46A", fontSize: 18}}>Solution:</div>
-                        <Image width="45%" src={Survey} style={{float: "left", paddingRight: "10px"}}/>
-                        In response to these heightened problems, we (Avanti Fellows) partnered up with LedBy Foundation to initiate and organize a Girls Leadership and Mentorship program. For the first phase of this program,  36 students were selected from Jawahar Navodaya Vidyalaya Schools (JNVs), a system of central govt run schools for low-income students predominantly from rural areas in India. 
-
-                        
-                        We interviewed 5 students to understand their perspectives on leadership, mentorship, their daily challenges etc. Based on those conversations we outlined the following goals/outcomes that we hoped to achieve by the end of the mentorship duration: <br/>
-1) Students will be able to articulate their career-related goals and the steps they would need to take to achieve their goals. <br/>
-2) Students will be able to articulate at least one alternative career goal (Plan B) and the steps they will need to take to achieve that goal. <br/>
-3) Students will have higher confidence with respect communicating with peers and in public spaces.<br/>
-4) Students will be able to identify their stress and/or anger triggers and articulate at least one way in which they can manage their stress and/or anger. <br/>
-5) Students will be able to articulate at least one way in which they can protect themselves in the online world and protect themselves in physical spaces.<br/>
-
-                        </div> 
-                        <br/>
-                        <div style={{color: "#E9C46A", fontSize: 18}}>Evaluation:</div>
-                        <div>
-                        Following the framing of the above mentioned goals, I devised an internal evaluation and feedback strategy to evaluate the outcomes and effectiveness of the program and its underlying structure.. To achieve this, I divided our study into baseline and endline stages, spanning the length of the program. For the baseline portion of the program, I employed qualitative methods - interviews and surveys over the duration of a week to collect extensive data from students.
-                        During the interviews, I asked participants questions pertaining to their career aspirations, confidence in communicating with peers and professionals, public speaking, their leadership strengths and their ability to recognize and navigate anger and stress triggers. I also sent out surveys asking the same questions in a more condensed version. Following these surveys and interviews, I coded, summarized and analyzed the responses obtained from the students and defined domains that students need support and help with. 
-                        To hear firsthand from students, I also set up calls with two girls per week to receive positive and constructive feedback regarding their mentorship sessions.
-                        I will be conducting the endline evaluation of this study in the next few months to compare and contrast the participants' capacities with respect to the above mentioned parameters and assess if the goals of the program were met.
-                        The result of this evaluation will help inform and shape the format and structure of future mentorship programs across the country. 
-                        </div>
                         
                     </div>
                 </Container>
