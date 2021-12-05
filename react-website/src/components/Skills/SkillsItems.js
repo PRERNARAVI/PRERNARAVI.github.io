@@ -245,6 +245,71 @@ class SkillsItems extends React.Component{
                         </Card>
                     </a>   
                 </Col>
+
+                <Col md={6} lg={4}>
+                    <a role="button" href="https://research.google/outreach/csrmp/" style={{cursor: "pointer", textDecoration: "none"}}>      
+                        <Card className="bg-dark text-white" 
+                            style={{marginTop: "120px", border: "none",
+                            borderRadius: "10px"}}>
+                        <div className="award-card-image" >
+                            <Card.Header 
+                                style={{
+                                    fontFamily: "Tahoma, Geneva, sans-serif", 
+                                    fontWeight: "normal",
+                                    fontSize: 17,
+                                    paddingTop: "15px",
+                                    paddingBottom: '0px',
+                                    color: "#E9C46A"
+                                }}> 
+                                <p style={{lineHeight: "0.7"}}>
+                                    <FaAward size='35px' style={{color: 'white'}}/>
+                                    &ensp;Google Computer Science Research Mentorship Fellow 2021
+                                </p>
+                            </Card.Header>
+                            <Card.Img style={{height: "20vh", width: "75%", backgroundColor: "black", objectFit: "contain"}}
+                                 src="https://apkxmods.com/wp-content/uploads/2021/05/google-dark-background-hero.png" alt="Card image" />
+                                <Card.Text style={{fontSize: 14, margin: '10px'}}>
+                                Awarded this fellowship to be a part of the cohort for the 2021 Google Computer Science Research Mentorship Program (CSRMP) that supports and guides students through computing research pathways.
+                                </Card.Text>
+                                <Card.Footer>[ Sept 2021 ]</Card.Footer>
+
+                        </div>               
+                        </Card>
+                    </a>   
+                </Col>
+
+                <Col md={6} lg={4}>
+                    <a role="button" href="https://www.apple.com/careers/us/students.html" style={{cursor: "pointer", textDecoration: "none"}}>      
+                        <Card className="bg-dark text-white" 
+                            style={{marginTop: "120px", border: "none",
+                            borderRadius: "10px"}}>
+                        <div className="award-card-image" >
+                            <Card.Header 
+                                style={{
+                                    fontFamily: "Tahoma, Geneva, sans-serif", 
+                                    fontWeight: "normal",
+                                    fontSize: 17,
+                                    paddingTop: "15px",
+                                    paddingBottom: '0px',
+                                    color: "#E9C46A"
+                                }}> 
+                                <p style={{lineHeight: "0.7", textAlign: 'center'}}>
+                                    <FaAward size='35px' style={{color: 'white'}}/>
+                                    &ensp;Apple Women in Science and Engineering Fellow
+                                </p>
+                            </Card.Header>
+                            <Card.Img style={{height: "22.5vh", width: "50%", objectFit: "contain"}}
+                                 src="https://creativewomens.co/wp-content/uploads/2017/04/apple-logo.png" alt="Card image" />
+                                <Card.Text style={{fontSize: 14, margin: '10px'}}>
+                                Awarded this fellowship to be a part of the 2021 Apple's Women in Science and Engineering Mentorship (AWSEM)that guides women in computing through their professional endeavors.
+                                </Card.Text>
+                                <Card.Footer>[ Sept 2021 ]</Card.Footer>
+
+                        </div>               
+                        </Card>
+                    </a>  
+                </Col>
+
                 <Col md={6} lg={4}>
                     <a role="button" href="https://intaadvising.gatech.edu/uncategorized/sam-nunn-school-of-international-affairs-paper-competition-submit-by-january-31-2021/" style={{cursor: "pointer", textDecoration: "none"}}>      
                         <Card className="bg-dark text-white" 
@@ -400,6 +465,39 @@ class SkillsItems extends React.Component{
                         </Card>
                     </a>  
                 </Col>
+
+                <Col md={6} lg={4}>
+                    <a role="button" href="https://registrar.gatech.edu/info/faculty-honors-letters" style={{cursor: "pointer", textDecoration: "none"}}>      
+                        <Card className="bg-dark text-white" 
+                            style={{marginTop: "120px", border: "none",
+                            borderRadius: "10px"}}>
+                        <div className="award-card-image" >
+                            <Card.Header 
+                                style={{
+                                    fontFamily: "Tahoma, Geneva, sans-serif", 
+                                    fontWeight: "normal",
+                                    fontSize: 17,
+                                    paddingTop: "15px",
+                                    paddingBottom: '0px',
+                                    color: "#E9C46A"
+                                }}> 
+                                <p style={{lineHeight: "0.7", textAlign: 'center'}}>
+                                    <FaAward size='35px' style={{color: 'white'}}/>
+                                    &ensp;Georgia Tech Faculty Honors for 2018 - 2021
+                                </p>
+                            </Card.Header>
+                            <Card.Img style={{height: "25vh", width: "90%", objectFit: "contain"}}
+                                 src="https://d3ebobe8l15pwo.cloudfront.net/wp-content/uploads/imagesdrup/field/image/GeorgiaTech_0.png" alt="Card image" />
+                                <Card.Text style={{fontSize: 14, margin: '10px'}}>
+                                Awarded the distinction of Faculty Honors for 2018-2021 (all semesters) for securing an academic GPA of 4.0.
+                                </Card.Text>
+                                <Card.Footer>[ 2018 - 2021 ]</Card.Footer>
+
+                        </div>               
+                        </Card>
+                    </a>  
+                </Col>
+
                 </Row>
             </Container>
             

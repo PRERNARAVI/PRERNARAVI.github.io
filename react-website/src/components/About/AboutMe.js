@@ -60,7 +60,7 @@ class AboutMe extends React.Component{
                     <div style={{textAlign: "center", justifyContent: "center", alignItems: "center", width: "100%"}}>
                         <h4 style={{fontFamily: "Tahoma, Geneva, sans-serif", color: "#E9C46A", marginTop: "30px", textAlign: "center"}}>Contact</h4>
                         <p style={{textAlign: "center"}}>
-                        <a href="https://shared-assets.adobe.com/link/9d79a538-e6d8-45c1-4727-e56d26c5f1cd"><span><DescriptionIcon style={{color: "#E9C46A", fontSize: 50}}/></span></a>&nbsp;&nbsp;&nbsp; 
+                        <a href="https://prernaravi.github.io/static/media/PRERNA_RAVI_CV.c0b3da97.pdf"><span><DescriptionIcon style={{color: "#E9C46A", fontSize: 50}}/></span></a>&nbsp;&nbsp;&nbsp; 
                         <a href="https://github.com/PRERNARAVI"><GitHubIcon style={{color: "#E9C46A", fontSize: 45}}/></a>&nbsp;&nbsp;&nbsp;
                         <a href="https://www.linkedin.com/in/prerna-ravi/"><LinkedInIcon style={{color: "#E9C46A", fontSize: 50}}/></a>&nbsp;&nbsp;&nbsp;
                         <a href="mailto: prernaravi@gatech.edu"><EmailIcon style={{color: "#E9C46A", fontSize: 55}}/></a>
