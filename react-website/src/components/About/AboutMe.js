@@ -110,7 +110,7 @@ class AboutMe extends React.Component{
             <Container className="about-me-two">
                 <Row>
                 <Col sm={4}>
-                <a role="button" style={{cursor: "pointer", textDecoration: "none"}} href="https://www.prernaravi.com/dance">      
+                <div role="button" style={{cursor: "pointer", textDecoration: "none"}} >      
                     <Card className="bg-dark text-white" 
                         style={{marginTop: "20px", marginLeft: "0px", border: "none",
                         borderRadius: "10px", height: "auto"}}>
@@ -140,10 +140,10 @@ class AboutMe extends React.Component{
 
                     </div>               
                     </Card>
-                </a>  
+                </div>  
                 </Col>
                 <Col sm={4}>
-                <a role="button" style={{cursor: "pointer", textDecoration: "none"}} href="https://www.prernaravi.com/music">    
+                <div role="button" style={{cursor: "pointer", textDecoration: "none"}} >    
                     <Card className="bg-dark text-white" 
                         style={{marginTop: "20px", marginLeft: "0px", border: "none",
                         borderRadius: "10px", height: "auto"}}>
@@ -173,10 +173,10 @@ class AboutMe extends React.Component{
 
                     </div>               
                     </Card>
-                </a>  
+                </div>  
                 </Col>
                 <Col sm={4}>
-                <a role="button" style={{cursor: "pointer", textDecoration: "none"}} href="https://www.prernaravi.com/art">      
+                <div role="button" style={{cursor: "pointer", textDecoration: "none"}} >      
                     <Card className="bg-dark text-white" 
                         style={{marginTop: "20px", marginLeft: "0px", border: "none",
                         borderRadius: "10px", height: "auto"}}>
@@ -205,7 +205,7 @@ class AboutMe extends React.Component{
 
                     </div>               
                     </Card>
-                </a>  
+                </div>  
                 </Col>
                 </Row>
             </Container>
