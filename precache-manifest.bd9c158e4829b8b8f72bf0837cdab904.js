@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "f9bd67694ec36968cbb27b1baf9fb8d0",
+    "revision": "410017ed25a249f37aee0028729ce13e",
     "url": "/index.html"
   },
   {
-    "revision": "18f73d521ce3bd7ea324",
-    "url": "/static/css/main.ee0ac9c1.chunk.css"
+    "revision": "41dd8fb75de3eb09795a",
+    "url": "/static/css/main.ed2ed32b.chunk.css"
   },
   {
-    "revision": "e5241cd0ade0354a1f55",
-    "url": "/static/js/2.ef29a03c.chunk.js"
+    "revision": "1d58f83a31508f3c3118",
+    "url": "/static/js/2.f7b78703.chunk.js"
   },
   {
     "revision": "90272e395f30388283854af7d206f76a",
-    "url": "/static/js/2.ef29a03c.chunk.js.LICENSE.txt"
+    "url": "/static/js/2.f7b78703.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "18f73d521ce3bd7ea324",
-    "url": "/static/js/main.5fc49b61.chunk.js"
+    "revision": "41dd8fb75de3eb09795a",
+    "url": "/static/js/main.02314b70.chunk.js"
   },
   {
     "revision": "60fa70ef6557751e5513",
@@ -100,10 +100,6 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/Journaling-Project.afd732b0.jpg"
   },
   {
-    "revision": "7213f96d6876082a0225502198a54542",
-    "url": "/static/media/Laptop.7213f96d.jpg"
-  },
-  {
     "revision": "e9aa8f2cba0a4c2f604b734b414967a5",
     "url": "/static/media/Library.e9aa8f2c.jpeg"
   },
@@ -140,6 +136,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/PopUpBg.7301ac8d.jpg"
   },
   {
+    "revision": "203f8fe189fb15417a7c0578867d8278",
+    "url": "/static/media/Prerna_Grad.203f8fe1.JPG"
+  },
+  {
     "revision": "7ef8e1a790b8ece426f3f4776bbe36be",
     "url": "/static/media/SchoolLibrary.7ef8e1a7.png"
   },
@@ -160,16 +160,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/hands.da764abe.png"
   },
   {
-    "revision": "26fcb722357cfa247b92982d46c0af51",
-    "url": "/static/media/home-page-wallpaper.26fcb722.png"
-  },
-  {
     "revision": "5d5d9eefa31e5e13a6610d9fa7a283bb",
     "url": "/static/media/logo.5d5d9eef.svg"
-  },
-  {
-    "revision": "c53024d3841ace2642332d28d772ea6b",
-    "url": "/static/media/meTwo.c53024d3.jpg"
   },
   {
     "revision": "93ecdb34383f8d2e374ec78ba18f8286",
