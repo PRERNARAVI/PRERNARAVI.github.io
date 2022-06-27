@@ -17,10 +17,16 @@ class ExperienceItems extends React.Component{
         const items = [
 
             {
-                title: <div style={{fontSize: "15px", fontFamily: "Tahoma, Geneva, sans-serif", color: "#E9C46A"}}>January 2022 - May 2022<br/>Mountain View, California, USA</div>,
-                cardTitle: <h5 style={{textAlign: "center"}}>Research Intern at Google</h5>,
+                title: <div style={{fontSize: "15px", fontFamily: "Tahoma, Geneva, sans-serif", color: "#E9C46A"}}>January 2022 - April 2022<br/>Mountain View, California, USA</div>,
+                cardTitle: <h5 style={{textAlign: "center"}}>Research Intern at Google AI</h5>,
                 //cardSubtitle:<h5 style={{color: "#f2ebdd", textAlign: "center"}}>Software Engineer Intern</h5>,
-                cardDetailedText: <div style={{minHeight: "50px", fontFamily: "Tahoma, Geneva, sans-serif"}}> • Research Intern for Deaf Educational Technology using American Sign Language Recognition at <a href="https://research.google/" style={{color: "#E9C46A"}}><u>Google Research.</u></a><br/></div>,
+                cardDetailedText: <div style={{minHeight: "50px", fontFamily: "Tahoma, Geneva, sans-serif"}}> 
+                • Research Intern for the <a href="https://research.google/teams/perception/" style={{color: "#E9C46A"}}><u>Perception Team</u></a> at <a href="https://research.google/" style={{color: "#E9C46A"}}><u>Google Research</u></a> advised 
+                by <a href="https://en.wikipedia.org/wiki/Thad_Starner" style={{color: "#E9C46A"}}><u>Thad Starner</u></a>, <a href="https://www.linkedin.com/in/mgeorg/" style={{color: "#E9C46A"}}><u>Manfred Georg</u></a>, and <a href="https://www.linkedin.com/in/gcsung/" style={{color: "#E9C46A"}}><u>George Sung</u></a>.
+                <br/>· Collected and annotated over 1 million videos for an American Sign Language (ASL) fingerspelling dataset in collaboration with the National Technical Institute for the Deaf (NTID) and DPAN (Deaf Professional Arts Network). 
+                <br/>· Built an automated data processing pipeline for extracting features and tracking movement using pose estimation tools: Google MediaPipe. 
+                <br/>· Led the development, training, testing and fine tuning of multiple models-- Hidden Markov Models (HMMs), Long Short-Term Memory models (LSTMs), and Transformers-- used for fingerspelling sign recognition.
+                <br/></div>,
                 media: 
                 {
                     type: "IMAGE",

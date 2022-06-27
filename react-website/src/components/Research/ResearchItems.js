@@ -675,42 +675,35 @@ function Research() {
             </p>
 
             <p style={{marginLeft: "10px", textAlign: "left", color: "#E9C46A", borderTop: "2px dotted #E9C46A", fontSize: 15}}>
-            <div style={{marginTop: "10px"}}>Near-term Applications of American Sign Language Recognition</div></p>
-            <p style={{color: "#f2ebdd", fontSize: 13, textAlign: "left", marginLeft: "10px"}}><b style={{color: "#E9C46A"}}>Prerna Ravi</b>, Pranay Agrawal, Matthew So, Sahir Shahryar, Dhruva Bansal, Ishan Chadha, Madeleine Goebel, Gururaj Deshpande, Colby Duke, Ganesh Murugappan, and Thad Starner</p>
-            <p style={{color: "#E9C46A", fontSize: 13, textAlign: "left", marginLeft: "10px"}}>In review (2022)
-            </p>
-
-            <p style={{marginLeft: "10px", textAlign: "left", color: "#E9C46A", borderTop: "2px dotted #E9C46A", fontSize: 15}}>
-            <div style={{marginTop: "10px"}}>Adaptive CopyCat: Using Phrase-Level Sign Language Recognition for Educational Games for Deaf Children</div></p>
-            <p style={{color: "#f2ebdd", fontSize: 13, textAlign: "left", marginLeft: "10px"}}>Pranay Agrawal, <b style={{color: "#E9C46A"}}>Prerna Ravi</b>, Matthew So, Ishan Chadha, Dhruva Bansal, Zahoor Zafrulla, Gururaj Deshpande, and Thad Starner </p>
-            <p style={{color: "#E9C46A", fontSize: 13, textAlign: "left", marginLeft: "10px"}}>In review (2022)
-            </p>
-
-            <p style={{marginLeft: "10px", textAlign: "left", color: "#E9C46A", borderTop: "2px dotted #E9C46A", fontSize: 15}}>
             <div style={{marginTop: "10px"}}><a href="https://medium.com/avanti-fellows/avanti-fellows-ledby-girls-leadership-and-mentorship-program-the-why-what-and-how-part-1-ef39379824cd" style={{textAlign: "left", color: "#E9C46A", fontSize: 15}}>Avanti Fellows — LedBy Girls’ Leadership and Mentorship Program: The Why, What, and How</a></div></p>
             <p style={{color: "#f2ebdd", fontSize: 13, textAlign: "left", marginLeft: "10px"}}><b style={{color: "#E9C46A"}}>Prerna Ravi</b> (Advisor: Dr. Neha Kumar)</p>
             <p style={{color: "#E9C46A", fontSize: 13, textAlign: "left", marginLeft: "10px"}}>Avanti Fellows Blog and Baseline Report
             </p>
 
             <p style={{marginLeft: "10px", textAlign: "left", color: "#E9C46A", borderTop: "2px dotted #E9C46A", fontSize: 15}}>
-            <div style={{marginTop: "10px"}}>Leveraging AlphaPose as a 2-D Pose Estimator for American Sign Language Recognition</div></p>
+            <div style={{marginTop: "10px"}}><a href="https://smartech.gatech.edu/bitstream/handle/1853/66716/RAVI-UNDERGRADUATERESEARCHOPTIONTHESIS-2022.pdf?sequence=1" style={{textAlign: "left", color: "#E9C46A", fontSize: 15}}>CopyCat: Leveraging American Sign Language Recognition in Educational Games for Deaf Children</a></div></p>
             <p style={{color: "#f2ebdd", fontSize: 13, textAlign: "left", marginLeft: "10px"}}><b style={{color: "#E9C46A"}}>Prerna Ravi</b> (Advisor: Dr. Thad Starner)</p>
             <p style={{color: "#E9C46A", fontSize: 13, textAlign: "left", marginLeft: "10px"}}>Bachelor's Thesis
             </p>
-            {/* <div style={{fontSize: 20, color: "#E9C46A", borderTop: "2px dotted #E9C46A"}}><br/>Presentations</div>
-            <br/> */}
-            {/* <p style={{marginLeft: "10px", textAlign: "left", color: "#E9C46A", fontSize: 17}}>
-            <div style={{marginTop: "10px"}}>CopyCat: Intuitive Calibration and Data Collection Procedures for ASL Recognition using Azure Kinect</div></p>
-            <p style={{color: "#f2ebdd", fontSize: 15, textAlign: "left", marginLeft: "10px"}}><b style={{color: "#E9C46A"}}>Prerna Ravi </b>and Thad Starner</p>
-            <p style={{color: "#E9C46A", fontSize: 15, textAlign: "left", marginLeft: "10px"}}>Undergraduate Research Symposium at Georgia Tech 2019
-            </p> */}
-            {/* <p style={{marginLeft: "10px", textAlign: "left", color: "#E9C46A", fontSize: 17, borderTop: "2px dotted #E9C46A"}}>
-            <div style={{marginTop: "10px"}}>CopyCat: Pose Estimation for ASL Recognition using OpenPose and Microsoft Kinect</div></p>
-            <p style={{color: "#f2ebdd", fontSize: 15, textAlign: "left", marginLeft: "10px"}}><b style={{color: "#E9C46A"}}>Prerna Ravi </b>, Peter McAughan, Theo Panagiotopoulos, Dhruva Bansal, and Thad Starner</p>
-            <p style={{color: "#E9C46A", fontSize: 15, textAlign: "left", marginLeft: "10px"}}>Georgia Tech GVU Center Research Showcase 2019
-            </p> */}
-            {/* <br/>
-            <div style={{fontSize: 20, color: "#E9C46A"}}>Presentations</div> */}
+            <div style={{fontSize: 20, color: "#E9C46A", borderTop: "2px dotted #E9C46A"}}><br/>Presentations</div>
+            <br/> 
+            <p style={{marginLeft: "10px", textAlign: "left", color: "#E9C46A", fontSize: 17}}>
+            <div style={{marginTop: "10px", fontSize: 15}}><a href="https://www.rit.edu/imagine/exhibits/popsign" style={{textAlign: "left", color: "#E9C46A", fontSize: 15}}>PopSign: Teaching American Sign Language Using Mobile Games</a></div></p>
+            <p style={{color: "#f2ebdd", fontSize: 13, textAlign: "left", marginLeft: "10px"}}><b style={{color: "#E9C46A"}}>Prerna Ravi </b>, Sahir Shahryar, Colby Duke, Thad Starner, Saad Hassan, Abraham Glasser, and Max Shengelia
+            </p>
+            <p style={{color: "#E9C46A", fontSize: 13, textAlign: "left", marginLeft: "10px"}}>Imagine RIT 2022
+            </p>
+            <p style={{marginLeft: "10px", textAlign: "left", color: "#E9C46A", fontSize: 17, borderTop: "2px dotted #E9C46A"}}>
+            <div style={{marginTop: "10px", fontSize: 15}}>Intuitive Calibration and Data Collection Procedures for ASL Recognition using Azure Kinect</div></p>
+            <p style={{color: "#f2ebdd", fontSize: 13, textAlign: "left", marginLeft: "10px"}}><b style={{color: "#E9C46A"}}>Prerna Ravi </b>and Thad Starner</p>
+            <p style={{color: "#E9C46A", fontSize: 13, textAlign: "left", marginLeft: "10px"}}>Undergraduate Research Symposium at Georgia Tech 2019
+            </p>
+            <p style={{marginLeft: "10px", textAlign: "left", color: "#E9C46A", fontSize: 17, borderTop: "2px dotted #E9C46A"}}>
+            <div style={{marginTop: "10px", fontSize: 15}}>Pose Estimation for ASL Recognition using OpenPose and Microsoft Kinect</div></p>
+            <p style={{color: "#f2ebdd", fontSize: 13, textAlign: "left", marginLeft: "10px"}}><b style={{color: "#E9C46A"}}>Prerna Ravi </b>, Peter McAughan, Theo Panagiotopoulos, Dhruva Bansal, and Thad Starner</p>
+            <p style={{color: "#E9C46A", fontSize: 13, textAlign: "left", marginLeft: "10px"}}>Georgia Tech GVU Center Research Showcase 2019
+            </p>
+            <br/>
             </Container>
         </Col>
 

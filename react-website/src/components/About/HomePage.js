@@ -1,11 +1,7 @@
 import React from 'react';
 import { Image, Container, Row, Col} from 'react-bootstrap';
-import wallpaper from "../../images/home-page-wallpaper.png";
 import Typewriter from 'typewriter-effect';
 import AboutMe from './AboutMe';
-import BlackOne from "../../images/BlackOne.jpg";
-import Laptop from "../../images/Laptop.jpg";
-import MeTwo from "../../images/meTwo.jpg";
  
 
 class HomePage extends React.Component {
@@ -16,7 +12,7 @@ class HomePage extends React.Component {
     position: "fixed",
     backgroundSize: 'cover',
     backgroundPosition: 'center',
-    opacity: 0.3,
+    opacity: 0.5,
     width: '100%',
     height: "100%",
 };
@@ -49,7 +45,7 @@ class HomePage extends React.Component {
     return(
       
         <div responsive="true" style={{backgroundColor: "#0e172a", maxWidth: "100%", minWidth: "100%"}}>
-          <Image style={backgroundMe} responsive="true" src="https://undark.org/wp-content/uploads/2020/04/techtower-scaled.jpg" fluid="true"/>
+          <Image style={backgroundMe} responsive="true" src="https://wallpaperaccess.com/full/2943763.jpg" fluid="true"/>
             <div className = "wallpaper-text">
               <p >
               <h1 style={textStyle}> <div id="introText">Hi! My name is Prerna, I am a </div>
@@ -57,7 +53,7 @@ class HomePage extends React.Component {
                 <h1 style={writeStyle} >
                 <Typewriter
                     options={{
-                        strings: ['Computer Scientist', 'Researcher','Teaching Assistant','Student'],
+                        strings: ['Computer Scientist', 'Researcher','Teaching Assistant','Doctoral Student'],
                         autoStart: true,
                         loop: true,
                         delay: 60,

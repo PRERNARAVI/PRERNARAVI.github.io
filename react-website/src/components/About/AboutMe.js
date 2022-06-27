@@ -7,6 +7,7 @@ import EmailIcon from '@material-ui/icons/Email';
 import BlackOne from "../../images/BlackOne.jpg";
 import Dance from "../../images/Dance.jpg";
 import Art from "../../images/Art.jpg";
+import Grad from "../../images/Prerna_Grad.JPG"
 import {ZoomIn} from 'react-animation-wrapper';
 import GetAppIcon from '@material-ui/icons/GetApp';
 import DescriptionIcon from '@material-ui/icons/Description';
@@ -54,7 +55,7 @@ class AboutMe extends React.Component{
                 <Row>
                 <Col md={4} style={{textAlign: "center", textAlign: "center", justifyContent: "center", alignItems: "center", paddingTop: "120px"}}> 
                     <div style={{textAlign: "center", justifyContent: "center", alignItems: "center"}}>    
-                        <Image width="80%" responsive="true" src={profile} fluid="true"/>
+                        <Image width="90%" responsive="true" src={Grad} fluid="true"/>
                     </div>
                     <br/>
                     <div style={{textAlign: "center", justifyContent: "center", alignItems: "center", width: "100%"}}>
@@ -78,19 +79,22 @@ class AboutMe extends React.Component{
                         <br></br>
                     <div style={{fontWeight:"500"}}>
                         
-                    Hi! I am a fourth year undergraduate student at <a style={{color: "#E9C46A"}}href="https://www.gatech.edu/" ><u>Georgia Institute of Technology, </u></a> majoring in Computer Science with concentrations in Human Computer Interaction and Artificial Intelligence. I am also a researcher in educational technology, advised by <a style={{color: "#E9C46A"}}href="https://en.wikipedia.org/wiki/Thad_Starner" ><u>Dr. Thad Starner</u></a>, <a style={{color: "#E9C46A"}}href="https://www.nehakumar.org/" ><u>Dr. Neha Kumar</u></a> and <a style={{color: "#E9C46A"}}href="https://en.wikipedia.org/wiki/Betsy_DiSalvo" ><u>Dr. Betsy Disalvo</u></a>.
-
-
+                    Hi! I am an incoming Computer Science PhD student at the <a style={{color: "#E9C46A"}}href="https://www.mit.edu/" >Massachusetts Institute of Technology (MIT)</a> where I will be studying the intersection of educational technology
+                    and accessibility at its <a style={{color: "#E9C46A"}}href="https://www.csail.mit.edu/" >Computer Science and Artificial Intelligence Laboratory (CSAL)</a>. I will be advised by <a style={{color: "#E9C46A"}}href="https://en.wikipedia.org/wiki/Hal_Abelson">Dr. Hal Abelson</a> and <a style={{color: "#E9C46A"}}href="https://en.wikipedia.org/wiki/David_Karger">Dr. David Karger</a> from the <a style={{color: "#E9C46A"}}href="https://www.eecs.mit.edu/">Electrical Engineering and Computer Science (EECS)</a> department as well as <a style={{color: "#E9C46A"}} href="https://en.wikipedia.org/wiki/Cynthia_Breazeal">Dr. Cynthia Breazeal</a> from the <a style={{color: "#E9C46A"}} href="https://www.media.mit.edu/">MIT Media Lab</a>.
+                    I am a recipient of the <a style={{color: "#E9C46A"}}href="https://oge.mit.edu/fellowships/oge-fellowships/" >Ida M. Green Memorial Fellowship</a> and the MIT Vice Chancellor’s Inclusive Excellence Fellowship. 
                     </div>
                     <br></br>
                     <div>
-                    I am passionate about the applications of technology in the field of education, particularly within underrepresented contexts and intend to pursue this across academia, research & industry. During my last three years at Georgia Tech, I have conducted ethnographic studies and developed applications to enhance the quality and delivery of education for a wide spectrum of the society ranging from the differently abled to marginalized communities in developing nations. Likewise my two software engineering internships at Microsoft have enabled me apply these skills in a real-world setting. As the Head Teaching Assistant for over 800 students at Georgia Tech, I have further demonstrated my passion for teaching and learning and honed my fundamental computer science skills.  
-                    To pursue this cause further, I have also worked with multiple non-profit organizations both in the United States and India, my home country.
+                    I recently graduated from <a style={{color: "#E9C46A"}}href="https://www.gatech.edu/" >Georgia Institute of Technology, </a> with a Bachelor's of Science in Computer Science and concentrations in Human Computer Interaction and Artificial Intelligence. I was advised by <a style={{color: "#E9C46A"}}href="https://en.wikipedia.org/wiki/Thad_Starner" >Dr. Thad Starner</a>, <a style={{color: "#E9C46A"}}href="https://www.nehakumar.org/" >Dr. Neha Kumar</a> and <a style={{color: "#E9C46A"}}href="https://en.wikipedia.org/wiki/Betsy_DiSalvo" >Dr. Betsy Disalvo</a>.
+                    During my time at Georgia Tech, I conducted ethnographic studies and developed applications to enhance the quality and delivery of education for a wide spectrum of the society ranging from the differently abled to marginalized communities in developing nations. 
+                    Likewise my research internship at <a style={{color: "#E9C46A"}}href="https://ai.google/research/" >Google AI</a> and three software engineering internships 
+                    at <a style={{color: "#E9C46A"}}href="https://ai.google/research/" >Microsoft</a> enabled me apply these skills in an industry setting. As the Head Teaching Assistant for over 800 students at Georgia Tech, I further demonstrated my passion for teaching and learning and honed my fundamental computer science skills.  
+                    To pursue this cause further, I also worked with multiple non-profit organizations both in the United States and India, my home country.
                     </div>
                     <br></br>
                     <div>
                     I grew up in the multicultural city of Muscat, Oman in the Middle East, a childhood punctuated with annual visits to my native place in Mumbai, India (which is also where parts of my prior research work were based). I have deep rooted Indian traditions and am fortunate to have been trained in classical Carnatic music and Bharatanatyam dance. I also have a keen artistic sense and a preview of my repertoire in all the fine arts is available on this website. As a woman of color from the Global South, I leverage my diverse cultural upbringing and outlook while pursuing all professional as well as personal endeavors at Georgia Tech. 
-                    In particular, I am deeply grateful for the <a style={{color: "#E9C46A"}}href="https://www.iirp.edu/images/pdf/AvNtDE_EDUC_701_-_Yossos_Community_Cultural_Wealth_Model.pdf" ><u>resistant and aspirational capital</u></a> that I have had access to, without which it would have been impossible for me to study in the United States.
+                    In particular, I am deeply grateful for the <a style={{color: "#E9C46A"}}href="https://www.iirp.edu/images/pdf/AvNtDE_EDUC_701_-_Yossos_Community_Cultural_Wealth_Model.pdf" >resistant and aspirational capital</a> that I have had access to, without which it would have been impossible for me to study in the United States.
                     </div>
                     <br/>
                 </Container>
