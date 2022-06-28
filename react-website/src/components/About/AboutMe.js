@@ -79,8 +79,10 @@ class AboutMe extends React.Component{
                         <br></br>
                     <div style={{fontWeight:"500"}}>
                         
-                    Hi! I am an incoming Computer Science PhD student at the <a style={{color: "#E9C46A"}}href="https://www.mit.edu/" >Massachusetts Institute of Technology (MIT)</a> where I will be studying the intersection of educational technology
-                    and accessibility at its <a style={{color: "#E9C46A"}}href="https://www.csail.mit.edu/" >Computer Science and Artificial Intelligence Laboratory (CSAL)</a>. I will be advised by <a style={{color: "#E9C46A"}}href="https://en.wikipedia.org/wiki/Hal_Abelson">Dr. Hal Abelson</a> and <a style={{color: "#E9C46A"}}href="https://en.wikipedia.org/wiki/David_Karger">Dr. David Karger</a> from the <a style={{color: "#E9C46A"}}href="https://www.eecs.mit.edu/">Electrical Engineering and Computer Science (EECS)</a> department as well as <a style={{color: "#E9C46A"}} href="https://en.wikipedia.org/wiki/Cynthia_Breazeal">Dr. Cynthia Breazeal</a> from the <a style={{color: "#E9C46A"}} href="https://www.media.mit.edu/">MIT Media Lab</a>.
+                    Hi! I am an incoming Computer Science PhD student at the <a style={{color: "#E9C46A"}}href="https://www.mit.edu/" >Massachusetts Institute of Technology (MIT)</a>. I will be focusing on building 
+                    educational tools and learning experiences that offer multiple modes of engagement accessible to students of diverse cognitive and physical abilities. 
+                    I will be advised by <a style={{color: "#E9C46A"}}href="https://en.wikipedia.org/wiki/Hal_Abelson">Dr. Hal Abelson</a> and <a style={{color: "#E9C46A"}}href="https://en.wikipedia.org/wiki/David_Karger">Dr. David Karger</a> from 
+                    MIT's <a style={{color: "#E9C46A"}}href="https://www.csail.mit.edu/" >Computer Science and Artificial Intelligence Laboratory (CSAL)</a> as well as <a style={{color: "#E9C46A"}} href="https://en.wikipedia.org/wiki/Cynthia_Breazeal">Dr. Cynthia Breazeal</a> from the <a style={{color: "#E9C46A"}} href="https://www.media.mit.edu/">MIT Media Lab</a>.
                     I am a recipient of the <a style={{color: "#E9C46A"}}href="https://oge.mit.edu/fellowships/oge-fellowships/" >Ida M. Green Memorial Fellowship</a> and the MIT Vice Chancellor’s Inclusive Excellence Fellowship. 
                     </div>
                     <br></br>
