@@ -38,7 +38,7 @@ class Projects extends React.Component {
         <div responsive="true" style={{backgroundColor: "#0e172a", maxWidth: "100%"}}>    
             <Row className="justify-content-md-center"> 
             <Col xs={0} style={{alignContent: "center"}}>      
-                <Image style={background} responsive="true" className="wallpaper-format" src={BlackOne} fluid="true"/>
+                {/* <Image style={background} responsive="true" className="wallpaper-format" src={BlackOne} fluid="true"/> */}
             </Col>
                 <ProjectsItems/>
             </Row>

@@ -40,7 +40,7 @@ class Experience extends React.Component {
             <Container >
             <Row className="justify-content-lg-center"> 
     
-                <Image style={background} responsive="true" className="wallpaper-format" src={BlackOne} fluid="true"/>
+                {/* <Image style={background} responsive="true" className="wallpaper-format" src={BlackOne} fluid="true"/> */}
                 <div className = "research-wallpaper-text">
                     {/* <p style={textStyle}>I believe academic knowledge offers a strong theoretical framework for developing practical 
                     solutions for meeting challenges faced by the community and society. With this in mind, I have undertaken to 

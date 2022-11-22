@@ -17,6 +17,27 @@ class ExperienceItems extends React.Component{
         const items = [
 
             {
+                title: <div style={{fontSize: "15px", fontFamily: "Tahoma, Geneva, sans-serif", color: "#E9C46A"}}>May 2022 - July 2022<br/>Redmond, Washington, USA</div>,
+                cardTitle: <h5 style={{textAlign: "center", color: "#E9C46A"}}>Software Engineer Intern at Microsoft</h5>,
+                //cardSubtitle:<h5 style={{color: "#f2ebdd", textAlign: "center"}}>Software Engineer Intern</h5>,
+                cardDetailedText: <div style={{minHeight: "50px", fontFamily: "Tahoma, Geneva, sans-serif"}}>· Software Engineer Intern for the Corporate, External, and Legal Affairs (CELA) team within <a href="https://www.microsoft.com/" style={{color: "#E9C46A"}}><u>Microsoft</u></a>’s Experiences and Devices (E&D) organization. <br/>
+                · Designed and built an end-to-end Office 365 Extension/Add-in: Legal Ease for Microsoft’s Artifact Management System, used for onboarding all legal matters (involving law firms for example), their stakeholders and documents into the Office 365 Infrastructure. <br/>
+                · Constructed a pipeline using React and C# .NET Core APIs to facilitate the smooth migration of artifacts sent via email on the Exchange server to the rest of the Office 365 ecosystem (SharePoint, OneDrive, Teams), thereby centralizing their storage.<br/>
+                · Developed an ML-based recommendation service for the add-in that displays projects (already in SharePoint) pertinent to the emails opened on Outlook, allowing users to iterate on existing matters and eliminating duplication. <br/>
+                · Deployed the add-in to the Office 365 add-in store, thereby making it available to over 220,000 employees.
+                · Formulated and conducted extensive accessibility assessments to test the functionality of interactive interface elements for the accessibility team within CELA.</div>,
+                media: 
+                {
+                    type: "IMAGE",
+                    source: {
+                    url: "https://www.cnet.com/a/img/NmTo06FvEM6ZR9ld7a3_wlBKz7Y=/1200x675/2019/02/04/8311b046-6f2b-4b98-8036-e765f572efad/msft-microsoft-logo-2-3.jpg"
+                    },
+                    
+                }
+                
+            },
+
+            {
                 title: <div style={{fontSize: "15px", fontFamily: "Tahoma, Geneva, sans-serif", color: "#E9C46A"}}>January 2022 - April 2022<br/>Mountain View, California, USA</div>,
                 cardTitle: <h5 style={{textAlign: "center"}}>Research Intern at Google AI</h5>,
                 //cardSubtitle:<h5 style={{color: "#f2ebdd", textAlign: "center"}}>Software Engineer Intern</h5>,
@@ -60,19 +81,19 @@ class ExperienceItems extends React.Component{
                 
             },
             {
-                title: <div style={{fontSize: "15px", fontFamily: "Tahoma, Geneva, sans-serif", color: "#E9C46A"}}>January 2019 - Present<br/>Atlanta, Georgia, USA</div>,
+                title: <div style={{fontSize: "15px", fontFamily: "Tahoma, Geneva, sans-serif", color: "#E9C46A"}}>January 2019 - October 2021<br/>Atlanta, Georgia, USA</div>,
                 cardTitle: <h5 style={{textAlign: "center", color: "#E9C46A"}}>Head Teaching Assistant for the College of Computing at Georgia Tech</h5>,
                 //cardSubtitle:<h5 style={{color: "#f2ebdd", textAlign: "center"}}>Software Engineer Intern</h5>,
                 cardDetailedText: <div responsive="true">
                 • Head Teaching Assistant for CS 1331- Object-Oriented Programming in Java for <a style={{color: "#E9C46A"}} href="https://en.wikipedia.org/wiki/John_Stasko"><u>Dr. John Stasko</u></a> at <a style={{color: "#E9C46A"}} href="https://www.cc.gatech.edu/"><u>Georgia Tech.</u></a><br/>
-                • Manage a team of 30 Teaching Assistants (8% of total undergraduate TAs employed by the College of Computing) for the course.<br/>
-                • Substitute as a lecturer for over 800 students when the professor is not available.<br/>
-                • Direct the Teaching Assistant hiring process and conduct interviews for candidate TAs every semester.<br/>
-                • Ensure quality and timely delivery of course materials.<br/>
-                • Assign responsibilities and coordinate between the internal teams for homeworks, lectures, exams, office hours and autograders.<br/>
-                • Redesign course schedule, handle individual student exceptions and grades and oversee course communication announcements and emails.<br/>
-                • Conduct recitations and office hours to instruct and train over 800 undergraduates in fundamental Object-Oriented Programming Concepts and help them develop strong coding and debugging skills.<br/>
-                • Develop frameworks to grade weekly programming assignments.
+                • Managed a team of 30 Teaching Assistants (8% of total undergraduate TAs employed by the College of Computing) for the course.<br/>
+                • Substituted as a lecturer for over 800 students when the professor is not available.<br/>
+                • Directed the Teaching Assistant hiring process and conducted interviews for candidate TAs every semester.<br/>
+                • Ensured quality and timely delivery of course materials.<br/>
+                • Assigned responsibilities and coordinate between the internal teams for homeworks, lectures, exams, office hours and autograders.<br/>
+                • Redesigned course schedule, handled individual student exceptions and grades and oversaw course communication announcements and emails.<br/>
+                • Conducted recitations and office hours to instruct and train over 800 undergraduates in fundamental Object-Oriented Programming Concepts and help them develop strong coding and debugging skills.<br/>
+                • Developed frameworks to grade weekly programming assignments.
 
                 </div>,
                 media: 
@@ -80,7 +101,7 @@ class ExperienceItems extends React.Component{
                     type: "IMAGE",
                     source: {
                     //url: <Image responsive="true" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQxbKa33kbFK2lr0RsHcx_hJ0fatx71EVwrp_Hawdsm5wnNlHc5I7pLdq88y00HbHaAw9E&usqp=CAU"/>
-                    url: "https://www.commonapp.org/static/5a6e71808ec8146b86066ba9a111c84d/georgia-institute-technology_578.jpg"
+                    url: "https://upload.wikimedia.org/wikipedia/commons/2/26/Tech_Tower-6.jpg"
                     },
                     
                 }

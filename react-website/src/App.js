@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-import logo from './logo.svg';
 import './App.css';
 import HomePage from './components/About/HomePage';
 import Research from './components/Research/Research';
@@ -17,7 +16,7 @@ class App extends Component {
   return (
     <div responsive="true">
       <Navbar collapseOnSelect='true' style={{backgroundColor: "black"}} className="nav-bar" expand="lg" bg="black" variant="dark" fixed = "top">
-      <Navbar.Brand className="brand" > <NavLink style={{color: "#f2ebdd", textDecoration: 'none' }} exact to="/"> PRERNA RAVI </NavLink>
+      <Navbar.Brand className="brand" > <NavLink style={{color: "#f2ebdd", textDecoration: 'none' }} exact to="/"> <Image src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/0c/MIT_logo.svg/64px-MIT_logo.svg.png"/>&emsp;PRERNA RAVI </NavLink>
       </Navbar.Brand>
       <Navbar.Toggle aria-controls="responsive-navbar-nav" />
       <Navbar.Collapse className="justify-content-end" id="responsive-navbar-nav" >
@@ -25,8 +24,8 @@ class App extends Component {
         <Nav.Link><NavLink style={{color: "#b3b3b3", textDecoration: 'none' }} activeStyle={{fontWeight: "bold", color: "#E9C46A", textDecoration: 'none' }} exact to="/">About</NavLink></Nav.Link>
         <Nav.Link><NavLink style={{color: "#b3b3b3", textDecoration: 'none' }} activeStyle={{fontWeight: "bold", color: "#E9C46A", textDecoration: 'none' }} exact to="/experience">Experience</NavLink></Nav.Link>
         <Nav.Link><NavLink style={{color: "#b3b3b3", textDecoration: 'none' }} activeStyle={{fontWeight: "bold", color: "#E9C46A", textDecoration: 'none' }} exact to="/research">Research & Publications</NavLink></Nav.Link>
-        <Nav.Link><NavLink style={{color: "#b3b3b3", textDecoration: 'none' }} activeStyle={{fontWeight: "bold", color: "#E9C46A", textDecoration: 'none' }} exact to="/projects">Projects</NavLink></Nav.Link>
         <Nav.Link><NavLink style={{color: "#b3b3b3", textDecoration: 'none' }} activeStyle={{fontWeight: "bold", color: "#E9C46A", textDecoration: 'none' }} exact to="/awards">Awards</NavLink></Nav.Link>
+        <Nav.Link><NavLink style={{color: "#b3b3b3", textDecoration: 'none' }} activeStyle={{fontWeight: "bold", color: "#E9C46A", textDecoration: 'none' }} exact to="/projects">Projects</NavLink></Nav.Link>
         <Nav.Link style={{color: "#b3b3b3", textDecoration: 'none' }} activeStyle={{fontWeight: "bold", color: "#E9C46A", textDecoration: 'none' }} href={PDF}>CV</Nav.Link>
       </Nav>
       </Navbar.Collapse>
