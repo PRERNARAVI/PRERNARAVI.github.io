@@ -11,30 +11,16 @@ object-assign
 */
 
 /*!
- * is-plain-object <https://github.com/jonschlinkert/is-plain-object>
- *
- * Copyright (c) 2014-2017, Jon Schlinkert.
- * Released under the MIT License.
- */
-
-/*!
- * isobject <https://github.com/jonschlinkert/isobject>
- *
- * Copyright (c) 2014-2017, Jon Schlinkert.
- * Released under the MIT License.
- */
-
-/*!
  * reactjs-popup v1.5.0
  * (c) 2019-present Youssouf EL AZIZI <youssoufelazizi@gmail.com>
  * Released under the MIT License.
  */
 
 /**
- * CSS Vendor prefix detection and property feature testing.
+ * A better abstraction over CSS.
  *
- * @copyright Oleg Slobodskoi 2015
- * @website https://github.com/jsstyles/css-vendor
+ * @copyright Oleg Isonen (Slobodskoi) / Isonen 2014-present
+ * @website https://github.com/cssinjs/jss
  * @license MIT
  */
 
