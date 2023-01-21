@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.1c0708aa.css",
-    "main.js": "/static/js/main.b46d52ba.js",
+    "main.css": "/static/css/main.0d0f7def.css",
+    "main.js": "/static/js/main.80884eb6.js",
     "static/media/hands.png": "/static/media/hands.8d38a596330eab69af69.png",
     "static/media/DaybookScreens.png": "/static/media/DaybookScreens.474f4af40ebde668d71e.png",
     "static/media/DropSecond.png": "/static/media/DropSecond.867856af5299a47e46c5.png",
@@ -14,7 +14,7 @@
     "static/media/ASL.png": "/static/media/ASL.29561cc7e1f1b764457c.png",
     "static/media/CopyCat_Stats.png": "/static/media/CopyCat_Stats.226e0a29c823dc4f77c8.png",
     "static/media/Mentor.png": "/static/media/Mentor.dbd781b07863d8dc3349.png",
-    "static/media/Prerna_Grad.JPG": "/static/media/Prerna_Grad.043e0f1979d6c3304f99.JPG",
+    "static/media/Prerna-latest.JPG": "/static/media/Prerna-latest.98dc869f6c5b0a00c22e.JPG",
     "static/media/CocAward2021.jpeg": "/static/media/CocAward2021.33fff464175f495a8c4b.jpeg",
     "static/media/Dance.jpg": "/static/media/Dance.2ec2022b5c3b0cd8259e.jpg",
     "static/media/Library.jpeg": "/static/media/Library.a9b7fc2ea78c58c1c3f5.jpeg",
@@ -30,6 +30,7 @@
     "static/media/TANDEM.jpg": "/static/media/TANDEM.bfa35b680523d554a6cb.jpg",
     "static/media/CHI_Logo.png": "/static/media/CHI_Logo.6cf00d236506926a0749.png",
     "static/media/Connect-Project.jpeg": "/static/media/Connect-Project.3909402ba8a48c6fd8e8.jpeg",
+    "static/media/Google.webp": "/static/media/Google.4f2ffefaee60716e94b4.webp",
     "static/media/ubicomp.png": "/static/media/ubicomp.eb8974a9d3815d6e5f6f.png",
     "static/media/CocAward2020.jpeg": "/static/media/CocAward2020.28bffa3c570cb7672b08.jpeg",
     "static/media/Journaling-Project.jpg": "/static/media/Journaling-Project.d6b04f3ff312efd9bbd4.jpg",
@@ -40,11 +41,11 @@
     "static/media/PopUpBg.jpg": "/static/media/PopUpBg.6ffac414d5e2cfc2ee22.jpg",
     "static/media/research_wallpaper.jpg": "/static/media/research_wallpaper.a30923e7c25c9a89b1bd.jpg",
     "index.html": "/index.html",
-    "main.1c0708aa.css.map": "/static/css/main.1c0708aa.css.map",
-    "main.b46d52ba.js.map": "/static/js/main.b46d52ba.js.map"
+    "main.0d0f7def.css.map": "/static/css/main.0d0f7def.css.map",
+    "main.80884eb6.js.map": "/static/js/main.80884eb6.js.map"
   },
   "entrypoints": [
-    "static/css/main.1c0708aa.css",
-    "static/js/main.b46d52ba.js"
+    "static/css/main.0d0f7def.css",
+    "static/js/main.80884eb6.js"
   ]
 }
