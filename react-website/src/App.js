@@ -3,8 +3,8 @@ import './App.css';
 import HomePage from './components/About/HomePage';
 import Research from './components/Research/Research';
 import Experience from './components/Experience/Experience';
+import Awards from './components/Awards/Awards';
 import Projects from './components/Projects/Projects';
-import Skills from './components/Skills/Skills';
 //import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 import {Navbar, Image, Nav, Container, Row} from 'react-bootstrap';
 import { HashRouter as Router, Switch, Route, NavLink } from "react-router-dom";
@@ -25,7 +25,7 @@ class App extends Component {
         <Nav.Link><NavLink style={{color: "#b3b3b3", textDecoration: 'none' }} activeStyle={{fontWeight: "bold", color: "#E9C46A", textDecoration: 'none' }} exact to="/experience">Experience</NavLink></Nav.Link>
         <Nav.Link><NavLink style={{color: "#b3b3b3", textDecoration: 'none' }} activeStyle={{fontWeight: "bold", color: "#E9C46A", textDecoration: 'none' }} exact to="/research">Research & Publications</NavLink></Nav.Link>
         <Nav.Link><NavLink style={{color: "#b3b3b3", textDecoration: 'none' }} activeStyle={{fontWeight: "bold", color: "#E9C46A", textDecoration: 'none' }} exact to="/awards">Awards</NavLink></Nav.Link>
-        <Nav.Link><NavLink style={{color: "#b3b3b3", textDecoration: 'none' }} activeStyle={{fontWeight: "bold", color: "#E9C46A", textDecoration: 'none' }} exact to="/projects">Projects</NavLink></Nav.Link>
+        {/* <Nav.Link><NavLink style={{color: "#b3b3b3", textDecoration: 'none' }} activeStyle={{fontWeight: "bold", color: "#E9C46A", textDecoration: 'none' }} exact to="/projects">Projects</NavLink></Nav.Link> */}
         <Nav.Link style={{color: "#b3b3b3", textDecoration: 'none' }} activeStyle={{fontWeight: "bold", color: "#E9C46A", textDecoration: 'none' }} href={PDF}>CV</Nav.Link>
       </Nav>
       </Navbar.Collapse>
@@ -37,8 +37,8 @@ class App extends Component {
           <Route exact path='/' component={HomePage} />
           <Route path="/research" component={Research} />
           <Route path="/experience" component={Experience} />
-          <Route path="/projects" component={Projects} />
-          <Route path="/awards" component={Skills} />
+          {/* <Route path="/projects" component={Projects} /> */}
+          <Route path="/awards" component={Awards} />
         </Switch>
       </div>
     </Router>

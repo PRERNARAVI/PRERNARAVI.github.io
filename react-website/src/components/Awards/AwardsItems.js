@@ -7,6 +7,7 @@ import COC2021 from "../../images/CocAward2021.jpeg";
 import COC2020 from "../../images/CocAward2020.jpeg";
 import Adobe from "../../images/Adobe.jpeg";
 import PURA from "../../images/PURA.png";
+import Google from "../../images/Google.webp";
 import { FaAward } from 'react-icons/fa';
 
 
@@ -18,6 +19,38 @@ class SkillsItems extends React.Component{
         return (
             <Container style={{textAlign: "center", paddingBottom: "100px"}}>
                 <Row>
+                <Col md={6} lg={4}>
+                    <a role="button" href="https://chi2021.acm.org/for-attendees/highlights/awards" style={{cursor: "pointer", textDecoration: "none"}}>      
+                        <Card className="bg-dark text-white award-card-image"
+                            style={{marginTop: "120px", border: "none",
+                            borderRadius: "10px"}}>
+                        <div className="award-card-image">
+                            <Card.Header 
+                                style={{
+                                    fontFamily: "Tahoma, Geneva, sans-serif", 
+                                    fontWeight: "normal",
+                                    fontSize: 17,
+                                    paddingTop: "15px",
+                                    paddingBottom: '0px',
+                                    color: "#E9C46A"
+                                }}> 
+                                <p style={{lineHeight: "0.7"}}>
+                                    <FaAward size='35px' style={{color: 'white'}}/>
+                                    &ensp;Ida M. Green PhD Fellowship 2022-2023
+                                </p>
+                            </Card.Header>
+                            <Card.Img style={{height: "20vh", width: "90%", backgroundColor: "white", objectFit: "contain"}}
+                                 src="https://oge.mit.edu/fellowships/wp-content/uploads/sites/5/2022/05/OGE_fellowships_logo.svg" alt="Card image" />
+                                <Card.Text style={{fontSize: 14, margin: '10px'}}>
+                                Awarded this fellowship as part of financial support for year 1 of my PhD at MIT EECS. I am one of the six recipients of this OGE fellowship across all graduate degree programs 
+                                and departments at MIT. 
+                                </Card.Text>
+                                <Card.Footer>[ August 2022 ]</Card.Footer>
+
+                        </div>               
+                        </Card>
+                    </a>   
+                </Col>
                 <Col md={6} lg={4}>
                     <a role="button" href="https://chi2021.acm.org/for-attendees/highlights/awards" style={{cursor: "pointer", textDecoration: "none"}}>      
                         <Card className="bg-dark text-white award-card-image"
@@ -74,7 +107,7 @@ class SkillsItems extends React.Component{
                             <Card.Img style={{height: "20vh", width: "90%", backgroundColor: "black", objectFit: "contain"}}
                                  src={COC2021} alt="Card image" />
                                 <Card.Text style={{fontSize: 14, margin: '10px'}}>
-                                Given this prestigious award from the College of Computing at Georgia Tech for 
+                                Given this award from the College of Computing at Georgia Tech for 
                                 the academic year 2020-2021 based on exemplary GPA, research, teaching and 
                                 demonstration of leadership in the realm of Computer Science.
                                 </Card.Text>
@@ -172,7 +205,7 @@ class SkillsItems extends React.Component{
                             <Card.Img style={{height: "20vh", width: "90%", backgroundColor: "black", objectFit: "contain"}}
                                  src={COC2020} alt="Card image" />
                                 <Card.Text style={{fontSize: 14, margin: '10px'}}>
-                                Given this prestigious award from the College of Computing at Georgia Tech 
+                                Given this award from the College of Computing at Georgia Tech 
                                 for the academic year 2019-2020 based on exemplary GPA, Research, Teaching 
                                 and Demonstration of Leadership in the realm of Computer Science.
                                 </Card.Text>
@@ -266,8 +299,8 @@ class SkillsItems extends React.Component{
                                     &ensp;Google Computer Science Research Mentorship Fellow 2021
                                 </p>
                             </Card.Header>
-                            <Card.Img style={{height: "20vh", width: "75%", backgroundColor: "black", objectFit: "contain"}}
-                                 src="https://apkxmods.com/wp-content/uploads/2021/05/google-dark-background-hero.png" alt="Card image" />
+                            <Card.Img style={{height: "20vh", width: "90%", backgroundColor: "black", objectFit: "contain"}}
+                                 src={Google} alt="Card image" />
                                 <Card.Text style={{fontSize: 14, margin: '10px'}}>
                                 Awarded this fellowship to be a part of the cohort for the 2021 Google Computer Science Research Mentorship Program (CSRMP) that supports and guides students through computing research pathways.
                                 </Card.Text>
@@ -489,9 +522,9 @@ class SkillsItems extends React.Component{
                             <Card.Img style={{height: "25vh", width: "90%", objectFit: "contain"}}
                                  src="https://d3ebobe8l15pwo.cloudfront.net/wp-content/uploads/imagesdrup/field/image/GeorgiaTech_0.png" alt="Card image" />
                                 <Card.Text style={{fontSize: 14, margin: '10px'}}>
-                                Awarded the distinction of Faculty Honors for 2018-2021 (all semesters) for securing an academic GPA of 4.0.
+                                Awarded the distinction of Faculty Honors for 2018-2022 (all semesters) for securing an academic GPA of 4.0.
                                 </Card.Text>
-                                <Card.Footer>[ 2018 - 2021 ]</Card.Footer>
+                                <Card.Footer>[ 2018 - 2022 ]</Card.Footer>
 
                         </div>               
                         </Card>

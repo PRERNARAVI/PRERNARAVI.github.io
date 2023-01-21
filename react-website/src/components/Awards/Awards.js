@@ -1,7 +1,7 @@
 import React from 'react';
 import { Image, Container, Row, Col} from 'react-bootstrap';
 import ResearchWallpaper from "../../images/research_wallpaper.jpg";
-import SkillsItems from './SkillsItems';
+import AwardsItems from './AwardsItems';
 import BlackOne from "../../images/BlackOne.jpg";
 
 class Research extends React.Component {
@@ -47,7 +47,7 @@ class Research extends React.Component {
                     lateral thinking.  </p>
                 </div> */}
             </Col>
-                <SkillsItems/>
+                <AwardsItems/>
             </Row>
 
         </div>
