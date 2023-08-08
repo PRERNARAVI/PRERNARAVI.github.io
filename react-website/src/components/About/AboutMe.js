@@ -84,19 +84,19 @@ class AboutMe extends React.Component{
                         <br></br>
                     <div style={{fontWeight:"500"}}>
                         
-                    I am a first-year Computer Science PhD student at <a style={{color: "#E9C46A"}}href="https://www.csail.mit.edu/" >MIT CSAIL</a> advised by <a style={{color: "#E9C46A"}}href="https://en.wikipedia.org/wiki/Hal_Abelson">Dr. Hal Abelson</a> and <a style={{color: "#E9C46A"}}href="https://en.wikipedia.org/wiki/David_Karger"> Dr. David Karger</a>. My research focuses on designing 
-                    large-scale educational tools and learning experiences catered to students of diverse cognitive and physical abilities as well as underrepresented social contexts. 
+                    I am a first-year Computer Science PhD student at <a style={{color: "#E9C46A"}}href="https://www.csail.mit.edu/" >MIT CSAIL</a> advised by <a style={{color: "#E9C46A"}}href="https://en.wikipedia.org/wiki/Hal_Abelson">Dr. Hal Abelson</a> and <a style={{color: "#E9C46A"}}href="https://en.wikipedia.org/wiki/David_Karger"> Dr. David Karger</a>. My research broadly focuses on designing 
+                    large-scale educational tools and learning experiences catered to students of diverse cognitive and physical abilities as well as underrepresented social contexts.
                     I also work closely with <a style={{color: "#E9C46A"}} href="https://en.wikipedia.org/wiki/Cynthia_Breazeal">Dr. Cynthia Breazeal</a> from the <a style={{color: "#E9C46A"}} href="https://www.media.mit.edu/">MIT Media Lab</a>.
-                    I am involved in projects surrounding K-12 AI literacy under MIT <a style={{color: "#E9C46A"}}href="https://raise.mit.edu/" >RAISE (Responsible AI for Social Empowerment and Education)</a>.
-                    I am a recipient of the <a style={{color: "#E9C46A"}}href="https://oge.mit.edu/fellowships/oge-fellowships/" >Ida M. Green Memorial Fellowship</a> and the MIT Vice Chancellor’s Inclusive Excellence Fellowship. 
+                    I work on AI literacy projects for K12 as well as adults under MIT <a style={{color: "#E9C46A"}}href="https://raise.mit.edu/" >RAISE (Responsible AI for Social Empowerment and Education)</a>.
+                    I am a recipient of the <a style={{color: "#E9C46A"}}href="https://oge.mit.edu/fellowships/oge-fellowships/" >Ida M. Green Memorial Fellowship</a> and the MIT Vice Chancellor’s Inclusive Excellence Fellowship. You can find my CV [Last updated: Aug 2023] on this website. 
                     </div>
                     <br></br>
                     <div>
                     I graduated from <a style={{color: "#E9C46A"}}href="https://www.gatech.edu/" >Georgia Institute of Technology </a> in May 2022 with a Bachelor's of Science in Computer Science and concentrations in Human Computer Interaction(HCI) and Artificial Intelligence(AI). I was primarily advised by wearable computing pioneer, <a style={{color: "#E9C46A"}}href="https://en.wikipedia.org/wiki/Thad_Starner" >Dr. Thad Starner</a>. 
                     I also worked closely with <a style={{color: "#E9C46A"}}href="https://www.nehakumar.org/" >Dr. Neha Kumar</a> and <a style={{color: "#E9C46A"}}href="https://en.wikipedia.org/wiki/Betsy_DiSalvo" >Dr. Betsy Disalvo</a> on research projects at the intersection of human-centered computing and education.
                     During my time at Georgia Tech, I conducted ethnographic studies and developed AI-powered applications to enhance the quality and delivery of education for a wide spectrum of the society ranging from the differently abled to marginalized communities in developing nations. 
-                    Likewise my research internship at <a style={{color: "#E9C46A"}}href="https://ai.google/research/" >Google AI</a> and three software engineering internships 
-                    at <a style={{color: "#E9C46A"}}href="https://ai.google/research/" >Microsoft</a> enabled me apply these skills in an industry setting. As the Head Teaching Assistant for over 800 students at Georgia Tech, I further demonstrated my passion for teaching and learning and honed my fundamental computer science skills.  
+                    Likewise my research internships at <a style={{color: "#E9C46A"}}href="https://ai.google/research/" >Google AI</a> and <a style={{color: "#E9C46A"}}href="https://www.microsoft.com/en-us/accessibility" >Microsoft Accessibility</a> as well as three software engineering internships 
+                    at Microsoft enabled me apply these skills in an industry setting. As the Head Teaching Assistant for over 800 students at Georgia Tech, I further demonstrated my passion for teaching and learning and honed my fundamental computer science skills.  
                     To pursue this cause further, I also worked with multiple non-profit organizations both in the United States and India, my home country.
                     </div>
                     <br></br>
