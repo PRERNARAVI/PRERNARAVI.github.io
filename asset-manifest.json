@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.0d0f7def.css",
-    "main.js": "/static/js/main.80884eb6.js",
+    "main.js": "/static/js/main.fa87b8ae.js",
     "static/media/hands.png": "/static/media/hands.8d38a596330eab69af69.png",
     "static/media/DaybookScreens.png": "/static/media/DaybookScreens.474f4af40ebde668d71e.png",
     "static/media/DropSecond.png": "/static/media/DropSecond.867856af5299a47e46c5.png",
@@ -14,13 +14,13 @@
     "static/media/ASL.png": "/static/media/ASL.29561cc7e1f1b764457c.png",
     "static/media/CopyCat_Stats.png": "/static/media/CopyCat_Stats.226e0a29c823dc4f77c8.png",
     "static/media/Mentor.png": "/static/media/Mentor.dbd781b07863d8dc3349.png",
+    "static/media/PRERNA_RAVI_CV.pdf": "/static/media/PRERNA_RAVI_CV.810a52f8a41e6bbf88d9.pdf",
     "static/media/Prerna-latest.JPG": "/static/media/Prerna-latest.98dc869f6c5b0a00c22e.JPG",
     "static/media/CocAward2021.jpeg": "/static/media/CocAward2021.33fff464175f495a8c4b.jpeg",
     "static/media/Dance.jpg": "/static/media/Dance.2ec2022b5c3b0cd8259e.jpg",
     "static/media/Library.jpeg": "/static/media/Library.a9b7fc2ea78c58c1c3f5.jpeg",
     "static/media/Survey.png": "/static/media/Survey.fe5e31cd275cb51ec570.png",
     "static/media/Connect.png": "/static/media/Connect.233a047c4eb395cc99de.png",
-    "static/media/PRERNA_RAVI_CV.pdf": "/static/media/PRERNA_RAVI_CV.1baaf4e1a73bbd415b5a.pdf",
     "static/media/profile-pic.JPG": "/static/media/profile-pic.9baba25fce93bf438520.JPG",
     "static/media/Marisol.png": "/static/media/Marisol.dd6a1eaca52d74f6da7d.png",
     "static/media/Adobe.jpeg": "/static/media/Adobe.4d9dc2c7b922e1f62102.jpeg",
@@ -42,10 +42,10 @@
     "static/media/research_wallpaper.jpg": "/static/media/research_wallpaper.a30923e7c25c9a89b1bd.jpg",
     "index.html": "/index.html",
     "main.0d0f7def.css.map": "/static/css/main.0d0f7def.css.map",
-    "main.80884eb6.js.map": "/static/js/main.80884eb6.js.map"
+    "main.fa87b8ae.js.map": "/static/js/main.fa87b8ae.js.map"
   },
   "entrypoints": [
     "static/css/main.0d0f7def.css",
-    "static/js/main.80884eb6.js"
+    "static/js/main.fa87b8ae.js"
   ]
 }
