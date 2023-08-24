@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.0d0f7def.css",
-    "main.js": "/static/js/main.fa87b8ae.js",
+    "main.js": "/static/js/main.79613d79.js",
     "static/media/hands.png": "/static/media/hands.8d38a596330eab69af69.png",
     "static/media/DaybookScreens.png": "/static/media/DaybookScreens.474f4af40ebde668d71e.png",
     "static/media/DropSecond.png": "/static/media/DropSecond.867856af5299a47e46c5.png",
@@ -9,12 +9,12 @@
     "static/media/CSCW.png": "/static/media/CSCW.292587c0c02ac77b23a7.png",
     "static/media/NDDiversity.png": "/static/media/NDDiversity.4d6659f4047779c8d535.png",
     "static/media/Art.jpg": "/static/media/Art.0863e23ba2fef93ad6fb.jpg",
+    "static/media/PRERNA_RAVI_CV.pdf": "/static/media/PRERNA_RAVI_CV.05014e8f5cff4aebd147.pdf",
     "static/media/SchoolLibrary.png": "/static/media/SchoolLibrary.c4e5094fd0c17a2aa3a9.png",
     "static/media/PURA.png": "/static/media/PURA.5fb7fbbc50154579f6c8.png",
     "static/media/ASL.png": "/static/media/ASL.29561cc7e1f1b764457c.png",
     "static/media/CopyCat_Stats.png": "/static/media/CopyCat_Stats.226e0a29c823dc4f77c8.png",
     "static/media/Mentor.png": "/static/media/Mentor.dbd781b07863d8dc3349.png",
-    "static/media/PRERNA_RAVI_CV.pdf": "/static/media/PRERNA_RAVI_CV.810a52f8a41e6bbf88d9.pdf",
     "static/media/Prerna-latest.JPG": "/static/media/Prerna-latest.98dc869f6c5b0a00c22e.JPG",
     "static/media/CocAward2021.jpeg": "/static/media/CocAward2021.33fff464175f495a8c4b.jpeg",
     "static/media/Dance.jpg": "/static/media/Dance.2ec2022b5c3b0cd8259e.jpg",
@@ -42,10 +42,10 @@
     "static/media/research_wallpaper.jpg": "/static/media/research_wallpaper.a30923e7c25c9a89b1bd.jpg",
     "index.html": "/index.html",
     "main.0d0f7def.css.map": "/static/css/main.0d0f7def.css.map",
-    "main.fa87b8ae.js.map": "/static/js/main.fa87b8ae.js.map"
+    "main.79613d79.js.map": "/static/js/main.79613d79.js.map"
   },
   "entrypoints": [
     "static/css/main.0d0f7def.css",
-    "static/js/main.fa87b8ae.js"
+    "static/js/main.79613d79.js"
   ]
 }
