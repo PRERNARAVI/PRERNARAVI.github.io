@@ -88,7 +88,7 @@ class AboutMe extends React.Component{
                     large-scale educational tools and learning experiences catered to students of diverse cognitive and physical abilities as well as underrepresented social contexts.
                     I also work closely with <a style={{color: "#E9C46A"}} href="https://en.wikipedia.org/wiki/Cynthia_Breazeal">Dr. Cynthia Breazeal</a> from the <a style={{color: "#E9C46A"}} href="https://www.media.mit.edu/">MIT Media Lab</a>.
                     I work on AI literacy projects for K12 as well as adults under MIT <a style={{color: "#E9C46A"}}href="https://raise.mit.edu/" >RAISE (Responsible AI for Social Empowerment and Education)</a>.
-                    I am a recipient of the <a style={{color: "#E9C46A"}}href="https://oge.mit.edu/fellowships/oge-fellowships/" >Ida M. Green Memorial Fellowship</a> and the MIT Vice Chancellor’s Inclusive Excellence Fellowship. You can find my CV [Last updated: Aug 2023] on this website. 
+                    I am a recipient of the <a style={{color: "#E9C46A"}}href="https://oge.mit.edu/fellowships/oge-fellowships/" >Ida M. Green Memorial Fellowship</a> and the MIT Vice Chancellor’s Inclusive Excellence Fellowship. You can find my CV [Last updated: October 2023] on this website. 
                     </div>
                     <br></br>
                     Latest Update: <b>I am teaching a course this fall at MIT CSAIL (with my advisor Hal Abelson) on Generative Artificial Intelligence in K12 Education. See more info <a style={{color: "#E9C46A"}}href="https://mit-cml.github.io/gen-ai-fall-2023.github.io/" >here</a>.</b>
