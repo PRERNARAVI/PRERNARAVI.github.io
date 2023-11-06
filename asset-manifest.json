@@ -1,10 +1,12 @@
 {
   "files": {
-    "main.css": "/static/css/main.0d0f7def.css",
-    "main.js": "/static/js/main.556f8ecb.js",
+    "main.css": "/static/css/main.080e1d2e.css",
+    "main.js": "/static/js/main.556c4233.js",
     "static/media/hands.png": "/static/media/hands.8d38a596330eab69af69.png",
+    "static/media/ImageGen.png": "/static/media/ImageGen.e0b8638cff3f1a2d0819.png",
     "static/media/DaybookScreens.png": "/static/media/DaybookScreens.474f4af40ebde668d71e.png",
     "static/media/DropSecond.png": "/static/media/DropSecond.867856af5299a47e46c5.png",
+    "static/media/AppInventor.png": "/static/media/AppInventor.72ee01fad40277206122.png",
     "static/media/Deep.png": "/static/media/Deep.9db8ff04be5da9a0017f.png",
     "static/media/CSCW.png": "/static/media/CSCW.292587c0c02ac77b23a7.png",
     "static/media/NDDiversity.png": "/static/media/NDDiversity.4d6659f4047779c8d535.png",
@@ -41,11 +43,11 @@
     "static/media/PopUpBg.jpg": "/static/media/PopUpBg.6ffac414d5e2cfc2ee22.jpg",
     "static/media/research_wallpaper.jpg": "/static/media/research_wallpaper.a30923e7c25c9a89b1bd.jpg",
     "index.html": "/index.html",
-    "main.0d0f7def.css.map": "/static/css/main.0d0f7def.css.map",
-    "main.556f8ecb.js.map": "/static/js/main.556f8ecb.js.map"
+    "main.080e1d2e.css.map": "/static/css/main.080e1d2e.css.map",
+    "main.556c4233.js.map": "/static/js/main.556c4233.js.map"
   },
   "entrypoints": [
-    "static/css/main.0d0f7def.css",
-    "static/js/main.556f8ecb.js"
+    "static/css/main.080e1d2e.css",
+    "static/js/main.556c4233.js"
   ]
 }
