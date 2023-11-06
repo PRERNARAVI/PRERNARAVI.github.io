@@ -19,6 +19,8 @@ import CSCW from "../../images/CSCW.png";
 import Marisol from "../../images/Marisol.png";
 import Mentor from "../../images/Mentor.png";
 import Survey from "../../images/Survey.png";
+import ImageGen from "../../images/ImageGen.png";
+import AppInventor from "../../images/AppInventor.png";
 
 
 function Research() {
@@ -26,6 +28,329 @@ function Research() {
 
     return (
         <Container fluid="xxl" style={{marginTop: "50px", padding: "70px"}}>
+
+            <p style={{color: "#E9C46A"}}>This page is currently being updated. Stay tuned for more updates! </p><br/>
+
+             {/** *********************************MIT GenAI************** */}
+            
+             <Row >
+               <Col>
+                  
+                    <Card className="text-center" 
+                        style={{ border: "none",
+                        borderRadius: "10px"}}>
+                    <div className="research-card-image" >
+                        <Card.Header 
+                            style={{
+                                fontFamily: "Tahoma, Geneva, sans-serif", 
+                                fontWeight: "normal",
+                                fontSize: 18,
+                                paddingTop: "15px",
+                                paddingBottom: '0px'
+                            }}> 
+                            <p style={{color: "#E9C46A"}}>
+                                &ensp; AI Image Generation Curriculum for K12 Educators | <span style={{color: "#FF69B4"}}>MIT RAISE</span>
+                            </p>
+                            <p style={{ color: "#89CFF0", fontSize: 14}}>
+                                &ensp;Tags: Generative AI, AI literacy, Ethics, Creativity, K12, Curriculum Design | <span style={{color: "#FF69B4"}}>Advisors: Hal Abelson, Cynthia Breazeal</span>
+                            </p>
+                        </Card.Header>
+                        
+
+                      <Container fluid>
+
+                      <Row>
+
+                        <Col md={3}>
+                       
+                        <ZoomIn>
+                        <Card.Img style={{objectFit: "contain", padding: "20px"}}
+                             src={ImageGen} alt="" />
+                        </ZoomIn>
+
+                        </Col>
+
+                        <Col md={9}>
+                        
+                            <Card.Text style={{color: "#f2ebdd", textAlign: "left", fontSize: 14, margin: '10px'}}>
+                            Text-to-image generation technologies such as Stable Diffusion, DALL-E and Midjourney have become extremely popular in recent 
+                            months garnering interest from people even outside of the AI community, including educators and k12 students. These powerful 
+                            tools are able to generate high quality visuals from natural language prompts and are open to access for anyone. 
+                            These tools can have infinite creative potential when used by k12 learners and educators but are also accompanied by serious 
+                            ethical implications. However, currently educators and their students don’t necessarily have a good understanding of how these 
+                            tools work or how they can be possibly used or misused. <br/><br/>
+                            
+                            In this curriculum, we demystify text-to-image generative tools for 
+                            k12 educators as well as learning science researchers, and work along with educators to design teaching lessons and curricula 
+                            around bringing these tools to the classroom. The goal of the curriculum is for educators and k12 learning researchers to gain a 
+                            clear understanding of how these generative tools work, and co-designing with them learning tools, lessons or curricula to teach k12 students about them.
+                            Workshops in this curriculum typically culminate in a project-based activity drawing from constructionism and computational action to expose participants to culturally-sustaining, 
+                            hands-on methods of teaching about text-to-image generative platforms, and empower learners to critically and creatively engage text-to-image platforms as tools for communication 
+                            and critical engagement with media. <br/><br/>
+
+                            This curriculum has been piloted with K12 educators and learning science researchers through the following courses and workshops:<br/> 
+                            • <a href="https://mit-cml.github.io/gen-ai-fall-2023.github.io/" style={{color: "#E9C46A"}} >MIT Special Topics Course Fall 2023: Generative AI in K12 Education </a> <br/>
+                            • <a href="https://iedra.uned.es/courses/course-v1:UNED+ImpactGAI_001+2023/about" style={{color: "#E9C46A"}} >MOOC on Impact and application of Generative Artificial Intelligence within Education </a> <br/>
+                            • <a href="https://mitmedialab.github.io/genai-isls/" style={{color: "#E9C46A"}} >ISLS Workshop: Demystifying Text-to-image Generation for K12 Educators </a><br/>
+                            • <a href="https://image-gen.github.io/" style={{color: "#E9C46A"}} >MIT IAP Seminar 2023: Introduction to Text-to-Image Generation for K12 Education </a><br/>
+
+                            
+                            </Card.Text>
+
+                            </Col>
+                      </Row>
+                      </Container>
+                            <Card.Footer><a href="https://mitmedialab.github.io/GenAI-Lab/curriculum" style={{color: "#E9C46A", fontSize: 15}} >Read More</a>
+                            </Card.Footer>
+
+                    </div>               
+                    </Card>
+               
+                </Col>
+            </Row>
+            <br/> <br/>
+             {/** *********************************MIT GenAI************** */}
+            
+             <Row >
+               <Col>
+                  
+                    <Card className="text-center" 
+                        style={{ border: "none",
+                        borderRadius: "10px"}}>
+                    <div className="research-card-image" >
+                        <Card.Header 
+                            style={{
+                                fontFamily: "Tahoma, Geneva, sans-serif", 
+                                fontWeight: "normal",
+                                fontSize: 18,
+                                paddingTop: "15px",
+                                paddingBottom: '0px'
+                            }}> 
+                            <p style={{color: "#E9C46A"}}>
+                                &ensp; Sparki: An Interactive Learning Companion for AI Education | <span style={{color: "#FF69B4"}}>MIT Media Lab</span>
+                            </p>
+                            <p style={{ color: "#89CFF0", fontSize: 14}}>
+                                &ensp;Tags: Generative AI, Design Thinking, Creativity, K12, Interactive Learning Systems | <span style={{color: "#FF69B4"}}>Advisors: Randi Williams, Cynthia Breazeal</span>
+                            </p>
+                        </Card.Header>
+                        
+
+                      <Container fluid>
+
+                      <Row>
+
+                        <Col md={3}>
+                       
+                        <ZoomIn>
+                        <Card.Img style={{objectFit: "contain", padding: "20px"}}
+                             src="https://dam-prod2.media.mit.edu/thumb/2023/03/29/sparki-code.PNG.1400x1400.png" alt="" />
+                        </ZoomIn>
+
+                        </Col>
+
+                        <Col md={9}>
+                        
+                            <Card.Text style={{color: "#f2ebdd", textAlign: "left", fontSize: 14, margin: '10px'}}>
+                            S.P.A.R.K.I. (Students' Personal Assistant for Reinforcing Knowledge and Innovation) is a GPT-powered chatbot 
+                            that scaffolds children's work on AI projects. Sparki provides programming assistance, gives students feedback on their ideas, 
+                            and socially mediates creative thinking. <br/><br/>
+                            
+                            <b>What can Sparki do?</b> <br/>
+                            • Creative Companion: We position Sparki as a collaborator with students rather than a mentor or tutor. It promotes creative thinking by providing feedback on students’ work and showing interest in students’ ideas. <br/>
+
+                            • Coding Assistant: Sparki uses GPT3 to deliver personalized tutorials and discuss example programs in the Scratch programming language. <br/>
+
+                            • AI Design Feedback: It can discuss design goals, potential impacts, and the relevant stakeholders of AI projects – encouraging students’ critical thinking. <br/><br/>
+
+                            <b>Design and Safety Considerations</b> <br/>
+                            We took several considerations into account to ensure the well-being of the intended children users of Sparki:<br/>
+
+                            • Avoiding overreliance. Relies on a vetted knowledge base. Warns users when answers are totally generated (and potentially inaccurate).<br/>
+                            • Avoiding misuse. The functionality of GPT is limited to short discourses about programming and AI.<br/>
+                            • Inclusivity for kids. GPT is very sensitive to spelling and grammar mistakes. Use spell-check tools to clean up their text.<br/>
+                            • Protecting privacy. Warns users not to input personal information that may be collected by GPT.
+
+
+                            
+                            </Card.Text>
+
+                            </Col>
+                      </Row>
+                      </Container>
+                            <Card.Footer><a href="https://www.media.mit.edu/projects/sparki-ai/overview/" style={{color: "#E9C46A", fontSize: 15}} >Read More</a>
+                            </Card.Footer>
+
+                    </div>               
+                    </Card>
+               
+                </Col>
+            </Row>
+            <br/> <br/>
+
+            {/** *********************************MIT RAICA************** */}
+            
+            <Row >
+               <Col>
+                  
+                    <Card className="text-center" 
+                        style={{ border: "none",
+                        borderRadius: "10px"}}>
+                    <div className="research-card-image" >
+                        <Card.Header 
+                            style={{
+                                fontFamily: "Tahoma, Geneva, sans-serif", 
+                                fontWeight: "normal",
+                                fontSize: 18,
+                                paddingTop: "15px",
+                                paddingBottom: '0px'
+                            }}> 
+                            <p style={{color: "#E9C46A"}}>
+                                &ensp; MIT Responsible AI for Computational Action (RAICA) Curriculum | <span style={{color: "#FF69B4"}}>MIT RAISE</span>
+                            </p>
+                            <p style={{ color: "#89CFF0", fontSize: 14}}>
+                                &ensp;Tags: AI literacy, Ethics, Creativity, K12, Curriculum Design | <span style={{color: "#FF69B4"}}>Advisors: Hal Abelson, Cynthia Breazeal, Eric Klopfer</span>
+                            </p>
+                        </Card.Header>
+                        
+
+                      <Container fluid>
+
+                      <Row>
+
+                        <Col md={3}>
+                       
+                        <ZoomIn>
+                        <Card.Img style={{objectFit: "contain", padding: "20px"}}
+                             src="https://media.licdn.com/dms/image/D5622AQGpMeQPRUe6zQ/feedshare-shrink_2048_1536/0/1692371515181?e=2147483647&v=beta&t=8yg72ppvfeU7K6ZORluGf3_-JbAHyQirou3ISFQoklo" alt="" />
+                        </ZoomIn>
+
+                        </Col>
+
+                        <Col md={9}>
+                        
+                            <Card.Text style={{color: "#f2ebdd", textAlign: "left", fontSize: 14, margin: '10px'}}>
+                            The Responsible AI for Computational Action curriculum consists of project-based learning modules that prepare middle-school students to 
+                            be informed consumers and ethical producers of artificial intelligence (AI). At its core, the curriculum aims to be socially impactful, 
+                            empowering, creative, and inclusive for students and teachers, with learning objectives that focus on increasing students’ capacity and 
+                            develop their ability to use artificial intelligence, design thinking, ethical frameworks, and computational thinking to design thoughtful solutions to real problems. <br/><br/>
+                            RAICA consists of five middle school modules, one module for each of the 5 Big Ideas in AI: 
+                            <table>
+                                <tr>
+                                    <th>Big Idea</th>
+                                    <th>RAICA Module</th>
+                                </tr>
+                                <tr>
+                                    <td>Perception</td>
+                                    <td>Social Robots</td>
+                                </tr>
+                                <tr>
+                                    <td>Natural Interaction</td>
+                                    <td>Real Talk with Robots</td>
+                                </tr>
+                                <tr>
+                                    <td>Learning</td>
+                                    <td>Designing for Discovery</td>
+                                </tr>
+                                <tr>
+                                    <td>Representation & Reasoning</td>
+                                    <td>Reinforcement Learning</td>
+                                </tr>
+                                <tr>
+                                    <td>Societal Impact</td>
+                                    <td>Capstone</td>
+                                </tr> 
+                            </table>
+                            <br/>
+
+                            The curriculum is also supplemented with extensive teacher professional development (PD) resources to support 
+                            teachers (with no prior technical/AI background) in implementing and adapting the curriculum within their unique classroom contexts.
+                            
+                            </Card.Text>
+
+                            </Col>
+                      </Row>
+                      </Container>
+                            <Card.Footer><a href="https://education.mit.edu/project/raica-responsible-ai-for-computational-action/" style={{color: "#E9C46A", fontSize: 15}} >Read More</a>
+                            </Card.Footer>
+
+                    </div>               
+                    </Card>
+               
+                </Col>
+            </Row>
+            <br/> <br/>
+            {/** *********************************MIT App Inventor************** */}
+            
+            <Row >
+               <Col>
+                  
+                    <Card className="text-center" 
+                        style={{ border: "none",
+                        borderRadius: "10px"}}>
+                    <div className="research-card-image" >
+                        <Card.Header 
+                            style={{
+                                fontFamily: "Tahoma, Geneva, sans-serif", 
+                                fontWeight: "normal",
+                                fontSize: 18,
+                                paddingTop: "15px",
+                                paddingBottom: '0px'
+                            }}> 
+                            <p style={{color: "#E9C46A"}}>
+                                &ensp; MIT App Inventor: Mobile App Programming Environment | <span style={{color: "#FF69B4"}}>MIT CSAIL</span>
+                            </p>
+                            <p style={{ color: "#89CFF0", fontSize: 14}}>
+                                &ensp;Tags: Design Thinking, Interactive Learning Systems, Computational Thinking, Education Outreach | <span style={{color: "#FF69B4"}}>Advisor: Hal Abelson</span>
+                            </p>
+                        </Card.Header>
+                        
+
+                      <Container fluid>
+
+                      <Row>
+
+                        <Col md={3}>
+                       
+                        <ZoomIn>
+                        <Card.Img style={{objectFit: "contain", padding: "20px"}}
+                             src={AppInventor} alt="" />
+                        </ZoomIn>
+
+                        </Col>
+
+                        <Col md={9}>
+                        
+                            <Card.Text style={{color: "#f2ebdd", textAlign: "left", fontSize: 14, margin: '10px'}}>
+                            MIT App Inventor is an intuitive, visual programming environment that allows everyone – even children – to 
+                            build fully functional apps for Android phones, iPhones, and Android/iOS tablets. Those new to MIT App 
+                            Inventor can have a simple first app up and running in less than 30 minutes. The tool uses blocks-based programming to 
+                            facilitate the creation of complex, high-impact apps in significantly less time than traditional programming environments. 
+                            The MIT App Inventor project seeks to democratize software development by empowering all people, especially young people, 
+                            to move from technology consumption to technology creation. <br/><br/>
+
+                            With over a million unique monthly visitors from 195 countries collectively creating almost 30 million apps, MIT App Inventor changes the 
+                            way the world creates apps and the way that kids learn about computing. It leverages the core principles of design thinking, computational thinking, and computational action. <br/><br/>
+
+                            I have designed curriculum and tools for and led instruction for the following workshops associated with MIT App Inventor: <br/>
+                            · Creating a Generative AI Chatbot using MIT App Inventor: U.S Congressional App Challenge 2023 <br/>
+                            · Tracking Carbon Footprint using MIT App Inventor: Monterrey Institute of Technology and Higher Education in Mexico in collaboration with ELENA-Climate Academy <br/>
+                            · Supporting Entrepreneurship through Mobile App Development using MIT App Inventor: Guest Speaker at the Roxbury Latin High School, Massachusetts  <br/>
+
+                            
+                            </Card.Text>
+
+                            </Col>
+                      </Row>
+                      </Container>
+                            <Card.Footer><a href="https://appinventor.mit.edu/" style={{color: "#E9C46A", fontSize: 15}} >Read More</a>
+                            </Card.Footer>
+
+                    </div>               
+                    </Card>
+               
+                </Col>
+            </Row>
+            <br/> <br/>
             
             {/** *********************************ASL ITEM************** */}
             
@@ -44,8 +369,11 @@ function Research() {
                                 paddingTop: "15px",
                                 paddingBottom: '0px'
                             }}> 
-                            <p style={{lineHeight: "1.5", color: "#E9C46A"}}>
+                            <p style={{color: "#E9C46A"}}>
                                 &ensp;Using Sign Language Recognition to Develop Educational Games for Deaf Children | <span style={{color: "#FF69B4"}}>Google Research x Georgia Tech</span>
+                            </p>
+                            <p style={{ color: "#89CFF0", fontSize: 14}}>
+                                &ensp;Tags: Machine Learning, Accessibility, Interactive Learning Systems | <span style={{color: "#FF69B4"}}>Advisor: Thad Starner</span>
                             </p>
                         </Card.Header>
                         
@@ -68,7 +396,9 @@ function Research() {
                             <Card.Text style={{color: "#f2ebdd", textAlign: "left", fontSize: 14, margin: '10px'}}>
                             Deaf children born to hearing parents lack continuous access to
                             language, leading to weaker working memory compared to hearing
-                            children and deaf children born to Deaf parents. CopyCat is a game
+                            children and deaf children born to Deaf parents. During my time at Google Research and Georgia Tech, I developed two educational games for the same:
+                            <br/><br/>
+                            CopyCat is a game
                             where children communicate with the computer via American Sign
                             Language (ASL), and it has been shown to improve language skills
                             and working memory. Previously, CopyCat depended on unscalable
@@ -82,7 +412,10 @@ function Research() {
                             Given these results, we believe our current HMM-based recognizer
                             can be successfully adapted to verify children’s signing while playing CopyCat.
                             <br/><br/>
-                            Publications: <br/>
+                            PopSign is an educational bubble shooter game developed by the Georgia Institute of Technology and RIT/NTID’s Center on Access Technology. The game teaches over 500 American Sign Language (ASL) signs based on the MacArthur-Bates Communicative Development Inventories, which are the first concepts used to teach a language to a child.
+                            PopsignAI combines the gameplay of Popsign with sign language recognition, being developed from over 220,000 total examples of 250 signs collected by the Deaf Professional Arts Network from 47 Deaf signers for whom ASL is their first language. 
+                            Find more about PopSign over <a href="https://www.popsign.org/" style={{color: "#E9C46A"}}>here</a>.
+                            {/* Publications: <br/>
                             1) <a href="https://dl.acm.org/doi/10.1145/3411763.3451523" style={{textAlign: "left", color: "#E9C46A"}}>"CopyCat: Using Sign Language Recognition to Help Deaf Children Acquire Language Skills"</a> | <b style={{color: "#ADFF2F"}}>CHI 2021</b><br/>
             Dhruva Bansal, <b style={{color: "#E9C46A"}}>Prerna Ravi</b>, Matthew So, Pranay Agrawal, Ishan Chadha, Ganesh Murugappan, and Colby Duke <br/>
             <b style={{color: "#ADFF2F"}}>Winner - ACM CHI Student Research Competition 2021</b> <br/>
@@ -96,13 +429,14 @@ function Research() {
                             Invited Talks and Demos: <br/>
                             1) Allison Benz, Spencer Montan, Byron Behm,Nisha Cerame, Ikemefuna Chukwunyerenwa, Loam Shin, Jinlan Li, Tony Ellis, Thad Starner, Saad Hassan, Abraham Glasser, Max Shengelia, <b style={{color: "#E9C46A"}}>Prerna Ravi</b>, Sahir Shahryar, Colby Duke. <span style={{color: "#E9C46A"}}>PopSign: Mobile games to Teach Sign Language.</span> Imagine RIT 2022. Rochester, NY <br/>
                             2) <b style={{color: "#E9C46A"}}>Prerna Ravi</b> and Thad Starner. <span style={{color: "#E9C46A"}}>Intuitive Calibration and Data Collection Procedures for ASL Recognition using Azure Kinect.</span> Undergraduate Research Symposium at Georgia Tech 2019 <br/>
-                            3) <b style={{color: "#E9C46A"}}>Prerna Ravi</b>, Peter McAughan, Theo Panagiotopoulos, Dhruva Bansal, and Thad Starner. <span style={{color: "#E9C46A"}}>Pose Estimation for ASL Recognition using OpenPose and Microsoft Kinect.</span> Georgia Tech GVU Center Research Showcase 2019
+                            3) <b style={{color: "#E9C46A"}}>Prerna Ravi</b>, Peter McAughan, Theo Panagiotopoulos, Dhruva Bansal, and Thad Starner. <span style={{color: "#E9C46A"}}>Pose Estimation for ASL Recognition using OpenPose and Microsoft Kinect.</span> Georgia Tech GVU Center Research Showcase 2019 */}
                             </Card.Text>
 
                             </Col>
                       </Row>
                       </Container>
-                            <Card.Footer><a href="https://www.researchgate.net/profile/Prerna-Ravi/publication/351426391_CopyCat_Using_Sign_Language_Recognition_to_Help_Deaf_Children_Acquire_Language_Skills/links/63113e4b1ddd4470212ad1d5/CopyCat-Using-Sign-Language-Recognition-to-Help-Deaf-Children-Acquire-Language-Skills.pdf" style={{color: "#E9C46A", fontSize: 15}} >Read More</a></Card.Footer>
+                            <Card.Footer><a href="https://www.researchgate.net/profile/Prerna-Ravi/publication/351426391_CopyCat_Using_Sign_Language_Recognition_to_Help_Deaf_Children_Acquire_Language_Skills/links/63113e4b1ddd4470212ad1d5/CopyCat-Using-Sign-Language-Recognition-to-Help-Deaf-Children-Acquire-Language-Skills.pdf" style={{color: "#E9C46A", fontSize: 15}} >Read More</a>
+                            </Card.Footer>
 
                     </div>               
                     </Card>
@@ -129,6 +463,9 @@ function Research() {
                             <p style={{lineHeight: "1.5", color: "#E9C46A"}}>
                                 &ensp;The COVID-19 Pandemic Shift to Remote Learning under Resource Constraints | <span style={{color: "#FF69B4"}}>Georgia Tech x MakerGhat</span>
                             </p>
+                            <p style={{ color: "#89CFF0", fontSize: 14}}>
+                                &ensp;Tags: ICTD, Global South, Ethnography, Education | <span style={{color: "#FF69B4"}}>Advisor: Neha Kumar</span>
+                            </p>
                         </Card.Header>
                         
 
@@ -152,7 +489,9 @@ function Research() {
                             settings, stakeholders previously reluctant to integrate computing technology in the classroom now find
                             themselves with little choice but to embrace it. This move to the digital brings additional challenges in
                             underserved contexts with limited, intermittent, and shared access to mobile or computing devices and the
-                            internet. In this rapidly evolving digital landscape, we investigated how educational institutions (schools and
+                            internet. <br/><br/>
+                            
+                            In this rapidly evolving digital landscape, we investigated how educational institutions (schools and
                             non-profit organizations) working with underserved populations in India are managing the transition to online
                             or remote learning. We conducted twenty remote interviews with students, teachers, and administrators from
                             underserved contexts across India. We found that online learning efforts in this setting relied on a resilient
@@ -160,16 +499,16 @@ function Research() {
                             help navigate and overcome the limitations of available technical infrastructure. Our research aims to articulate
                             lessons for educational technology design in the post-COVID period, outlining areas for improvement in
                             the design of online learning platforms in resource-constrained settings, and identifying elements of online
-                            learning that could be retained to strengthen the education system overall.
+                            learning that could be retained to strengthen the education system overall. 
                             <br/><br/>
-                            Publication: <a href="https://static1.squarespace.com/static/59f549a3b7411c736b42936a/t/617ea93c74f162008cf0c8d2/1635690826411/Remote+Learning.pdf3" style={{textAlign: "left", color: "#E9C46A"}}>"The Pandemic Shift to Remote Learning under Resource Constraints"</a> | <b style={{color: "#ADFF2F"}}>CSCW 2021</b><br/>
+                            {/* Publication: <a href="https://static1.squarespace.com/static/59f549a3b7411c736b42936a/t/617ea93c74f162008cf0c8d2/1635690826411/Remote+Learning.pdf3" style={{textAlign: "left", color: "#E9C46A"}}>"The Pandemic Shift to Remote Learning under Resource Constraints"</a> | <b style={{color: "#ADFF2F"}}>CSCW 2021</b><br/>
                             <b style={{color: "#E9C46A"}}>Prerna Ravi</b>, Azra Ismail, and Neha Kumar
                             
                             <br/><br/>
                             Video: <a href="https://www.youtube.com/watch?v=FVMyv0ulIAc" style={{textAlign: "left", color: "#E9C46A"}}>Featured on ACM SIGCHI YouTube Channel</a>
 
                             <br/><br/>
-                            Recognition: <b style={{color: "#ADFF2F"}}> Winner of the 2021 Sam Nunn School of International Affairs for Global Development Paper Competition at Georgia Tech </b>
+                            Recognition: <b style={{color: "#ADFF2F"}}> Winner of the 2021 Sam Nunn School of International Affairs for Global Development Paper Competition at Georgia Tech </b> */}
                             </Card.Text>
 
                             </Col>
@@ -205,6 +544,9 @@ function Research() {
                             <p style={{lineHeight: "1.5", color: "#E9C46A"}}>
                                 &ensp;Co-Designing Parent-Education Information and Communication Technologies (ICTs) with Hispanic Immigrants | <span style={{color: "#FF69B4"}}>Georgia Tech </span>
                             </p>
+                            <p style={{ color: "#89CFF0", fontSize: 14}}>
+                                &ensp;Tags: ICTD, Global South, Participatory Design, Ethnography, Education | <span style={{color: "#FF69B4"}}>Advisor: Betsy Disalvo</span>
+                            </p>
                         </Card.Header>
                         
 
@@ -217,8 +559,8 @@ function Research() {
                         <ZoomIn>
                         <Card.Img style={{objectFit: "contain", padding: "20px"}}
                              src={Marisol} alt="=" />
-                        <Card.Img style={{objectFit: "contain", padding: "20px"}}
-                             src="https://dl.acm.org/cms/attachment/64dea255-2f3d-4336-b568-2ffaa06be771/chi20-202-fig1.jpg" alt="=" />
+                        {/* <Card.Img style={{objectFit: "contain", padding: "20px"}}
+                             src="https://dl.acm.org/cms/attachment/64dea255-2f3d-4336-b568-2ffaa06be771/chi20-202-fig1.jpg" alt="=" /> */}
                         
                         </ZoomIn>
 
@@ -239,6 +581,7 @@ function Research() {
                             We conducted ethnographic studies and participatory design workshops with Latino parents as actors in a sociotechnical network, interacting with a wide range of other actors—including technology—to form and maintain information channels for better supporting their children’s education. Our goal was to illuminate ways for technology to diversify and strengthen these information channels, so that parents can access more and richer resources to shape their children’s 
                             academic life. We also examined the information work that bilingual parent-education liaisons perform to create connections towards assisting immigrant parents in the United States. As part of formal and informal educational institutions, liaisons operate between different social worlds—within and beyond the domain of education—to maximize immigrant parents’ engagement in their children’s academic lives. Drawing upon ethnographic fieldwork with low-income 
                             Latino immigrants and their liaisons, we explored how liaisons leverage technology, content, and people to align these worlds; bringing them closer to mutual understanding. This analysis provides a rich and unique perspective of the work that successfully engages immigrant parents with their children’s education, as well as the tensions that challenge that engagement. This understanding of the work that liaisons do with and across seams provides insights to inform design directions for technology that could facilitate and amplify their efforts.
+                            <br/><br/>
 
                             
                             </Card.Text>
@@ -274,6 +617,9 @@ function Research() {
                             }}> 
                             <p style={{lineHeight: "1.5", color: "#E9C46A"}}>
                                 &ensp;Bridging Gender Inequalities in STEM Degree Programs | <span style={{color: "#FF69B4"}}>Georgia Tech x Avanti Fellows x Ledby Foundation</span>
+                            </p>
+                            <p style={{ color: "#89CFF0", fontSize: 14}}>
+                                &ensp;Tags: ICTD, Global South, Ethnography, Education | <span style={{color: "#FF69B4"}}>Advisor: Neha Kumar</span>
                             </p>
                         </Card.Header>
                         
@@ -315,7 +661,7 @@ function Research() {
                           Following the framing of the above mentioned goals, I devised an internal evaluation and feedback strategy to evaluate the outcomes and effectiveness of the program and its underlying structure.
                           Learn more about this below! <br/><br/>
 
-                          Press: <a href="https://blog.avantifellows.org/avanti-fellows-ledby-girls-leadership-and-mentorship-program-the-why-what-and-how-part-1-ef39379824cd" style={{textAlign: "left", color: "#E9C46A"}}>"Avanti Fellows — LedBy Girls’ Leadership and Mentorship Program: The Why, What, and How”</a>, Avanti Fellows Blog 
+                          {/* Press: <a href="https://blog.avantifellows.org/avanti-fellows-ledby-girls-leadership-and-mentorship-program-the-why-what-and-how-part-1-ef39379824cd" style={{textAlign: "left", color: "#E9C46A"}}>"Avanti Fellows — LedBy Girls’ Leadership and Mentorship Program: The Why, What, and How”</a>, Avanti Fellows Blog  */}
                             </Card.Text>
 
                             </Col>

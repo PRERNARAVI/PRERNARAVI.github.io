@@ -36,6 +36,38 @@ class SkillsItems extends React.Component{
                                 }}> 
                                 <p style={{lineHeight: "0.7"}}>
                                     <FaAward size='35px' style={{color: 'white'}}/>
+                                    &ensp;MIT Work of the Future Fellowship 2023-2024
+                                </p>
+                            </Card.Header>
+                            <Card.Img style={{height: "20vh", width: "90%", backgroundColor: "white", objectFit: "contain"}}
+                                 src="https://mms.businesswire.com/media/20201014005536/en/830206/22/Work-of-Future-Logo_CMYK-1_viewimage.jpg" alt="Card image" />
+                                <Card.Text style={{fontSize: 14, margin: '10px'}}>
+                                Awarded this fellowship for researching the design and implementation of generative AI tools across multiple sectors. I am one of the four recipients of this fellowship across all graduate degree programs 
+                                and departments at MIT. 
+                                </Card.Text>
+                                <Card.Footer>[ September 2023 ]</Card.Footer>
+
+                        </div>               
+                        </Card>
+                    </a>   
+                </Col>
+                <Col md={6} lg={4}>
+                    <a role="button" href="https://chi2021.acm.org/for-attendees/highlights/awards" style={{cursor: "pointer", textDecoration: "none"}}>      
+                        <Card className="bg-dark text-white award-card-image"
+                            style={{marginTop: "120px", border: "none",
+                            borderRadius: "10px"}}>
+                        <div className="award-card-image">
+                            <Card.Header 
+                                style={{
+                                    fontFamily: "Tahoma, Geneva, sans-serif", 
+                                    fontWeight: "normal",
+                                    fontSize: 17,
+                                    paddingTop: "15px",
+                                    paddingBottom: '0px',
+                                    color: "#E9C46A"
+                                }}> 
+                                <p style={{lineHeight: "0.7"}}>
+                                    <FaAward size='35px' style={{color: 'white'}}/>
                                     &ensp;Ida M. Green PhD Fellowship 2022-2023
                                 </p>
                             </Card.Header>
@@ -516,7 +548,7 @@ class SkillsItems extends React.Component{
                                 }}> 
                                 <p style={{lineHeight: "0.7", textAlign: 'center'}}>
                                     <FaAward size='35px' style={{color: 'white'}}/>
-                                    &ensp;Georgia Tech Faculty Honors for 2018 - 2021
+                                    &ensp;Georgia Tech Faculty Honors for 2018 - 2022
                                 </p>
                             </Card.Header>
                             <Card.Img style={{height: "25vh", width: "90%", objectFit: "contain"}}

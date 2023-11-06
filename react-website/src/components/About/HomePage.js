@@ -53,7 +53,7 @@ class HomePage extends React.Component {
                 <h1 style={writeStyle} >
                 <Typewriter
                     options={{
-                        strings: ['PhD Student', 'Computer Scientist', 'Researcher'],
+                        strings: ['PhD Student', 'Computer Scientist', 'Researcher', 'Designer'],
                         autoStart: true,
                         loop: true,
                         delay: 60,

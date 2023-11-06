@@ -17,6 +17,27 @@ class ExperienceItems extends React.Component{
         const items = [
 
             {
+                title: <div style={{fontSize: "15px", fontFamily: "Tahoma, Geneva, sans-serif", color: "#E9C46A"}}>May 2023 - August 2023<br/>Redmond, Washington, USA</div>,
+                cardTitle: <h5 style={{textAlign: "center", color: "#E9C46A"}}>Design Researcher Intern at Microsoft</h5>,
+                //cardSubtitle:<h5 style={{color: "#f2ebdd", textAlign: "center"}}>Software Engineer Intern</h5>,
+                cardDetailedText: <div style={{minHeight: "50px", fontFamily: "Tahoma, Geneva, sans-serif"}}>
+                    · Research in generative AI tools for neurodivergent and limited mobility groups within Microsoft’s Windows + AI UX research team. <br/>
+                    · Deployed a foundational accessibility study to investigate the delighters and pain-points that people with disabilities encounter when using personal devices as well as AI tools. Also investigated their perceptions, expectations, and ethical concerns when using AI platforms. <br/>
+                    · Designed and employed qualitative methods: surveys, unmoderated diary missions, and semi-structured interviews—to collect the above data and used deductive coding analysis to draw emerging trends between the two user groups. <br/>
+                    · Conducted co-design workshops with users to inform future needs and directions for the integration of generative AI platforms into the Microsoft Windows ecosystem.
+                </div>,
+                media: 
+                {
+                    type: "IMAGE",
+                    source: {
+                    url: "https://inclusive.microsoft.design/images/OGImage.png"
+                    },
+                    
+                }
+                
+            },
+
+            {
                 title: <div style={{fontSize: "15px", fontFamily: "Tahoma, Geneva, sans-serif", color: "#E9C46A"}}>May 2022 - July 2022<br/>Redmond, Washington, USA</div>,
                 cardTitle: <h5 style={{textAlign: "center", color: "#E9C46A"}}>Software Engineer Intern at Microsoft</h5>,
                 //cardSubtitle:<h5 style={{color: "#f2ebdd", textAlign: "center"}}>Software Engineer Intern</h5>,
@@ -52,7 +73,7 @@ class ExperienceItems extends React.Component{
                 {
                     type: "IMAGE",
                     source: {
-                    url: "https://www.zonamovilidad.es/fotos/2/ap_resize.php.jpg"
+                    url: "https://www.cybercareers.blog/wp-content/uploads/2023/04/google_ai.jpeg"
                     },
                     
                 }
