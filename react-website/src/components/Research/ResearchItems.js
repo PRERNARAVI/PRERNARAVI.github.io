@@ -1,26 +1,12 @@
 import React, {useState} from 'react';
 import {Col, Image, Row, Container, Card, Modal, Button} from 'react-bootstrap';
-import Library from "../../images/Library.jpeg";
-import ND from "../../images/ND.jpg";
-import CHI from "../../images/CHI_Logo.png";
-import COC2021 from "../../images/CocAward2021.jpeg";
-import COC2020 from "../../images/CocAward2020.jpeg";
-import Adobe from "../../images/Adobe.jpeg";
-import { FaAward } from 'react-icons/fa';
 import {ZoomIn} from 'react-animation-wrapper';
-import BlackOne from "../../images/BlackOne.jpg";
-import UBICOMP from "../../images/ubicomp.png";
-import ASL from "../../images/ASL.png";
-import Hands from "../../images/hands.png";
-import TANDEM from "../../images/TANDEM.jpg";
-import Book from "../../images/Book.png";
-import Stats from "../../images/CopyCat_Stats.png";
-import CSCW from "../../images/CSCW.png";
 import Marisol from "../../images/Marisol.png";
 import Mentor from "../../images/Mentor.png";
-import Survey from "../../images/Survey.png";
 import ImageGen from "../../images/ImageGen.png";
 import AppInventor from "../../images/AppInventor.png";
+import Aptly from "../../images/Aptly.png";
+import NB from "../../images/NB.png";
 
 
 function Research() {
@@ -351,6 +337,164 @@ function Research() {
                 </Col>
             </Row>
             <br/> <br/>
+            {/** *********************************Aptly************** */}
+            <Row >
+               <Col>
+                  
+                    <Card className="text-center" 
+                        style={{ border: "none",
+                        borderRadius: "10px"}}>
+                    <div className="research-card-image" >
+                        <Card.Header 
+                            style={{
+                                fontFamily: "Tahoma, Geneva, sans-serif", 
+                                fontWeight: "normal",
+                                fontSize: 18,
+                                paddingTop: "15px",
+                                paddingBottom: '0px'
+                            }}> 
+                            <p style={{color: "#E9C46A"}}>
+                                &ensp;Aptly: Generative AI Platform for Mobile App Development  | <span style={{color: "#FF69B4"}}>MIT CSAIL</span>
+                            </p>
+                            <p style={{ color: "#89CFF0", fontSize: 14}}>
+                                &ensp;Tags: Generative AI, Design Thinking, Interactive Learning Systems, Computational Thinking | <span style={{color: "#FF69B4"}}>Advisor: Hal Abelson</span>
+                            </p>
+                        </Card.Header>
+                        
+
+                      <Container fluid>
+
+                      <Row>
+
+                        <Col md={3}>
+                       
+                        <ZoomIn>
+                        <Card.Img style={{objectFit: "contain", padding: "10px"}}
+                             src={Aptly} alt="" />
+                        </ZoomIn>
+
+                        </Col>
+
+                        <Col md={9}>
+                        
+                            <Card.Text style={{color: "#f2ebdd", textAlign: "left", fontSize: 14, margin: '10px'}}>
+                            MIT Aptly is a tool that uses the technology of large language models to automatically generate 
+                            mobile apps from written or spoken natural language descriptions. Similar to Github’s Copilot, 
+                            it is based on OpenAI’s Codex, a specially tuned version of GPT-3.  
+                            Aptly lets people create programs without requiring any use of coding or knowledge of programming.  
+                            For example, one can tell Aptly by speaking or typing: <br/><br/>
+
+                            <i>Make an app with a text box, a list of six languages and a button that says “translate.” 
+                            When the button is clicked, translate the text into the selected language and show the translation.</i> <br/><br/>
+
+                            The result is a complete functioning app for Android or iPhone.  The app has a field for user input and six buttons 
+                            labeled English, Spanish, French, German, Italian, Japanese.  Pressing one of the buttons translates the input to the 
+                            corresponding language. Aptly’s app generation is more than just a syntactic transformation of the input text. Aptly draws 
+                            upon a large body of code with which it has been trained to provide a context for its app creation. In the above example, 
+                            Aptly has independently chosen the six languages, something that was not specified in the input text. <br/><br/>
+                            
+                            As most large language models do, Aptly’s performance depends on the input given to OpenAI’s Codex. These inputs are 
+                            referred to as prompts. Aptly crafts a prompt by providing a set of example pairs (a textual description of an example app 
+                            and its corresponding code) along with the description of the desired app. Such prompt engineering is referred to as few-shot 
+                            prompts. In order to optimize Aptly’s performance, when selecting example pairs, we choose the ones that are semantically close 
+                            to the description of the desired app.  <br/><br/>
+                            Aptly poses challenges for research in computational thinking education for K-12 students.  Much of the present-day curriculum 
+                            emphasizes implementing computational artifacts using text-based coding with Python or block-based coding with Scratch or 
+                            App Inventor. Our research focuses on indentifying the foundations for that curriculum when tools like Aptly are common and the transition from ideas 
+                            to running programs can be accomplished automatically.
+
+                            
+                            </Card.Text>
+
+                            </Col>
+                      </Row>
+                      </Container>
+                            <Card.Footer><a href="https://appinventor.mit.edu/blogs/hal/2022/03/21/Aptly" style={{color: "#E9C46A", fontSize: 15}} >Read More</a>
+                            </Card.Footer>
+
+                    </div>               
+                    </Card>
+               
+                </Col>
+            </Row>
+            <br/> <br/>
+            {/** *********************************NB************** */}
+            
+            <Row >
+               <Col>
+                  
+                    <Card className="text-center" 
+                        style={{ border: "none",
+                        borderRadius: "10px"}}>
+                    <div className="research-card-image" >
+                        <Card.Header 
+                            style={{
+                                fontFamily: "Tahoma, Geneva, sans-serif", 
+                                fontWeight: "normal",
+                                fontSize: 18,
+                                paddingTop: "15px",
+                                paddingBottom: '0px'
+                            }}> 
+                            <p style={{color: "#E9C46A"}}>
+                                &ensp;NB: Social Annotation Platform for Large-scale Classroom Collaboration | <span style={{color: "#FF69B4"}}>MIT CSAIL</span>
+                            </p>
+                            <p style={{ color: "#89CFF0", fontSize: 14}}>
+                                &ensp;Tags: Social Computing, Collaboration, Interactive Learning Systems, Online Learning | <span style={{color: "#FF69B4"}}>Advisor: David Karger</span>
+                            </p>
+                        </Card.Header>
+                        
+
+                      <Container fluid>
+
+                      <Row>
+
+                        <Col md={3}>
+                       
+                        <ZoomIn>
+                        <Card.Img style={{objectFit: "contain", padding: "5px"}}
+                             src={NB} alt="" />
+                        </ZoomIn>
+
+                        </Col>
+
+                        <Col md={9}>
+                        
+                            <Card.Text style={{color: "#f2ebdd", textAlign: "left", fontSize: 14, margin: '10px'}}>
+                            The Nota Bene (NB) web application is an open-source social annotation tool. The tool creates an educational environment
+                            that enables both synchronous and asynchronous collaborative annotation of
+                            online documents. NB is used in hundreds of university courses and includes
+                            more than 40,000 registered student users. The main feature of NB is the in-
+                            place structure, this feature gives users the ability to directly annotate course
+                            content. Course content (PDF, HTML, or video file) is uploaded to the NB
+                            website by instructors.<br/><br/>
+                            Serving as a discussion forum in the document margins, NB lets users ask and answer questions
+                            about the reading material <i>as they are reading. </i>
+                            Students annotate content by highlighting passages in the course reading
+                            and adding a post by typing a text field that appears in the margins, as
+                            seen in Figure 1. Classmates are encouraged to reply to other students’ posts
+                            and to answer any posted questions. NB posts are organized into threads,
+                            which consist of a starting post or question followed by all the replies made
+                            by students and instructors.<br/><br/>
+
+                            The in-place structure of the NB tool allows students to interact with each
+                            other while they are reading the course material and provides context to the
+                            discussion. This structure has been shown to be beneficial for learning 
+
+                            
+                            </Card.Text>
+
+                            </Col>
+                      </Row>
+                      </Container>
+                            <Card.Footer><a href="https://nb.mit.edu/about" style={{color: "#E9C46A", fontSize: 15}} >Read More</a>
+                            </Card.Footer>
+
+                    </div>               
+                    </Card>
+               
+                </Col>
+            </Row>
+            <br/> <br/>
             
             {/** *********************************ASL ITEM************** */}
             
@@ -464,7 +608,7 @@ function Research() {
                                 &ensp;The COVID-19 Pandemic Shift to Remote Learning under Resource Constraints | <span style={{color: "#FF69B4"}}>Georgia Tech x MakerGhat</span>
                             </p>
                             <p style={{ color: "#89CFF0", fontSize: 14}}>
-                                &ensp;Tags: ICTD, Global South, Ethnography, Education | <span style={{color: "#FF69B4"}}>Advisor: Neha Kumar</span>
+                                &ensp;Tags: ICTD, Global South, Ethnography, Education, Online Learning | <span style={{color: "#FF69B4"}}>Advisor: Neha Kumar</span>
                             </p>
                         </Card.Header>
                         
