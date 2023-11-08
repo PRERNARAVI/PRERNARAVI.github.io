@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/static/css/main.5df20e66.css",
+    "main.css": "/static/css/main.1322b986.css",
     "main.js": "/static/js/main.887ca6c6.js",
     "static/media/ImageGen.png": "/static/media/ImageGen.e0b8638cff3f1a2d0819.png",
     "static/media/AppInventor.png": "/static/media/AppInventor.72ee01fad40277206122.png",
@@ -28,11 +28,11 @@
     "static/media/black.jpg": "/static/media/black.5f7d2242a18a4120e6df.jpg",
     "static/media/research_wallpaper.jpg": "/static/media/research_wallpaper.a30923e7c25c9a89b1bd.jpg",
     "index.html": "/index.html",
-    "main.5df20e66.css.map": "/static/css/main.5df20e66.css.map",
+    "main.1322b986.css.map": "/static/css/main.1322b986.css.map",
     "main.887ca6c6.js.map": "/static/js/main.887ca6c6.js.map"
   },
   "entrypoints": [
-    "static/css/main.5df20e66.css",
+    "static/css/main.1322b986.css",
     "static/js/main.887ca6c6.js"
   ]
 }
