@@ -20,7 +20,8 @@ code {
 .nav-tabs {
   /* border-bottom: none; */
   border-color: black;
-  background-color: #2b3750
+  background-color: #2b3750;
+  border-bottom-width: 10px;
 }
 
 .nav-tabs .nav-link:hover{
