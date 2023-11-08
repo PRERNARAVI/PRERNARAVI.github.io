@@ -20,7 +20,7 @@ class SkillsItems extends React.Component{
             <Container style={{textAlign: "center", paddingBottom: "100px"}}>
                 <Row>
                 <Col md={6} lg={4}>
-                    <a role="button" href="https://chi2021.acm.org/for-attendees/highlights/awards" style={{cursor: "pointer", textDecoration: "none"}}>      
+                    <a role="button" href="https://ipc.mit.edu/people/prerna-ravi/" style={{cursor: "pointer", textDecoration: "none"}}>      
                         <Card className="bg-dark text-white award-card-image"
                             style={{marginTop: "120px", border: "none",
                             borderRadius: "10px"}}>
@@ -52,7 +52,7 @@ class SkillsItems extends React.Component{
                     </a>   
                 </Col>
                 <Col md={6} lg={4}>
-                    <a role="button" href="https://chi2021.acm.org/for-attendees/highlights/awards" style={{cursor: "pointer", textDecoration: "none"}}>      
+                    <a role="button" href="https://oge.mit.edu/fellowships/oge-fellowships-and-awards/oge-fellowships/#green" style={{cursor: "pointer", textDecoration: "none"}}>      
                         <Card className="bg-dark text-white award-card-image"
                             style={{marginTop: "120px", border: "none",
                             borderRadius: "10px"}}>

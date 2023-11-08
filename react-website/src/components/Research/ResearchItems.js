@@ -7,6 +7,8 @@ import ImageGen from "../../images/ImageGen.png";
 import AppInventor from "../../images/AppInventor.png";
 import Aptly from "../../images/Aptly.png";
 import NB from "../../images/NB.png";
+import Tab from 'react-bootstrap/Tab';
+import Tabs from 'react-bootstrap/Tabs';
 
 
 function Research() {
@@ -15,9 +17,17 @@ function Research() {
     return (
         <Container fluid="xxl" style={{marginTop: "50px", padding: "70px"}}>
 
-            <p style={{color: "#E9C46A"}}>This page is currently being updated. Stay tuned for more updates! </p><br/>
+            <p style={{color: "#E9C46A"}}>I have developed interactive learning systems, designed curriculum, and conducted ethnographic studies in the Global South in the past.</p><br/>
 
              {/** *********************************MIT GenAI************** */}
+            <Tabs
+                defaultActiveKey="Curriculum Design"
+                id="fill-tab-example"
+                className="mb-3"
+                fill
+            >
+            <Tab eventKey="Curriculum Design" title="Curriculum Design">
+            <br/><br/>
             
              <Row >
                <Col>
@@ -95,84 +105,6 @@ function Research() {
                 </Col>
             </Row>
             <br/> <br/>
-             {/** *********************************MIT GenAI************** */}
-            
-             <Row >
-               <Col>
-                  
-                    <Card className="text-center" 
-                        style={{ border: "none",
-                        borderRadius: "10px"}}>
-                    <div className="research-card-image" >
-                        <Card.Header 
-                            style={{
-                                fontFamily: "Tahoma, Geneva, sans-serif", 
-                                fontWeight: "normal",
-                                fontSize: 18,
-                                paddingTop: "15px",
-                                paddingBottom: '0px'
-                            }}> 
-                            <p style={{color: "#E9C46A"}}>
-                                &ensp; Sparki: An Interactive Learning Companion for AI Education | <span style={{color: "#FF69B4"}}>MIT Media Lab</span>
-                            </p>
-                            <p style={{ color: "#89CFF0", fontSize: 14}}>
-                                &ensp;Tags: Generative AI, Design Thinking, Creativity, K12, Interactive Learning Systems | <span style={{color: "#FF69B4"}}>Advisors: Randi Williams, Cynthia Breazeal</span>
-                            </p>
-                        </Card.Header>
-                        
-
-                      <Container fluid>
-
-                      <Row>
-
-                        <Col md={3}>
-                       
-                        <ZoomIn>
-                        <Card.Img style={{objectFit: "contain", padding: "20px"}}
-                             src="https://dam-prod2.media.mit.edu/thumb/2023/03/29/sparki-code.PNG.1400x1400.png" alt="" />
-                        </ZoomIn>
-
-                        </Col>
-
-                        <Col md={9}>
-                        
-                            <Card.Text style={{color: "#f2ebdd", textAlign: "left", fontSize: 14, margin: '10px'}}>
-                            S.P.A.R.K.I. (Students' Personal Assistant for Reinforcing Knowledge and Innovation) is a GPT-powered chatbot 
-                            that scaffolds children's work on AI projects. Sparki provides programming assistance, gives students feedback on their ideas, 
-                            and socially mediates creative thinking. <br/><br/>
-                            
-                            <b>What can Sparki do?</b> <br/>
-                            • Creative Companion: We position Sparki as a collaborator with students rather than a mentor or tutor. It promotes creative thinking by providing feedback on students’ work and showing interest in students’ ideas. <br/>
-
-                            • Coding Assistant: Sparki uses GPT3 to deliver personalized tutorials and discuss example programs in the Scratch programming language. <br/>
-
-                            • AI Design Feedback: It can discuss design goals, potential impacts, and the relevant stakeholders of AI projects – encouraging students’ critical thinking. <br/><br/>
-
-                            <b>Design and Safety Considerations</b> <br/>
-                            We took several considerations into account to ensure the well-being of the intended children users of Sparki:<br/>
-
-                            • Avoiding overreliance. Relies on a vetted knowledge base. Warns users when answers are totally generated (and potentially inaccurate).<br/>
-                            • Avoiding misuse. The functionality of GPT is limited to short discourses about programming and AI.<br/>
-                            • Inclusivity for kids. GPT is very sensitive to spelling and grammar mistakes. Use spell-check tools to clean up their text.<br/>
-                            • Protecting privacy. Warns users not to input personal information that may be collected by GPT.
-
-
-                            
-                            </Card.Text>
-
-                            </Col>
-                      </Row>
-                      </Container>
-                            <Card.Footer><a href="https://www.media.mit.edu/projects/sparki-ai/overview/" style={{color: "#E9C46A", fontSize: 15}} >Read More</a>
-                            </Card.Footer>
-
-                    </div>               
-                    </Card>
-               
-                </Col>
-            </Row>
-            <br/> <br/>
-
             {/** *********************************MIT RAICA************** */}
             
             <Row >
@@ -265,6 +197,87 @@ function Research() {
                 </Col>
             </Row>
             <br/> <br/>
+            </Tab>
+             {/** *********************************Sparki************** */}
+             <Tab eventKey="Interactive Learning Systems" title="Interactive Learning Systems">
+             <br/><br/>
+             <Row >
+               <Col>
+                  
+                    <Card className="text-center" 
+                        style={{ border: "none",
+                        borderRadius: "10px"}}>
+                    <div className="research-card-image" >
+                        <Card.Header 
+                            style={{
+                                fontFamily: "Tahoma, Geneva, sans-serif", 
+                                fontWeight: "normal",
+                                fontSize: 18,
+                                paddingTop: "15px",
+                                paddingBottom: '0px'
+                            }}> 
+                            <p style={{color: "#E9C46A"}}>
+                                &ensp; Sparki: An Interactive Learning Companion for AI Education | <span style={{color: "#FF69B4"}}>MIT Media Lab</span>
+                            </p>
+                            <p style={{ color: "#89CFF0", fontSize: 14}}>
+                                &ensp;Tags: Generative AI, Design Thinking, Creativity, K12, Interactive Learning Systems | <span style={{color: "#FF69B4"}}>Advisors: Randi Williams, Cynthia Breazeal</span>
+                            </p>
+                        </Card.Header>
+                        
+
+                      <Container fluid>
+
+                      <Row>
+
+                        <Col md={3}>
+                       
+                        <ZoomIn>
+                        <Card.Img style={{objectFit: "contain", padding: "20px"}}
+                             src="https://dam-prod2.media.mit.edu/thumb/2023/03/29/sparki-code.PNG.1400x1400.png" alt="" />
+                        </ZoomIn>
+
+                        </Col>
+
+                        <Col md={9}>
+                        
+                            <Card.Text style={{color: "#f2ebdd", textAlign: "left", fontSize: 14, margin: '10px'}}>
+                            S.P.A.R.K.I. (Students' Personal Assistant for Reinforcing Knowledge and Innovation) is a GPT-powered chatbot 
+                            that scaffolds children's work on AI projects. Sparki provides programming assistance, gives students feedback on their ideas, 
+                            and socially mediates creative thinking. <br/><br/>
+                            
+                            <b>What can Sparki do?</b> <br/>
+                            • Creative Companion: We position Sparki as a collaborator with students rather than a mentor or tutor. It promotes creative thinking by providing feedback on students’ work and showing interest in students’ ideas. <br/>
+
+                            • Coding Assistant: Sparki uses GPT3 to deliver personalized tutorials and discuss example programs in the Scratch programming language. <br/>
+
+                            • AI Design Feedback: It can discuss design goals, potential impacts, and the relevant stakeholders of AI projects – encouraging students’ critical thinking. <br/><br/>
+
+                            <b>Design and Safety Considerations</b> <br/>
+                            We took several considerations into account to ensure the well-being of the intended children users of Sparki:<br/>
+
+                            • Avoiding overreliance. Relies on a vetted knowledge base. Warns users when answers are totally generated (and potentially inaccurate).<br/>
+                            • Avoiding misuse. The functionality of GPT is limited to short discourses about programming and AI.<br/>
+                            • Inclusivity for kids. GPT is very sensitive to spelling and grammar mistakes. Use spell-check tools to clean up their text.<br/>
+                            • Protecting privacy. Warns users not to input personal information that may be collected by GPT.
+
+
+                            
+                            </Card.Text>
+
+                            </Col>
+                      </Row>
+                      </Container>
+                            <Card.Footer><a href="https://www.media.mit.edu/projects/sparki-ai/overview/" style={{color: "#E9C46A", fontSize: 15}} >Read More</a>
+                            </Card.Footer>
+
+                    </div>               
+                    </Card>
+               
+                </Col>
+            </Row>
+            <br/> <br/>
+
+            
             {/** *********************************MIT App Inventor************** */}
             
             <Row >
@@ -588,7 +601,10 @@ function Research() {
                 </Col>
             </Row>
             <br/> <br/>
+            </Tab>
+            <Tab eventKey="Ethnographic Studies" title="Ethnographic Studies">
             {/** TANDEM----------------------------------------------------- */}
+            <br/><br/>
             <Row >
                <Col>
                   
@@ -818,6 +834,9 @@ function Research() {
                
                 </Col>
             </Row>
+            </Tab>
+            </Tabs>
+
           
     
             

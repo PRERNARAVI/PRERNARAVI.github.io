@@ -1,10 +1,10 @@
 import React from 'react';
 import { Image, Container, Row, Col} from 'react-bootstrap';
 import ResearchWallpaper from "../../images/research_wallpaper.jpg";
-import AwardsItems from './AwardsItems';
+import PublicationsItems from './PublicationsItems';
 import BlackOne from "../../images/BlackOne.jpg";
 
-class Research extends React.Component {
+class Publications extends React.Component {
 
     render() {
         var background = {
@@ -35,13 +35,13 @@ class Research extends React.Component {
 
 
         return (
-        <div responsive="true" style={{backgroundColor: "#0e172a", maxWidth: "100%"}}>    
+        <div rresponsive="true" style={{backgroundColor: "#0e172a", maxWidth: "100%"}}>    
             <Row className="justify-content-md-center"> 
-                <AwardsItems/>
+                <PublicationsItems/>
             </Row>
 
         </div>
         );
     }
 }
-export default Research;
+export default Publications;

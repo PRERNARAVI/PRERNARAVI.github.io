@@ -11,6 +11,30 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+.nav-tabs .nav-item .nav-item.show .nav-link, .nav-tabs .nav-link.active {
+  color: #E9C46A;
+  background-color: black;
+  border-color: black;
+}
+
+.nav-tabs {
+  /* border-bottom: none; */
+  border-color: black;
+  background-color: #2b3750
+}
+
+.nav-tabs .nav-link:hover{
+  color: #E9C46A;
+  border-color: black;
+  border-color: black;
+  
+}
+a {
+  color: #E9C46A;
+  text-decoration: none;
+  background-color: transparent;
+}
+
 
 .nav-bar{
   height: auto;
@@ -30,6 +54,9 @@ code {
   margin-left: 15px;
 }
 .css-19uvqz0 {
+  color: white;
+}
+.css-1bgn1ki-ShowMore {
   color: white;
 }
 

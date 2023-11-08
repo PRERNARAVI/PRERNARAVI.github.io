@@ -37,16 +37,6 @@ class Research extends React.Component {
         return (
         <div rresponsive="true" style={{backgroundColor: "#0e172a", maxWidth: "100%"}}>    
             <Row className="justify-content-md-center"> 
-            <Col xs={0} style={{alignContent: "center"}}>      
-                {/* <Image style={background} responsive="true" className="wallpaper-format" src={BlackOne} fluid="true"/> */}
-                {/* <div className = "research-wallpaper-text">
-                    <p style={textStyle}>I believe academic knowledge offers a strong theoretical framework for developing practical 
-                    solutions for meeting challenges faced by the community and society. With this in mind, I have undertaken to 
-                    pursue research projects under the guidance of some very experienced luminaries. These research projects have 
-                    offered me stimulating challenges often emboldening me to push the boundaries and go beyond convention and 
-                    lateral thinking.  </p>
-                </div> */}
-            </Col>
                 <ResearchItems/>
             </Row>
 
