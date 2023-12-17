@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/static/css/main.1322b986.css",
-    "main.js": "/static/js/main.887ca6c6.js",
+    "main.js": "/static/js/main.c96ee535.js",
     "static/media/ImageGen.png": "/static/media/ImageGen.e0b8638cff3f1a2d0819.png",
     "static/media/AppInventor.png": "/static/media/AppInventor.72ee01fad40277206122.png",
     "static/media/NB.png": "/static/media/NB.7daa7626d8d0df5d9631.png",
     "static/media/Aptly.png": "/static/media/Aptly.b7fbcf7a2bfb5a2db26b.png",
     "static/media/Art.jpg": "/static/media/Art.0863e23ba2fef93ad6fb.jpg",
-    "static/media/PRERNA_RAVI_CV.pdf": "/static/media/PRERNA_RAVI_CV.f4faf2920d85e4294c3c.pdf",
+    "static/media/PRERNA_RAVI_CV.pdf": "/static/media/PRERNA_RAVI_CV.36115b9661982e8c53ae.pdf",
     "static/media/PURA.png": "/static/media/PURA.5fb7fbbc50154579f6c8.png",
     "static/media/Mentor.png": "/static/media/Mentor.dbd781b07863d8dc3349.png",
     "static/media/Prerna-latest.JPG": "/static/media/Prerna-latest.98dc869f6c5b0a00c22e.JPG",
@@ -29,10 +29,10 @@
     "static/media/research_wallpaper.jpg": "/static/media/research_wallpaper.a30923e7c25c9a89b1bd.jpg",
     "index.html": "/index.html",
     "main.1322b986.css.map": "/static/css/main.1322b986.css.map",
-    "main.887ca6c6.js.map": "/static/js/main.887ca6c6.js.map"
+    "main.c96ee535.js.map": "/static/js/main.c96ee535.js.map"
   },
   "entrypoints": [
     "static/css/main.1322b986.css",
-    "static/js/main.887ca6c6.js"
+    "static/js/main.c96ee535.js"
   ]
 }
