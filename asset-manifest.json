@@ -1,13 +1,14 @@
 {
   "files": {
     "main.css": "/static/css/main.1322b986.css",
-    "main.js": "/static/js/main.37a8d78d.js",
+    "main.js": "/static/js/main.4e4bb101.js",
     "static/media/ImageGen.png": "/static/media/ImageGen.e0b8638cff3f1a2d0819.png",
+    "static/media/ttig-educators.pdf": "/static/media/ttig-educators.8ec68901ee37c5aaa4bc.pdf",
     "static/media/AppInventor.png": "/static/media/AppInventor.72ee01fad40277206122.png",
     "static/media/NB.png": "/static/media/NB.7daa7626d8d0df5d9631.png",
     "static/media/Aptly.png": "/static/media/Aptly.b7fbcf7a2bfb5a2db26b.png",
+    "static/media/PRERNA_RAVI_CV.pdf": "/static/media/PRERNA_RAVI_CV.97c3abd7ad70ac40244d.pdf",
     "static/media/Art.jpg": "/static/media/Art.0863e23ba2fef93ad6fb.jpg",
-    "static/media/PRERNA_RAVI_CV.pdf": "/static/media/PRERNA_RAVI_CV.6576837365e339df2137.pdf",
     "static/media/PURA.png": "/static/media/PURA.5fb7fbbc50154579f6c8.png",
     "static/media/Mentor.png": "/static/media/Mentor.dbd781b07863d8dc3349.png",
     "static/media/Prerna-latest.JPG": "/static/media/Prerna-latest.98dc869f6c5b0a00c22e.JPG",
@@ -18,6 +19,8 @@
     "static/media/ICERI_1716.pdf": "/static/media/ICERI_1716.6b67252b0c85859516cf.pdf",
     "static/media/profile-pic.JPG": "/static/media/profile-pic.9baba25fce93bf438520.JPG",
     "static/media/Marisol.png": "/static/media/Marisol.dd6a1eaca52d74f6da7d.png",
+    "static/media/DataScience1.jpeg": "/static/media/DataScience1.c33ec0c0100322f4e07a.jpeg",
+    "static/media/DataScience2.jpeg": "/static/media/DataScience2.c6e5601b1769fd0c4003.jpeg",
     "static/media/Adobe.jpeg": "/static/media/Adobe.4d9dc2c7b922e1f62102.jpeg",
     "static/media/BlackOne.jpg": "/static/media/BlackOne.3cfac6edbd2017da60f4.jpg",
     "static/media/ND.jpg": "/static/media/ND.f19830e9eaa4f9bea76b.jpg",
@@ -29,10 +32,10 @@
     "static/media/research_wallpaper.jpg": "/static/media/research_wallpaper.a30923e7c25c9a89b1bd.jpg",
     "index.html": "/index.html",
     "main.1322b986.css.map": "/static/css/main.1322b986.css.map",
-    "main.37a8d78d.js.map": "/static/js/main.37a8d78d.js.map"
+    "main.4e4bb101.js.map": "/static/js/main.4e4bb101.js.map"
   },
   "entrypoints": [
     "static/css/main.1322b986.css",
-    "static/js/main.37a8d78d.js"
+    "static/js/main.4e4bb101.js"
   ]
 }
