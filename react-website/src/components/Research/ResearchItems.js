@@ -9,6 +9,8 @@ import Aptly from "../../images/Aptly.png";
 import NB from "../../images/NB.png";
 import Tab from 'react-bootstrap/Tab';
 import Tabs from 'react-bootstrap/Tabs';
+import DataScience1 from "../../images/DataScience1.jpeg"
+import DataScience2 from "../../images/DataScience2.jpeg"
 
 
 function Research() {
@@ -197,6 +199,99 @@ function Research() {
                 </Col>
             </Row>
             <br/> <br/>
+            
+            {/** *********************************MIT Data Science************** */}
+            
+            <Row >
+               <Col>
+                  
+                    <Card className="text-center" 
+                        style={{ border: "none",
+                        borderRadius: "10px"}}>
+                    <div className="research-card-image" >
+                        <Card.Header 
+                            style={{
+                                fontFamily: "Tahoma, Geneva, sans-serif", 
+                                fontWeight: "normal",
+                                fontSize: 18,
+                                paddingTop: "15px",
+                                paddingBottom: '0px'
+                            }}> 
+                            <p style={{color: "#E9C46A"}}>
+                                &ensp; K12 Data Science Curriculum using Micro:bit Sensors and App Inventor | <span style={{color: "#FF69B4"}}>MIT RAISE | Day of AI 2024</span>
+                            </p>
+                            <p style={{ color: "#89CFF0", fontSize: 14}}>
+                                &ensp;Tags: Data Science, AI literacy, Micro:bit sensors, K12, Curriculum Design, Mobile applications | <span style={{color: "#FF69B4"}}>Advisors: Hal Abelson, Cynthia Breazeal</span>
+                            </p>
+                        </Card.Header>
+                        
+
+                      <Container fluid>
+
+                      <Row>
+
+                        <Col md={3}>
+                       
+                        <ZoomIn>
+                        <Card.Img style={{objectFit: "contain", padding: "20px"}}
+                             src={DataScience1} alt="" />
+                        <Card.Img style={{objectFit: "contain", padding: "20px"}}
+                             src={DataScience2} alt="" />
+                        </ZoomIn>
+
+                        </Col>
+
+                        <Col md={9}>
+                        
+                            <Card.Text style={{color: "#f2ebdd", textAlign: "left", fontSize: 14, margin: '10px'}}>
+                            Data science is emerging as a crucial 21st-century competence for students entering the workforce. 
+                            It touches many areas of professional practice, from arguing from evidence for social change to building artificial intelligence models to accomplish important tasks. 
+                          
+                            But how do we involve middle and high school students in authentic experiences with the data science pipeline? Challenges include curricular — how to blend math and statistical concepts 
+                            with computational thinking in the same lesson? Challenges include learner engagement — how to steer students toward real-world datasets they find personally meaningful? 
+                            And they include logistical — how to find low-cost, accessible materials to collect data, visualize and share it, clean data, and analyze it with traditional statistical models and AI tools? 
+                            
+                            <br></br>
+                            <br></br>
+                            
+                            This data science curriculum, based on students’ engineering-design process using the MIT App Inventor platform, aims to scaffold students in undertaking data collection, cleaning, visualizing, and analysis.
+                            We aim to engage students and educators in possible solutions to environmental data challenges through engagement with project-based modules involving collecting live sensor data with the App Inventor data science toolkit.
+                            The curriculum modules draw from constructionism and computational action to expose learners to hands-on methods that empower them to critically and creatively use data in evidence-based arguments. Students lead their own inquiry on such topics as optimizing a school garden, observing environmental change, or promoting equity in the community. 
+                            Educator literacy and professional development in the area of data science are also key. 
+                            
+                            <br></br>
+                            <br></br>
+
+                            The data science activities can serve as rich frameworks to align to learning goals such as <a href="https://www.nextgenscience.org/" style={{color: "#E9C46A", fontSize: 15}} >NGSS</a> engineering design practices: developing models, producing data as part of an investigation, and using mathematical and computational representations of phenomena to support claims. 
+                            The activities also meet more generalized contemporary learning objectives: 
+                            <br></br>
+                            <br></br> 
+                            <ul>
+                            <li><b>Data Literacy:</b> Students interpret data, recognize patterns and anomalies, and understand the significance of data cleaning for accurate analysis. </li>
+                            <li><b>AI Literacy:</b> Learners see data science as a gateway into the AI-data pipeline. Understanding the nuances of data science is a foundation for navigating the capabilities of artificial intelligence. </li>
+                            <li><b>Critical Thinking:</b> Students think critically when assessing what LLMs get right and where they may falter in data analysis. Encouraging them to scrutinize AI-generated responses exposes them to the nuanced nature of AI, where flawless explanations can coexist with incorrect calculations when analyzing data.</li>
+                            <li><b>Problem-Solving:</b> By working on projects relevant to their communities, students tackle real-world problems, applying data science to derive meaningful solutions.</li> 
+                            <li><b>Technical Skills:</b> Learners gain hands-on experience with data science tools and practices, building technical skills in a real-world context. They also learn to use LLMs (along with prompt engineering) for practical applications like data analysis.</li>
+                            <li><b>Scientific Communication:</b> Students use the mobile charting function within App Inventor to convey their findings effectively, enhancing their data storytelling abilities.</li> 
+                                
+                            </ul>
+
+
+                            </Card.Text>
+
+                            </Col>
+                      </Row>
+                      </Container>
+                            <Card.Footer><a href="#" style={{color: "#E9C46A", fontSize: 15}} >Read More</a>
+                            </Card.Footer>
+
+                    </div>               
+                    </Card>
+               
+                </Col>
+            </Row>
+            <br/> <br/>
+            
             </Tab>
              {/** *********************************Sparki************** */}
              <Tab eventKey="Interactive Learning Systems" title="Interactive Learning Systems">

@@ -2,6 +2,8 @@ import React from 'react';
 import {Col, Image, Row, Container, Card} from 'react-bootstrap';
 import ICERI from "../../Documents/ICERI_1716.pdf";
 import ISLS from "../../Documents/Camera_Ready_ISLS.pdf";
+import ttig from "../../Documents/ttig-educators.pdf";
+
 
 
 class PublicationsItems extends React.Component{
@@ -10,6 +12,51 @@ class PublicationsItems extends React.Component{
             <div responsive="true" style={{paddingTop: "150px", paddingBottom: "100px", paddingLeft: "50px", paddingRight: "50px", backgroundColor: "#0e172a", maxWidth: "100%", color: "#E9C46A"}}>
                 <Container>
                 <h2>Conference Publications and Workshops</h2>
+                    <br/>
+                    <Row>
+                        <Col >
+                            <div style={{color: "#E9C46A"}}>
+                            A Picture is Worth a Thousand Words: Co-designing Text-to- image Generation Learning Materials for K-12 with Educators
+                            </div>
+                            <div style={{color: "#f2ebdd"}}>
+                            Safinah Ali, <b style={{color: "white"}}>Prerna Ravi</b>, Katherine Moore, Hal Abelson, and Cynthia Breazeal
+                            </div>
+                            <div style={{color: "#89CFF0"}}>
+                            Proceedings of the AAAI Conference on Artificial Intelligence 2024 <br/>
+                            <a href={ttig} style={{color: "#89CFF0"}}>paper</a>
+                            </div>
+                        </Col>
+                    </Row>
+                    <br/>
+                    <Row>
+                        <Col >
+                            <div style={{color: "#E9C46A"}}>
+                            Constructing Dreams using Generative AI 
+                            </div>
+                            <div style={{color: "#f2ebdd"}}>
+                            Safinah Ali, <b style={{color: "white"}}>Prerna Ravi</b>, Daniella DiPaola, Randi Williams, and Cynthia Breazeal
+                            </div>
+                            <div style={{color: "#89CFF0"}}>
+                            Proceedings of the AAAI Conference on Artificial Intelligence 2024<br/>
+                            <a style={{color: "#89CFF0"}} href="https://arxiv.org/pdf/2305.12013">paper</a>
+                            </div>
+                        </Col>
+                    </Row>
+                    <br/>
+                    <Row>
+                        <Col >
+                            <div style={{color: "#E9C46A"}}>
+                            App Planner: Utilizing Generative AI for Design Thinking in K-12 Mobile App Development Education
+                            </div>
+                            <div style={{color: "#f2ebdd"}}>
+                            David Kim, <b style={{color: "white"}}>Prerna Ravi</b>, Randi Williams, and Daeun Yoo
+                            </div>
+                            <div style={{color: "#89CFF0"}}>
+                            Under review<br/>
+                            <a style={{color: "#89CFF0"}} href="https://arxiv.org/pdf/2401.15182.pdf">paper</a>
+                            </div>
+                        </Col>
+                    </Row>
                     <br/>
                     <Row>
                         <Col >
@@ -40,21 +87,7 @@ class PublicationsItems extends React.Component{
                             </div>
                         </Col>
                     </Row>
-                    <br/>
-                    <Row>
-                        <Col >
-                            <div style={{color: "#E9C46A"}}>
-                            Constructing Dreams using Generative AI 
-                            </div>
-                            <div style={{color: "#f2ebdd"}}>
-                            Safinah Ali, <b style={{color: "white"}}>Prerna Ravi</b>, Daniella DiPaola, Randi Williams, and Cynthia Breazeal
-                            </div>
-                            <div style={{color: "#89CFF0"}}>
-                            Under review <br/>
-                            <a style={{color: "#89CFF0"}} href="https://arxiv.org/pdf/2305.12013">paper</a>
-                            </div>
-                        </Col>
-                    </Row>
+                    
                     <br/>
                     <Row>
                         <Col >
@@ -261,12 +294,42 @@ class PublicationsItems extends React.Component{
                     <Row>
                         <Col >
                             <div style={{color: "#E9C46A"}}>
+                            How Might We Redefine Learning in the Age of AI?
+                            </div>
+                            <div style={{color: "white"}}>
+                            Center for Constructive Communication (CCC), MIT Media Lab, 2024 <br/>
+                            </div>
+                        </Col>
+                    </Row>
+                    <br/>
+                    <Row>
+                        <Col >
+                            <div style={{color: "#E9C46A"}}>
+                            AI is for Everyone: Transforming K-12 Learning and Education in the Era of AI
+                            </div>
+                            <div style={{color: "white"}}>
+                            Center of Excellence in Teacher Education (CETE) at Tata Institute of Social Sciences (TISS), Mumbai, India, 2023 <br/>
+                            </div>
+                        </Col>
+                    </Row>
+                    <br/>
+                    <Row>
+                        <Col >
+                            <div style={{color: "#E9C46A"}}>
+                            Day of AI India
+                            </div>
+                            <div style={{color: "white"}}>
+                            Global Partnership on Artificial Intelligence (GPAI) 2023, New Delhi, India, 2023 <br/>
+                            </div>
+                        </Col>
+                    </Row>
+                    <br/>
+                    <Row>
+                        <Col >
+                            <div style={{color: "#E9C46A"}}>
                             PopSign: Mobile games to Teach Sign Language
                             </div>
-                            <div style={{color: "#f2ebdd"}}>
-                            Allison Benz, Spencer Montan, Byron Behm,Nisha Cerame, Ikemefuna Chukwunyerenwa, Loam Shin, Jinlan Li, Tony Ellis, Thad Starner, Saad Hassan, Abraham Glasser, Max Shengelia, <b style={{color: "white"}}>Prerna Ravi</b>, Sahir Shahryar, and Colby Duke
-                            </div>
-                            <div style={{color: "#89CFF0"}}>
+                            <div style={{color: "white"}}>
                             Imagine RIT: Rochester Institute of Technology, 2022 <br/>
                             <a style={{color: "#89CFF0"}} href="https://www.popsign.org/">game website</a> <br/>
                             </div>
@@ -278,10 +341,7 @@ class PublicationsItems extends React.Component{
                             <div style={{color: "#E9C46A"}}>
                             Intuitive Calibration and Data Collection Procedures for ASL Recognition using Azure Kinect
                             </div>
-                            <div style={{color: "#f2ebdd"}}>
-                            <b style={{color: "white"}}>Prerna Ravi</b>, and Thad Starner
-                            </div>
-                            <div style={{color: "#89CFF0"}}>
+                            <div style={{color: "white"}}>
                             Undergraduate Research Symposium at Georgia Tech, 2019 <br/>
                             </div>
                         </Col>
@@ -292,10 +352,7 @@ class PublicationsItems extends React.Component{
                             <div style={{color: "#E9C46A"}}>
                             Pose Estimation for ASL Recognition using OpenPose and Microsoft Kinect
                             </div>
-                            <div style={{color: "#f2ebdd"}}>
-                            <b style={{color: "white"}}>Prerna Ravi</b>, Peter McAughan, Theo Panagiotopoulos, Dhruva Bansal, and Thad Starner
-                            </div>
-                            <div style={{color: "#89CFF0"}}>
+                            <div style={{color: "white"}}>
                             Georgia Tech GVU Center Research Showcase, 2019 <br/>
                             </div>
                         </Col>
@@ -303,6 +360,20 @@ class PublicationsItems extends React.Component{
                     <br/>
                     <br/>
                     <h2>Selected Press</h2>
+                    <br/>
+                    <Row>
+                        <Col >
+                            <div style={{color: "#E9C46A"}}>
+                            MIT Center for Constructive Communication News
+                            </div>
+                            <div style={{color: "#f2ebdd"}}>
+                            CCC and DemocracyNext hosted the First-Ever Tech-Enhanced Student Assembly
+                            </div>
+                            <div style={{color: "#89CFF0"}}>
+                            <a style={{color: "#89CFF0"}} href="https://www.ccc.mit.edu/pressmedia/ccc-and-democracynext-hosted-the-first-ever-tech-enhanced-student-assembly/">article link</a> <br/>
+                            </div>
+                        </Col>
+                    </Row>
                     <br/>
                     <Row>
                         <Col >

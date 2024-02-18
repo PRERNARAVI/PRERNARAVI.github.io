@@ -92,10 +92,8 @@ class AboutMe extends React.Component{
                     My research is supported by the <a style={{color: "#E9C46A"}}href="https://oge.mit.edu/fellowships/oge-fellowships/" >Ida M. Green Memorial Fellowship</a>, 
                     the <a style={{color: "#E9C46A"}}href="https://ipc.mit.edu/gen-ai/">MIT Work of the Future Fellowship</a>, and the MIT Vice Chancellor’s Inclusive Excellence Fellowship. 
                     I have previously worked at Microsoft and Google Research in both research and software engineering roles.
-                    You can find my CV [Last updated: December 2023] on this website. 
+                    You can find my CV [Last updated: February 2024] on this website. 
                     </div>
-                    <br></br>
-                    Latest Update: <b>I am teaching a course this fall at MIT CSAIL (with my advisor Hal Abelson) on Generative Artificial Intelligence in K12 Education. See more info <a style={{color: "#E9C46A"}}href="https://mit-cml.github.io/gen-ai-fall-2023.github.io/" >here</a>.</b>
                     
                     <div>
                     <br></br>
