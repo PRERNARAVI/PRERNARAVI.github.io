@@ -113,6 +113,13 @@ a {
   font-size: 13;
   color: #f2ebdd;
 }
+.about-me-text-two {
+  font-family: Tahoma, Geneva, sans-serif;
+  text-align: left;
+  font-weight: 800px;
+  font-size: 13;
+  color: #f2ebdd;
+}
 .sign-langauge-container {
   position: relative;
   max-width: 90%;

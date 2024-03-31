@@ -19,11 +19,11 @@ function Research() {
     return (
         <Container fluid="xxl" style={{marginTop: "50px", padding: "70px"}}>
 
-            <p style={{color: "#E9C46A"}}>I have developed interactive learning systems, designed curriculum, and conducted ethnographic studies in the Global South in the past.</p><br/>
+            <p style={{color: "#E9C46A"}}>I have developed interactive learning systems, designed curriculum, and conducted ethnographic studies in the Global South in the past. I have elaborated on these under the respective tabs below:</p><br/>
 
              {/** *********************************MIT GenAI************** */}
             <Tabs
-                defaultActiveKey="Curriculum Design"
+                defaultActiveKey="Interactive Learning Systems"
                 id="fill-tab-example"
                 className="mb-3"
                 fill
@@ -315,7 +315,7 @@ function Research() {
                                 &ensp; Sparki: An Interactive Learning Companion for AI Education | <span style={{color: "#FF69B4"}}>MIT Media Lab</span>
                             </p>
                             <p style={{ color: "#89CFF0", fontSize: 14}}>
-                                &ensp;Tags: Generative AI, Design Thinking, Creativity, K12, Interactive Learning Systems | <span style={{color: "#FF69B4"}}>Advisors: Randi Williams, Cynthia Breazeal</span>
+                                &ensp;Tags: Generative AI, Design Thinking, Creativity, K12, Interactive Learning Systems | <span style={{color: "#FF69B4"}}>Advisor: Cynthia Breazeal</span>
                             </p>
                         </Card.Header>
                         

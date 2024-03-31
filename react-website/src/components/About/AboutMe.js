@@ -94,9 +94,19 @@ class AboutMe extends React.Component{
                     I have previously worked at Microsoft and Google Research in both research and software engineering roles.
                     You can find my CV [Last updated: February 2024] on this website. 
                     </div>
+                    <br></br>
+                    <div>
+                        Latest Updates: 
+                        <ul>
+                        <li> I will be serving as the Diversity and Inclusion Chair for <a style={{color: "#E9C46A"}} href="https://uist.acm.org/2024/organizers/">UIST 2024!</a></li> 
+                        <li> I will be leading a workshop at <a style={{color: "#E9C46A"}} href="https://www.congressionalappchallenge.us/students/houseofcode/">#HOUSEOFCODE 2024</a> at the U.S. Capitol Building, Washington D.C. in April. </li>
+                        <li> I will be giving a talk on Generative AI in Higher Education at the <a style={{color: "#E9C46A"}} href="https://www.eventbrite.com/e/the-81st-annual-conference-of-louisiana-colleges-universities-registration-797040318047?utm_experiment=test_share_listing&aff=ebdsshios">81st Annual Conference of Louisiana Colleges & Universities</a> in April. </li>
+                        <li> I am currently leading a study on augmenting Project-Based Learning (PBL) assessments in K12 with generative AI tools. If you are an educator interested in PBL, sign-up <a style={{color: "#E9C46A"}} href="https://forms.gle/4ML2t6qWJoTy6B2T7">here!</a></li>
+                        </ul>
+                    </div>
                     
                     <div>
-                    <br></br>
+                    
                     I graduated from <a style={{color: "#E9C46A"}}href="https://www.gatech.edu/" >Georgia Institute of Technology </a> in May 2022 with a Bachelor's of Science in Computer Science and concentrations in Human Computer Interaction(HCI) and Artificial Intelligence(AI). 
                     I was primarily advised by wearable computing pioneer, <a style={{color: "#E9C46A"}}href="https://en.wikipedia.org/wiki/Thad_Starner" >Dr. Thad Starner</a>. 
                     I also worked closely with <a style={{color: "#E9C46A"}}href="https://www.nehakumar.org/" >Dr. Neha Kumar</a> and <a style={{color: "#E9C46A"}}href="https://en.wikipedia.org/wiki/Betsy_DiSalvo" >Dr. Betsy Disalvo</a> at the intersection of human-centered computing and education.
@@ -106,10 +116,10 @@ class AboutMe extends React.Component{
                     To pursue this cause further, I also worked with multiple non-profit organizations both in the United States and India, my home country.
                     </div>
                     <br></br>
-                    <div>
+                    {/* <div>
                     I grew up in the multicultural city of Muscat, Oman in the Middle East, a childhood punctuated with annual visits to my native place in Mumbai, India (which is also where parts of my prior research work were based). I have deep rooted Indian traditions and am fortunate to have been trained in classical Carnatic music and Bharatanatyam dance. I also have a keen artistic sense and a preview of my repertoire in all the fine arts is available on this website. As a woman of color from the Global South, I leverage my diverse cultural upbringing and outlook while pursuing all professional as well as personal endeavors at MIT. 
                     In particular, I am deeply grateful for the <a style={{color: "#E9C46A"}}href="https://www.iirp.edu/images/pdf/AvNtDE_EDUC_701_-_Yossos_Community_Cultural_Wealth_Model.pdf" >resistant and aspirational capital</a> that I have had access to, without which it would have been impossible for me to study in the United States.
-                    </div>
+                    </div> */}
                     <br/>
                 </Container>
                 </Col>
@@ -126,6 +136,12 @@ class AboutMe extends React.Component{
             {/* <Image style={backgroundTwo} responsive="true"  src={BlackOne} fluid="true"/> */}
             
             <Container className="about-me-two">
+                <Row className='about-me-text-two'> 
+                <div style={{padding: "20px"}}>
+                    I grew up in the multicultural city of Muscat, Oman in the Middle East, a childhood punctuated with annual visits to my native place in Mumbai, India (which is also where parts of my prior research work were based). I have deep rooted Indian traditions and am fortunate to have been trained in classical Carnatic music and Bharatanatyam dance. I also have a keen artistic sense and a preview of my repertoire in all the fine arts is available on this website. As a woman of color from the Global South, I leverage my diverse cultural upbringing and outlook while pursuing all professional as well as personal endeavors at MIT. 
+                    In particular, I am deeply grateful for the <a style={{color: "#E9C46A"}}href="https://www.iirp.edu/images/pdf/AvNtDE_EDUC_701_-_Yossos_Community_Cultural_Wealth_Model.pdf" >resistant and aspirational capital</a> that I have had access to, without which it would have been impossible for me to study in the United States.
+                    </div>
+                </Row>
                 <Row>
                 <Col sm={4}>
                 <div role="button" style={{cursor: "pointer", textDecoration: "none"}} >      
