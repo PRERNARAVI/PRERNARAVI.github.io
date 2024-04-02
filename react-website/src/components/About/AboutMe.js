@@ -92,7 +92,7 @@ class AboutMe extends React.Component{
                     My research is supported by the <a style={{color: "#E9C46A"}}href="https://oge.mit.edu/fellowships/oge-fellowships/" >Ida M. Green Memorial Fellowship</a>, 
                     the <a style={{color: "#E9C46A"}}href="https://ipc.mit.edu/gen-ai/">MIT Work of the Future Fellowship</a>, and the MIT Vice Chancellor’s Inclusive Excellence Fellowship. 
                     I have previously worked at Microsoft and Google Research in both research and software engineering roles.
-                    You can find my CV [Last updated: February 2024] on this website. 
+                    You can find my CV [Last updated: April 2024] on this website. 
                     </div>
                     <br></br>
                     <div>
@@ -101,6 +101,7 @@ class AboutMe extends React.Component{
                         <li> I will be serving as the Diversity and Inclusion Chair for <a style={{color: "#E9C46A"}} href="https://uist.acm.org/2024/organizers/">UIST 2024!</a></li> 
                         <li> I will be leading a workshop at <a style={{color: "#E9C46A"}} href="https://www.congressionalappchallenge.us/students/houseofcode/">#HOUSEOFCODE 2024</a> at the U.S. Capitol Building, Washington D.C. in April. </li>
                         <li> I will be giving a talk on Generative AI in Higher Education at the <a style={{color: "#E9C46A"}} href="https://www.eventbrite.com/e/the-81st-annual-conference-of-louisiana-colleges-universities-registration-797040318047?utm_experiment=test_share_listing&aff=ebdsshios">81st Annual Conference of Louisiana Colleges & Universities</a> in April. </li>
+                        <li> My work as an MIT Work of the Future Fellow was featured on <a style={{color: "#E9C46A"}} href="https://news.mit.edu/2024/mit-launches-working-group-generative-ai-and-work-of-the-future-0328">MIT News!</a></li>
                         <li> I am currently leading a study on augmenting Project-Based Learning (PBL) assessments in K12 with generative AI tools. If you are an educator interested in PBL, sign-up <a style={{color: "#E9C46A"}} href="https://forms.gle/4ML2t6qWJoTy6B2T7">here!</a></li>
                         </ul>
                     </div>
