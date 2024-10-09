@@ -85,24 +85,27 @@ class AboutMe extends React.Component{
                     <div style={{fontWeight:"500"}}>
                         
                     I am a third-year PhD student at <a style={{color: "#E9C46A"}}href="https://www.csail.mit.edu/" >MIT CSAIL</a> advised by <a style={{color: "#E9C46A"}} href="https://en.wikipedia.org/wiki/Hal_Abelson">Dr. Hal Abelson</a> and <a style={{color: "#E9C46A"}}href="https://people.csail.mit.edu/karger/"> Dr. David Karger</a>. 
-                    My research focuses on designing AI powered educational tools, curricula, and learning experiences that foster constructionism, equity, and creativity.
                     I also work closely with <a style={{color: "#E9C46A"}} href="https://www.media.mit.edu/people/cynthiab/overview/">Dr. Cynthia Breazeal</a> and <a style={{color: "#E9C46A"}} href="https://education.mit.edu/person/eric_klopfer/">Dr. Eric Klopfer</a> under MIT <a style={{color: "#E9C46A"}}href="https://raise.mit.edu/" >RAISE (Responsible AI for Social Empowerment and Education)</a>.
-                    In my work, I explore the interplay of social, cultural, economic, and digital infrastructures in historically marginalized contexts. Utilizing these insights, I develop
+                    <br/>
+                    
+                    My research focuses on designing AI powered educational tools, curricula, and learning experiences that foster constructionism, equity, and creativity.                   
+                    I explore the interplay of social, cultural, economic, and digital infrastructures in historically marginalized contexts. Utilizing these insights, I develop
                     inclusive tools that empower diverse educational stakeholders to engage, learn, and create with AI and data science.        
-                    As an interdisciplinary scholar, I engage in ethnographic fieldwork, participatory design, system development, and evaluation. I have previously worked at Microsoft and Google Research in both research and software engineering roles.
+                    I engage in ethnographic fieldwork, participatory design, system development, and evaluation. 
+                    <br/> I have previously worked at Microsoft and Google Research in both research and software engineering roles.
                     You can find my CV [Last updated: October 2024] on this website. 
                     </div>
                     <br></br>
                     <div>
                         Latest Updates: 
                         <ul>
+                        <li> 10/2024 – I am serving as the Diversity and Inclusion Chair for <a style={{color: "#E9C46A"}} href="https://uist.acm.org/2024/organizers/">UIST 2024.</a> If you are attending UIST, hmu!</li> 
                         <li> 9/2024 – I gave a talk on our K12 Data Literacy work at the UNESCO Paris Headquarters during their <a style={{color: "#E9C46A"}} href="https://www.unesco.org/en/weeks/digital-learning">Digital Learning Week!</a> You can find the recording <a style={{color: "#E9C46A"}} href="https://t.co/Y0CDfSm6gZ">here.</a></li>   
                         <li> 8/2024 – I received my S.M. from MIT EECS! You can find my Masters' thesis on <a style={{color: "#E9C46A"}} href="https://drive.google.com/file/d/1FrZY_4D6MsFn5sUuMdrHGapudsVFi62J/view?usp=sharing">LLM Tools for Project-based Learning</a> here.</li>   
-                        <li> 7/2024 - We are winners of the <a style={{color: "#E9C46A"}} href="https://tools-competition.org/">Learning Engineering Tools Competition</a> for 2023-24! We have been awarded $300,000 in research funding to advance our efforts in democratizing data literacy! </li>
+                        <li> 7/2024 - We are winners of the <a style={{color: "#E9C46A"}} href="https://tools-competition.org/">Learning Engineering Tools Competition</a> for 2024-25! We have been awarded $300,000 in research funding to advance our efforts in democratizing data literacy! </li>
                         <li> 7/2024 – I was selected as the Teaching Development Fellow for EECS from MIT's Teaching and Learning Lab for 2024-2025! </li>
-                        <li> 7/2024 – Our paper on <a style={{color: "#E9C46A"}} href="#">Mainstreaming K12 Data Science Education through a Student-Centered Interdisciplinary Curriculum</a> was accepted at ACM SIGCSE's Virtual Conference 2024!</li>
+                        <li> 7/2024 – Our paper on <a style={{color: "#E9C46A"}} href="https://drive.google.com/file/d/1NJUi66PJgB4T7SEn_irGUKWr8AOQoyCN/view?usp=sharing">Constructionist Approaches to K12 Data Science Education </a> was accepted at ACM SIGCSE's Virtual Conference 2024!</li>
                         <li> 6/2024 – I was awarded the Artificial Intelligence in Education (AIED) <a style={{color: "#E9C46A"}} href="https://aied2024.cesar.school/call-for-papers/deia-fellowships">DEIA Fellowship</a> for 2024-2025!</li>
-                        <li> 6/2024 – I will be serving as the Diversity and Inclusion Chair for <a style={{color: "#E9C46A"}} href="https://uist.acm.org/2024/organizers/">UIST 2024.</a></li> 
                         {/* <li> 4/2024 – My work as an MIT Work of the Future Fellow was featured on <a style={{color: "#E9C46A"}} href="https://news.mit.edu/2024/mit-launches-working-group-generative-ai-and-work-of-the-future-0328">MIT News!</a></li> */}
                         {/* <li> 2/2024 – I am currently leading a study on augmenting Project-Based Learning (PBL) assessments in K12 with generative AI tools. If you are an educator interested in PBL, sign-up <a style={{color: "#E9C46A"}} href="https://forms.gle/4ML2t6qWJoTy6B2T7">here.</a></li> */}
                         </ul>
