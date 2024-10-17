@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/static/css/main.6108058a.css",
-    "main.js": "/static/js/main.f7bc77a0.js",
+    "main.js": "/static/js/main.bd102ce7.js",
     "static/media/ImageGen.png": "/static/media/ImageGen.e0b8638cff3f1a2d0819.png",
     "static/media/ttig-educators.pdf": "/static/media/ttig-educators.8ec68901ee37c5aaa4bc.pdf",
     "static/media/AppInventor.png": "/static/media/AppInventor.72ee01fad40277206122.png",
     "static/media/NB.png": "/static/media/NB.7daa7626d8d0df5d9631.png",
     "static/media/Aptly.png": "/static/media/Aptly.b7fbcf7a2bfb5a2db26b.png",
     "static/media/Art.jpg": "/static/media/Art.0863e23ba2fef93ad6fb.jpg",
-    "static/media/PRERNA_RAVI_CV.pdf": "/static/media/PRERNA_RAVI_CV.43dad1a7f8d4138517d7.pdf",
+    "static/media/PRERNA_RAVI_CV.pdf": "/static/media/PRERNA_RAVI_CV.50710d3aaf21249d4c99.pdf",
     "static/media/PURA.png": "/static/media/PURA.5fb7fbbc50154579f6c8.png",
     "static/media/Mentor.png": "/static/media/Mentor.dbd781b07863d8dc3349.png",
     "static/media/Prerna-latest.JPG": "/static/media/Prerna-latest.98dc869f6c5b0a00c22e.JPG",
@@ -32,10 +32,10 @@
     "static/media/research_wallpaper.jpg": "/static/media/research_wallpaper.a30923e7c25c9a89b1bd.jpg",
     "index.html": "/index.html",
     "main.6108058a.css.map": "/static/css/main.6108058a.css.map",
-    "main.f7bc77a0.js.map": "/static/js/main.f7bc77a0.js.map"
+    "main.bd102ce7.js.map": "/static/js/main.bd102ce7.js.map"
   },
   "entrypoints": [
     "static/css/main.6108058a.css",
-    "static/js/main.f7bc77a0.js"
+    "static/js/main.bd102ce7.js"
   ]
 }
