@@ -99,7 +99,7 @@ class AboutMe extends React.Component{
                     <div>
                         Latest Updates: 
                         <ul>
-                        <li> 10/2024 – I am serving as the Diversity and Inclusion Chair for <a style={{color: "#E9C46A"}} href="https://uist.acm.org/2024/organizers/">UIST 2024.</a> If you are attending UIST, hmu!</li> 
+                        <li> 10/2024 – I am serving as the Diversity and Inclusion co-chair for <a style={{color: "#E9C46A"}} href="https://uist.acm.org/2024/organizers/">UIST 2024.</a> If you are attending UIST, hmu!</li> 
                         <li> 9/2024 – I gave a talk on our K12 Data Literacy work at the UNESCO Paris Headquarters during their <a style={{color: "#E9C46A"}} href="https://www.unesco.org/en/weeks/digital-learning">Digital Learning Week!</a> You can find the recording <a style={{color: "#E9C46A"}} href="https://t.co/Y0CDfSm6gZ">here.</a></li>   
                         <li> 8/2024 – I received my S.M. from MIT EECS! You can find my Masters' thesis on <a style={{color: "#E9C46A"}} href="https://drive.google.com/file/d/1FrZY_4D6MsFn5sUuMdrHGapudsVFi62J/view?usp=sharing">LLM Tools for Project-based Learning</a> here.</li>   
                         <li> 7/2024 - We are winners of the <a style={{color: "#E9C46A"}} href="https://tools-competition.org/">Learning Engineering Tools Competition</a> for 2024-25! We have been awarded $300,000 in research funding to advance our efforts in democratizing data literacy! </li>
