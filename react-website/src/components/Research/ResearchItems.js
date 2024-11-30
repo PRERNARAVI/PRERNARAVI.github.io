@@ -19,7 +19,9 @@ function Research() {
     return (
         <Container fluid="xxl" style={{marginTop: "50px", padding: "70px"}}>
 
-            <p style={{color: "#E9C46A"}}>I have developed interactive learning systems, designed curriculum, and conducted ethnographic studies in the Global South in the past. I have elaborated on these under the respective tabs below:</p><br/>
+            <p style={{color: "#E9C46A"}}>
+                [This page is under construction: new projects are currently in submission to 2025 conferences]<br/>
+                I have developed interactive learning systems, designed curriculum, and conducted ethnographic studies in the Global South in the past. I have elaborated on these under the respective tabs below:</p><br/>
 
              {/** *********************************MIT GenAI************** */}
             <Tabs
@@ -697,7 +699,7 @@ function Research() {
             </Row>
             <br/> <br/>
             </Tab>
-            <Tab eventKey="Ethnographic Studies" title="Ethnographic Studies">
+            <Tab eventKey="Ethnographic Studies" title="Qualitative Research">
             {/** TANDEM----------------------------------------------------- */}
             <br/><br/>
             <Row >

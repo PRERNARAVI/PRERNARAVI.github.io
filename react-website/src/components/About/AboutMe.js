@@ -63,13 +63,14 @@ class AboutMe extends React.Component{
                         {/* <h5 style={{fontFamily: "Tahoma, Geneva, sans-serif", color: "#E9C46A", marginTop: "30px", textAlign: "center"}}>Reach out!</h5> */}
                         <p style={{textAlign: "center"}}>
                         {/* <a href="https://prernaravi.github.io/static/media/PRERNA_RAVI_CV.1baaf4e1a73bbd415b5a.pdf"><span><DescriptionIcon style={{color: "#E9C46A", fontSize: 50}}/></span></a>&nbsp;&nbsp;&nbsp;  */}
-                        <a href="https://github.com/PRERNARAVI"><GitHubIcon style={{color: "#E9C46A", fontSize: 45}}/></a>&nbsp;&nbsp;&nbsp;
+                        <a href="https://scholar.google.com/citations?user=UYFmxj0AAAAJ&hl=en"><img style={{backgroundColor: "#E9C46A"}} src="https://img.icons8.com/material/48/null/google-scholar--v2.png"/></a>&nbsp;&nbsp;&nbsp;
                         <a href="https://www.linkedin.com/in/prerna-ravi/"><LinkedInIcon style={{color: "#E9C46A", fontSize: 55}}/></a>&nbsp;&nbsp;&nbsp;
                         <a href="mailto: prernar@mit.edu"><EmailIcon style={{color: "#E9C46A", fontSize: 57}}/></a>&nbsp;&nbsp;&nbsp;
                         <a href="https://twitter.com/PrernaRavi1"><TwitterIcon style={{color: "#E9C46A", fontSize: 55}}/></a>&nbsp;&nbsp;&nbsp;
-                        <a href="https://scholar.google.com/citations?user=UYFmxj0AAAAJ&hl=en"><img style={{backgroundColor: "#E9C46A"}} src="https://img.icons8.com/material/48/null/google-scholar--v2.png"/></a>
+                        <a href="https://github.com/PRERNARAVI"><GitHubIcon style={{color: "#E9C46A", fontSize: 45}}/></a>
                         
                         </p>
+                        <p style={{color: "#89CFF0"}}><b>Areas of Interest:</b> <br/>Human-Computer Interaction (HCI), Artificial Intelligence (AI), <br/>K12 CS & AI literacy, Co-creativity, Group Collaboration</p>
                         {/* <a href="https://www.instagram.com/prerna_2k/"><InstagramIcon style={{color: "white", fontSize: 65, marginTop: "15px", marginLeft: "30px"}}/></a> */}
                         
                     
@@ -84,27 +85,27 @@ class AboutMe extends React.Component{
                         <br></br>
                     <div style={{fontWeight:"500"}}>
                         
-                    I am a third-year PhD student at <a style={{color: "#E9C46A"}}href="https://www.csail.mit.edu/" >MIT CSAIL</a> advised by <a style={{color: "#E9C46A"}} href="https://en.wikipedia.org/wiki/Hal_Abelson">Dr. Hal Abelson</a> and <a style={{color: "#E9C46A"}}href="https://people.csail.mit.edu/karger/"> Dr. David Karger</a>. 
+                    I am a PhD student at <a style={{color: "#E9C46A"}}href="https://www.csail.mit.edu/" >MIT CSAIL</a> advised by <a style={{color: "#E9C46A"}} href="https://en.wikipedia.org/wiki/Hal_Abelson">Dr. Hal Abelson</a> and <a style={{color: "#E9C46A"}}href="https://people.csail.mit.edu/karger/"> Dr. David Karger</a>. 
                     I also work closely with <a style={{color: "#E9C46A"}} href="https://www.media.mit.edu/people/cynthiab/overview/">Dr. Cynthia Breazeal</a> and <a style={{color: "#E9C46A"}} href="https://education.mit.edu/person/eric_klopfer/">Dr. Eric Klopfer</a> under MIT <a style={{color: "#E9C46A"}}href="https://raise.mit.edu/" >RAISE (Responsible AI for Social Empowerment and Education)</a>.
-                    <br/>
+                    <br/><br/>
                     
-                    My research focuses on designing AI powered educational tools, curricula, and learning experiences that foster constructionism, equity, and creativity.                   
+                    My research focuses on designing AI powered educational systems and curricula that foster <span style={{color: "#89CFF0"}}>collaboration, equity</span> and <span style={{color: "#89CFF0"}}>creativity. </span>
                     I explore the interplay of social, cultural, economic, and digital infrastructures in historically marginalized contexts. Utilizing these insights, I develop
                     inclusive tools that empower diverse educational stakeholders to engage, learn, and create with AI and data science.        
-                    I engage in ethnographic fieldwork, participatory design, system development, and evaluation. 
-                    <br/> I have previously worked at Microsoft and Google Research in both research and software engineering roles.
-                    You can find my CV [Last updated: October 2024] on this website. 
+                    I engage in ethnographic fieldwork, participatory design, system development, and evaluation. My work has been published in HCI + AI + Education venues, including CHI, CSCW, IDC, AAAI, ISLS, SIGCSE, and L@S. 
+                    <br/><br/> I have previously worked at Microsoft and Google Research in both research and software engineering roles.
+                    You can find my CV [Last updated: November 2024] on this website. 
                     </div>
                     <br></br>
                     <div>
-                        Latest Updates: 
+                        News + Updates: 
                         <ul>
-                        <li> 10/2024 – I am serving as the Diversity and Inclusion co-chair for <a style={{color: "#E9C46A"}} href="https://uist.acm.org/2024/organizers/">UIST 2024.</a> If you are attending UIST, hmu!</li> 
+                        <li> 11/2024 – I will be presenting our paper on <a style={{color: "#E9C46A"}} href="https://drive.google.com/file/d/1NJUi66PJgB4T7SEn_irGUKWr8AOQoyCN/view?usp=sharing">Constructionist Approaches to K12 Data Science Education </a> at ACM SIGCSE's Virtual Conference 2024 in December!</li> 
+                        <li> 10/2024 – I served as the Diversity and Inclusion co-chair for <a style={{color: "#E9C46A"}} href="https://uist.acm.org/2024/organizers/">the UIST 2024 Organizing Committee!</a></li> 
                         <li> 9/2024 – I gave a talk on our K12 Data Literacy work at the UNESCO Paris Headquarters during their <a style={{color: "#E9C46A"}} href="https://www.unesco.org/en/weeks/digital-learning">Digital Learning Week!</a> You can find the recording <a style={{color: "#E9C46A"}} href="https://t.co/Y0CDfSm6gZ">here.</a></li>   
-                        <li> 8/2024 – I received my S.M. from MIT EECS! You can find my Masters' thesis on <a style={{color: "#E9C46A"}} href="https://drive.google.com/file/d/1FrZY_4D6MsFn5sUuMdrHGapudsVFi62J/view?usp=sharing">LLM Tools for Project-based Learning</a> here.</li>   
+                        <li> 9/2024 – I received my S.M. from MIT EECS! You can find my Masters' thesis on <a style={{color: "#E9C46A"}} href="https://drive.google.com/file/d/1FrZY_4D6MsFn5sUuMdrHGapudsVFi62J/view?usp=sharing">LLM Tools for Project-based Learning</a> here.</li>   
                         <li> 7/2024 - We are winners of the <a style={{color: "#E9C46A"}} href="https://tools-competition.org/">Learning Engineering Tools Competition</a> for 2024-25! We have been awarded $300,000 in research funding to advance our efforts in democratizing data literacy! </li>
                         <li> 7/2024 – I was selected as the Teaching Development Fellow for EECS from MIT's Teaching and Learning Lab for 2024-2025! </li>
-                        <li> 7/2024 – Our paper on <a style={{color: "#E9C46A"}} href="https://drive.google.com/file/d/1NJUi66PJgB4T7SEn_irGUKWr8AOQoyCN/view?usp=sharing">Constructionist Approaches to K12 Data Science Education </a> was accepted at ACM SIGCSE's Virtual Conference 2024!</li>
                         <li> 6/2024 – I was awarded the Artificial Intelligence in Education (AIED) <a style={{color: "#E9C46A"}} href="https://aied2024.cesar.school/call-for-papers/deia-fellowships">DEIA Fellowship</a> for 2024-2025!</li>
                         {/* <li> 4/2024 – My work as an MIT Work of the Future Fellow was featured on <a style={{color: "#E9C46A"}} href="https://news.mit.edu/2024/mit-launches-working-group-generative-ai-and-work-of-the-future-0328">MIT News!</a></li> */}
                         {/* <li> 2/2024 – I am currently leading a study on augmenting Project-Based Learning (PBL) assessments in K12 with generative AI tools. If you are an educator interested in PBL, sign-up <a style={{color: "#E9C46A"}} href="https://forms.gle/4ML2t6qWJoTy6B2T7">here.</a></li> */}
@@ -113,7 +114,7 @@ class AboutMe extends React.Component{
                     
                     <div>
                     
-                    I graduated from <a style={{color: "#E9C46A"}}href="https://www.gatech.edu/" >Georgia Institute of Technology </a> in May 2022 with a Bachelor's of Science in Computer Science and concentrations in Human Computer Interaction(HCI) and Artificial Intelligence(AI). 
+                    I graduated from <a style={{color: "#E9C46A"}}href="https://www.gatech.edu/" >Georgia Institute of Technology </a> in May 2022 with a Bachelor's of Science in Computer Science and concentrations in HCI and AI.
                     I was advised by wearable computing pioneer, <a style={{color: "#E9C46A"}}href="https://en.wikipedia.org/wiki/Thad_Starner" >Dr. Thad Starner</a>. 
                     I also worked closely with <a style={{color: "#E9C46A"}}href="https://www.nehakumar.org/" >Dr. Neha Kumar</a> and <a style={{color: "#E9C46A"}}href="https://en.wikipedia.org/wiki/Betsy_DiSalvo" >Dr. Betsy Disalvo</a> at the intersection of human-centered computing and education.
                     During my time at Georgia Tech, I conducted ethnographic studies and developed applications to enhance the quality and delivery of education for a wide spectrum of the society ranging from the differently abled to marginalized communities in developing nations. 

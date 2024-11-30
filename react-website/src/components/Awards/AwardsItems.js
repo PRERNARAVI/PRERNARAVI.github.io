@@ -8,6 +8,8 @@ import COC2020 from "../../images/CocAward2020.jpeg";
 import Adobe from "../../images/Adobe.jpeg";
 import PURA from "../../images/PURA.png";
 import Google from "../../images/Google.webp";
+import CIS from "../../images/cis_mit.png";
+import TLL from "../../images/tll.png";
 import { FaAward } from 'react-icons/fa';
 
 
@@ -19,6 +21,200 @@ class SkillsItems extends React.Component{
         return (
             <Container style={{textAlign: "center", paddingBottom: "100px"}}>
                 <Row>
+                <Col md={6} lg={4}>
+                    <a role="button" href="https://tll.mit.edu/programming/grad-student-programming/kaufman-teaching-certificate-program/" style={{cursor: "pointer", textDecoration: "none"}}>      
+                        <Card className="bg-dark text-white award-card-image"
+                            style={{marginTop: "120px", border: "none",
+                            borderRadius: "10px"}}>
+                        <div className="award-card-image">
+                            <Card.Header 
+                                style={{
+                                    fontFamily: "Tahoma, Geneva, sans-serif", 
+                                    fontWeight: "normal",
+                                    fontSize: 17,
+                                    paddingTop: "15px",
+                                    paddingBottom: '0px',
+                                    color: "#E9C46A"
+                                }}> 
+                                <p style={{lineHeight: "0.7"}}>
+                                    <FaAward size='35px' style={{color: 'white'}}/>
+                                    &ensp; Kaufman Teaching Certificate, MIT TLL 2024
+                                </p>
+                            </Card.Header>
+                            <Card.Img style={{height: "20vh", width: "90%", backgroundColor: "white", objectFit: "contain"}}
+                                 src={TLL} alt="Card image" />
+                                <Card.Text style={{fontSize: 14, margin: '10px'}}>
+                                Received this certificate from the MIT Teaching and Learning Lab (TLL) for completing workshops in 
+                                evidence-based teaching techniques for designing courses, and promoting inclusive classroom practices, assessments, and feedback. 
+                                </Card.Text>
+                                <Card.Footer>[ November 2024 ]</Card.Footer>
+
+                        </div>               
+                        </Card>
+                    </a>   
+                </Col>
+                <Col md={6} lg={4}>
+                    <a role="button" href="https://tools-competition.org/winner/mit-raise/" style={{cursor: "pointer", textDecoration: "none"}}>      
+                        <Card className="bg-dark text-white award-card-image"
+                            style={{marginTop: "120px", border: "none",
+                            borderRadius: "10px"}}>
+                        <div className="award-card-image">
+                            <Card.Header 
+                                style={{
+                                    fontFamily: "Tahoma, Geneva, sans-serif", 
+                                    fontWeight: "normal",
+                                    fontSize: 17,
+                                    paddingTop: "15px",
+                                    paddingBottom: '0px',
+                                    color: "#E9C46A"
+                                }}> 
+                                <p style={{lineHeight: "0.7"}}>
+                                    <FaAward size='35px' style={{color: 'white'}}/>
+                                    &ensp; Winner, Learning Engineering Tools Competition 2024
+                                </p>
+                            </Card.Header>
+                            <Card.Img style={{height: "20vh", width: "90%", backgroundColor: "white", objectFit: "contain"}}
+                                 src="https://tools-competition.org/wp-content/uploads/2022/10/LE-Tools-Competition-Logo-Final-5.png" alt="Card image" />
+                                <Card.Text style={{fontSize: 14, margin: '10px'}}>
+                                Awarded $300,000 in research funding from The Learning Agency for our Low-Barrier MIT App Inventor Mobile Data Science Toolkit that fosters higher author
+                                proximity and constructionism in K12 Data Literacy pedagogy.
+                                </Card.Text>
+                                <Card.Footer>[ August 2024 ]</Card.Footer>
+
+                        </div>               
+                        </Card>
+                    </a>   
+                </Col>
+                <Col md={6} lg={4}>
+                    <a role="button" href="https://aied2024.cesar.school/call-for-papers/deia-fellowships" style={{cursor: "pointer", textDecoration: "none"}}>      
+                        <Card className="bg-dark text-white award-card-image"
+                            style={{marginTop: "120px", border: "none",
+                            borderRadius: "10px"}}>
+                        <div className="award-card-image">
+                            <Card.Header 
+                                style={{
+                                    fontFamily: "Tahoma, Geneva, sans-serif", 
+                                    fontWeight: "normal",
+                                    fontSize: 17,
+                                    paddingTop: "15px",
+                                    paddingBottom: '0px',
+                                    color: "#E9C46A"
+                                }}> 
+                                <p style={{lineHeight: "0.7"}}>
+                                    <FaAward size='35px' style={{color: 'white'}}/>
+                                    &ensp;AI in Education (AIED) DEIA Fellowship 2024-2025
+                                </p>
+                            </Card.Header>
+                            <Card.Img style={{height: "20vh", width: "90%", backgroundColor: "white", objectFit: "contain"}}
+                                 src="https://pbs.twimg.com/media/GNdsEcMWcAA0e0N?format=jpg&name=900x900" alt="Card image" />
+                                <Card.Text style={{fontSize: 14, margin: '10px'}}>
+                                Awarded this fellowship from the International Artificial Intelligence in Education Society (IAIED) for expanding my work on democratizing K12 data literacy under the mentorship of Dr. Victor Lee at the Stanford
+                                Graduate School of Education.
+                                </Card.Text>
+                                <Card.Footer>[ August 2024 ]</Card.Footer>
+
+                        </div>               
+                        </Card>
+                    </a>   
+                </Col>
+                <Col md={6} lg={4}>
+                    <a role="button" href="https://cis.mit.edu/fellowships-grants/cis-travel-grants" style={{cursor: "pointer", textDecoration: "none"}}>      
+                        <Card className="bg-dark text-white award-card-image"
+                            style={{marginTop: "120px", border: "none",
+                            borderRadius: "10px"}}>
+                        <div className="award-card-image">
+                            <Card.Header 
+                                style={{
+                                    fontFamily: "Tahoma, Geneva, sans-serif", 
+                                    fontWeight: "normal",
+                                    fontSize: 17,
+                                    paddingTop: "15px",
+                                    paddingBottom: '0px',
+                                    color: "#E9C46A"
+                                }}> 
+                                <p style={{lineHeight: "0.7"}}>
+                                    <FaAward size='35px' style={{color: 'white'}}/>
+                                    &ensp;Center for International Studies Travel Fellowship 2024
+                                </p>
+                            </Card.Header>
+                            <Card.Img style={{height: "20vh", width: "90%", backgroundColor: "white", objectFit: "contain"}}
+                                 src={CIS} alt="Card image" />
+                                <Card.Text style={{fontSize: 14, margin: '10px'}}>
+                                Received this travel fellowship from the MIT Center for International Studies (CIS) for presenting my research in AI and Data Literacy at the UNESCO Paris
+                                Headquarters during their Digital Learning Week 2024.
+                                </Card.Text>
+                                <Card.Footer>[ August 2024 ]</Card.Footer>
+
+                        </div>               
+                        </Card>
+                    </a>   
+                </Col>
+                <Col md={6} lg={4}>
+                    <a role="button" href="https://tll.mit.edu/programming/grad-student-programming/tdf/" style={{cursor: "pointer", textDecoration: "none"}}>      
+                        <Card className="bg-dark text-white award-card-image"
+                            style={{marginTop: "120px", border: "none",
+                            borderRadius: "10px"}}>
+                        <div className="award-card-image">
+                            <Card.Header 
+                                style={{
+                                    fontFamily: "Tahoma, Geneva, sans-serif", 
+                                    fontWeight: "normal",
+                                    fontSize: 17,
+                                    paddingTop: "15px",
+                                    paddingBottom: '0px',
+                                    color: "#E9C46A"
+                                }}> 
+                                <p style={{lineHeight: "0.7"}}>
+                                    <FaAward size='35px' style={{color: 'white'}}/>
+                                    &ensp; MIT TLL Teaching Development Fellowship 2024-2025
+                                </p>
+                            </Card.Header>
+                            <Card.Img style={{height: "20vh", width: "90%", backgroundColor: "white", objectFit: "contain"}}
+                                 src={TLL} alt="Card image" />
+                                <Card.Text style={{fontSize: 14, margin: '10px'}}>
+                                Awarded this fellowship from the MIT Teaching and Learning Lab (TLL) to introduce initiatives promoting pedagogical
+                                development and discussion amongst graudate students in MIT's EECS department. 
+                                </Card.Text>
+                                <Card.Footer>[ August 2024 ]</Card.Footer>
+
+                        </div>               
+                        </Card>
+                    </a>   
+                </Col>
+                <Col md={6} lg={4}>
+                    <a role="button" href="https://chi2024.acm.org/" style={{cursor: "pointer", textDecoration: "none"}}>      
+                        <Card className="bg-dark text-white award-card-image"
+                            style={{marginTop: "120px", border: "none",
+                            borderRadius: "10px"}}>
+                        <div className="award-card-image">
+                            <Card.Header 
+                                style={{
+                                    fontFamily: "Tahoma, Geneva, sans-serif", 
+                                    fontWeight: "normal",
+                                    fontSize: 17,
+                                    paddingTop: "15px",
+                                    paddingBottom: '0px',
+                                    color: "#E9C46A"
+                                }}> 
+                                <p style={{lineHeight: "0.7"}}>
+                                    <FaAward size='35px' style={{color: 'white'}}/>
+                                    &ensp; Special Recognition: Outstanding Reviews, CHI 2024
+                                </p>
+                            </Card.Header>
+                            <Card.Img style={{height: "20vh", width: "90%", backgroundColor: "white", objectFit: "contain"}}
+                                 src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSsm-nFpzjSDEhJMyBIf4dWwWV9vZ82SFIQog&s" alt="Card image" />
+                                <Card.Text style={{fontSize: 14, margin: '10px'}}>
+                                Received this designation from the SIGCHI Conference on Human Factors in Computing Systems (CHI 2024) Program Committee for exceptionally high quality contributions to the 
+                                paper reviews process.
+
+
+                                </Card.Text>
+                                <Card.Footer>[ January 2024 ]</Card.Footer>
+
+                        </div>               
+                        </Card>
+                    </a>   
+                </Col>
                 <Col md={6} lg={4}>
                     <a role="button" href="https://ipc.mit.edu/people/prerna-ravi/" style={{cursor: "pointer", textDecoration: "none"}}>      
                         <Card className="bg-dark text-white award-card-image"
@@ -42,7 +238,7 @@ class SkillsItems extends React.Component{
                             <Card.Img style={{height: "20vh", width: "90%", backgroundColor: "white", objectFit: "contain"}}
                                  src="https://mms.businesswire.com/media/20201014005536/en/830206/22/Work-of-Future-Logo_CMYK-1_viewimage.jpg" alt="Card image" />
                                 <Card.Text style={{fontSize: 14, margin: '10px'}}>
-                                Awarded this fellowship for researching the design and implementation of generative AI tools across multiple sectors. I am one of the four recipients of this fellowship across all graduate degree programs 
+                                Awarded this fellowship for researching the design and implementation of generative AI tools across multiple sectors. I am one of seven recipients of this fellowship across all graduate degree programs 
                                 and departments at MIT. 
                                 </Card.Text>
                                 <Card.Footer>[ September 2023 ]</Card.Footer>
