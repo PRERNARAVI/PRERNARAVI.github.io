@@ -94,19 +94,20 @@ class AboutMe extends React.Component{
                     inclusive tools that empower diverse educational stakeholders to engage, learn, and create with AI and data science.        
                     I engage in ethnographic fieldwork, participatory design, system development, and evaluation. My work has been published in HCI + AI + Education venues, including CHI, CSCW, IDC, AAAI, ISLS, SIGCSE, and L@S. 
                     <br/><br/> I have previously worked at Microsoft and Google Research in both research and software engineering roles.
-                    You can find my CV [Last updated: November 2024] on this website. 
+                    You can find my CV [Last updated: December 2024] on this website. 
                     </div>
                     <br></br>
                     <div>
                         News + Updates: 
                         <ul>
+                        <li> 12/2024 – Excited to share that our paper on Assessments for Supporting AI Fluency Teaching was accepted at AAAI 2025!</li> 
                         <li> 11/2024 – I will be presenting our paper on <a style={{color: "#E9C46A"}} href="https://drive.google.com/file/d/1NJUi66PJgB4T7SEn_irGUKWr8AOQoyCN/view?usp=sharing">Constructionist Approaches to K12 Data Science Education </a> at ACM SIGCSE's Virtual Conference 2024 in December!</li> 
                         <li> 10/2024 – I served as the Diversity and Inclusion co-chair for <a style={{color: "#E9C46A"}} href="https://uist.acm.org/2024/organizers/">the UIST 2024 Organizing Committee!</a></li> 
                         <li> 9/2024 – I gave a talk on our K12 Data Literacy work at the UNESCO Paris Headquarters during their <a style={{color: "#E9C46A"}} href="https://www.unesco.org/en/weeks/digital-learning">Digital Learning Week!</a> You can find the recording <a style={{color: "#E9C46A"}} href="https://t.co/Y0CDfSm6gZ">here.</a></li>   
                         <li> 9/2024 – I received my S.M. from MIT EECS! You can find my Masters' thesis on <a style={{color: "#E9C46A"}} href="https://drive.google.com/file/d/1FrZY_4D6MsFn5sUuMdrHGapudsVFi62J/view?usp=sharing">LLM Tools for Project-based Learning</a> here.</li>   
                         <li> 7/2024 - We are winners of the <a style={{color: "#E9C46A"}} href="https://tools-competition.org/">Learning Engineering Tools Competition</a> for 2024-25! We have been awarded $300,000 in research funding to advance our efforts in democratizing data literacy! </li>
                         <li> 7/2024 – I was selected as the Teaching Development Fellow for EECS from MIT's Teaching and Learning Lab for 2024-2025! </li>
-                        <li> 6/2024 – I was awarded the Artificial Intelligence in Education (AIED) <a style={{color: "#E9C46A"}} href="https://aied2024.cesar.school/call-for-papers/deia-fellowships">DEIA Fellowship</a> for 2024-2025!</li>
+                        {/* <li> 6/2024 – I was awarded the Artificial Intelligence in Education (AIED) <a style={{color: "#E9C46A"}} href="https://aied2024.cesar.school/call-for-papers/deia-fellowships">DEIA Fellowship</a> for 2024-2025!</li> */}
                         {/* <li> 4/2024 – My work as an MIT Work of the Future Fellow was featured on <a style={{color: "#E9C46A"}} href="https://news.mit.edu/2024/mit-launches-working-group-generative-ai-and-work-of-the-future-0328">MIT News!</a></li> */}
                         {/* <li> 2/2024 – I am currently leading a study on augmenting Project-Based Learning (PBL) assessments in K12 with generative AI tools. If you are an educator interested in PBL, sign-up <a style={{color: "#E9C46A"}} href="https://forms.gle/4ML2t6qWJoTy6B2T7">here.</a></li> */}
                         </ul>
