@@ -94,7 +94,7 @@ class AboutMe extends React.Component{
                     inclusive tools that empower diverse educational stakeholders to engage, learn, and create with AI and data science.        
                     I engage in ethnographic fieldwork, participatory design, system development, and evaluation. My work has been published in <span style={{color: "#89CFF0"}}><b>HCI + AI + Education</b></span> venues, including CHI, CSCW, IDC, AAAI, ISLS, & SIGCSE. I am currently an MIT Teaching Development Fellow.
                     <br/> 
-                    These days, I am working on building multimodal LLM agents that can be leveraged in educational settings to foster and measure equitable group collaboration and productivity, distributed creativity, and learning outcomes.<br/><br/>
+                    These days, I am building multimodal LLM agents that can be leveraged in educational settings to foster and measure equitable group collaboration and productivity, distributed creativity, and learning outcomes.<br/><br/>
                     I have previously worked at Microsoft and Google Research in both research and software engineering roles.
                     You can find my CV [Last updated: Jan 2025] on this website. 
                     </div>
