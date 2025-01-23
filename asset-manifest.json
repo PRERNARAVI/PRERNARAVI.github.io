@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.6108058a.css",
-    "main.js": "/static/js/main.117489b7.js",
+    "main.js": "/static/js/main.144b6122.js",
     "static/media/ImageGen.png": "/static/media/ImageGen.e0b8638cff3f1a2d0819.png",
     "static/media/ttig-educators.pdf": "/static/media/ttig-educators.8ec68901ee37c5aaa4bc.pdf",
     "static/media/AppInventor.png": "/static/media/AppInventor.72ee01fad40277206122.png",
@@ -34,10 +34,10 @@
     "static/media/tll.png": "/static/media/tll.ca8d4fd6c4cc512e65a9.png",
     "index.html": "/index.html",
     "main.6108058a.css.map": "/static/css/main.6108058a.css.map",
-    "main.117489b7.js.map": "/static/js/main.117489b7.js.map"
+    "main.144b6122.js.map": "/static/js/main.144b6122.js.map"
   },
   "entrypoints": [
     "static/css/main.6108058a.css",
-    "static/js/main.117489b7.js"
+    "static/js/main.144b6122.js"
   ]
 }
