@@ -46,6 +46,7 @@ class HomePage extends React.Component {
       
         <div responsive="true" style={{backgroundColor: "#0e172a", maxWidth: "100%", minWidth: "100%"}}>
           <Image style={backgroundMe} responsive="true" src="https://wallpaperaccess.com/full/2943763.jpg" fluid="true"/>
+          {/* <Image style={backgroundMe} responsive="true" src="https://wallpaperaccess.com/full/2943763.jpg" fluid="true"/>
             <div className = "wallpaper-text">
               <p >
               <h1 style={textStyle}> <div id="writing-text">Hi! My name is Prerna, I am a </div>
@@ -65,7 +66,7 @@ class HomePage extends React.Component {
                 </h1>
               </h1>
               </p>
-            </div>
+            </div> */}
           <AboutMe/>  
 
         </div>

@@ -25,7 +25,7 @@ class AboutMe extends React.Component{
             backgroundPosition: 'center',
             width: '100%',
             backgroundSize: 'cover',
-            opacity: 0.85,
+            opacity: 0.75,
             position: "relative",
             boxShadow: "40px 0px 40px 25px #003554"
         };
@@ -38,7 +38,7 @@ class AboutMe extends React.Component{
             backgroundPosition: 'center',
             width: '100%',
             backgroundSize: 'cover',
-            opacity: 0.85,
+            opacity: 0.75,
             position: "relative",
             boxShadow: "40px 0px 40px 25px #003554"
         };
@@ -56,7 +56,7 @@ class AboutMe extends React.Component{
                 <Row>
                 <Col md={4} style={{textAlign: "center", textAlign: "center", justifyContent: "center", alignItems: "center", paddingTop: "120px"}}> 
                     <div style={{textAlign: "center", justifyContent: "center", alignItems: "center"}}>    
-                        <Image width="80%" responsive="true" src={Grad} fluid="true"/>
+                        <Image width="75%" responsive="true" src={Grad} fluid="true"/>
                     </div>
                     <br/>
                     <div style={{textAlign: "center", justifyContent: "center", alignItems: "center", width: "100%"}}>
@@ -91,20 +91,31 @@ class AboutMe extends React.Component{
                     
                     My research focuses on designing AI powered educational systems and curricula that foster <span style={{color: "#89CFF0"}}>collaboration, equity</span> and <span style={{color: "#89CFF0"}}>creativity. </span> I develop
                     inclusive tools that empower diverse educational stakeholders to engage, learn, and create with AI and data science.        
-                    I engage in ethnographic fieldwork, participatory design, system development, and evaluation. My work has been published in <span style={{color: "#89CFF0"}}><b>HCI + AI + Education</b></span> venues, including CHI, CSCW, IDC, AAAI, ISLS, & SIGCSE. <br/>I am currently an MIT Teaching Development Fellow. I have previously worked at Microsoft and Google Research in both research and software engineering roles.
-                    You can find my CV [Rev. Feb 2025] on this website. 
+                    I engage in ethnographic fieldwork, participatory design, system development, and evaluation. My work has been published in <span style={{color: "#89CFF0"}}><b>HCI + AI + Education</b></span> venues, including CHI, CSCW, IDC, AAAI, ISLS, & SIGCSE. I am currently an MIT Teaching Development Fellow. I have previously worked at Microsoft and Google Research in both research and software engineering roles.
+                    You can find my CV [Rev. March 2025] on this website. 
                     <br/> <br/>
-                    These days, I am building multimodal LLM agents that can be leveraged in educational settings to foster and measure equitable group collaboration and productivity, distributed creativity, and learning outcomes. I am also developing new taxonomies for automatically identifying semantic threads within in-person conversations and critically examining discourse dynamics in collaborative contexts. If you work in the AI for education, group collaboration, or creativity spaces, please reach out to me at prernar-at-mit-dot-edu :)<br/><br/>
+                    These days, I am building multimodal LLM agents to foster and measure equitable group collaboration and productivity, distributed creativity, and learning outcomes. I am also developing new taxonomies for automatically identifying semantic threads within in-person conversations and critically examining discourse dynamics in collaborative contexts. If you work in the AI for education, group collaboration, or creativity spaces, please reach out to me at <a style={{color: "#E9C46A"}} href="mailto: prernar@mit.edu">prernar-at-mit-dot-edu</a> :)<br/><br/>
                     </div>
+                    <div>
+                    
+                    I received my B.S. in Computer Science (2022) from <a style={{color: "#E9C46A"}}href="https://www.gatech.edu/" >Georgia Tech</a>, where I was advised by <a style={{color: "#E9C46A"}}href="https://en.wikipedia.org/wiki/Thad_Starner" >Dr. Thad Starner</a>. Under his supervision, I built sign language recognition models and integrated those into educational games for deaf kids.
+                    I also collaborated with <a style={{color: "#E9C46A"}}href="https://www.nehakumar.org/" >Dr. Neha Kumar</a> and <a style={{color: "#E9C46A"}}href="https://en.wikipedia.org/wiki/Betsy_DiSalvo" >Dr. Betsy Disalvo </a> 
+                    on investigating the use of Information and Communication Technologies (ICTs) in underresourced settings in the Global South.
+                    {/* Likewise my research internships at <a style={{color: "#E9C46A"}}href="https://ai.google/research/" >Google AI</a> and <a style={{color: "#E9C46A"}}href="https://www.microsoft.com/en-us/accessibility" >Microsoft Accessibility</a> as well as three software engineering internships 
+                    at Microsoft enabled me apply these skills in an industry setting.   */}
+                    {/* I also worked with multiple non-profit organizations both in the United States and India, my home country. */}
+                    </div>
+                    <br/>
                     <div>
                         News + Updates: 
                         <ul>
+                        <li> 03/2025 – Our paper <a style={{color: "#E9C46A"}}href="https://drive.google.com/file/d/1zxLS8FV6vObb67xYlQWDgR3XhCPy6Y3y/view?usp=sharing">ABCDE: An Action-Oriented Framework for Collaborative Activities</a> was accepted to CSCL 2025! This is my first project in collaboration with MIT STEP :)</li>
                         <li> 02/2025 – Excited to be attending AAAI 2025 this month! Stop by the EAAI symposium to hear about our paper on Assessments for Supporting AI Literacy Teaching.</li>     
                         <li> 02/2025 – Our proposal to the Journal of Educational Data Mining (jEDM) on Leveraging LLMs to Identify and Analyze Conversation Threads in Collaborative Learning has been accepted!</li>    
-                        <li> 02/2025 – I have been selected to serve on the Organizing Committee (as the Global Equity co-chair) for CHI 2026 in Barcelona!</li>
-                        <li> 02/2025 – I am serving as a Senior Reviewer on the Program Committee of ISLS 2025!</li>
-                        <li> 01/2025 – Our paper on Co-designing Large Language Model Tools for Project-Based Learning with K12 Educators has been accepted to CHI 2025! Pre-print available <a style={{color: "#E9C46A"}} href="https://arxiv.org/abs/2502.09799">here.</a></li> 
-                        <li> 01/2025 – I will be serving as an Associate Chair for CHI 2025's Late Breaking Work track this year.</li> 
+                        <li> 02/2025 – I have been selected to serve on the Organizing Committee (as the Global co-chair) for CHI 2026 in Barcelona!</li>
+                        {/* <li> 02/2025 – I am serving as a Senior Reviewer on the Program Committee of ISLS 2025!</li> */}
+                        <li> 01/2025 – Our paper on <a style={{color: "#E9C46A"}}href="https://arxiv.org/abs/2502.09799">Co-designing Large Language Model Tools for Project-Based Learning with K12 Educators</a> has been accepted to CHI 2025!</li> 
+                        {/* <li> 01/2025 – I will be serving as an Associate Chair for CHI 2025's Late Breaking Work track this year.</li>  */}
                         {/* <li> 01/2025 – I received my Graduate Teaching Certificate from MIT'S Teaching and Learning Lab.</li>  */}
                         {/* <li> 12/2024 – I presented our paper on <a style={{color: "#E9C46A"}} href="https://drive.google.com/file/d/1NJUi66PJgB4T7SEn_irGUKWr8AOQoyCN/view?usp=sharing">Constructionist Approaches to K12 Data Science Education </a> at ACM SIGCSE's Virtual Conference 2024.</li>  */}
                         {/* <li> 10/2024 – I served as the Diversity and Inclusion co-chair for <a style={{color: "#E9C46A"}} href="https://uist.acm.org/2024/organizers/">the UIST 2024 Organizing Committee!</a></li>  */}
@@ -118,16 +129,7 @@ class AboutMe extends React.Component{
                         </ul>
                     </div>
                     
-                    <div>
                     
-                    I graduated from <a style={{color: "#E9C46A"}}href="https://www.gatech.edu/" >Georgia Institute of Technology </a> in May 2022 with a B.S. in Computer Science and concentrations in HCI and AI.
-                    I was advised by wearable computing pioneer, <a style={{color: "#E9C46A"}}href="https://en.wikipedia.org/wiki/Thad_Starner" >Dr. Thad Starner</a>. Under his supervision, I built Sign Language Recognition models and integrated those into educational games for deaf kids.
-                    I also collaborated with <a style={{color: "#E9C46A"}}href="https://www.nehakumar.org/" >Dr. Neha Kumar</a> and <a style={{color: "#E9C46A"}}href="https://en.wikipedia.org/wiki/Betsy_DiSalvo" >Dr. Betsy Disalvo </a> 
-                    on investigating the use of Information and Communication Technologies (ICTs) in underresourced settings in the Global South.
-                    {/* Likewise my research internships at <a style={{color: "#E9C46A"}}href="https://ai.google/research/" >Google AI</a> and <a style={{color: "#E9C46A"}}href="https://www.microsoft.com/en-us/accessibility" >Microsoft Accessibility</a> as well as three software engineering internships 
-                    at Microsoft enabled me apply these skills in an industry setting.   */}
-                    {/* I also worked with multiple non-profit organizations both in the United States and India, my home country. */}
-                    </div>
                     {/* <div>
                     I grew up in the multicultural city of Muscat, Oman in the Middle East, a childhood punctuated with annual visits to my native place in Mumbai, India (which is also where parts of my prior research work were based). I have deep rooted Indian traditions and am fortunate to have been trained in classical Carnatic music and Bharatanatyam dance. I also have a keen artistic sense and a preview of my repertoire in all the fine arts is available on this website. As a woman of color from the Global South, I leverage my diverse cultural upbringing and outlook while pursuing all professional as well as personal endeavors at MIT. 
                     In particular, I am deeply grateful for the <a style={{color: "#E9C46A"}}href="https://www.iirp.edu/images/pdf/AvNtDE_EDUC_701_-_Yossos_Community_Cultural_Wealth_Model.pdf" >resistant and aspirational capital</a> that I have had access to, without which it would have been impossible for me to study in the United States.

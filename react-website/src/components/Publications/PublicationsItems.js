@@ -413,7 +413,7 @@ class PublicationsItems extends React.Component{
                     <Row>
                         <Col >
                             <div style={{color: "#E9C46A"}}>
-                            Generative AI for Responsible Community Engagement workshop
+                            Generative AI for Responsible Community Engagement
                             </div>
                             <div style={{color: "white"}}>
                             Guest speaker at Capitol Hill, Washington DC: #HouseOfCode, U.S. Congressional App Challenge <br/>
@@ -443,7 +443,7 @@ class PublicationsItems extends React.Component{
                         </Col>
                     </Row>
                     <br/>
-                    <Row>
+                    {/* <Row>
                         <Col >
                             <div style={{color: "#E9C46A"}}>
                             Boston Public School AI and Data Science with App Inventor workshop
@@ -453,7 +453,7 @@ class PublicationsItems extends React.Component{
                             </div>
                         </Col>
                     </Row>
-                    <br/>
+                    <br/> */}
                     <Row>
                         <Col >
                             <div style={{color: "#E9C46A"}}>
@@ -487,7 +487,7 @@ class PublicationsItems extends React.Component{
                         </Col>
                     </Row>
                     <br/>
-                    <Row>
+                    {/* <Row>
                         <Col >
                             <div style={{color: "#E9C46A"}}>
                             Generative AI with MIT App Inventor
@@ -497,8 +497,8 @@ class PublicationsItems extends React.Component{
                             </div>
                         </Col>
                     </Row>
-                    <br/>
-                    <Row>
+                    <br/> */}
+                    {/* <Row>
                         <Col >
                             <div style={{color: "#E9C46A"}}>
                             Tracking Carbon Footprint using MIT App Inventor
@@ -508,8 +508,8 @@ class PublicationsItems extends React.Component{
                             </div>
                         </Col>
                     </Row>
-                    <br/>
-                    <Row>
+                    <br/> */}
+                    {/* <Row>
                         <Col >
                             <div style={{color: "#E9C46A"}}>
                             Supporting Entrepreneurship through Mobile App Development using MIT App Inventor
@@ -518,8 +518,8 @@ class PublicationsItems extends React.Component{
                             Guest Speaker at the Roxbury Latin High School, Massachusetts<br/>
                             </div>
                         </Col>
-                    </Row>
-                    <br/>
+                    </Row> */}
+                    {/* <br/> */}
                     <Row>
                         <Col >
                             <div style={{color: "#E9C46A"}}>

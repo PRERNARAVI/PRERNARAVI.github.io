@@ -76,7 +76,8 @@ a {
 .about-me {
   position: relative;
   max-width: 100%;
-  margin-top: 770px;
+  /* margin-top: 770px; */
+  margin-top: 50px;
   height: auto;
   background-color: #0e172a; 
   opacity: 0.9;

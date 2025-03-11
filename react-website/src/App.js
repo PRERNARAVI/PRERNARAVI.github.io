@@ -16,7 +16,7 @@ class App extends Component {
   return (
     <div responsive="true">
       <Navbar collapseOnSelect='true' style={{backgroundColor: "black"}} className="nav-bar" expand="lg" bg="black" variant="dark" fixed = "top">
-      <Navbar.Brand className="brand" > <NavLink style={{color: "#f2ebdd", textDecoration: 'none' }} exact to="/"> <Image src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/0c/MIT_logo.svg/64px-MIT_logo.svg.png"/>&emsp;PRERNA RAVI </NavLink>
+      <Navbar.Brand className="brand" > <NavLink style={{color: "#f2ebdd", textDecoration: 'none', fontFamily: 'Monaco'}} exact to="/"> <Image src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/0c/MIT_logo.svg/64px-MIT_logo.svg.png"/>&emsp;PRERNA RAVI </NavLink>
       </Navbar.Brand>
       <Navbar.Toggle aria-controls="responsive-navbar-nav" />
       <Navbar.Collapse className="justify-content-end" id="responsive-navbar-nav" >
