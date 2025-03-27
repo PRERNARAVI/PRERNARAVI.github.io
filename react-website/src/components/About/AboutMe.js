@@ -109,13 +109,13 @@ class AboutMe extends React.Component{
                     <div>
                         News + Updates: 
                         <ul>
+                        <li> 03/2025 – Our CHI 2025 paper on <a style={{color: "#E9C46A"}}href="https://arxiv.org/abs/2502.09799">Co-designing Large Language Model Tools for Project-Based Learning with K12 Educators</a> won an Honorable Mention (top 5% of submissions) 🏆!</li> 
                         <li> 03/2025 – Our paper <a style={{color: "#E9C46A"}} href="">Empowering High School Students in GenAI for Education: A Participatory Design Approach Informed by Teacher Insights</a> has been accepted to IDC 2025!</li>
-                        <li> 03/2025 – Our paper <a style={{color: "#E9C46A"}}href="https://drive.google.com/file/d/1zxLS8FV6vObb67xYlQWDgR3XhCPy6Y3y/view?usp=sharing">ABCDE: An Action-Oriented Framework for Collaborative Activities</a> was accepted to CSCL 2025! This is my first project in collaboration with MIT STEP :)</li>
+                        <li> 03/2025 – Our paper <a style={{color: "#E9C46A"}}href="https://drive.google.com/file/d/1zxLS8FV6vObb67xYlQWDgR3XhCPy6Y3y/view?usp=sharing">ABCDE: An Action-Oriented Framework for Collaborative Activities</a> was accepted to CSCL 2025!</li>
                         <li> 02/2025 – Excited to be attending AAAI 2025 this month! Stop by the EAAI symposium to hear about our paper on  <a style={{color: "#E9C46A"}} href="">Assessments for Supporting AI Literacy Teaching.</a></li>     
                         <li> 02/2025 – Our proposal to the Journal of Educational Data Mining (jEDM) on <a style={{color: "#E9C46A"}} href="">Leveraging LLMs to Identify and Analyze Conversation Threads in Collaborative Learning</a> has been accepted!</li>    
                         <li> 02/2025 – I have been selected to serve on the Organizing Committee (as the Global co-chair) for CHI 2026 in Barcelona!</li>
                         {/* <li> 02/2025 – I am serving as a Senior Reviewer on the Program Committee of ISLS 2025!</li> */}
-                        <li> 01/2025 – Our paper on <a style={{color: "#E9C46A"}}href="https://arxiv.org/abs/2502.09799">Co-designing Large Language Model Tools for Project-Based Learning with K12 Educators</a> has been accepted to CHI 2025!</li> 
                         {/* <li> 01/2025 – I will be serving as an Associate Chair for CHI 2025's Late Breaking Work track this year.</li>  */}
                         {/* <li> 01/2025 – I received my Graduate Teaching Certificate from MIT'S Teaching and Learning Lab.</li>  */}
                         {/* <li> 12/2024 – I presented our paper on <a style={{color: "#E9C46A"}} href="https://drive.google.com/file/d/1NJUi66PJgB4T7SEn_irGUKWr8AOQoyCN/view?usp=sharing">Constructionist Approaches to K12 Data Science Education </a> at ACM SIGCSE's Virtual Conference 2024.</li>  */}
