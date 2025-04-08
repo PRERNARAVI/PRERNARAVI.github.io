@@ -89,10 +89,10 @@ class AboutMe extends React.Component{
                     I also collaborate with <a style={{color: "#E9C46A"}} href="https://www.media.mit.edu/people/cynthiab/overview/">Dr. Cynthia Breazeal</a> (MIT Media Lab) and <a style={{color: "#E9C46A"}} href="https://education.mit.edu/person/eric_klopfer/">Dr. Eric Klopfer </a>(MIT STEP). I graduated from MIT in 2024 with an S.M. in Computer Science <a style={{color: "#E9C46A"}} href="https://drive.google.com/file/d/1FrZY_4D6MsFn5sUuMdrHGapudsVFi62J/view?usp=sharing">[thesis link]</a>.
                     <br/><br/>
                     
-                    My research focuses on designing AI powered educational systems and curricula that foster <span style={{color: "#89CFF0"}}>collaboration, equity</span> and <span style={{color: "#89CFF0"}}>creativity. </span> I develop
-                    inclusive tools that empower diverse educational stakeholders to engage, learn, and create with AI and data science.        
-                    I engage in ethnographic fieldwork, participatory design, system development, and evaluation. My work has been published in <span style={{color: "#89CFF0"}}><b>HCI + AI + Education</b></span> venues, including CHI, CSCW, IDC, AAAI, ISLS, & SIGCSE. I am currently an MIT Teaching Development Fellow. I have previously worked at Microsoft and Google Research in both research and software engineering roles.
-                    You can find my CV [Rev. March 2025] on this website. 
+                    My research focuses on designing AI powered ecosystems that foster <span style={{color: "#89CFF0"}}>group collaboration, equity</span> and <span style={{color: "#89CFF0"}}>creativity. </span> I develop
+                    inclusive tools that empower diverse stakeholders to engage, learn, and create with AI.        
+                    I engage in ethnographic fieldwork, participatory design, system development, and evaluation. My work has been published in <span style={{color: "#89CFF0"}}><b>HCI + AI + Education</b></span> venues, including CHI, CSCW, IDC, AAAI, ISLS, L@S, & SIGCSE. I am currently an MIT Teaching Development Fellow. I have previously worked at Microsoft and Google Research in both research and software engineering roles.
+                    You can find my CV [Rev. April 2025] on this website. 
                     <br/> <br/>
                     These days, I am building multimodal LLM agents to foster and measure equitable group collaboration and productivity, distributed creativity, and learning outcomes. I am also developing new taxonomies for automatically identifying semantic threads within in-person conversations and critically examining discourse dynamics in collaborative contexts. If you work in the AI for education, group collaboration, or creativity spaces, please reach out to me at <a style={{color: "#E9C46A"}} href="mailto: prernar@mit.edu">prernar-at-mit-dot-edu</a> :)<br/><br/>
                     </div>
@@ -109,12 +109,13 @@ class AboutMe extends React.Component{
                     <div>
                         News + Updates: 
                         <ul>
+                        <li> 04/2025 – Our paper <a style={{color: "#E9C46A"}} href="">Beyond AI Feedback: How Metacognitive Requirements in Practice Exams Transform Student Learning Behaviors</a> has been accepted to L@S 2025!</li>
                         <li> 03/2025 – Our CHI 2025 paper on <a style={{color: "#E9C46A"}}href="https://arxiv.org/abs/2502.09799">Co-designing Large Language Model Tools for Project-Based Learning with K12 Educators</a> won an Honorable Mention (top 5% of submissions) 🏆!</li> 
                         <li> 03/2025 – Our paper <a style={{color: "#E9C46A"}} href="">Empowering High School Students in GenAI for Education: A Participatory Design Approach Informed by Teacher Insights</a> has been accepted to IDC 2025!</li>
                         <li> 03/2025 – Our paper <a style={{color: "#E9C46A"}}href="https://drive.google.com/file/d/1zxLS8FV6vObb67xYlQWDgR3XhCPy6Y3y/view?usp=sharing">ABCDE: An Action-Oriented Framework for Collaborative Activities</a> was accepted to CSCL 2025!</li>
-                        <li> 02/2025 – Excited to be attending AAAI 2025 this month! Stop by the EAAI symposium to hear about our paper on  <a style={{color: "#E9C46A"}} href="">Assessments for Supporting AI Literacy Teaching.</a></li>     
+                        {/* <li> 02/2025 – Excited to be attending AAAI 2025 this month! Stop by the EAAI symposium to hear about our paper on  <a style={{color: "#E9C46A"}} href="">Assessments for Supporting AI Literacy Teaching.</a></li>      */}
                         <li> 02/2025 – Our proposal to the Journal of Educational Data Mining (jEDM) on <a style={{color: "#E9C46A"}} href="">Leveraging LLMs to Identify and Analyze Conversation Threads in Collaborative Learning</a> has been accepted!</li>    
-                        <li> 02/2025 – I have been selected to serve on the Organizing Committee (as the Global co-chair) for CHI 2026 in Barcelona!</li>
+                        {/* <li> 02/2025 – I have been selected to serve on the Organizing Committee (as the Global co-chair) for CHI 2026 in Barcelona!</li> */}
                         {/* <li> 02/2025 – I am serving as a Senior Reviewer on the Program Committee of ISLS 2025!</li> */}
                         {/* <li> 01/2025 – I will be serving as an Associate Chair for CHI 2025's Late Breaking Work track this year.</li>  */}
                         {/* <li> 01/2025 – I received my Graduate Teaching Certificate from MIT'S Teaching and Learning Lab.</li>  */}
