@@ -12,40 +12,42 @@ class HomePage extends React.Component {
     position: "fixed",
     backgroundSize: 'cover',
     backgroundPosition: 'center',
-    opacity: 0.5,
+    opacity: 0.3,
     width: '100%',
     height: "100%",
 };
     var textStyle = {
       position: 'absolute', 
       width: "100%",
-      color: '#E9C46A',
+      color: '#2D3436',
       fontSize: 45,
       paddingTop: "250px",
-      lineHeight: 1.5
+      lineHeight: 1.5,
+      fontFamily: "'Inter', -apple-system, BlinkMacSystemFont, sans-serif",
+      fontWeight: 500
     };
     var lastStyle = {
       position: 'absolute', 
       width: "100%",
-      color: '#E9C46A',
+      color: '#2C3E50',
       fontSize: 45,
       lineHeight: 1.5,
-      fontFamily: "Arial"
-      
+      fontFamily: "'Inter', -apple-system, BlinkMacSystemFont, sans-serif",
+      fontWeight: 400
     };
-    // var offset = document.getElementById("introText").offsetLeft;
     var writeStyle = {
         position: 'absolute', 
         width: "100%",
-        color: 'white',
-        fontFamily: 'monospace',
+        color: '#3A1EB6',
+        fontFamily: "'Inter', -apple-system, BlinkMacSystemFont, sans-serif",
         lineHeight: 1.5,
         fontSize: 50,
+        fontWeight: 500
       };
     return(
       
-        <div responsive="true" style={{backgroundColor: "#0e172a", maxWidth: "100%", minWidth: "100%"}}>
-          <Image style={backgroundMe} responsive="true" src="https://wallpaperaccess.com/full/2943763.jpg" fluid="true"/>
+        <div responsive="true" style={{backgroundColor: "#f8fafc", maxWidth: "100%", minWidth: "100%"}}>
+          {/* <Image style={backgroundMe} responsive="true" src="https://wallpaperaccess.com/full/2943763.jpg" fluid="true"/> */}
           {/* <Image style={backgroundMe} responsive="true" src="https://wallpaperaccess.com/full/2943763.jpg" fluid="true"/>
             <div className = "wallpaper-text">
               <p >

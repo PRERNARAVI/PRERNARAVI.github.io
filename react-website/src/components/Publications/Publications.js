@@ -35,10 +35,10 @@ class Publications extends React.Component {
 
 
         return (
-        <div rresponsive="true" style={{backgroundColor: "#0e172a", maxWidth: "100%"}}>    
-            <Row className="justify-content-md-center"> 
+        <div responsive="true" style={{backgroundColor: "#f8fafc", maxWidth: "100%"}}>    
+
                 <PublicationsItems/>
-            </Row>
+
 
         </div>
         );

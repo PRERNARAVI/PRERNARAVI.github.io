@@ -36,15 +36,15 @@ class Experience extends React.Component {
 
 
         return (
-        <div responsive="true" style={{backgroundColor: "#0e172a", maxWidth: "100%"}}>    
-            <Container >
-            <Row className="justify-content-lg-center"> 
+        <div responsive="true" style={{backgroundColor: "#f8fafc", maxWidth: "100%"}}>    
+
+
     
                 {/* <Image style={background} responsive="true" className="wallpaper-format" src={BlackOne} fluid="true"/> */}
 
                 <ExperienceItems/>
-            </Row>
-            </Container>
+
+
 
         </div>
         );
