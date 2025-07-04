@@ -77,14 +77,14 @@ class AboutMe extends React.Component{
                 <Col md={6} >
                 <Container className="about-me-text">
                         <div style={{fontWeight:"400"}}>
-                        I am a PhD student at <a style={{color: "#1E88E5", fontWeight: "600"}}href="https://www.csail.mit.edu/" >MIT CSAIL</a> advised by <a style={{color: "#1E88E5", fontWeight: "600"}} href="https://en.wikipedia.org/wiki/Hal_Abelson">Dr. Hal Abelson</a> and <a style={{color: "#1E88E5", fontWeight: "600"}}href="https://people.csail.mit.edu/karger/"> Dr. David Karger</a>. 
-                        I also collaborate with <a style={{color: "#1E88E5", fontWeight: "600"}} href="https://www.media.mit.edu/people/cynthiab/overview/">Dr. Cynthia Breazeal</a> (MIT Media Lab) and <a style={{color: "#1E88E5", fontWeight: "600"}} href="https://education.mit.edu/person/eric_klopfer/">Dr. Eric Klopfer </a>(MIT STEP). I graduated from MIT in 2024 with an S.M. in Computer Science <a style={{color: "#1E88E5", fontWeight: "600"}} href="https://drive.google.com/file/d/1FrZY_4D6MsFn5sUuMdrHGapudsVFi62J/view?usp=sharing">[thesis link]</a>.
+                        I am a PhD student at <a style={{color: "#1E88E5", fontWeight: "600"}}href="https://www.csail.mit.edu/" >MIT CSAIL</a> advised by <a style={{color: "#1E88E5", fontWeight: "600"}} href="https://en.wikipedia.org/wiki/Hal_Abelson">Dr. Hal Abelson</a>. 
+                        I also collaborate with <a style={{color: "#1E88E5", fontWeight: "600"}} href="https://www.media.mit.edu/people/cynthiab/overview/">Dr. Cynthia Breazeal</a> (MIT Media Lab), <a style={{color: "#1E88E5", fontWeight: "600"}} href="https://education.mit.edu/person/eric_klopfer/">Dr. Eric Klopfer </a>(MIT STEP), and <a style={{color: "#1E88E5", fontWeight: "600"}}href="https://people.csail.mit.edu/karger/"> Dr. David Karger</a> (MIT CSAIL). I graduated from MIT in 2024 with an S.M. in Computer Science <a style={{color: "#1E88E5", fontWeight: "600"}} href="https://drive.google.com/file/d/1FrZY_4D6MsFn5sUuMdrHGapudsVFi62J/view?usp=sharing">[thesis link]</a>.
                         <br/><br/>
                         
-                        My research focuses on designing AI powered ecosystems that foster <span style={{color: "#3A1EB6"}}><b>group collaboration, equity</b></span> and <span style={{color: "#3A1EB6"}}><b>creativity. </b></span> I develop
+                        My research focuses on designing AI powered ecosystems that foster <span style={{color: "#3A1EB6"}}><b>social collaboration, equity</b></span> and <span style={{color: "#3A1EB6"}}><b>creativity. </b></span> I develop
                         inclusive tools that empower diverse stakeholders to engage, learn, and create with AI.        
                         I engage in ethnographic fieldwork, participatory design, system development, and evaluation. My work has been published in <span style={{color: "#3A1EB6"}}><b>HCI + AI + Education</b></span> venues, including CHI, CSCW, IDC, AAAI, ISLS, L@S, & SIGCSE. I am currently an MIT Teaching Development Fellow. I have previously worked at Microsoft and Google Research in both research and software engineering roles.
-                        You can find my CV [Rev. April 2025] on this website. 
+                        You can find my CV [Rev. June 2025] on this website. 
                         <br/> <br/>
                         These days, I am building multimodal LLM agents to foster and measure equitable group collaboration and productivity, distributed creativity, and learning outcomes. I am also developing new taxonomies for automatically identifying semantic threads within in-person conversations and critically examining discourse dynamics in collaborative contexts. If you work in the AI for education, group collaboration, or creativity spaces, please reach out to me at <a style={{color: "#1E88E5", fontWeight: "600"}} href="mailto: prernar@mit.edu">prernar-at-mit-dot-edu</a> :)<br/><br/>
                     </div>
@@ -105,13 +105,23 @@ class AboutMe extends React.Component{
                 <h4 style={{color: "#3A1EB6", marginBottom: "20px", textAlign: "left"}}>News + Updates</h4>
                 <div className="news-list">
                     <div className="news-item">
+                        <span className="news-date">July 2025</span>
+                        <span className="news-text">We have been invited to speak on <a style={{color: "#1E88E5", fontWeight: "600"}} href="">Co-design to Support Responsible Implementation of AI Tools in Education</a> at UNESCO's Digital Learning Week (Sept 2 - 5) in Paris!</span>
+                        <span className="news-emoji" title="Update">🇺🇳</span>
+                    </div>
+                    <div className="news-item">
                         <span className="news-date">June 2025</span>
-                        <span className="news-text">I will be spending the summer working on AI-supported scalable deliberation and consensus-building with <a style={{color: "#1E88E5", fontWeight: "600"}} href="https://miba.dev/"> Michiel Bakker</a>!</span>
+                        <span className="news-text">I was invited to give a talk at Stanford HCI on <a style={{color: "#1E88E5", fontWeight: "600"}} href="https://docs.google.com/presentation/d/1xPig0EfXeFiKIWTBn3ewNnOhUh21Yld80oAai_FNqTA/edit?usp=sharing">Designing AI Tools for Project-Based and Collaborative Learning Environments</a>.</span>
+                        <span className="news-emoji" title="Update">🎙️</span>
+                    </div>
+                    <div className="news-item">
+                        <span className="news-date">June 2025</span>
+                        <span className="news-text">I am spending the summer working on AI-supported scalable deliberation and consensus-building with <a style={{color: "#1E88E5", fontWeight: "600"}} href="https://miba.dev/"> Michiel Bakker</a>!</span>
                         <span className="news-emoji" title="Update">🤝</span>
                     </div>
                     <div className="news-item">
                         <span className="news-date">June 2025</span>
-                        <span className="news-text">I have joined the ACM XRDS Student Magazine as a Feature Editor!</span>
+                        <span className="news-text">I have joined the <a style={{color: "#1E88E5", fontWeight: "600"}} href="https://xrds.acm.org/">ACM XRDS Student Magazine</a> as a Feature Editor.</span>
                         <span className="news-emoji" title="Update">📝</span>
                     </div>
                     <div className="news-item">
@@ -121,12 +131,12 @@ class AboutMe extends React.Component{
                     </div>
                     <div className="news-item">
                         <span className="news-date">Mar 2025</span>
-                        <span className="news-text">Our CHI 2025 paper on <a style={{color: "#1E88E5", fontWeight: "600"}}href="https://arxiv.org/abs/2502.09799">Co-designing Large Language Model Tools for Project-Based Learning with K12 Educators</a> won an Honorable Mention (top 5% of submissions)!</span>
+                        <span className="news-text">Our CHI 2025 paper on <a style={{color: "#1E88E5", fontWeight: "600"}}href="https://dl.acm.org/doi/abs/10.1145/3706598.3713971">Co-designing Large Language Model Tools for Project-Based Learning with K12 Educators</a> won an Honorable Mention (top 5% of submissions)!</span>
                         <span className="news-emoji" title="Award">🏆</span>
                     </div>
                     <div className="news-item">
                         <span className="news-date">Mar 2025</span>
-                        <span className="news-text">Our paper <a style={{color: "#1E88E5", fontWeight: "600"}} href="https://dl.acm.org/doi/10.1145/3713043.3727057">Empowering High School Students in GenAI for Education: A Participatory Design Approach Informed by Teacher Insights</a> has been accepted to IDC 2025!</span>
+                        <span className="news-text">Our paper <a style={{color: "#1E88E5", fontWeight: "600"}} href="https://dl.acm.org/doi/10.1145/3713043.3727057">"How can we learn and use AI at the same time?": Participatory Design of GenAI with High School Students</a> has been accepted to IDC 2025!</span>
                         <span className="news-emoji" title="Paper">📄</span>
                     </div>
                     <div className="news-item">
@@ -151,7 +161,7 @@ class AboutMe extends React.Component{
                 <Row className='about-me-text-two'> 
                 <div style={{padding: "12px"}}>
                     I grew up in the multicultural city of Muscat, Oman in the Middle East, a childhood punctuated with annual visits to my native place in Mumbai, India (which is also where parts of my prior research work were based). I am fortunate to have been trained in classical Carnatic music and Bharatanatyam dance. I also have a keen artistic sense. As a woman of color from the Global South, I leverage my diverse cultural upbringing and outlook while pursuing all professional as well as personal endeavors at MIT. 
-                    In particular, I am deeply grateful for the <a style={{color: "#1E88E5", fontWeight: "600"}}href="https://www.iirp.edu/images/pdf/AvNtDE_EDUC_701_-_Yossos_Community_Cultural_Wealth_Model.pdf" >resistant and aspirational capital</a> that I have had access to, without which it would have been impossible for me to study in the United States.
+                    {/* In particular, I am deeply grateful for the <a style={{color: "#1E88E5", fontWeight: "600"}}href="https://www.iirp.edu/images/pdf/AvNtDE_EDUC_701_-_Yossos_Community_Cultural_Wealth_Model.pdf" >resistant and aspirational capital</a> that I have had access to, without which it would have been impossible for me to study in the United States. */}
                 </div>
                 </Row>
                 <Row>
