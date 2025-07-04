@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.1e0a68f6.css",
-    "main.js": "/static/js/main.8f503cce.js",
+    "main.js": "/static/js/main.b2f9e9f5.js",
     "static/media/IDC_2025_thumbnail.png": "/static/media/IDC_2025_thumbnail.30a5078e9b74af9e5864.png",
     "static/media/ABCDE_thumbnail.png": "/static/media/ABCDE_thumbnail.65a60e43d7bfdebbcf93.png",
     "static/media/ImageGen.png": "/static/media/ImageGen.e0b8638cff3f1a2d0819.png",
@@ -55,10 +55,10 @@
     "static/media/google-scholar.svg": "/static/media/google-scholar.b69eb4ac4b971f679052773c43db28f2.svg",
     "static/media/Microsoft_logo.svg": "/static/media/Microsoft_logo.72f0fcc793eda19cdc1604efc3b381cb.svg",
     "main.1e0a68f6.css.map": "/static/css/main.1e0a68f6.css.map",
-    "main.8f503cce.js.map": "/static/js/main.8f503cce.js.map"
+    "main.b2f9e9f5.js.map": "/static/js/main.b2f9e9f5.js.map"
   },
   "entrypoints": [
     "static/css/main.1e0a68f6.css",
-    "static/js/main.8f503cce.js"
+    "static/js/main.b2f9e9f5.js"
   ]
 }
