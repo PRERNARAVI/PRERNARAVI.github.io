@@ -68,7 +68,7 @@ class AboutMe extends React.Component{
                         <p style={{color: "#2D3436", fontSize: "15px", marginTop: "0"}}>
                             🖥️ Human-Computer Interaction (HCI),<br/>
                             🤖 Artificial Intelligence (AI),<br/>
-                            🏫 K12 CS & AI literacy,<br/>
+                            🏫 CS & AI literacy,<br/>
                             {/* 🤝 Co-creativity,<br/> */}
                             👥 Group Collaboration
                         </p>
