@@ -10,6 +10,9 @@ import PURA from "../../images/PURA.png";
 import Google from "../../images/Google.webp";
 import CIS from "../../images/cis_mit.png";
 import TLL from "../../images/tll.png";
+import Apple from "../../images/Apple-Logo.png";
+import CHI_25 from "../../images/CHI_2025.jpg";
+import LAS_25 from "../../images/LAS_25.jpeg";
 import { FaAward } from 'react-icons/fa';
 
 
@@ -22,6 +25,72 @@ class AwardsItems extends React.Component{
                 <h4 style={{color: "#3A1EB6", marginBottom: "20px", textAlign: "left", fontWeight: 600, fontFamily: "'Inter', -apple-system, BlinkMacSystemFont, sans-serif"}}>Awards and Fellowships</h4>
                 <br/>
                 <Row>
+                <Col md={6} lg={4} className="mb-4">
+                    <a role="button" href="https://learningatscale.acm.org/las2025/" style={{cursor: "pointer", textDecoration: "none", color: 'inherit'}}>      
+                        <Card className="h-100" style={{border: 'none', borderRadius: 16, boxShadow: '0 2px 12px rgba(58,30,182,0.07)'}}>
+                        <div className="p-4 d-flex flex-column">
+                            <Card.Header 
+                                style={{
+                                    fontFamily: "'Inter', -apple-system, BlinkMacSystemFont, sans-serif", 
+                                    fontWeight: "600",
+                                    fontSize: 17,
+                                    color: "#3A1EB6",
+                                    backgroundColor: 'transparent',
+                                    borderBottom: 'none',
+                                    padding: '0 0 16px 0'
+                                }}> 
+                                <p style={{lineHeight: 1.3}}>
+                                    <FaAward size='24px' style={{color: '#3A1EB6', verticalAlign: 'text-top', marginRight: '8px'}}/>
+                                    Best Paper Nomination, ACM Learning at Scale 2025
+                                </p>
+                            </Card.Header>
+                            <div className="text-center my-3">
+                            <Card.Img style={{height: "120px", width: "auto", maxWidth: '80%', objectFit: "contain"}}
+                                 src={LAS_25} alt="Card image" />
+                            </div>
+                                <Card.Text className="flex-grow-1" style={{fontSize: 14, color: '#2D3436'}}>
+                                Received a Best Paper Nomination recognition for our paper on <i>"How Adding Metacognitive Requirements in Support of AI Feedback in Practice Exams Transforms Student Learning Behaviors"</i> at ACM Learning at Scale 2025 in Palermo, Italy.
+                                </Card.Text>
+                                <Card.Footer style={{backgroundColor: 'transparent', borderTop: 'none', textAlign: 'right', fontSize: '13px', color: '#6c757d', padding: '16px 0 0 0'}}>
+                                [ July 2025 ]
+                                </Card.Footer>
+                        </div>               
+                        </Card>
+                    </a>   
+                </Col>
+                <Col md={6} lg={4} className="mb-4">
+                    <a role="button" href="https://programs.sigchi.org/chi/2025/awards/honorable-mentions" style={{cursor: "pointer", textDecoration: "none", color: 'inherit'}}>      
+                        <Card className="h-100" style={{border: 'none', borderRadius: 16, boxShadow: '0 2px 12px rgba(58,30,182,0.07)'}}>
+                        <div className="p-4 d-flex flex-column">
+                            <Card.Header 
+                                style={{
+                                    fontFamily: "'Inter', -apple-system, BlinkMacSystemFont, sans-serif", 
+                                    fontWeight: "600",
+                                    fontSize: 17,
+                                    color: "#3A1EB6",
+                                    backgroundColor: 'transparent',
+                                    borderBottom: 'none',
+                                    padding: '0 0 16px 0'
+                                }}> 
+                                <p style={{lineHeight: 1.3}}>
+                                    <FaAward size='24px' style={{color: '#3A1EB6', verticalAlign: 'text-top', marginRight: '8px'}}/>
+                                    Best Paper Honorable Mention, ACM CHI 2025
+                                </p>
+                            </Card.Header>
+                            <div className="text-center my-3">
+                            <Card.Img style={{height: "120px", width: "auto", maxWidth: '80%', objectFit: "contain"}}
+                                 src={CHI_25} alt="Card image" />
+                            </div>
+                                <Card.Text className="flex-grow-1" style={{fontSize: 14, color: '#2D3436'}}>
+                                Recognized with the CHI 2025 Best Paper Honorable Mention award (top 5% of submissions) for our paper on <i>"Co-designing Large Language Model Tools for Project-Based Learning with K12 Educators"</i> in Yokohama, Japan.
+                                </Card.Text>
+                                <Card.Footer style={{backgroundColor: 'transparent', borderTop: 'none', textAlign: 'right', fontSize: '13px', color: '#6c757d', padding: '16px 0 0 0'}}>
+                                [ April 2025 ]
+                                </Card.Footer>
+                        </div>               
+                        </Card>
+                    </a>   
+                </Col>
                 <Col md={6} lg={4} className="mb-4">
                     <a role="button" href="https://tll.mit.edu/programming/grad-student-programming/kaufman-teaching-certificate-program/" style={{cursor: "pointer", textDecoration: "none", color: 'inherit'}}>      
                         <Card className="h-100" style={{border: 'none', borderRadius: 16, boxShadow: '0 2px 12px rgba(58,30,182,0.07)'}}>
@@ -591,7 +660,7 @@ class AwardsItems extends React.Component{
                             </Card.Header>
                             <div className="text-center my-3">
                             <Card.Img style={{height: "120px", width: "auto", maxWidth: '80%', objectFit: "contain"}}
-                                 src="https://logo.com/image-cdn/images/kts928pd/production/9fa92ac5a9498502d2707ced798d763fe7490ecc-1600x1026.png?w=1920&q=72&fm=webp" alt="Card image" />
+                                 src={Apple} alt="Card image" />
                             </div>
                                 <Card.Text className="flex-grow-1" style={{fontSize: 14, color: '#2D3436'}}>
                                 Awarded this fellowship to be a part of the 2021 Apple's Women in Science and Engineering Mentorship (AWSEM)that guides women in computing through their professional endeavors.
@@ -658,7 +727,7 @@ class AwardsItems extends React.Component{
                             </Card.Header>
                             <div className="text-center my-3">
                             <Card.Img style={{height: "120px", width: "auto", maxWidth: '80%', objectFit: "contain"}}
-                                 src="https://logo.com/image-cdn/images/kts928pd/production/9fa92ac5a9498502d2707ced798d763fe7490ecc-1600x1026.png?w=1920&q=72&fm=webp" alt="Card image" />
+                                 src={Apple} alt="Card image" />
                             </div>
                                 <Card.Text className="flex-grow-1" style={{fontSize: 14, color: '#2D3436'}}>
                                 Awarded this scholarship grant from Apple to attend the Grace Hopper Celebration of Women in Computing Conference held virtually in October 2020.

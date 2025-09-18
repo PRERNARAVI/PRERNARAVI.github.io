@@ -66,11 +66,10 @@ class AboutMe extends React.Component{
                             Areas of Interest:
                         </p>
                         <p style={{color: "#2D3436", fontSize: "15px", marginTop: "0"}}>
-                            🖥️ Human-Computer Interaction (HCI),<br/>
-                            🤖 Artificial Intelligence (AI),<br/>
-                            🏫 CS & AI literacy,<br/>
+                            🤖 Human-AI Interaction,<br/>
                             {/* 🤝 Co-creativity,<br/> */}
-                            👥 Group Collaboration
+                            👥 🤝 Group Collaboration,<br/>
+                            🤖 📖 AI Literacy
                         </p>
                     </div>
                 </Col>
@@ -78,15 +77,19 @@ class AboutMe extends React.Component{
                 <Container className="about-me-text">
                         <div style={{fontWeight:"400"}}>
                         I am a PhD student at <a style={{color: "#1E88E5", fontWeight: "600"}}href="https://www.csail.mit.edu/" >MIT CSAIL</a> advised by <a style={{color: "#1E88E5", fontWeight: "600"}} href="https://en.wikipedia.org/wiki/Hal_Abelson">Dr. Hal Abelson</a>. 
-                        I also collaborate with <a style={{color: "#1E88E5", fontWeight: "600"}} href="https://www.media.mit.edu/people/cynthiab/overview/">Dr. Cynthia Breazeal</a> (MIT Media Lab), <a style={{color: "#1E88E5", fontWeight: "600"}} href="https://education.mit.edu/person/eric_klopfer/">Dr. Eric Klopfer </a>(MIT STEP), and <a style={{color: "#1E88E5", fontWeight: "600"}}href="https://people.csail.mit.edu/karger/"> Dr. David Karger</a> (MIT CSAIL). I graduated from MIT in 2024 with an S.M. in Computer Science <a style={{color: "#1E88E5", fontWeight: "600"}} href="https://drive.google.com/file/d/1FrZY_4D6MsFn5sUuMdrHGapudsVFi62J/view?usp=sharing">[thesis link]</a>.
+                        I also collaborate with <a style={{color: "#1E88E5", fontWeight: "600"}} href="https://miba.dev/">Dr. Michiel Bakker</a> (MIT Sloan), <a style={{color: "#1E88E5", fontWeight: "600"}} href="https://www.media.mit.edu/people/cynthiab/overview/">Dr. Cynthia Breazeal</a> (MIT Media Lab), <a style={{color: "#1E88E5", fontWeight: "600"}} href="https://education.mit.edu/person/eric_klopfer/">Dr. Eric Klopfer </a>(MIT CMSW), and <a style={{color: "#1E88E5", fontWeight: "600"}}href="https://people.csail.mit.edu/karger/"> Dr. David Karger</a> (MIT CSAIL). I graduated from MIT in 2024 with an S.M. in Computer Science <a style={{color: "#1E88E5", fontWeight: "600"}} href="https://drive.google.com/file/d/1FrZY_4D6MsFn5sUuMdrHGapudsVFi62J/view?usp=sharing">[thesis link]</a>.
                         <br/><br/>
-                        
-                        My research focuses on designing AI powered ecosystems that foster <span style={{color: "#3A1EB6"}}><b>social collaboration, equity</b></span> and <span style={{color: "#3A1EB6"}}><b>creativity. </b></span> I develop
-                        inclusive tools that empower diverse stakeholders to engage, learn, and create with AI.        
-                        I engage in ethnographic fieldwork, participatory design, system development, and evaluation. My work has been published in <span style={{color: "#3A1EB6"}}><b>HCI + AI + Education</b></span> venues, including CHI, CSCW, IDC, AAAI, ISLS, L@S, & SIGCSE. I am currently an MIT Teaching Development Fellow. I have previously worked at Microsoft and Google Research in both research and software engineering roles.
-                        You can find my CV [Rev. June 2025] on this website. 
-                        <br/> <br/>
-                        These days, I am building multimodal LLM agents to foster and measure equitable group collaboration and productivity, distributed creativity, and learning outcomes. I am also developing new taxonomies for automatically identifying semantic threads within in-person conversations and critically examining discourse dynamics in collaborative contexts. If you work in the AI for education, group collaboration, or creativity spaces, please reach out to me at <a style={{color: "#1E88E5", fontWeight: "600"}} href="mailto: prernar@mit.edu">prernar-at-mit-dot-edu</a> :)<br/><br/>
+
+                        My research explores how AI systems can augment <span style={{color: "#3A1EB6"}}><b>group collaboration</b></span> and <span style={{color: "#3A1EB6"}}><b>deliberation</b></span> across diverse settings. 
+                        I investigate group dynamics to design frameworks and interventions that support <span style={{color: "#3A1EB6"}}><b>equitable team participation</b></span>, foster <span style={{color: "#3A1EB6"}}><b>group trust</b></span> and <span style={{color: "#3A1EB6"}}><b>social connection</b></span>, and facilitate <span style={{color: "#3A1EB6"}}><b>consensus-building</b></span>. 
+                        These insights inform applications in education, creative practice, and collective decision-making.
+                        I also develop critical AI literacy resources that empower stakeholders to engage in responsible and ethical AI practices.
+                        You can find my CV [Rev. Sept 2025] on this website. If you are interested in collaborating or learning more, please reach out to me at <a style={{color: "#1E88E5", fontWeight: "600"}} href="mailto: prernar@mit.edu">prernar-at-mit-dot-edu</a> :)
+                        <br/><br/>
+
+                        Situated at the intersection of <b>Human-Computer Interaction (HCI)</b> and <b>Artificial Intelligence (AI)</b>, my work employs mixed methods experiments—combining computational, qualitative, and quantitative approaches—and spans participatory design, system development, and empirical evaluation.
+                        I have published my research in <span style={{color: "#3A1EB6"}}><b>HCI + AI + Education</b></span> venues, including CHI, CSCW, AAAI, IDC, and CSCL. I was previously an MIT Teaching Development Fellow. I have worked at <img src="data:image/svg+xml,%3csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%2023%2023'%3e%3cpath%20fill='%23f3f3f3'%20d='M0%200h23v23H0z'/%3e%3cpath%20fill='%23f35325'%20d='M1%201h10v10H1z'/%3e%3cpath%20fill='%2381bc06'%20d='M12%201h10v10H12z'/%3e%3cpath%20fill='%2305a6f0'%20d='M1%2012h10v10H1z'/%3e%3cpath%20fill='%23ffba08'%20d='M12%2012h10v10H12z'/%3e%3c/svg%3e" width="13" height="13"></img> Microsoft and <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c1/Google_%22G%22_logo.svg/24px-Google_%22G%22_logo.svg.png" width="13" height="13"></img> Google Research in both research and software engineering roles.
+                        <br/><br/>
                     </div>
                     <div>
                         I received my B.S. in Computer Science (2022) from <a style={{color: "#1E88E5", fontWeight: "600"}}href="https://www.gatech.edu/" >Georgia Tech</a>, where I was advised by <a style={{color: "#1E88E5", fontWeight: "600"}}href="https://en.wikipedia.org/wiki/Thad_Starner" >Dr. Thad Starner</a>. Under his supervision, I built sign language recognition models and integrated those into educational games for deaf kids.
@@ -110,6 +113,11 @@ class AboutMe extends React.Component{
                         <span className="news-emoji" title="Update">🇺🇳</span>
                     </div>
                     <div className="news-item">
+                        <span className="news-date">July 2025</span>
+                        <span className="news-text">Our paper <a style={{color: "#1E88E5", fontWeight: "600"}} href="https://dl.acm.org/doi/abs/10.1145/3698205.3729542">How Adding Metacognitive Requirements in Support of AI Feedback in Practice Exams Transforms Student Learning Behaviors</a> received a Best Paper Nomination at L@S 2025!</span>
+                        <span className="news-emoji" title="Paper">🏆</span>
+                    </div>
+                    <div className="news-item">
                         <span className="news-date">June 2025</span>
                         <span className="news-text">I was invited to give a talk at Stanford HCI on <a style={{color: "#1E88E5", fontWeight: "600"}} href="https://docs.google.com/presentation/d/1xPig0EfXeFiKIWTBn3ewNnOhUh21Yld80oAai_FNqTA/edit?usp=sharing">Designing AI Tools for Project-Based and Collaborative Learning Environments</a>.</span>
                         <span className="news-emoji" title="Update">🎙️</span>
@@ -125,13 +133,8 @@ class AboutMe extends React.Component{
                         <span className="news-emoji" title="Update">📝</span>
                     </div>
                     <div className="news-item">
-                        <span className="news-date">Apr 2025</span>
-                        <span className="news-text">Our paper <a style={{color: "#1E88E5", fontWeight: "600"}} href="https://arxiv.org/pdf/2505.13381">How Adding Metacognitive Requirements in Support of AI Feedback in Practice Exams Transforms Student Learning Behaviors</a> has been accepted to L@S 2025!</span>
-                        <span className="news-emoji" title="Paper">📄</span>
-                    </div>
-                    <div className="news-item">
                         <span className="news-date">Mar 2025</span>
-                        <span className="news-text">Our CHI 2025 paper on <a style={{color: "#1E88E5", fontWeight: "600"}}href="https://dl.acm.org/doi/abs/10.1145/3706598.3713971">Co-designing Large Language Model Tools for Project-Based Learning with K12 Educators</a> won an Honorable Mention (top 5% of submissions)!</span>
+                        <span className="news-text">Our CHI 2025 paper on <a style={{color: "#1E88E5", fontWeight: "600"}}href="https://dl.acm.org/doi/abs/10.1145/3706598.3713971">Co-designing Large Language Model Tools for Project-Based Learning with K12 Educators</a> won a Best Paper Honorable Mention (top 5% of submissions)!</span>
                         <span className="news-emoji" title="Award">🏆</span>
                     </div>
                     <div className="news-item">
@@ -160,7 +163,8 @@ class AboutMe extends React.Component{
             <h4 style={{color: "#3A1EB6", marginBottom: "20px", textAlign: "left"}}>Background</h4>
                 <Row className='about-me-text-two'> 
                 <div style={{padding: "12px"}}>
-                    I grew up in the multicultural city of Muscat, Oman in the Middle East, a childhood punctuated with annual visits to my native place in Mumbai, India (which is also where parts of my prior research work were based). I am fortunate to have been trained in classical Carnatic music and Bharatanatyam dance. I also have a keen artistic sense. As a woman of color from the Global South, I leverage my diverse cultural upbringing and outlook while pursuing all professional as well as personal endeavors at MIT. 
+                    I grew up in the multicultural city of Muscat, Oman, a childhood punctuated with annual visits to my native place in Mumbai, India (which is also where parts of my prior research work were based). 
+                    I have formal training in Indian classical Carnatic music and Bharatanatyam dance, and maintain a strong artistic interest in oil and acrylic painting.
                     {/* In particular, I am deeply grateful for the <a style={{color: "#1E88E5", fontWeight: "600"}}href="https://www.iirp.edu/images/pdf/AvNtDE_EDUC_701_-_Yossos_Community_Cultural_Wealth_Model.pdf" >resistant and aspirational capital</a> that I have had access to, without which it would have been impossible for me to study in the United States. */}
                 </div>
                 </Row>
@@ -190,7 +194,7 @@ class AboutMe extends React.Component{
                         </ZoomIn>
                         
                             <Card.Text style={{fontSize: 13, margin: '16px', color: "#2D3436"}}>
-                            I have been blessed to have successfully completed the Arangetram at the famous Melapathur Auditorium, Guruvayoor in Kerala, India.
+                            I have been blessed to have successfully completed the Arangetram at the Melapathur Auditorium, Guruvayoor in Kerala, India.
                             </Card.Text>
 
                     </div>               
@@ -255,7 +259,7 @@ class AboutMe extends React.Component{
                         </ZoomIn>
                         
                             <Card.Text style={{fontSize: 13, margin: '16px', color: "#2D3436"}}>
-                            I have also received rigorous training in visual arts using various mediums for over 10 years and have received numerous accolades. 
+                            I have also received rigorous training in visual arts since I was 5 years old and continue to explore and experiment with multiple mediums. 
                             </Card.Text>
 
                     </div>               

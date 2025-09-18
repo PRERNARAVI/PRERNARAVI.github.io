@@ -49,7 +49,7 @@ const peerReviewedPapers = [
     award: 'Best Paper Honorable Mention (Top 5%)'
   },
   {
-    title: 'Beyond AI Feedback: How Metacognitive Requirements in Practice Exams Transform Student Learning Behaviors',
+    title: '🏆 Beyond AI Feedback: How Metacognitive Requirements in Practice Exams Transform Student Learning Behaviors',
     authors: [
       { name: 'Mak Ahmad' },
       { name: 'Prerna Ravi', isMe: true },
@@ -60,10 +60,11 @@ const peerReviewedPapers = [
     venue: 'Proceedings of the 12th ACM Conference on Learning @ Scale (L@S 2025)',
     year: '2025',
     image: thumbnailLAtSPractice,
-    pdf: 'https://arxiv.org/pdf/2505.13381',
+    pdf: 'https://dl.acm.org/doi/pdf/10.1145/3698205.3729542',
     video: null,
     slides: null,
-    tags: ['HCI', 'AI', 'Education']
+    tags: ['HCI', 'AI', 'Education'],
+    award: 'Best Paper Nomination'
   },
   {
     title: '"How can we learn and use AI at the same time?": Participatory Design of GenAI with High School Students',
@@ -372,7 +373,7 @@ class PublicationsItems extends React.Component{
                 {/* <h1 style={{color: "#3A1EB6", fontWeight: 700}}>PUBLICATIONS</h1> */}
                 <div style={{height: "4px", width: "48px", background: "#3A1EB6", borderRadius: "2px", marginBottom: "18px"}}></div>
                 <h4 style={{color: "#3A1EB6", marginBottom: "20px", textAlign: "left", fontWeight: 600, fontFamily: "'Inter', -apple-system, BlinkMacSystemFont, sans-serif"}}>Peer Reviewed Conference Papers</h4>
-                {/* <div style={{color: "#1E88E5"}}><span style={{color: "#3A1EB6"}}>*</span>Check CV for papers under review</div> */}
+                <div style={{color: "#1E88E5"}}>Check CV for papers under review</div>
                     <br/>
                     <Row xs={1} md={1} className="g-4">
                         {peerReviewedPapers.map((pub, idx) => (
