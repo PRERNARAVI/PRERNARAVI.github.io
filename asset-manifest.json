@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.1e0a68f6.css",
-    "main.js": "/static/js/main.b2f9e9f5.js",
+    "main.js": "/static/js/main.de04eeb3.js",
     "static/media/IDC_2025_thumbnail.png": "/static/media/IDC_2025_thumbnail.30a5078e9b74af9e5864.png",
     "static/media/ABCDE_thumbnail.png": "/static/media/ABCDE_thumbnail.65a60e43d7bfdebbcf93.png",
     "static/media/ImageGen.png": "/static/media/ImageGen.e0b8638cff3f1a2d0819.png",
@@ -24,7 +24,7 @@
     "static/media/LAS_23_thumbnail.png": "/static/media/LAS_23_thumbnail.1fde9a347f2f9797a8e9.png",
     "static/media/RAICA_ethical_thumbnail.jpg": "/static/media/RAICA_ethical_thumbnail.83c6e7a7628908150157.jpg",
     "static/media/PURA.png": "/static/media/PURA.5fb7fbbc50154579f6c8.png",
-    "static/media/PRERNA_RAVI_CV.pdf": "/static/media/PRERNA_RAVI_CV.d5bc4fae07f367c06a03.pdf",
+    "static/media/PRERNA_RAVI_CV.pdf": "/static/media/PRERNA_RAVI_CV.af03cc665ffe088780af.pdf",
     "static/media/cis_mit.png": "/static/media/cis_mit.1c30aaeff99654ef8d18.png",
     "static/media/Mentor.png": "/static/media/Mentor.dbd781b07863d8dc3349.png",
     "static/media/thumbnail_data_science.jpeg": "/static/media/thumbnail_data_science.b4f1a8e299b864d49e81.jpeg",
@@ -46,19 +46,22 @@
     "static/media/Google.webp": "/static/media/Google.4f2ffefaee60716e94b4.webp",
     "static/media/CocAward2020.jpeg": "/static/media/CocAward2020.28bffa3c570cb7672b08.jpeg",
     "static/media/ExperienceWallpaper.jpg": "/static/media/ExperienceWallpaper.06f4bb0c34d73ddc514f.jpg",
+    "static/media/CHI_2025.jpg": "/static/media/CHI_2025.9b4414dc6fb2100aef73.jpg",
+    "static/media/LAS_25.jpeg": "/static/media/LAS_25.d3ef14338d031f86bea9.jpeg",
     "static/media/Google_logo.png": "/static/media/Google_logo.28c882f39b6ec1f95416.png",
     "static/media/GT.png": "/static/media/GT.c5a22285ba9caed81936.png",
     "static/media/black.jpg": "/static/media/black.5f7d2242a18a4120e6df.jpg",
     "static/media/research_wallpaper.jpg": "/static/media/research_wallpaper.a30923e7c25c9a89b1bd.jpg",
+    "static/media/Apple-Logo.png": "/static/media/Apple-Logo.5a7201c5f85428e2fd8a.png",
     "static/media/tll.png": "/static/media/tll.ca8d4fd6c4cc512e65a9.png",
     "index.html": "/index.html",
     "static/media/google-scholar.svg": "/static/media/google-scholar.b69eb4ac4b971f679052773c43db28f2.svg",
     "static/media/Microsoft_logo.svg": "/static/media/Microsoft_logo.72f0fcc793eda19cdc1604efc3b381cb.svg",
     "main.1e0a68f6.css.map": "/static/css/main.1e0a68f6.css.map",
-    "main.b2f9e9f5.js.map": "/static/js/main.b2f9e9f5.js.map"
+    "main.de04eeb3.js.map": "/static/js/main.de04eeb3.js.map"
   },
   "entrypoints": [
     "static/css/main.1e0a68f6.css",
-    "static/js/main.b2f9e9f5.js"
+    "static/js/main.de04eeb3.js"
   ]
 }
