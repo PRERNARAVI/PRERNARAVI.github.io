@@ -81,10 +81,10 @@ class AboutMe extends React.Component{
                         <br/><br/>
 
                         My research explores how AI systems can augment <span style={{color: "#3A1EB6"}}><b>group collaboration</b></span> and <span style={{color: "#3A1EB6"}}><b>deliberation</b></span> across diverse settings. 
-                        I investigate group dynamics to design frameworks and interventions that support <span style={{color: "#3A1EB6"}}><b>equitable team participation</b></span>, foster <span style={{color: "#3A1EB6"}}><b>group trust</b></span> and <span style={{color: "#3A1EB6"}}><b>social connection</b></span>, and facilitate <span style={{color: "#3A1EB6"}}><b>consensus-building</b></span>. 
-                        These insights inform applications in education, creative practice, and collective decision-making.
+                        I design frameworks and interventions that support <span style={{color: "#3A1EB6"}}><b>equitable team participation</b></span>, foster <span style={{color: "#3A1EB6"}}><b>group trust</b></span> and <span style={{color: "#3A1EB6"}}><b>social connection</b></span>, and facilitate <span style={{color: "#3A1EB6"}}><b>consensus-building</b></span>. 
+                        My work informs applications in education, creative practice, and collective decision-making.
                         I also develop critical AI literacy resources that empower stakeholders to engage in responsible and ethical AI practices.
-                        You can find my CV [Rev. Sept 2025] on this website. If you are interested in collaborating or learning more, please reach out to me at <a style={{color: "#1E88E5", fontWeight: "600"}} href="mailto: prernar@mit.edu">prernar-at-mit-dot-edu</a> :)
+                        You can find my CV [Rev. Oct 2025] on this website. If you are interested in collaborating or learning more, please reach out at <a style={{color: "#1E88E5", fontWeight: "600"}} href="mailto: prernar@mit.edu">prernar-at-mit-dot-edu</a> :)
                         <br/><br/>
 
                         Situated at the intersection of <b>Human-Computer Interaction (HCI)</b> and <b>Artificial Intelligence (AI)</b>, my work employs mixed methods experiments—combining computational, qualitative, and quantitative approaches—and spans participatory design, system development, and empirical evaluation.
@@ -108,8 +108,18 @@ class AboutMe extends React.Component{
                 <h4 style={{color: "#3A1EB6", marginBottom: "20px", textAlign: "left"}}>News + Updates</h4>
                 <div className="news-list">
                     <div className="news-item">
-                        <span className="news-date">July 2025</span>
-                        <span className="news-text">We have been invited to speak on <a style={{color: "#1E88E5", fontWeight: "600"}} href="">Co-design to Support Responsible Implementation of AI Tools in Education</a> at UNESCO's Digital Learning Week (Sept 2 - 5) in Paris!</span>
+                        <span className="news-date">Oct 2025</span>
+                        <span className="news-text">Pre-print of our paper on <a style={{color: "#1E88E5", fontWeight: "600"}} href="https://arxiv.org/abs/2510.22844">Leveraging LLMs to Identify Conversation Threads in Collaborative Learning</a> is available on arXiv.</span>
+                        <span className="news-emoji" title="Update">📄</span>
+                    </div>
+                    <div className="news-item">
+                        <span className="news-date">Oct 2025</span>
+                        <span className="news-text">I was awarded two Special Recognitions for Outstanding Reviews for CHI 2026!</span>
+                        <span className="news-emoji" title="Update">🏆</span>
+                    </div>
+                    <div className="news-item">
+                        <span className="news-date">Sept 2025</span>
+                        <span className="news-text">We were invited to speak on <a style={{color: "#1E88E5", fontWeight: "600"}} href="">Co-design to Support Responsible Implementation of AI Tools in Education</a> at UNESCO's Digital Learning Week (Sept 2 - 5) in Paris!</span>
                         <span className="news-emoji" title="Update">🇺🇳</span>
                     </div>
                     <div className="news-item">
