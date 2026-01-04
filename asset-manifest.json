@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.1e0a68f6.css",
-    "main.js": "/static/js/main.ffc57642.js",
+    "main.js": "/static/js/main.3ab1d662.js",
     "static/media/IDC_2025_thumbnail.png": "/static/media/IDC_2025_thumbnail.30a5078e9b74af9e5864.png",
     "static/media/ABCDE_thumbnail.png": "/static/media/ABCDE_thumbnail.65a60e43d7bfdebbcf93.png",
     "static/media/ImageGen.png": "/static/media/ImageGen.e0b8638cff3f1a2d0819.png",
@@ -23,8 +23,8 @@
     "static/media/ttig_thumbnail.png": "/static/media/ttig_thumbnail.f1dbd2cc796d934ab233.png",
     "static/media/LAS_23_thumbnail.png": "/static/media/LAS_23_thumbnail.1fde9a347f2f9797a8e9.png",
     "static/media/RAICA_ethical_thumbnail.jpg": "/static/media/RAICA_ethical_thumbnail.83c6e7a7628908150157.jpg",
+    "static/media/PRERNA_RAVI_CV.pdf": "/static/media/PRERNA_RAVI_CV.45a21c1fc86bde3f6246.pdf",
     "static/media/PURA.png": "/static/media/PURA.5fb7fbbc50154579f6c8.png",
-    "static/media/PRERNA_RAVI_CV.pdf": "/static/media/PRERNA_RAVI_CV.5786c8b237de03b41f18.pdf",
     "static/media/cis_mit.png": "/static/media/cis_mit.1c30aaeff99654ef8d18.png",
     "static/media/Mentor.png": "/static/media/Mentor.dbd781b07863d8dc3349.png",
     "static/media/thumbnail_data_science.jpeg": "/static/media/thumbnail_data_science.b4f1a8e299b864d49e81.jpeg",
@@ -58,10 +58,10 @@
     "static/media/google-scholar.svg": "/static/media/google-scholar.b69eb4ac4b971f679052773c43db28f2.svg",
     "static/media/Microsoft_logo.svg": "/static/media/Microsoft_logo.72f0fcc793eda19cdc1604efc3b381cb.svg",
     "main.1e0a68f6.css.map": "/static/css/main.1e0a68f6.css.map",
-    "main.ffc57642.js.map": "/static/js/main.ffc57642.js.map"
+    "main.3ab1d662.js.map": "/static/js/main.3ab1d662.js.map"
   },
   "entrypoints": [
     "static/css/main.1e0a68f6.css",
-    "static/js/main.ffc57642.js"
+    "static/js/main.3ab1d662.js"
   ]
 }
