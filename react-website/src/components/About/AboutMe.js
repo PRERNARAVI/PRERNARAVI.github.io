@@ -84,7 +84,7 @@ class AboutMe extends React.Component{
                         I design frameworks and interventions that support <span style={{color: "#3A1EB6"}}><b>equitable team participation</b></span>, foster <span style={{color: "#3A1EB6"}}><b>group trust</b></span> and <span style={{color: "#3A1EB6"}}><b>social connection</b></span>, and facilitate <span style={{color: "#3A1EB6"}}><b>consensus-building</b></span>. 
                         My work informs applications in education, creative practice, and collective decision-making.
                         I also develop critical AI literacy resources that empower stakeholders to engage in responsible and ethical AI practices.
-                        You can find my CV [Rev. Oct 2025] on this website. If you are interested in collaborating or learning more, please reach out at <a style={{color: "#1E88E5", fontWeight: "600"}} href="mailto: prernar@mit.edu">prernar-at-mit-dot-edu</a> :)
+                        You can find my CV [Rev. Jan 2026] on this website. If you are interested in collaborating or learning more, please reach out at <a style={{color: "#1E88E5", fontWeight: "600"}} href="mailto: prernar@mit.edu">prernar-at-mit-dot-edu</a> :)
                         <br/><br/>
 
                         Situated at the intersection of <b>Human-Computer Interaction (HCI)</b> and <b>Artificial Intelligence (AI)</b>, my work employs mixed methods experiments—combining computational, qualitative, and quantitative approaches—and spans participatory design, system development, and empirical evaluation.
@@ -107,6 +107,21 @@ class AboutMe extends React.Component{
                 <div style={{height: "4px", width: "48px", background: "#3A1EB6", borderRadius: "2px", marginBottom: "18px"}}></div>
                 <h4 style={{color: "#3A1EB6", marginBottom: "20px", textAlign: "left"}}>News + Updates</h4>
                 <div className="news-list">
+                    <div className="news-item">
+                        <span className="news-date">Jan 2026</span>
+                        <span className="news-text">I have been invited to serve on the organizing committee for <a style={{color: "#1E88E5", fontWeight: "600"}} href="https://iui.acm.org/2026/">ACM IUI 2027</a>.</span>
+                        <span className="news-emoji" title="Update">👥</span>
+                    </div>
+                    <div className="news-item">
+                        <span className="news-date">Dec 2025</span>
+                        <span className="news-text">Our proposal to the British Journal of Educational Technology (BJET) on <a style={{color: "#1E88E5", fontWeight: "600"}} href="">Exploring How Agent Voice Accents Shape Human-AI Collaboration in K-12 Group Learning</a> has been accepted!</span>
+                        <span className="news-emoji" title="Paper">📄</span>
+                    </div>
+                    <div className="news-item">
+                        <span className="news-date">Nov 2025</span>
+                        <span className="news-text">I passed my Research Qualifying Exam. Officially a PhD Candidate!</span>
+                        <span className="news-emoji" title="Update">🎓</span>
+                    </div>
                     <div className="news-item">
                         <span className="news-date">Oct 2025</span>
                         <span className="news-text">Pre-print of our paper on <a style={{color: "#1E88E5", fontWeight: "600"}} href="https://arxiv.org/abs/2510.22844">Leveraging LLMs to Identify Conversation Threads in Collaborative Learning</a> is available on arXiv.</span>

@@ -96,7 +96,7 @@ class App extends Component {
         zIndex: 10
       }}>
         <div style={{maxWidth: 1200, margin: '0 auto'}}>
-          © 2025 Prerna Ravi. All rights reserved.
+          © 2026 Prerna Ravi. All rights reserved.
         </div>
       </footer>
     </div>
