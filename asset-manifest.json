@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.1e0a68f6.css",
-    "main.js": "/static/js/main.3ab1d662.js",
+    "main.js": "/static/js/main.28d435c5.js",
     "static/media/IDC_2025_thumbnail.png": "/static/media/IDC_2025_thumbnail.30a5078e9b74af9e5864.png",
     "static/media/ABCDE_thumbnail.png": "/static/media/ABCDE_thumbnail.65a60e43d7bfdebbcf93.png",
     "static/media/ImageGen.png": "/static/media/ImageGen.e0b8638cff3f1a2d0819.png",
@@ -48,6 +48,7 @@
     "static/media/ExperienceWallpaper.jpg": "/static/media/ExperienceWallpaper.06f4bb0c34d73ddc514f.jpg",
     "static/media/CHI_2025.jpg": "/static/media/CHI_2025.9b4414dc6fb2100aef73.jpg",
     "static/media/LAS_25.jpeg": "/static/media/LAS_25.d3ef14338d031f86bea9.jpeg",
+    "static/media/MIT-logo.png": "/static/media/MIT-logo.1404072780b1472db4c4.png",
     "static/media/Google_logo.png": "/static/media/Google_logo.28c882f39b6ec1f95416.png",
     "static/media/GT.png": "/static/media/GT.c5a22285ba9caed81936.png",
     "static/media/black.jpg": "/static/media/black.5f7d2242a18a4120e6df.jpg",
@@ -58,10 +59,10 @@
     "static/media/google-scholar.svg": "/static/media/google-scholar.b69eb4ac4b971f679052773c43db28f2.svg",
     "static/media/Microsoft_logo.svg": "/static/media/Microsoft_logo.72f0fcc793eda19cdc1604efc3b381cb.svg",
     "main.1e0a68f6.css.map": "/static/css/main.1e0a68f6.css.map",
-    "main.3ab1d662.js.map": "/static/js/main.3ab1d662.js.map"
+    "main.28d435c5.js.map": "/static/js/main.28d435c5.js.map"
   },
   "entrypoints": [
     "static/css/main.1e0a68f6.css",
-    "static/js/main.3ab1d662.js"
+    "static/js/main.28d435c5.js"
   ]
 }
