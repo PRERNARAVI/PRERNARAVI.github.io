@@ -10,6 +10,7 @@ import {Navbar, Image, Nav, Container, Row} from 'react-bootstrap';
 import { HashRouter as Router, Switch, Route, NavLink } from "react-router-dom";
 import PDF from './Documents/PRERNA_RAVI_CV.pdf'
 import ScrollToTop from './ScrollToTop';
+import MITLogo from "./images/MIT-logo.png";
 class App extends Component {
 
   render() {
@@ -19,7 +20,7 @@ class App extends Component {
         <Container style={{maxWidth: "1250px", margin: "0 auto"}}>
           <Navbar.Brand className="brand" >
             <NavLink style={{color: "#2D3436", textDecoration: 'none', fontFamily: "'Inter', -apple-system, BlinkMacSystemFont, sans-serif", fontWeight: 700, letterSpacing: 1}} exact to="/">
-              <Image src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/0c/MIT_logo.svg/64px-MIT_logo.svg.png" style={{verticalAlign: 'middle'}}/>&emsp;PRERNA RAVI
+              <Image src={MITLogo} style={{verticalAlign: 'middle', width: "8%"}}/>&emsp;PRERNA RAVI
             </NavLink>
           </Navbar.Brand>
           <Navbar.Toggle aria-controls="responsive-navbar-nav" />
