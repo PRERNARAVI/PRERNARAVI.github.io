@@ -77,7 +77,8 @@ class AboutMe extends React.Component{
                 <Container className="about-me-text">
                         <div style={{fontWeight:"400"}}>
                         I am a PhD student at <a style={{color: "#1E88E5", fontWeight: "600"}}href="https://www.csail.mit.edu/" >MIT CSAIL</a> advised by <a style={{color: "#1E88E5", fontWeight: "600"}} href="https://en.wikipedia.org/wiki/Hal_Abelson">Dr. Hal Abelson</a>. 
-                        I also collaborate with <a style={{color: "#1E88E5", fontWeight: "600"}} href="https://miba.dev/">Dr. Michiel Bakker</a> (MIT Sloan), <a style={{color: "#1E88E5", fontWeight: "600"}} href="https://www.media.mit.edu/people/cynthiab/overview/">Dr. Cynthia Breazeal</a> (MIT Media Lab), <a style={{color: "#1E88E5", fontWeight: "600"}} href="https://education.mit.edu/person/eric_klopfer/">Dr. Eric Klopfer </a>(MIT CMSW), and <a style={{color: "#1E88E5", fontWeight: "600"}}href="https://people.csail.mit.edu/karger/"> Dr. David Karger</a> (MIT CSAIL). I graduated from MIT in 2024 with an S.M. in Computer Science <a style={{color: "#1E88E5", fontWeight: "600"}} href="https://drive.google.com/file/d/1FrZY_4D6MsFn5sUuMdrHGapudsVFi62J/view?usp=sharing">[thesis link]</a>.
+                        I also collaborate with <a style={{color: "#1E88E5", fontWeight: "600"}} href="https://miba.dev/">Dr. Michiel Bakker</a> (MIT Sloan), <a style={{color: "#1E88E5", fontWeight: "600"}} href="https://www.media.mit.edu/people/cynthiab/overview/">Dr. Cynthia Breazeal</a> (MIT Media Lab), <a style={{color: "#1E88E5", fontWeight: "600"}} href="https://education.mit.edu/person/eric_klopfer/">Dr. Eric Klopfer </a>(MIT CMSW), and <a style={{color: "#1E88E5", fontWeight: "600"}}href="https://people.csail.mit.edu/karger/"> Dr. David Karger</a> (MIT CSAIL). 
+                        I earned an S.M. in Computer Science from MIT in 2024. My work is partially supported by the <a style={{color: "#1E88E5", fontWeight: "600"}} href="https://www.cooperativeai.com/phd-fellowship/2026">Cooperative AI Foundation PhD Fellowship</a>.
                         <br/><br/>
 
                         My research explores how AI systems can augment <span style={{color: "#3A1EB6"}}><b>group collaboration</b></span> and <span style={{color: "#3A1EB6"}}><b>deliberation</b></span> across diverse settings. 
@@ -107,6 +108,11 @@ class AboutMe extends React.Component{
                 <div style={{height: "4px", width: "48px", background: "#3A1EB6", borderRadius: "2px", marginBottom: "18px"}}></div>
                 <h4 style={{color: "#3A1EB6", marginBottom: "20px", textAlign: "left"}}>News + Updates</h4>
                 <div className="news-list">
+                    <div className="news-item">
+                        <span className="news-date">Feb 2026</span>
+                        <span className="news-text">I am honored to be awarded the <a style={{color: "#1E88E5", fontWeight: "600"}} href="https://www.cooperativeai.com/phd-fellowship/2026">Cooperative AI Foundation PhD Fellowship</a> for 2026! </span>
+                        <span className="news-emoji" title="Update">🏆</span>
+                    </div>
                     <div className="news-item">
                         <span className="news-date">Jan 2026</span>
                         <span className="news-text">I have been invited to serve on the organizing committee for <a style={{color: "#1E88E5", fontWeight: "600"}} href="https://iui.acm.org/2026/">ACM IUI 2027</a>.</span>
