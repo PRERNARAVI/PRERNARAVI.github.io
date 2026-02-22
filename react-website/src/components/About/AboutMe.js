@@ -110,8 +110,19 @@ class AboutMe extends React.Component{
                 <div className="news-list">
                     <div className="news-item">
                         <span className="news-date">Feb 2026</span>
-                        <span className="news-text">I am honored to be awarded the <a style={{color: "#1E88E5", fontWeight: "600"}} href="https://www.cooperativeai.com/phd-fellowship/2026">Cooperative AI Foundation PhD Fellowship</a> for 2026! </span>
+                        <span className="news-text">Our paper <a style={{color: "#1E88E5", fontWeight: "600"}} href="#">Agora: Teaching the Skill of Consensus-Finding with AI Personas Grounded in Human Voice</a> has been accepted to CHI Extended Abstracts 2026! </span>
                         <span className="news-emoji" title="Update">🏆</span>
+                    </div>
+                    <div className="news-item">
+                        <span className="news-date">Feb 2026</span>
+                        <span className="news-text">Pre-print of our paper on <a style={{color: "#1E88E5", fontWeight: "600"}} href="https://arxiv.org/abs/2602.07142">Exploring Teachers' Perspectives on Using Conversational AI Agents for Group Collaboration </a> is available on arXiv.</span>
+                        <span className="news-emoji" title="Update">📄</span>
+                    </div>
+                    
+                    <div className="news-item">
+                        <span className="news-date">Feb 2026</span>
+                        <span className="news-text">I am honored to be awarded the <a style={{color: "#1E88E5", fontWeight: "600"}} href="https://www.cooperativeai.com/phd-fellowship/2026">Cooperative AI Foundation PhD Fellowship</a> for 2026! </span>
+                        <span className="news-emoji" title="Paper">📄</span>
                     </div>
                     <div className="news-item">
                         <span className="news-date">Jan 2026</span>
