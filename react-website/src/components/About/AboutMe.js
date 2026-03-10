@@ -78,14 +78,14 @@ class AboutMe extends React.Component{
                         <div style={{fontWeight:"400"}}>
                         I am a PhD student at <a style={{color: "#1E88E5", fontWeight: "600"}}href="https://www.csail.mit.edu/" >MIT CSAIL</a> advised by <a style={{color: "#1E88E5", fontWeight: "600"}} href="https://en.wikipedia.org/wiki/Hal_Abelson">Dr. Hal Abelson</a>. 
                         I also collaborate with <a style={{color: "#1E88E5", fontWeight: "600"}} href="https://miba.dev/">Dr. Michiel Bakker</a> (MIT Sloan), <a style={{color: "#1E88E5", fontWeight: "600"}} href="https://www.media.mit.edu/people/cynthiab/overview/">Dr. Cynthia Breazeal</a> (MIT Media Lab), <a style={{color: "#1E88E5", fontWeight: "600"}} href="https://education.mit.edu/person/eric_klopfer/">Dr. Eric Klopfer </a>(MIT CMSW), and <a style={{color: "#1E88E5", fontWeight: "600"}}href="https://people.csail.mit.edu/karger/"> Dr. David Karger</a> (MIT CSAIL). 
-                        I earned an S.M. in Computer Science from MIT in 2024. My work is partially supported by the <a style={{color: "#1E88E5", fontWeight: "600"}} href="https://www.cooperativeai.com/phd-fellowship/2026">Cooperative AI Foundation PhD Fellowship</a>.
+                        I earned an S.M. in Computer Science from MIT in 2024. My work is partially supported by the <a style={{color: "#1E88E5", fontWeight: "600"}} href="https://www.cooperativeai.com/post/announcing-the-2026-cooperative-ai-phd-fellows">Cooperative AI Foundation PhD Fellowship</a>.
                         <br/><br/>
 
                         My research explores how AI systems can augment <span style={{color: "#3A1EB6"}}><b>group collaboration</b></span> and <span style={{color: "#3A1EB6"}}><b>deliberation</b></span> across diverse settings. 
                         I design frameworks and interventions that support <span style={{color: "#3A1EB6"}}><b>equitable team participation</b></span>, foster <span style={{color: "#3A1EB6"}}><b>group trust</b></span> and <span style={{color: "#3A1EB6"}}><b>social connection</b></span>, and facilitate <span style={{color: "#3A1EB6"}}><b>consensus-building</b></span>. 
                         My work informs applications in education, creative practice, and collective decision-making.
                         I also develop critical AI literacy resources that empower stakeholders to engage in responsible and ethical AI practices.
-                        You can find my CV [Rev. Jan 2026] on this website. If you are interested in collaborating or learning more, please reach out at <a style={{color: "#1E88E5", fontWeight: "600"}} href="mailto: prernar@mit.edu">prernar-at-mit-dot-edu</a> :)
+                        You can find my CV [Rev. March 2026] on this website. If you are interested in collaborating or learning more, please reach out at <a style={{color: "#1E88E5", fontWeight: "600"}} href="mailto: prernar@mit.edu">prernar-at-mit-dot-edu</a> :)
                         <br/><br/>
 
                         Situated at the intersection of <b>Human-Computer Interaction (HCI)</b> and <b>Artificial Intelligence (AI)</b>, my work employs mixed methods experiments—combining computational, qualitative, and quantitative approaches—and spans participatory design, system development, and empirical evaluation.
@@ -109,21 +109,31 @@ class AboutMe extends React.Component{
                 <h4 style={{color: "#3A1EB6", marginBottom: "20px", textAlign: "left"}}>News + Updates</h4>
                 <div className="news-list">
                     <div className="news-item">
+                        <span className="news-date">Mar 2026</span>
+                        <span className="news-text">I will be interning at Microsoft Research <img src="data:image/svg+xml,%3csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%2023%2023'%3e%3cpath%20fill='%23f3f3f3'%20d='M0%200h23v23H0z'/%3e%3cpath%20fill='%23f35325'%20d='M1%201h10v10H1z'/%3e%3cpath%20fill='%2381bc06'%20d='M12%201h10v10H12z'/%3e%3cpath%20fill='%2305a6f0'%20d='M1%2012h10v10H1z'/%3e%3cpath%20fill='%23ffba08'%20d='M12%2012h10v10H12z'/%3e%3c/svg%3e" width="13" height="13"></img> this summer on the Microsoft Teams Applied Sciences team with <a style={{color: "#1E88E5", fontWeight: "600"}} href="https://www.microsoft.com/en-us/research/people/ahalfaker/">Aaron Halfaker</a> and <a style={{color: "#1E88E5", fontWeight: "600"}} href="https://www.microsoft.com/en-us/research/people/agrimaseth/">Agrima Seth</a>!  </span>
+                        <span className="news-emoji" title="Update">🤝</span>
+                    </div>
+                    <div className="news-item">
+                        <span className="news-date">Mar 2026</span>
+                        <span className="news-text">I am honored to be awarded the <a style={{color: "#1E88E5", fontWeight: "600"}} href="https://mitcommlab.mit.edu/eecs/2026/01/12/apply-to-be-a-communication-fellow-2026/">MIT EECS Communication Fellowship</a> for 2026! </span>
+                        <span className="news-emoji" title="Award">🏆</span>
+                    </div>
+                    <div className="news-item">
                         <span className="news-date">Feb 2026</span>
-                        <span className="news-text">Our paper <a style={{color: "#1E88E5", fontWeight: "600"}} href="#">Agora: Teaching the Skill of Consensus-Finding with AI Personas Grounded in Human Voice</a> has been accepted to CHI Extended Abstracts 2026! </span>
-                        <span className="news-emoji" title="Update">🏆</span>
+                        <span className="news-text">Our paper <a style={{color: "#1E88E5", fontWeight: "600"}} href="https://arxiv.org/abs/2603.07339">Agora: Teaching the Skill of Consensus-Finding with AI Personas Grounded in Human Voice</a> has been accepted to CHI Extended Abstracts 2026! </span>
+                        <span className="news-emoji" title="Paper">📄</span>
+                    </div>
+                    <div className="news-item">
+                        <span className="news-date">Feb 2026</span>
+                        <span className="news-text">I am honored to be awarded the <a style={{color: "#1E88E5", fontWeight: "600"}} href="https://www.cooperativeai.com/post/announcing-the-2026-cooperative-ai-phd-fellows">Cooperative AI Foundation PhD Fellowship</a> for 2026! </span>
+                        <span className="news-emoji" title="Award">🏆</span>
                     </div>
                     <div className="news-item">
                         <span className="news-date">Feb 2026</span>
                         <span className="news-text">Pre-print of our paper on <a style={{color: "#1E88E5", fontWeight: "600"}} href="https://arxiv.org/abs/2602.07142">Exploring Teachers' Perspectives on Using Conversational AI Agents for Group Collaboration </a> is available on arXiv.</span>
-                        <span className="news-emoji" title="Update">📄</span>
-                    </div>
-                    
-                    <div className="news-item">
-                        <span className="news-date">Feb 2026</span>
-                        <span className="news-text">I am honored to be awarded the <a style={{color: "#1E88E5", fontWeight: "600"}} href="https://www.cooperativeai.com/phd-fellowship/2026">Cooperative AI Foundation PhD Fellowship</a> for 2026! </span>
                         <span className="news-emoji" title="Paper">📄</span>
                     </div>
+                    
                     <div className="news-item">
                         <span className="news-date">Jan 2026</span>
                         <span className="news-text">I have been invited to serve on the organizing committee for <a style={{color: "#1E88E5", fontWeight: "600"}} href="https://iui.acm.org/2026/">ACM IUI 2027</a>.</span>
@@ -142,12 +152,12 @@ class AboutMe extends React.Component{
                     <div className="news-item">
                         <span className="news-date">Oct 2025</span>
                         <span className="news-text">Pre-print of our paper on <a style={{color: "#1E88E5", fontWeight: "600"}} href="https://arxiv.org/abs/2510.22844">Leveraging LLMs to Identify Conversation Threads in Collaborative Learning</a> is available on arXiv.</span>
-                        <span className="news-emoji" title="Update">📄</span>
+                        <span className="news-emoji" title="Paper">📄</span>
                     </div>
                     <div className="news-item">
                         <span className="news-date">Oct 2025</span>
                         <span className="news-text">I was awarded two Special Recognitions for Outstanding Reviews for CHI 2026!</span>
-                        <span className="news-emoji" title="Update">🏆</span>
+                        <span className="news-emoji" title="Award">🏆</span>
                     </div>
                     <div className="news-item">
                         <span className="news-date">Sept 2025</span>
@@ -157,7 +167,7 @@ class AboutMe extends React.Component{
                     <div className="news-item">
                         <span className="news-date">July 2025</span>
                         <span className="news-text">Our paper <a style={{color: "#1E88E5", fontWeight: "600"}} href="https://dl.acm.org/doi/abs/10.1145/3698205.3729542">How Adding Metacognitive Requirements in Support of AI Feedback in Practice Exams Transforms Student Learning Behaviors</a> received a Best Paper Nomination at L@S 2025!</span>
-                        <span className="news-emoji" title="Paper">🏆</span>
+                        <span className="news-emoji" title="Award">🏆</span>
                     </div>
                     <div className="news-item">
                         <span className="news-date">June 2025</span>

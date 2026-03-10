@@ -373,7 +373,7 @@ class PublicationsItems extends React.Component{
                 {/* <h1 style={{color: "#3A1EB6", fontWeight: 700}}>PUBLICATIONS</h1> */}
                 <div style={{height: "4px", width: "48px", background: "#3A1EB6", borderRadius: "2px", marginBottom: "18px"}}></div>
                 <h4 style={{color: "#3A1EB6", marginBottom: "20px", textAlign: "left", fontWeight: 600, fontFamily: "'Inter', -apple-system, BlinkMacSystemFont, sans-serif"}}>Peer Reviewed Conference Papers</h4>
-                <div style={{color: "#1E88E5"}}>Check CV for papers under review</div>
+                <div style={{color: "#1E88E5"}}>Check CV for papers under review and my <a style={{color: "#1E88E5", fontWeight: "600"}} href="https://scholar.google.com/citations?user=UYFmxj0AAAAJ&hl=en">Google Scholar</a> for pre-prints</div>
                     <br/>
                     <Row xs={1} md={1} className="g-4">
                         {peerReviewedPapers.map((pub, idx) => (
