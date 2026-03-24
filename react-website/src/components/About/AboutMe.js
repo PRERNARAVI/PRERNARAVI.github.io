@@ -110,6 +110,11 @@ class AboutMe extends React.Component{
                 <div className="news-list">
                     <div className="news-item">
                         <span className="news-date">Mar 2026</span>
+                        <span className="news-text">Our paper <a style={{color: "#1E88E5", fontWeight: "600"}} href="https://arxiv.org/abs/2602.07142">Exploring Teachers' Perspectives on Using Conversational AI Agents for Group Collaboration </a> has been accepted to AIED 2026! </span>
+                        <span className="news-emoji" title="Paper">📄</span>
+                    </div>
+                    <div className="news-item">
+                        <span className="news-date">Mar 2026</span>
                         <span className="news-text">I will be interning at Microsoft Research <img src="data:image/svg+xml,%3csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%2023%2023'%3e%3cpath%20fill='%23f3f3f3'%20d='M0%200h23v23H0z'/%3e%3cpath%20fill='%23f35325'%20d='M1%201h10v10H1z'/%3e%3cpath%20fill='%2381bc06'%20d='M12%201h10v10H12z'/%3e%3cpath%20fill='%2305a6f0'%20d='M1%2012h10v10H1z'/%3e%3cpath%20fill='%23ffba08'%20d='M12%2012h10v10H12z'/%3e%3c/svg%3e" width="13" height="13"></img> this summer on the Microsoft Teams Applied Sciences team with <a style={{color: "#1E88E5", fontWeight: "600"}} href="https://www.microsoft.com/en-us/research/people/ahalfaker/">Aaron Halfaker</a> and <a style={{color: "#1E88E5", fontWeight: "600"}} href="https://www.microsoft.com/en-us/research/people/agrimaseth/">Agrima Seth</a>!  </span>
                         <span className="news-emoji" title="Update">🤝</span>
                     </div>
@@ -127,11 +132,6 @@ class AboutMe extends React.Component{
                         <span className="news-date">Feb 2026</span>
                         <span className="news-text">I am honored to be awarded the <a style={{color: "#1E88E5", fontWeight: "600"}} href="https://www.cooperativeai.com/post/announcing-the-2026-cooperative-ai-phd-fellows">Cooperative AI Foundation PhD Fellowship</a> for 2026! </span>
                         <span className="news-emoji" title="Award">🏆</span>
-                    </div>
-                    <div className="news-item">
-                        <span className="news-date">Feb 2026</span>
-                        <span className="news-text">Pre-print of our paper on <a style={{color: "#1E88E5", fontWeight: "600"}} href="https://arxiv.org/abs/2602.07142">Exploring Teachers' Perspectives on Using Conversational AI Agents for Group Collaboration </a> is available on arXiv.</span>
-                        <span className="news-emoji" title="Paper">📄</span>
                     </div>
                     
                     <div className="news-item">
