@@ -109,6 +109,16 @@ class AboutMe extends React.Component{
                 <h4 style={{color: "#3A1EB6", marginBottom: "20px", textAlign: "left"}}>News + Updates</h4>
                 <div className="news-list">
                     <div className="news-item">
+                        <span className="news-date">Apr 2026</span>
+                        <span className="news-text">Our paper <a style={{color: "#1E88E5", fontWeight: "600"}} href="https://arxiv.org/abs/2510.22844">Leveraging LLMs to Identify Conversation Threads in Collaborative Learning</a> has been accepted to the Journal of Educational Data Mining (jEDM) 2026! </span>
+                        <span className="news-emoji" title="Paper">📄</span>
+                    </div>
+                    <div className="news-item">
+                        <span className="news-date">Apr 2026</span>
+                        <span className="news-text">Pre-print for <a style={{color: "#1E88E5", fontWeight: "600"}} href="https://arxiv.org/abs/2604.05368">AI and Collective Decisions: Strengthening Legitimacy and Losers' Consent</a> is now available. </span>
+                        <span className="news-emoji" title="Paper">📄</span>
+                    </div>
+                    <div className="news-item">
                         <span className="news-date">Mar 2026</span>
                         <span className="news-text">Our paper <a style={{color: "#1E88E5", fontWeight: "600"}} href="https://arxiv.org/abs/2602.07142">Exploring Teachers' Perspectives on Using Conversational AI Agents for Group Collaboration </a> has been accepted to AIED 2026! </span>
                         <span className="news-emoji" title="Paper">📄</span>
@@ -148,11 +158,6 @@ class AboutMe extends React.Component{
                         <span className="news-date">Nov 2025</span>
                         <span className="news-text">I passed my Research Qualifying Exam. Officially a PhD Candidate!</span>
                         <span className="news-emoji" title="Update">🎓</span>
-                    </div>
-                    <div className="news-item">
-                        <span className="news-date">Oct 2025</span>
-                        <span className="news-text">Pre-print of our paper on <a style={{color: "#1E88E5", fontWeight: "600"}} href="https://arxiv.org/abs/2510.22844">Leveraging LLMs to Identify Conversation Threads in Collaborative Learning</a> is available on arXiv.</span>
-                        <span className="news-emoji" title="Paper">📄</span>
                     </div>
                     <div className="news-item">
                         <span className="news-date">Oct 2025</span>
