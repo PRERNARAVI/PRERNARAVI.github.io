@@ -13,6 +13,9 @@ import TLL from "../../images/tll.png";
 import Apple from "../../images/Apple-Logo.png";
 import CHI_25 from "../../images/CHI_2025.jpg";
 import LAS_25 from "../../images/LAS_25.jpeg";
+import CooperativeAI from "../../images/CAIF_logo.png";
+import CommLab from "../../images/Comm_Lab_logo.png";
+import CHI_26 from "../../images/CHI2026_logo.png";
 import { FaAward } from 'react-icons/fa';
 
 
@@ -25,6 +28,106 @@ class AwardsItems extends React.Component{
                 <h4 style={{color: "#3A1EB6", marginBottom: "20px", textAlign: "left", fontWeight: 600, fontFamily: "'Inter', -apple-system, BlinkMacSystemFont, sans-serif"}}>Awards and Fellowships</h4>
                 <br/>
                 <Row>
+                <Col md={6} lg={4} className="mb-4">
+                    <a role="button" href="https://learningatscale.acm.org/las2025/" style={{cursor: "pointer", textDecoration: "none", color: 'inherit'}}>      
+                        <Card className="h-100" style={{border: 'none', borderRadius: 16, boxShadow: '0 2px 12px rgba(58,30,182,0.07)'}}>
+                        <div className="p-4 d-flex flex-column">
+                            <Card.Header 
+                                style={{
+                                    fontFamily: "'Inter', -apple-system, BlinkMacSystemFont, sans-serif", 
+                                    fontWeight: "600",
+                                    fontSize: 17,
+                                    color: "#3A1EB6",
+                                    backgroundColor: 'transparent',
+                                    borderBottom: 'none',
+                                    padding: '0 0 16px 0'
+                                }}> 
+                                <p style={{lineHeight: 1.3}}>
+                                    <FaAward size='24px' style={{color: '#3A1EB6', verticalAlign: 'text-top', marginRight: '8px'}}/>
+                                    Cooperative AI Foundation PhD Fellowship 2026
+                                </p>
+                            </Card.Header>
+                            <div className="text-center my-3">
+                            <Card.Img style={{height: "120px", width: "auto", maxWidth: '80%', objectFit: "contain"}}
+                                 src={CooperativeAI} alt="Card image" />
+                            </div>
+                                <Card.Text className="flex-grow-1" style={{fontSize: 14, color: '#2D3436'}}>
+                                Awarded the Cooperative AI 2026 PhD Fellowship (14 out of 240 applicants) for my dissertation research on addressing cooperation challenges with AI agents deployed in educational and democratic decision-making contexts.
+                                </Card.Text>
+                                <Card.Footer style={{backgroundColor: 'transparent', borderTop: 'none', textAlign: 'right', fontSize: '13px', color: '#6c757d', padding: '16px 0 0 0'}}>
+                                [ Feb 2026 ]
+                                </Card.Footer>
+                        </div>               
+                        </Card>
+                    </a>   
+                </Col>
+                <Col md={6} lg={4} className="mb-4">
+                    <a role="button" href="https://learningatscale.acm.org/las2025/" style={{cursor: "pointer", textDecoration: "none", color: 'inherit'}}>      
+                        <Card className="h-100" style={{border: 'none', borderRadius: 16, boxShadow: '0 2px 12px rgba(58,30,182,0.07)'}}>
+                        <div className="p-4 d-flex flex-column">
+                            <Card.Header 
+                                style={{
+                                    fontFamily: "'Inter', -apple-system, BlinkMacSystemFont, sans-serif", 
+                                    fontWeight: "600",
+                                    fontSize: 17,
+                                    color: "#3A1EB6",
+                                    backgroundColor: 'transparent',
+                                    borderBottom: 'none',
+                                    padding: '0 0 16px 0'
+                                }}> 
+                                <p style={{lineHeight: 1.3}}>
+                                    <FaAward size='24px' style={{color: '#3A1EB6', verticalAlign: 'text-top', marginRight: '8px'}}/>
+                                    MIT EECS Communication Fellowship 2026
+                                </p>
+                            </Card.Header>
+                            <div className="text-center my-3">
+                            <Card.Img style={{height: "120px", width: "auto", maxWidth: '80%', objectFit: "contain"}}
+                                 src={CommLab} alt="Card image" />
+                            </div>
+                                <Card.Text className="flex-grow-1" style={{fontSize: 14, color: '#2D3436'}}>
+                                Received the Communication Fellowship from MIT EECS for developing technical communication (writing, speaking, and visual design) programs and coaching graduate students within the department.
+                                </Card.Text>
+                                <Card.Footer style={{backgroundColor: 'transparent', borderTop: 'none', textAlign: 'right', fontSize: '13px', color: '#6c757d', padding: '16px 0 0 0'}}>
+                                [ Feb 2026 ]
+                                </Card.Footer>
+                        </div>               
+                        </Card>
+                    </a>   
+                </Col>
+                <Col md={6} lg={4} className="mb-4">
+                    <a role="button" href="https://chi2024.acm.org/" style={{cursor: "pointer", textDecoration: "none", color: 'inherit'}}>      
+                        <Card className="h-100" style={{border: 'none', borderRadius: 16, boxShadow: '0 2px 12px rgba(58,30,182,0.07)'}}>
+                        <div className="p-4 d-flex flex-column">
+                            <Card.Header 
+                                style={{
+                                    fontFamily: "'Inter', -apple-system, BlinkMacSystemFont, sans-serif", 
+                                    fontWeight: "600",
+                                    fontSize: 17,
+                                    color: "#3A1EB6",
+                                    backgroundColor: 'transparent',
+                                    borderBottom: 'none',
+                                    padding: '0 0 16px 0'
+                                }}> 
+                                <p style={{lineHeight: 1.3}}>
+                                    <FaAward size='24px' style={{color: '#3A1EB6', verticalAlign: 'text-top', marginRight: '8px'}}/>
+                                    Special Recognition (x2): Outstanding Reviews, CHI 2026
+                                </p>
+                            </Card.Header>
+                            <div className="text-center my-3">
+                            <Card.Img style={{height: "120px", width: "auto", maxWidth: '80%', objectFit: "contain"}}
+                                 src={CHI_26} alt="Card image" />
+                            </div>
+                                <Card.Text className="flex-grow-1" style={{fontSize: 14, color: '#2D3436'}}>
+                                Received this designation from the SIGCHI Conference on Human Factors in Computing Systems (CHI 2026) Program Committee for exceptionally high quality contributions (x2) to the 
+                                paper reviews process.
+                                </Card.Text>
+                                <Card.Footer style={{backgroundColor: 'transparent', borderTop: 'none', textAlign: 'right', fontSize: '13px', color: '#6c757d', padding: '16px 0 0 0'}}>
+                                [ October 2025 ]
+                                </Card.Footer>
+                        </div>               
+                        </Card>
+                    </a>   
+                </Col>
                 <Col md={6} lg={4} className="mb-4">
                     <a role="button" href="https://learningatscale.acm.org/las2025/" style={{cursor: "pointer", textDecoration: "none", color: 'inherit'}}>      
                         <Card className="h-100" style={{border: 'none', borderRadius: 16, boxShadow: '0 2px 12px rgba(58,30,182,0.07)'}}>

@@ -13,6 +13,7 @@ import GetAppIcon from '@material-ui/icons/GetApp';
 import DescriptionIcon from '@material-ui/icons/Description';
 import TwitterIcon from '@material-ui/icons/Twitter';
 import { Link } from 'react-router-dom';
+import GoogleSVG from "../../images/Google_svg.svg";
 //import InstagramIcon from '@material-ui/icons/Instagram';
 
 class AboutMe extends React.Component{
@@ -78,18 +79,19 @@ class AboutMe extends React.Component{
                         <div style={{fontWeight:"400"}}>
                         I am a PhD student at <a style={{color: "#1E88E5", fontWeight: "600"}}href="https://www.csail.mit.edu/" >MIT CSAIL</a> advised by <a style={{color: "#1E88E5", fontWeight: "600"}} href="https://en.wikipedia.org/wiki/Hal_Abelson">Dr. Hal Abelson</a>. 
                         I also collaborate with <a style={{color: "#1E88E5", fontWeight: "600"}} href="https://miba.dev/">Dr. Michiel Bakker</a> (MIT Sloan), <a style={{color: "#1E88E5", fontWeight: "600"}} href="https://www.media.mit.edu/people/cynthiab/overview/">Dr. Cynthia Breazeal</a> (MIT Media Lab), <a style={{color: "#1E88E5", fontWeight: "600"}} href="https://education.mit.edu/person/eric_klopfer/">Dr. Eric Klopfer </a>(MIT CMSW), and <a style={{color: "#1E88E5", fontWeight: "600"}}href="https://people.csail.mit.edu/karger/"> Dr. David Karger</a> (MIT CSAIL). 
-                        I earned an S.M. in Computer Science from MIT in 2024. My work is partially supported by the <a style={{color: "#1E88E5", fontWeight: "600"}} href="https://www.cooperativeai.com/post/announcing-the-2026-cooperative-ai-phd-fellows">Cooperative AI Foundation PhD Fellowship</a>.
+                        I earned an S.M. in Computer Science from MIT in 2024. My work is partially supported by the <a style={{color: "#1E88E5", fontWeight: "600"}} href="https://www.cooperativeai.com/post/announcing-the-2026-cooperative-ai-phd-fellows">Cooperative AI Foundation PhD Fellowship</a>. I am also an MIT EECS Communication Fellow and was previously an MIT Teaching Development Fellow.
                         <br/><br/>
 
-                        My research explores how AI systems can augment <span style={{color: "#3A1EB6"}}><b>group collaboration</b></span> and <span style={{color: "#3A1EB6"}}><b>deliberation</b></span> across diverse settings. 
-                        I design frameworks and interventions that support <span style={{color: "#3A1EB6"}}><b>equitable team participation</b></span>, foster <span style={{color: "#3A1EB6"}}><b>group trust</b></span> and <span style={{color: "#3A1EB6"}}><b>social connection</b></span>, and facilitate <span style={{color: "#3A1EB6"}}><b>consensus-building</b></span>. 
-                        My work informs applications in education, creative practice, and collective decision-making.
+                        My research explores the design of Generative AI agents that augment <span style={{color: "#3A1EB6"}}><b>group collaboration</b></span> in education, creative practice, and collective decision-making contexts.
+                        I develop frameworks and interventions that support <span style={{color: "#3A1EB6"}}><b>equitable team participation</b></span>, foster <span style={{color: "#3A1EB6"}}><b>group trust</b></span> and <span style={{color: "#3A1EB6"}}><b>social connection</b></span>, and facilitate <span style={{color: "#3A1EB6"}}><b>consensus-building</b></span>. 
                         I also develop critical AI literacy resources that empower stakeholders to engage in responsible and ethical AI practices.
-                        You can find my CV [Rev. March 2026] on this website. If you are interested in collaborating or learning more, please reach out at <a style={{color: "#1E88E5", fontWeight: "600"}} href="mailto: prernar@mit.edu">prernar-at-mit-dot-edu</a> :)
-                        <br/><br/>
-
-                        Situated at the intersection of <b>Human-Computer Interaction (HCI)</b> and <b>Artificial Intelligence (AI)</b>, my work employs mixed methods experiments—combining computational, qualitative, and quantitative approaches—and spans participatory design, system development, and empirical evaluation.
-                        I have published my research in <span style={{color: "#3A1EB6"}}><b>HCI + AI + Education</b></span> venues, including CHI, CSCW, AAAI, IDC, and CSCL. I was previously an MIT Teaching Development Fellow. I have worked at <img src="data:image/svg+xml,%3csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%2023%2023'%3e%3cpath%20fill='%23f3f3f3'%20d='M0%200h23v23H0z'/%3e%3cpath%20fill='%23f35325'%20d='M1%201h10v10H1z'/%3e%3cpath%20fill='%2381bc06'%20d='M12%201h10v10H12z'/%3e%3cpath%20fill='%2305a6f0'%20d='M1%2012h10v10H1z'/%3e%3cpath%20fill='%23ffba08'%20d='M12%2012h10v10H12z'/%3e%3c/svg%3e" width="13" height="13"></img> Microsoft and <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c1/Google_%22G%22_logo.svg/24px-Google_%22G%22_logo.svg.png" width="13" height="13"></img> Google Research in both research and software engineering roles.
+                        My work integrates participatory design, system development, and empirical mixed-methods evaluation combining computational, qualitative, and quantitative approaches.
+                        I publish in <span style={{color: "#3A1EB6"}}><b>HCI + AI + Education</b></span> venues, including CHI, CSCW, AAAI, IDC, AIED, and CSCL. 
+                        If you are interested in collaborating or learning more, please reach out at <a style={{color: "#1E88E5", fontWeight: "600"}} href="mailto: prernar@mit.edu">prernar-at-mit-dot-edu</a> :) <br/><br/>
+                        
+                        I will be interning at <img src="data:image/svg+xml,%3csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%2023%2023'%3e%3cpath%20fill='%23f3f3f3'%20d='M0%200h23v23H0z'/%3e%3cpath%20fill='%23f35325'%20d='M1%201h10v10H1z'/%3e%3cpath%20fill='%2381bc06'%20d='M12%201h10v10H12z'/%3e%3cpath%20fill='%2305a6f0'%20d='M1%2012h10v10H1z'/%3e%3cpath%20fill='%23ffba08'%20d='M12%2012h10v10H12z'/%3e%3c/svg%3e" width="13" height="13"></img> Microsoft Research this summer with Aaron Halfaker and Agrima Seth on the <a style={{color: "#1E88E5", fontWeight: "600"}} href="https://www.microsoft.com/en-us/research/group/collab-ai-research/">Collab AI Research</a> team.
+                        Previously, I have interned at <img src={GoogleSVG} width="13" height="13"></img> Google Research's Perception Team as a Student Researcher and at Microsoft as a Design Researcher and Software Engineer (x3).
+                        
                         <br/><br/>
                     </div>
                     <div>

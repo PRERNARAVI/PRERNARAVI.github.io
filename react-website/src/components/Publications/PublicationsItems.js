@@ -23,8 +23,46 @@ import thumbnailEmoji from "../../images/emoji_thumbnail.png";
 import thumbnailRAICAPML from "../../images/RAICA_PML_thumbnail.png";
 import thumbnailISLS23 from "../../images/ISLS_2023_thumbnail.png";
 import thumbnailRAICAEthical from "../../images/RAICA_ethical_thumbnail.jpg";
+import thumbnailCHI26 from "../../images/Agora_CHI_2026_thumbnail.png";
+import thumbnailAIED26 from "../../images/AIED_thumbnail.png";
+import thumbnailjEDM from "../../images/jEDM_thumbnail.png";
 
 const peerReviewedPapers = [
+    {
+        title: 'Exploring Teachers\' Perspectives on Using Conversational AI Agents for Group Collaboration',
+        authors: [
+          { name: 'Prerna Ravi', isMe: true },
+          { name: 'Carúmey Stevens' },
+          { name: 'Beatriz Flamia Azevedo' },
+          { name: 'Jasmine David' },
+          { name: 'Brandon Hanks' },
+          { name: 'Hal Abelson' },
+          { name: 'Grace C. Lin' },
+          { name: 'Emma Anderson' },
+        ],
+        venue: 'Proceedings of the 27th International Conference on Artificial Intelligence in Education (AIED 2026)',
+        year: '2026',
+        image: thumbnailAIED26,
+        pdf: 'https://arxiv.org/pdf/2602.07142',
+        tags: ['HCI', 'AI', 'Education'],
+    },
+    {
+        title: 'Agora: Teaching the Skill of Consensus-Finding with AI Personas Grounded in Human Voice',
+        authors: [
+          { name: 'Suyash Fulay*' },
+          { name: 'Prerna Ravi*', isMe: true },
+          { name: 'Om Gokhale' },
+          { name: 'Eugene Yi' },
+          { name: 'Michiel Bakker' },
+          { name: 'Deb Roy' },
+        ],
+        venue: 'Extended Abstracts of the 2026 CHI Conference on Human Factors in Computing Systems (CHI 2026)',
+        year: '2026',
+        image: thumbnailCHI26,
+        pdf: 'https://dl.acm.org/doi/epdf/10.1145/3772363.3798888',
+        slides: null,
+        tags: ['HCI', 'AI'],
+    },
   {
     title: '🏆 Co-designing Large Language Model Tools for Project-Based Learning with K12 Educators',
     authors: [
@@ -323,6 +361,26 @@ const shortPapers = [
 ];
 
 const journalPapers = [
+    {
+        title: "Leveraging Large Language Models to Identify Conversation Threads in Collaborative Learning",
+        authors: [
+        { name: 'Prerna Ravi*', isMe: true },
+          { name: 'Dong Won Lee*' },
+          { name: 'Beatriz Flamia' },
+          { name: 'Jasmine David' },
+          { name: 'Brandon Hanks' },
+          { name: 'Cynthia Breazeal' },
+          { name: 'Emma Anderson' },
+          { name: 'Grace C. Lin' },
+        ],
+        venue: 'Journal of Educational Data Mining (jEDM 2026)',
+        year: '2026',
+        image: thumbnailjEDM,
+        pdf: 'https://arxiv.org/pdf/2510.22844',
+        video: null,
+        slides: null,
+        tags: ['AI', 'Education']
+      },
   {
     title: "#let's-discuss: Analyzing Students' use of Emoji when interacting with course readings",
     authors: [
@@ -340,7 +398,7 @@ const journalPapers = [
     pdf: 'https://link.springer.com/article/10.1007/s40593-024-00401-5',
     video: null,
     slides: null,
-    tags: ['HCI', 'AI', 'Education']
+    tags: ['AI', 'Education']
   }
 ];
 
@@ -371,9 +429,73 @@ class PublicationsItems extends React.Component{
                 {/* This page features my publications, teaching appointments, talks, service and non-profit work, and selected media coverage. */}
                 <br/><br/>
                 {/* <h1 style={{color: "#3A1EB6", fontWeight: 700}}>PUBLICATIONS</h1> */}
+                <div>My research asks: <b><i>How can we design Generative AI systems that foster effective human-to-human collaboration, while also ensuring responsible and ethical AI use?</i></b> I pursue this through three interconnected themes:</div> 
+                <br/>
+                <ul>
+                    <li><span style={{color: "#3A1EB6"}}><b>AI Agents for Team Collaboration</b></span>. I build and evaluate conversational AI agents designed to enhance collaborative learning, critical thinking, and equitable participation in educational settings. I analyze complex interactions between AI teammates and human groups to understand impacts on agency, trust, anthropomorphism, and social cohesion.</li>
+                    <li><span style={{color: "#3A1EB6"}}><b>AI Tools for Collective Decision-Making</b></span>. I deploy scalable LLM-powered systems that facilitate deliberative reasoning, empathy and perspective-taking, iterative consensus-building, and institutional trust in civic decision-making contexts.</li>
+                    <li><span style={{color: "#3A1EB6"}}><b>Responsible AI Literacy</b></span>. I develop critical data and AI literacy resources, curricula, and professional development programs that empower stakeholders from diverse backgrounds and age-groups to engage in responsible and ethical AI practices.</li>
+                </ul>
+                <div>Please check my CV for papers under review and my <a style={{color: "#1E88E5", fontWeight: "600"}} href="https://scholar.google.com/citations?user=UYFmxj0AAAAJ&hl=en">Google Scholar</a> for pre-prints.</div>
+                <br/>
+                <div style={{height: "4px", width: "48px", background: "#3A1EB6", borderRadius: "2px", marginBottom: "18px"}}></div>
+                
+                    <h4 style={{color: "#3A1EB6", marginBottom: "20px", textAlign: "left", fontWeight: 600, fontFamily: "'Inter', -apple-system, BlinkMacSystemFont, sans-serif"}}>Journal Papers</h4>
+                    <br/>
+                    <Row xs={1} md={1} className="g-4">
+                        {journalPapers.map((pub, idx) => (
+                            <Col key={idx}>
+                                <Card style={{ border: 'none', borderRadius: 16, boxShadow: '0 2px 12px rgba(58,30,182,0.07)', marginBottom: 24, minHeight: 160, fontFamily: "'Inter', -apple-system, BlinkMacSystemFont, sans-serif" }}>
+                                    <Row noGutters="true">
+                                        <Col xs={4} style={{display: 'flex', alignItems: 'center', justifyContent: 'center', background: '#f5f7fd', borderTopLeftRadius: 16, borderBottomLeftRadius: 16}}>
+                                            {pub.image ? (
+                                                <Image src={pub.image} alt="Paper visual" style={{maxWidth: '90%', maxHeight: '100%', borderRadius: 8}}/>
+                                            ) : (
+                                                <InsertDriveFileIcon style={{fontSize: 48, color: '#3A1EB6', opacity: 0.3}}/>
+                                            )}
+                        </Col>
+                                        <Col xs={8} style={{padding: 20, display: 'flex', flexDirection: 'column', justifyContent: 'center', fontFamily: "'Inter', -apple-system, BlinkMacSystemFont, sans-serif"}}>
+                                            <div style={{fontWeight: 700, color: '#2D3436', fontSize: 16, fontFamily: "'Inter', -apple-system, BlinkMacSystemFont, sans-serif"}}>{pub.title}</div>
+                                            <div style={{margin: '2px 0 0 0', color: '#2D3436', fontSize: 15, fontFamily: "'Inter', -apple-system, BlinkMacSystemFont, sans-serif"}}>
+                                                {pub.authors.map((a, i) => (
+                                                    <span key={a.name} style={a.isMe ? {fontWeight: 700, color: '#3A1EB6', fontFamily: "'Inter', -apple-system, BlinkMacSystemFont, sans-serif"} : {fontFamily: "'Inter', -apple-system, BlinkMacSystemFont, sans-serif"}}>{a.name}{i < pub.authors.length-1 ? ', ' : ''}</span>
+                                                ))}
+                            </div>
+                                            <div style={{color: '#2D3436', fontSize: 14, margin: '16px 0 8px 0', fontFamily: "'Inter', -apple-system, BlinkMacSystemFont, sans-serif"}} dangerouslySetInnerHTML={{__html: emphasizeAbbr(pub.venue)}}></div>
+                                            <div style={{display: 'flex', gap: 16, alignItems: 'center'}}>
+                                                {pub.pdf && (
+                                                    <a href={pub.pdf} target="_blank" rel="noopener noreferrer" aria-label="PDF" title="View PDF">
+                                                        <PictureAsPdfIcon style={{color: '#1E88E5', fontSize: 24}}/>
+                                                    </a>
+                                                )}
+                                                {pub.video && (
+                                                    <a href={pub.video} target="_blank" rel="noopener noreferrer" aria-label="Video" title="Watch Video">
+                                                        <PlayCircleFilledIcon style={{color: '#3A1EB6', fontSize: 24}}/>
+                                                    </a>
+                                                )}
+                                                {pub.slides && (
+                                                    <a href={pub.slides} target="_blank" rel="noopener noreferrer" aria-label="Slides" title="View Slides">
+                                                        <InsertDriveFileIcon style={{color: '#1E88E5', fontSize: 22}}/>
+                                                    </a>
+                                                )}
+                            </div>
+                        </Col>
+                    </Row>
+                                    <div style={{display: 'flex', justifyContent: 'flex-end', alignItems: 'center', gap: 8, marginTop: 12, marginRight: 8, paddingBottom: 12}}>
+                                        {pub.tags && pub.tags.map(tag => (
+                                            <span key={tag} style={{background: tagStyles[tag]?.color || '#3A1EB6', color: '#fff', fontWeight: 600, fontSize: 11, borderRadius: 12, padding: '2px 12px', marginLeft: 4, letterSpacing: 0.5, display: 'flex', alignItems: 'center', gap: 4}}>
+                                                <span style={{fontSize: 13, marginRight: 4}}>{tagStyles[tag]?.emoji || ''}</span>{tag}
+                                            </span>
+                                        ))}
+                            </div>
+                                </Card>
+                        </Col>
+                        ))}
+                    </Row>
+                    <br/>
                 <div style={{height: "4px", width: "48px", background: "#3A1EB6", borderRadius: "2px", marginBottom: "18px"}}></div>
                 <h4 style={{color: "#3A1EB6", marginBottom: "20px", textAlign: "left", fontWeight: 600, fontFamily: "'Inter', -apple-system, BlinkMacSystemFont, sans-serif"}}>Peer Reviewed Conference Papers</h4>
-                <div style={{color: "#1E88E5"}}>Check CV for papers under review and my <a style={{color: "#1E88E5", fontWeight: "600"}} href="https://scholar.google.com/citations?user=UYFmxj0AAAAJ&hl=en">Google Scholar</a> for pre-prints</div>
+                
                     <br/>
                     <Row xs={1} md={1} className="g-4">
                         {peerReviewedPapers.map((pub, idx) => (
@@ -443,6 +565,7 @@ class PublicationsItems extends React.Component{
                     </Row>
                     <br/>
                     <br/>
+                
                     <div style={{height: "4px", width: "48px", background: "#3A1EB6", borderRadius: "2px", marginBottom: "18px"}}></div>
                     <h4 style={{color: "#3A1EB6", marginBottom: "20px", textAlign: "left", fontWeight: 600, fontFamily: "'Inter', -apple-system, BlinkMacSystemFont, sans-serif"}}>Short Papers and Organized Workshops</h4>
                     <br/>
@@ -497,60 +620,7 @@ class PublicationsItems extends React.Component{
                         ))}
                     </Row>
                     <br/>
-                    <div style={{height: "4px", width: "48px", background: "#3A1EB6", borderRadius: "2px", marginBottom: "18px"}}></div>
-                    <h4 style={{color: "#3A1EB6", marginBottom: "20px", textAlign: "left", fontWeight: 600, fontFamily: "'Inter', -apple-system, BlinkMacSystemFont, sans-serif"}}>Journal Papers</h4>
-                    <br/>
-                    <Row xs={1} md={1} className="g-4">
-                        {journalPapers.map((pub, idx) => (
-                            <Col key={idx}>
-                                <Card style={{ border: 'none', borderRadius: 16, boxShadow: '0 2px 12px rgba(58,30,182,0.07)', marginBottom: 24, minHeight: 160, fontFamily: "'Inter', -apple-system, BlinkMacSystemFont, sans-serif" }}>
-                                    <Row noGutters="true">
-                                        <Col xs={4} style={{display: 'flex', alignItems: 'center', justifyContent: 'center', background: '#f5f7fd', borderTopLeftRadius: 16, borderBottomLeftRadius: 16}}>
-                                            {pub.image ? (
-                                                <Image src={pub.image} alt="Paper visual" style={{maxWidth: '90%', maxHeight: '100%', borderRadius: 8}}/>
-                                            ) : (
-                                                <InsertDriveFileIcon style={{fontSize: 48, color: '#3A1EB6', opacity: 0.3}}/>
-                                            )}
-                        </Col>
-                                        <Col xs={8} style={{padding: 20, display: 'flex', flexDirection: 'column', justifyContent: 'center', fontFamily: "'Inter', -apple-system, BlinkMacSystemFont, sans-serif"}}>
-                                            <div style={{fontWeight: 700, color: '#2D3436', fontSize: 16, fontFamily: "'Inter', -apple-system, BlinkMacSystemFont, sans-serif"}}>{pub.title}</div>
-                                            <div style={{margin: '2px 0 0 0', color: '#2D3436', fontSize: 15, fontFamily: "'Inter', -apple-system, BlinkMacSystemFont, sans-serif"}}>
-                                                {pub.authors.map((a, i) => (
-                                                    <span key={a.name} style={a.isMe ? {fontWeight: 700, color: '#3A1EB6', fontFamily: "'Inter', -apple-system, BlinkMacSystemFont, sans-serif"} : {fontFamily: "'Inter', -apple-system, BlinkMacSystemFont, sans-serif"}}>{a.name}{i < pub.authors.length-1 ? ', ' : ''}</span>
-                                                ))}
-                            </div>
-                                            <div style={{color: '#2D3436', fontSize: 14, margin: '16px 0 8px 0', fontFamily: "'Inter', -apple-system, BlinkMacSystemFont, sans-serif"}} dangerouslySetInnerHTML={{__html: emphasizeAbbr(pub.venue)}}></div>
-                                            <div style={{display: 'flex', gap: 16, alignItems: 'center'}}>
-                                                {pub.pdf && (
-                                                    <a href={pub.pdf} target="_blank" rel="noopener noreferrer" aria-label="PDF" title="View PDF">
-                                                        <PictureAsPdfIcon style={{color: '#1E88E5', fontSize: 24}}/>
-                                                    </a>
-                                                )}
-                                                {pub.video && (
-                                                    <a href={pub.video} target="_blank" rel="noopener noreferrer" aria-label="Video" title="Watch Video">
-                                                        <PlayCircleFilledIcon style={{color: '#3A1EB6', fontSize: 24}}/>
-                                                    </a>
-                                                )}
-                                                {pub.slides && (
-                                                    <a href={pub.slides} target="_blank" rel="noopener noreferrer" aria-label="Slides" title="View Slides">
-                                                        <InsertDriveFileIcon style={{color: '#1E88E5', fontSize: 22}}/>
-                                                    </a>
-                                                )}
-                            </div>
-                        </Col>
-                    </Row>
-                                    <div style={{display: 'flex', justifyContent: 'flex-end', alignItems: 'center', gap: 8, marginTop: 12, marginRight: 8, paddingBottom: 12}}>
-                                        {pub.tags && pub.tags.map(tag => (
-                                            <span key={tag} style={{background: tagStyles[tag]?.color || '#3A1EB6', color: '#fff', fontWeight: 600, fontSize: 11, borderRadius: 12, padding: '2px 12px', marginLeft: 4, letterSpacing: 0.5, display: 'flex', alignItems: 'center', gap: 4}}>
-                                                <span style={{fontSize: 13, marginRight: 4}}>{tagStyles[tag]?.emoji || ''}</span>{tag}
-                                            </span>
-                                        ))}
-                            </div>
-                                </Card>
-                        </Col>
-                        ))}
-                    </Row>
-                    <br/>
+                    
                     {/* 
                     <hr style={{backgroundColor: "#1E88E5"}}/>
                     <br/>

@@ -7,6 +7,7 @@ import GT from "../../images/GT.png";
 import RTC from "../../images/RTC.png";
 import { HashRouter as Router, Switch, Route, NavLink } from "react-router-dom";
 import { FadeIn, Pulse } from "react-animation-wrapper";
+import RobogalsLogo from "../../images/robogals-logo.png";
   
 function show() {
     console.log("XXXXXXXXXXXXXXX");
@@ -18,6 +19,24 @@ function show() {
 class ExperienceItems extends React.Component{
     render() {  
         const items = [
+
+            {
+                title: <div style={{fontSize: "15px", fontFamily: "'Inter', -apple-system, BlinkMacSystemFont, sans-serif", color: "#3A1EB6"}}>May 2026 - August 2026<br/>Redmond, Washington, USA</div>,
+                cardTitle: <h5 style={{textAlign: "center", color: "#3A1EB6", fontFamily: "'Inter', -apple-system, BlinkMacSystemFont, sans-serif"}}> Research Intern at Microsoft Research</h5>,
+                //cardSubtitle:<h5 style={{color: "#f2ebdd", textAlign: "center"}}>Software Engineer Intern</h5>,
+                cardDetailedText: <div style={{minHeight: "50px", fontFamily: "'Inter', -apple-system, BlinkMacSystemFont, sans-serif", color: "#2D3436"}}>
+                    Incoming summer 2026 research intern investigating AI supported team collaboration with Aaron Halfaker and Agrima Seth. 
+                </div>,
+                media: 
+                {
+                    type: "IMAGE",
+                    source: {
+                        url: MicrosoftLogo
+                    },
+                    
+                }
+                
+            },
 
             {
                 title: <div style={{fontSize: "15px", fontFamily: "'Inter', -apple-system, BlinkMacSystemFont, sans-serif", color: "#3A1EB6"}}>May 2023 - August 2023<br/>Redmond, Washington, USA</div>,
@@ -209,7 +228,7 @@ class ExperienceItems extends React.Component{
                     type: "IMAGE",
                     source: {
                     //url: <Image responsive="true" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQxbKa33kbFK2lr0RsHcx_hJ0fatx71EVwrp_Hawdsm5wnNlHc5I7pLdq88y00HbHaAw9E&usqp=CAU"/>
-                    url: "https://upload.wikimedia.org/wikipedia/en/thumb/e/e7/Robogals_Logo.svg/1200px-Robogals_Logo.svg.png"
+                    url: RobogalsLogo
                     },
                     
                 }
