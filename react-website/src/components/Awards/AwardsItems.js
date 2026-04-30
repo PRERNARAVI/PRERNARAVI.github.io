@@ -29,7 +29,7 @@ class AwardsItems extends React.Component{
                 <br/>
                 <Row>
                 <Col md={6} lg={4} className="mb-4">
-                    <a role="button" href="https://learningatscale.acm.org/las2025/" style={{cursor: "pointer", textDecoration: "none", color: 'inherit'}}>      
+                    <a role="button" href="https://www.cooperativeai.com/post/announcing-the-2026-cooperative-ai-phd-fellows" style={{cursor: "pointer", textDecoration: "none", color: 'inherit'}}>      
                         <Card className="h-100" style={{border: 'none', borderRadius: 16, boxShadow: '0 2px 12px rgba(58,30,182,0.07)'}}>
                         <div className="p-4 d-flex flex-column">
                             <Card.Header 
@@ -62,7 +62,7 @@ class AwardsItems extends React.Component{
                     </a>   
                 </Col>
                 <Col md={6} lg={4} className="mb-4">
-                    <a role="button" href="https://learningatscale.acm.org/las2025/" style={{cursor: "pointer", textDecoration: "none", color: 'inherit'}}>      
+                    <a role="button" href="https://mitcommlab.mit.edu/eecs/" style={{cursor: "pointer", textDecoration: "none", color: 'inherit'}}>      
                         <Card className="h-100" style={{border: 'none', borderRadius: 16, boxShadow: '0 2px 12px rgba(58,30,182,0.07)'}}>
                         <div className="p-4 d-flex flex-column">
                             <Card.Header 
@@ -95,7 +95,7 @@ class AwardsItems extends React.Component{
                     </a>   
                 </Col>
                 <Col md={6} lg={4} className="mb-4">
-                    <a role="button" href="https://chi2024.acm.org/" style={{cursor: "pointer", textDecoration: "none", color: 'inherit'}}>      
+                    <a role="button" href="https://chi2026.acm.org/" style={{cursor: "pointer", textDecoration: "none", color: 'inherit'}}>      
                         <Card className="h-100" style={{border: 'none', borderRadius: 16, boxShadow: '0 2px 12px rgba(58,30,182,0.07)'}}>
                         <div className="p-4 d-flex flex-column">
                             <Card.Header 
