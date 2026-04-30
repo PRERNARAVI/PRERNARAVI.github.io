@@ -1,13 +1,14 @@
 {
   "files": {
     "main.css": "/static/css/main.1e0a68f6.css",
-    "main.js": "/static/js/main.1527a2ed.js",
+    "main.js": "/static/js/main.a14c9987.js",
     "static/media/IDC_2025_thumbnail.png": "/static/media/IDC_2025_thumbnail.30a5078e9b74af9e5864.png",
     "static/media/ABCDE_thumbnail.png": "/static/media/ABCDE_thumbnail.65a60e43d7bfdebbcf93.png",
     "static/media/ImageGen.png": "/static/media/ImageGen.e0b8638cff3f1a2d0819.png",
     "static/media/dreams_thumbnail.png": "/static/media/dreams_thumbnail.42b70ffe82fe6cfef99d.png",
     "static/media/copycat_thumbnail_new.png": "/static/media/copycat_thumbnail_new.87072f6b690865377bad.png",
     "static/media/emoji_thumbnail.png": "/static/media/emoji_thumbnail.1225a16b98471850966f.png",
+    "static/media/CHI2026_logo.png": "/static/media/CHI2026_logo.4e5a433fa6b4c0306f29.png",
     "static/media/ttig-educators.pdf": "/static/media/ttig-educators.8ec68901ee37c5aaa4bc.pdf",
     "static/media/AppInventor.png": "/static/media/AppInventor.72ee01fad40277206122.png",
     "static/media/ISLS_2023_thumbnail.png": "/static/media/ISLS_2023_thumbnail.b8a1e4062d31649e5fa0.png",
@@ -19,17 +20,20 @@
     "static/media/NB.png": "/static/media/NB.7daa7626d8d0df5d9631.png",
     "static/media/thumbnail_raica.jpg": "/static/media/thumbnail_raica.8ff93654ad25ff6ac493.jpg",
     "static/media/Aptly.png": "/static/media/Aptly.b7fbcf7a2bfb5a2db26b.png",
+    "static/media/Agora_CHI_2026_thumbnail.png": "/static/media/Agora_CHI_2026_thumbnail.c0e147a0b772b2027ea8.png",
     "static/media/Art.jpg": "/static/media/Art.0863e23ba2fef93ad6fb.jpg",
+    "static/media/jEDM_thumbnail.png": "/static/media/jEDM_thumbnail.c65e1773f4504e2ff346.png",
     "static/media/ttig_thumbnail.png": "/static/media/ttig_thumbnail.f1dbd2cc796d934ab233.png",
     "static/media/LAS_23_thumbnail.png": "/static/media/LAS_23_thumbnail.1fde9a347f2f9797a8e9.png",
     "static/media/RAICA_ethical_thumbnail.jpg": "/static/media/RAICA_ethical_thumbnail.83c6e7a7628908150157.jpg",
     "static/media/PURA.png": "/static/media/PURA.5fb7fbbc50154579f6c8.png",
-    "static/media/PRERNA_RAVI_CV.pdf": "/static/media/PRERNA_RAVI_CV.7313b94c62b6bfa8cf2b.pdf",
+    "static/media/PRERNA_RAVI_CV.pdf": "/static/media/PRERNA_RAVI_CV.4e14fac2a70b07ceb0af.pdf",
     "static/media/cis_mit.png": "/static/media/cis_mit.1c30aaeff99654ef8d18.png",
     "static/media/Mentor.png": "/static/media/Mentor.dbd781b07863d8dc3349.png",
     "static/media/thumbnail_data_science.jpeg": "/static/media/thumbnail_data_science.b4f1a8e299b864d49e81.jpeg",
     "static/media/Prerna-latest.JPG": "/static/media/Prerna-latest.98dc869f6c5b0a00c22e.JPG",
     "static/media/CocAward2021.jpeg": "/static/media/CocAward2021.33fff464175f495a8c4b.jpeg",
+    "static/media/AIED_thumbnail.png": "/static/media/AIED_thumbnail.d819022ae5bd146ff0af.png",
     "static/media/Dance.jpg": "/static/media/Dance.2ec2022b5c3b0cd8259e.jpg",
     "static/media/Camera_Ready_ISLS.pdf": "/static/media/Camera_Ready_ISLS.fbe78fe0bd8dd0502f75.pdf",
     "static/media/Library.jpeg": "/static/media/Library.a9b7fc2ea78c58c1c3f5.jpeg",
@@ -48,6 +52,7 @@
     "static/media/ExperienceWallpaper.jpg": "/static/media/ExperienceWallpaper.06f4bb0c34d73ddc514f.jpg",
     "static/media/CHI_2025.jpg": "/static/media/CHI_2025.9b4414dc6fb2100aef73.jpg",
     "static/media/LAS_25.jpeg": "/static/media/LAS_25.d3ef14338d031f86bea9.jpeg",
+    "static/media/Comm_Lab_logo.png": "/static/media/Comm_Lab_logo.075f43c2de29ba66200d.png",
     "static/media/MIT-logo.png": "/static/media/MIT-logo.1404072780b1472db4c4.png",
     "static/media/Google_logo.png": "/static/media/Google_logo.28c882f39b6ec1f95416.png",
     "static/media/GT.png": "/static/media/GT.c5a22285ba9caed81936.png",
@@ -55,14 +60,16 @@
     "static/media/research_wallpaper.jpg": "/static/media/research_wallpaper.a30923e7c25c9a89b1bd.jpg",
     "static/media/Apple-Logo.png": "/static/media/Apple-Logo.5a7201c5f85428e2fd8a.png",
     "static/media/tll.png": "/static/media/tll.ca8d4fd6c4cc512e65a9.png",
+    "static/media/robogals-logo.png": "/static/media/robogals-logo.4448430c68eef2f17cbf.png",
     "index.html": "/index.html",
+    "static/media/Google_svg.svg": "/static/media/Google_svg.d7f092af888a54de79ed9c9303d689d7.svg",
     "static/media/google-scholar.svg": "/static/media/google-scholar.b69eb4ac4b971f679052773c43db28f2.svg",
     "static/media/Microsoft_logo.svg": "/static/media/Microsoft_logo.72f0fcc793eda19cdc1604efc3b381cb.svg",
     "main.1e0a68f6.css.map": "/static/css/main.1e0a68f6.css.map",
-    "main.1527a2ed.js.map": "/static/js/main.1527a2ed.js.map"
+    "main.a14c9987.js.map": "/static/js/main.a14c9987.js.map"
   },
   "entrypoints": [
     "static/css/main.1e0a68f6.css",
-    "static/js/main.1527a2ed.js"
+    "static/js/main.a14c9987.js"
   ]
 }
