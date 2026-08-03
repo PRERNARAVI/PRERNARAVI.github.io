@@ -112,7 +112,7 @@ class AboutMe extends React.Component{
                 <div className="news-list">
                     <div className="news-item">
                         <span className="news-date">Aug 2026</span>
-                        <span className="news-text">Our paper <a style={{color: "#1E88E5", fontWeight: "600"}} href="https://arxiv.org/abs/2604.05368">AI and Collective Decisions: Strengthening Legitimacy and Losers' Consent</a> was accepted to the Human-AI Complementarity Workshop: Dynamic Alignment organized by the NSF AI Institute for Societal Decision Making (NSF AI-SDM) 2026. See you in Pittsburg, September 24-25!</span>
+                        <span className="news-text">Our paper <a style={{color: "#1E88E5", fontWeight: "600"}} href="https://arxiv.org/abs/2604.05368">AI and Collective Decisions: Strengthening Legitimacy and Losers' Consent</a> was accepted to the Human-AI Complementarity Workshop: Dynamic Alignment organized by the NSF AI Institute for Societal Decision Making (NSF AI-SDM) 2026. See you in Pittsburgh, September 24-25!</span>
                         <span className="news-emoji" title="Paper">📄</span>
                     </div>
                     <div className="news-item">
