@@ -26,8 +26,26 @@ import thumbnailRAICAEthical from "../../images/RAICA_ethical_thumbnail.jpg";
 import thumbnailCHI26 from "../../images/Agora_CHI_2026_thumbnail.png";
 import thumbnailAIED26 from "../../images/AIED_thumbnail.png";
 import thumbnailjEDM from "../../images/jEDM_thumbnail.png";
+import thumbnailSDM from "../../images/thumbnailSDM26.png"
 
 const peerReviewedPapers = [
+    {
+        title: 'AI for Collective Decision-Making: Enhancing Trust and Social Cohesion',
+        authors: [
+          { name: 'Suyash Fulay*' },
+          { name: 'Prerna Ravi*', isMe: true },
+          { name: 'Emily Kubin' },
+          { name: 'Shrestha Mohanty' },
+          { name: 'Michiel Bakker' },
+          { name: 'Deb Roy' },
+        ],
+        venue: 'Human-AI Complementarity Workshop: Dynamic Alignment, NSF AI Institute for Societal Decision Making (NSF AI-SDM) 2026',
+        year: '2026',
+        image: thumbnailSDM,
+        pdf: 'https://arxiv.org/pdf/2604.05368',
+        slides: null,
+        tags: ['AI', 'Decision-Making'],
+    },
     {
         title: 'Exploring Teachers\' Perspectives on Using Conversational AI Agents for Group Collaboration',
         authors: [
@@ -43,8 +61,8 @@ const peerReviewedPapers = [
         venue: 'Proceedings of the 27th International Conference on Artificial Intelligence in Education (AIED 2026)',
         year: '2026',
         image: thumbnailAIED26,
-        pdf: 'https://arxiv.org/pdf/2602.07142',
-        tags: ['HCI', 'AI', 'Education'],
+        pdf: 'https://link.springer.com/chapter/10.1007/978-3-032-29763-1_43',
+        tags: ['HCI', 'AI', 'Education', 'Collaboration'],
     },
     {
         title: 'Agora: Teaching the Skill of Consensus-Finding with AI Personas Grounded in Human Voice',
@@ -61,7 +79,7 @@ const peerReviewedPapers = [
         image: thumbnailCHI26,
         pdf: 'https://dl.acm.org/doi/epdf/10.1145/3772363.3798888',
         slides: null,
-        tags: ['HCI', 'AI'],
+        tags: ['HCI', 'AI', 'Decision-Making'],
     },
   {
     title: '🏆 Co-designing Large Language Model Tools for Project-Based Learning with K12 Educators',
@@ -119,7 +137,7 @@ const peerReviewedPapers = [
     venue: 'Proceedings of the ACM Interaction Design and Children (IDC 2025)',
     year: '2025',
     image: thumbnailIDC,
-    pdf: 'https://arxiv.org/pdf/2506.15525',
+    pdf: 'https://dl.acm.org/doi/epdf/10.1145/3713043.3727057',
     video: null,
     slides: null,
     tags: ['HCI', 'AI', 'Education']
@@ -139,7 +157,7 @@ const peerReviewedPapers = [
     pdf: 'https://repository.isls.org/bitstream/1/11590/1/ICLS2025_2780-2782.pdf',
     video: null,
     slides: null,
-    tags: ['Education']
+    tags: ['Education', 'Collaboration']
   },
   {
     title: 'Supporting AI Fluency Teaching Through the Development of Assessments for Classroom Use',
@@ -176,7 +194,7 @@ const peerReviewedPapers = [
     venue: 'Proceedings of the ACM Virtual Global Computing Education Conference V.1 (SIGCSE Virtual 2024)',
     year: '2024',
     image: thumbnailDataScience,
-    pdf: 'https://drive.google.com/file/d/1NJUi66PJgB4T7SEn_irGUKWr8AOQoyCN/view?usp=drive_link',
+    pdf: 'https://dl.acm.org/doi/epdf/10.1145/3649165.3703623',
     video: 'https://youtu.be/awicncJfxUA',
     slides: null,
     tags: ['Education']
@@ -376,10 +394,10 @@ const journalPapers = [
         venue: 'Journal of Educational Data Mining (jEDM 2026)',
         year: '2026',
         image: thumbnailjEDM,
-        pdf: 'https://arxiv.org/pdf/2510.22844',
+        pdf: 'https://jedm.educationaldatamining.org/index.php/JEDM/article/view/1035',
         video: null,
         slides: null,
-        tags: ['AI', 'Education']
+        tags: ['AI', 'Education', 'Collaboration']
       },
   {
     title: "#let's-discuss: Analyzing Students' use of Emoji when interacting with course readings",
@@ -398,7 +416,7 @@ const journalPapers = [
     pdf: 'https://link.springer.com/article/10.1007/s40593-024-00401-5',
     video: null,
     slides: null,
-    tags: ['AI', 'Education']
+    tags: ['AI', 'Education', 'Collaboration']
   }
 ];
 
@@ -407,6 +425,8 @@ const tagStyles = {
   'HCI': { color: '#1E88E5', emoji: '🖥️' },
   'AI': { color: '#3949AB', emoji: '🤖' },
   'Education': { color: '#43B0B1', emoji: '🎓' },
+  'Collaboration': { color: '#CD5C5C', emoji: '🤝' },
+  'Decision-Making': { color: '#006400', emoji: '⚖️' },
 };
 
 // Utility function to emphasize venue abbreviations

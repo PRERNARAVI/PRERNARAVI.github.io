@@ -89,7 +89,7 @@ class AboutMe extends React.Component{
                         I publish in <span style={{color: "#3A1EB6"}}><b>HCI + AI + Education</b></span> venues, including CHI, CSCW, AAAI, IDC, AIED, and CSCL. 
                         If you are interested in collaborating or learning more, please reach out at <a style={{color: "#1E88E5", fontWeight: "600"}} href="mailto: prernar@mit.edu">prernar-at-mit-dot-edu</a> :) <br/><br/>
                         
-                        I will be interning at <img src="data:image/svg+xml,%3csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%2023%2023'%3e%3cpath%20fill='%23f3f3f3'%20d='M0%200h23v23H0z'/%3e%3cpath%20fill='%23f35325'%20d='M1%201h10v10H1z'/%3e%3cpath%20fill='%2381bc06'%20d='M12%201h10v10H12z'/%3e%3cpath%20fill='%2305a6f0'%20d='M1%2012h10v10H1z'/%3e%3cpath%20fill='%23ffba08'%20d='M12%2012h10v10H12z'/%3e%3c/svg%3e" width="13" height="13"></img> Microsoft Research this summer with Aaron Halfaker and Agrima Seth on the <a style={{color: "#1E88E5", fontWeight: "600"}} href="https://www.microsoft.com/en-us/research/group/collab-ai-research/">Collab AI Research</a> team.
+                        I will be interning at <img src="data:image/svg+xml,%3csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%2023%2023'%3e%3cpath%20fill='%23f3f3f3'%20d='M0%200h23v23H0z'/%3e%3cpath%20fill='%23f35325'%20d='M1%201h10v10H1z'/%3e%3cpath%20fill='%2381bc06'%20d='M12%201h10v10H12z'/%3e%3cpath%20fill='%2305a6f0'%20d='M1%2012h10v10H1z'/%3e%3cpath%20fill='%23ffba08'%20d='M12%2012h10v10H12z'/%3e%3c/svg%3e" width="13" height="13"></img> Microsoft Research this summer with Aaron Halfaker and Agrima Seth, working on building socially adaptive LLM agents for multi-party conversations.
                         Previously, I have interned at <img src={GoogleSVG} width="13" height="13"></img> Google Research's Perception Team as a Student Researcher and at Microsoft as a Design Researcher and Software Engineer (x3).
                         
                         <br/><br/>
@@ -111,24 +111,24 @@ class AboutMe extends React.Component{
                 <h4 style={{color: "#3A1EB6", marginBottom: "20px", textAlign: "left"}}>News + Updates</h4>
                 <div className="news-list">
                     <div className="news-item">
-                        <span className="news-date">Apr 2026</span>
-                        <span className="news-text">Our paper <a style={{color: "#1E88E5", fontWeight: "600"}} href="https://arxiv.org/abs/2510.22844">Leveraging LLMs to Identify Conversation Threads in Collaborative Learning</a> has been accepted to the Journal of Educational Data Mining (jEDM) 2026! </span>
+                        <span className="news-date">Aug 2026</span>
+                        <span className="news-text">Our paper <a style={{color: "#1E88E5", fontWeight: "600"}} href="https://arxiv.org/abs/2604.05368">AI and Collective Decisions: Strengthening Legitimacy and Losers' Consent</a> was accepted to the Human-AI Complementarity Workshop: Dynamic Alignment organized by the NSF AI Institute for Societal Decision Making (NSF AI-SDM) 2026. See you in Pittsburg, September 24-25!</span>
                         <span className="news-emoji" title="Paper">📄</span>
                     </div>
                     <div className="news-item">
+                        <span className="news-date">May 2026</span>
+                        <span className="news-text">I started by internship at Microsoft Research <img src="data:image/svg+xml,%3csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%2023%2023'%3e%3cpath%20fill='%23f3f3f3'%20d='M0%200h23v23H0z'/%3e%3cpath%20fill='%23f35325'%20d='M1%201h10v10H1z'/%3e%3cpath%20fill='%2381bc06'%20d='M12%201h10v10H12z'/%3e%3cpath%20fill='%2305a6f0'%20d='M1%2012h10v10H1z'/%3e%3cpath%20fill='%23ffba08'%20d='M12%2012h10v10H12z'/%3e%3c/svg%3e" width="13" height="13"></img> in the Microsoft Teams Applied Sciences org with <a style={{color: "#1E88E5", fontWeight: "600"}} href="https://www.microsoft.com/en-us/research/people/ahalfaker/">Aaron Halfaker</a> and <a style={{color: "#1E88E5", fontWeight: "600"}} href="https://www.microsoft.com/en-us/research/people/agrimaseth/">Agrima Seth</a>!  </span>
+                        <span className="news-emoji" title="Update">🤝</span>
+                    </div>
+                    <div className="news-item">
                         <span className="news-date">Apr 2026</span>
-                        <span className="news-text">Pre-print for <a style={{color: "#1E88E5", fontWeight: "600"}} href="https://arxiv.org/abs/2604.05368">AI and Collective Decisions: Strengthening Legitimacy and Losers' Consent</a> is now available. </span>
+                        <span className="news-text">Our paper <a style={{color: "#1E88E5", fontWeight: "600"}} href="https://arxiv.org/abs/2510.22844">Leveraging LLMs to Identify Conversation Threads in Collaborative Learning</a> has been accepted to the Journal of Educational Data Mining (jEDM) 2026! </span>
                         <span className="news-emoji" title="Paper">📄</span>
                     </div>
                     <div className="news-item">
                         <span className="news-date">Mar 2026</span>
                         <span className="news-text">Our paper <a style={{color: "#1E88E5", fontWeight: "600"}} href="https://arxiv.org/abs/2602.07142">Exploring Teachers' Perspectives on Using Conversational AI Agents for Group Collaboration </a> has been accepted to AIED 2026! </span>
                         <span className="news-emoji" title="Paper">📄</span>
-                    </div>
-                    <div className="news-item">
-                        <span className="news-date">Mar 2026</span>
-                        <span className="news-text">I will be interning at Microsoft Research <img src="data:image/svg+xml,%3csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%2023%2023'%3e%3cpath%20fill='%23f3f3f3'%20d='M0%200h23v23H0z'/%3e%3cpath%20fill='%23f35325'%20d='M1%201h10v10H1z'/%3e%3cpath%20fill='%2381bc06'%20d='M12%201h10v10H12z'/%3e%3cpath%20fill='%2305a6f0'%20d='M1%2012h10v10H1z'/%3e%3cpath%20fill='%23ffba08'%20d='M12%2012h10v10H12z'/%3e%3c/svg%3e" width="13" height="13"></img> this summer on the Microsoft Teams Applied Sciences team with <a style={{color: "#1E88E5", fontWeight: "600"}} href="https://www.microsoft.com/en-us/research/people/ahalfaker/">Aaron Halfaker</a> and <a style={{color: "#1E88E5", fontWeight: "600"}} href="https://www.microsoft.com/en-us/research/people/agrimaseth/">Agrima Seth</a>!  </span>
-                        <span className="news-emoji" title="Update">🤝</span>
                     </div>
                     <div className="news-item">
                         <span className="news-date">Mar 2026</span>
