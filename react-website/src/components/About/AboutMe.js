@@ -89,7 +89,7 @@ class AboutMe extends React.Component{
                         I publish in <span style={{color: "#3A1EB6"}}><b>HCI + AI + Education</b></span> venues, including CHI, CSCW, AAAI, IDC, AIED, and CSCL. 
                         If you are interested in collaborating or learning more, please reach out at <a style={{color: "#1E88E5", fontWeight: "600"}} href="mailto: prernar@mit.edu">prernar-at-mit-dot-edu</a> :) <br/><br/>
                         
-                        I will be interning at <img src="data:image/svg+xml,%3csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%2023%2023'%3e%3cpath%20fill='%23f3f3f3'%20d='M0%200h23v23H0z'/%3e%3cpath%20fill='%23f35325'%20d='M1%201h10v10H1z'/%3e%3cpath%20fill='%2381bc06'%20d='M12%201h10v10H12z'/%3e%3cpath%20fill='%2305a6f0'%20d='M1%2012h10v10H1z'/%3e%3cpath%20fill='%23ffba08'%20d='M12%2012h10v10H12z'/%3e%3c/svg%3e" width="13" height="13"></img> Microsoft Research this summer with Aaron Halfaker and Agrima Seth, working on building socially adaptive LLM agents for multi-party conversations.
+                        I am interning at <img src="data:image/svg+xml,%3csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%2023%2023'%3e%3cpath%20fill='%23f3f3f3'%20d='M0%200h23v23H0z'/%3e%3cpath%20fill='%23f35325'%20d='M1%201h10v10H1z'/%3e%3cpath%20fill='%2381bc06'%20d='M12%201h10v10H12z'/%3e%3cpath%20fill='%2305a6f0'%20d='M1%2012h10v10H1z'/%3e%3cpath%20fill='%23ffba08'%20d='M12%2012h10v10H12z'/%3e%3c/svg%3e" width="13" height="13"></img> Microsoft Research this summer with Aaron Halfaker and Agrima Seth, building socially adaptive LLM agents for multi-party conversations.
                         Previously, I have interned at <img src={GoogleSVG} width="13" height="13"></img> Google Research's Perception Team as a Student Researcher and at Microsoft as a Design Researcher and Software Engineer (x3).
                         
                         <br/><br/>
@@ -112,7 +112,17 @@ class AboutMe extends React.Component{
                 <div className="news-list">
                     <div className="news-item">
                         <span className="news-date">Aug 2026</span>
+                        <span className="news-text">My doctoral consortium proposal <a style={{color: "#1E88E5", fontWeight: "600"}} href="#">AI Agents for Supporting Group Collaboration in Education</a> was accepted to the ACM Collective Intelligence Conference / Conference on Human-AI Complementarity and Alignment (CI/HCOMP) 2026. See you in DC, Sept 27-30!</span>
+                        <span className="news-emoji" title="Paper">📄</span>
+                    </div>
+                    <div className="news-item">
+                        <span className="news-date">Aug 2026</span>
                         <span className="news-text">Our paper <a style={{color: "#1E88E5", fontWeight: "600"}} href="https://arxiv.org/abs/2604.05368">AI and Collective Decisions: Strengthening Legitimacy and Losers' Consent</a> was accepted to the Human-AI Complementarity Workshop: Dynamic Alignment organized by the NSF AI Institute for Societal Decision Making (NSF AI-SDM) 2026. See you in Pittsburgh, September 24-25!</span>
+                        <span className="news-emoji" title="Paper">📄</span>
+                    </div>
+                    <div className="news-item">
+                        <span className="news-date">Aug 2026</span>
+                        <span className="news-text">Our workshop <a style={{color: "#1E88E5", fontWeight: "600"}} href="#">Mental Models in Human-AI Interaction: Methods and Challenges in the Generative and Agentic AI Era</a> was accepted at ACM Intelligent User interfaces (IUI) 2027. Stay tuned for call for papers!</span>
                         <span className="news-emoji" title="Paper">📄</span>
                     </div>
                     <div className="news-item">
